@@ -263,6 +263,12 @@
     "className": "icon-align-vertical-space-between",
     "unicode": "&#57970;"
   },
+  "ambulance": {
+    "encodedCode": "\\e5bf",
+    "prefix": "icon",
+    "className": "icon-ambulance",
+    "unicode": "&#58815;"
+  },
   "ampersand": {
     "encodedCode": "\\e49c",
     "prefix": "icon",
@@ -437,6 +443,12 @@
     "className": "icon-arrow-down-left-from-circle",
     "unicode": "&#58355;"
   },
+  "arrow-down-left-from-square": {
+    "encodedCode": "\\e5a4",
+    "prefix": "icon",
+    "className": "icon-arrow-down-left-from-square",
+    "unicode": "&#58788;"
+  },
   "arrow-down-left-square": {
     "encodedCode": "\\e4b5",
     "prefix": "icon",
@@ -460,6 +472,12 @@
     "prefix": "icon",
     "className": "icon-arrow-down-right-from-circle",
     "unicode": "&#58356;"
+  },
+  "arrow-down-right-from-square": {
+    "encodedCode": "\\e5a5",
+    "prefix": "icon",
+    "className": "icon-arrow-down-right-from-square",
+    "unicode": "&#58789;"
   },
   "arrow-down-right-square": {
     "encodedCode": "\\e4b6",
@@ -635,6 +653,12 @@
     "className": "icon-arrow-up-left-from-circle",
     "unicode": "&#58357;"
   },
+  "arrow-up-left-from-square": {
+    "encodedCode": "\\e5a6",
+    "prefix": "icon",
+    "className": "icon-arrow-up-left-from-square",
+    "unicode": "&#58790;"
+  },
   "arrow-up-left-square": {
     "encodedCode": "\\e4b7",
     "prefix": "icon",
@@ -658,6 +682,12 @@
     "prefix": "icon",
     "className": "icon-arrow-up-right-from-circle",
     "unicode": "&#58358;"
+  },
+  "arrow-up-right-from-square": {
+    "encodedCode": "\\e5a7",
+    "prefix": "icon",
+    "className": "icon-arrow-up-right-from-square",
+    "unicode": "&#58791;"
   },
   "arrow-up-right-square": {
     "encodedCode": "\\e4b8",
@@ -1139,6 +1169,12 @@
     "className": "icon-bitcoin",
     "unicode": "&#57448;"
   },
+  "blend": {
+    "encodedCode": "\\e5a0",
+    "prefix": "icon",
+    "className": "icon-blend",
+    "unicode": "&#58784;"
+  },
   "blinds": {
     "encodedCode": "\\e3bb",
     "prefix": "icon",
@@ -1553,11 +1589,23 @@
     "className": "icon-calendar-days",
     "unicode": "&#58032;"
   },
+  "calendar-fold": {
+    "encodedCode": "\\e5b8",
+    "prefix": "icon",
+    "className": "icon-calendar-fold",
+    "unicode": "&#58808;"
+  },
   "calendar-heart": {
     "encodedCode": "\\e2fc",
     "prefix": "icon",
     "className": "icon-calendar-heart",
     "unicode": "&#58108;"
+  },
+  "calendar-minus-2": {
+    "encodedCode": "\\e5b9",
+    "prefix": "icon",
+    "className": "icon-calendar-minus-2",
+    "unicode": "&#58809;"
   },
   "calendar-minus": {
     "encodedCode": "\\e2b1",
@@ -1570,6 +1618,12 @@
     "prefix": "icon",
     "className": "icon-calendar-off",
     "unicode": "&#58034;"
+  },
+  "calendar-plus-2": {
+    "encodedCode": "\\e5ba",
+    "prefix": "icon",
+    "className": "icon-calendar-plus-2",
+    "unicode": "&#58810;"
   },
   "calendar-plus": {
     "encodedCode": "\\e2b3",
@@ -2831,6 +2885,12 @@
     "className": "icon-ear",
     "unicode": "&#58237;"
   },
+  "eclipse": {
+    "encodedCode": "\\e5a1",
+    "prefix": "icon",
+    "className": "icon-eclipse",
+    "unicode": "&#58785;"
+  },
   "egg-fried": {
     "encodedCode": "\\e34c",
     "prefix": "icon",
@@ -3196,6 +3256,12 @@
     "prefix": "icon",
     "className": "icon-file-search",
     "unicode": "&#57542;"
+  },
+  "file-sliders": {
+    "encodedCode": "\\e5a8",
+    "prefix": "icon",
+    "className": "icon-file-sliders",
+    "unicode": "&#58792;"
   },
   "file-spreadsheet": {
     "encodedCode": "\\e31e",
@@ -3995,11 +4061,35 @@
     "className": "icon-hammer",
     "unicode": "&#57574;"
   },
+  "hand-coins": {
+    "encodedCode": "\\e5bc",
+    "prefix": "icon",
+    "className": "icon-hand-coins",
+    "unicode": "&#58812;"
+  },
+  "hand-heart": {
+    "encodedCode": "\\e5bd",
+    "prefix": "icon",
+    "className": "icon-hand-heart",
+    "unicode": "&#58813;"
+  },
+  "hand-helping": {
+    "encodedCode": "\\e3b3",
+    "prefix": "icon",
+    "className": "icon-hand-helping",
+    "unicode": "&#58291;"
+  },
   "hand-metal": {
     "encodedCode": "\\e223",
     "prefix": "icon",
     "className": "icon-hand-metal",
     "unicode": "&#57891;"
+  },
+  "hand-platter": {
+    "encodedCode": "\\e5be",
+    "prefix": "icon",
+    "className": "icon-hand-platter",
+    "unicode": "&#58814;"
   },
   "hand": {
     "encodedCode": "\\e1cd",
@@ -4138,12 +4228,6 @@
     "prefix": "icon",
     "className": "icon-help-circle",
     "unicode": "&#57581;"
-  },
-  "helping-hand": {
-    "encodedCode": "\\e3b3",
-    "prefix": "icon",
-    "className": "icon-helping-hand",
-    "unicode": "&#58291;"
   },
   "hexagon": {
     "encodedCode": "\\e0ee",
@@ -5567,6 +5651,12 @@
     "className": "icon-paint-bucket",
     "unicode": "&#58077;"
   },
+  "paint-roller": {
+    "encodedCode": "\\e5a2",
+    "prefix": "icon",
+    "className": "icon-paint-roller",
+    "unicode": "&#58786;"
+  },
   "paintbrush-2": {
     "encodedCode": "\\e2df",
     "prefix": "icon",
@@ -6238,6 +6328,54 @@
     "prefix": "icon",
     "className": "icon-ratio",
     "unicode": "&#58604;"
+  },
+  "receipt-cent": {
+    "encodedCode": "\\e5a9",
+    "prefix": "icon",
+    "className": "icon-receipt-cent",
+    "unicode": "&#58793;"
+  },
+  "receipt-euro": {
+    "encodedCode": "\\e5aa",
+    "prefix": "icon",
+    "className": "icon-receipt-euro",
+    "unicode": "&#58794;"
+  },
+  "receipt-indian-rupee": {
+    "encodedCode": "\\e5ab",
+    "prefix": "icon",
+    "className": "icon-receipt-indian-rupee",
+    "unicode": "&#58795;"
+  },
+  "receipt-japanese-yen": {
+    "encodedCode": "\\e5ac",
+    "prefix": "icon",
+    "className": "icon-receipt-japanese-yen",
+    "unicode": "&#58796;"
+  },
+  "receipt-pound-sterling": {
+    "encodedCode": "\\e5ad",
+    "prefix": "icon",
+    "className": "icon-receipt-pound-sterling",
+    "unicode": "&#58797;"
+  },
+  "receipt-russian-ruble": {
+    "encodedCode": "\\e5ae",
+    "prefix": "icon",
+    "className": "icon-receipt-russian-ruble",
+    "unicode": "&#58798;"
+  },
+  "receipt-swiss-franc": {
+    "encodedCode": "\\e5af",
+    "prefix": "icon",
+    "className": "icon-receipt-swiss-franc",
+    "unicode": "&#58799;"
+  },
+  "receipt-text": {
+    "encodedCode": "\\e5b0",
+    "prefix": "icon",
+    "className": "icon-receipt-text",
+    "unicode": "&#58800;"
   },
   "receipt": {
     "encodedCode": "\\e3ce",
@@ -7343,6 +7481,12 @@
     "className": "icon-superscript",
     "unicode": "&#57941;"
   },
+  "swatch-book": {
+    "encodedCode": "\\e5a3",
+    "prefix": "icon",
+    "className": "icon-swatch-book",
+    "unicode": "&#58787;"
+  },
   "swiss-franc": {
     "encodedCode": "\\e171",
     "prefix": "icon",
@@ -7523,6 +7667,12 @@
     "className": "icon-text-quote",
     "unicode": "&#58526;"
   },
+  "text-search": {
+    "encodedCode": "\\e5b1",
+    "prefix": "icon",
+    "className": "icon-text-search",
+    "unicode": "&#58801;"
+  },
   "text-select": {
     "encodedCode": "\\e3d9",
     "prefix": "icon",
@@ -7570,6 +7720,42 @@
     "prefix": "icon",
     "className": "icon-thumbs-up",
     "unicode": "&#57724;"
+  },
+  "ticket-check": {
+    "encodedCode": "\\e5b2",
+    "prefix": "icon",
+    "className": "icon-ticket-check",
+    "unicode": "&#58802;"
+  },
+  "ticket-minus": {
+    "encodedCode": "\\e5b3",
+    "prefix": "icon",
+    "className": "icon-ticket-minus",
+    "unicode": "&#58803;"
+  },
+  "ticket-percent": {
+    "encodedCode": "\\e5b4",
+    "prefix": "icon",
+    "className": "icon-ticket-percent",
+    "unicode": "&#58804;"
+  },
+  "ticket-plus": {
+    "encodedCode": "\\e5b5",
+    "prefix": "icon",
+    "className": "icon-ticket-plus",
+    "unicode": "&#58805;"
+  },
+  "ticket-slash": {
+    "encodedCode": "\\e5b6",
+    "prefix": "icon",
+    "className": "icon-ticket-slash",
+    "unicode": "&#58806;"
+  },
+  "ticket-x": {
+    "encodedCode": "\\e5b7",
+    "prefix": "icon",
+    "className": "icon-ticket-x",
+    "unicode": "&#58807;"
   },
   "ticket": {
     "encodedCode": "\\e205",
@@ -8170,6 +8356,12 @@
     "prefix": "icon",
     "className": "icon-webcam",
     "unicode": "&#57851;"
+  },
+  "webhook-off": {
+    "encodedCode": "\\e5bb",
+    "prefix": "icon",
+    "className": "icon-webhook-off",
+    "unicode": "&#58811;"
   },
   "webhook": {
     "encodedCode": "\\e36f",
