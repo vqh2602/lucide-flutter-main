@@ -1697,6 +1697,18 @@
     "className": "icon-candy",
     "unicode": "&#58252;"
   },
+  "captions-off": {
+    "encodedCode": "\\e5c5",
+    "prefix": "icon",
+    "className": "icon-captions-off",
+    "unicode": "&#58821;"
+  },
+  "captions": {
+    "encodedCode": "\\e39f",
+    "prefix": "icon",
+    "className": "icon-captions",
+    "unicode": "&#58271;"
+  },
   "car-front": {
     "encodedCode": "\\e501",
     "prefix": "icon",
@@ -2015,6 +2027,12 @@
     "className": "icon-circle-equal",
     "unicode": "&#58364;"
   },
+  "circle-fading-plus": {
+    "encodedCode": "\\e5c0",
+    "prefix": "icon",
+    "className": "icon-circle-fading-plus",
+    "unicode": "&#58816;"
+  },
   "circle-off": {
     "encodedCode": "\\e3fd",
     "prefix": "icon",
@@ -2087,6 +2105,12 @@
     "className": "icon-clipboard-list",
     "unicode": "&#57474;"
   },
+  "clipboard-minus": {
+    "encodedCode": "\\e5c2",
+    "prefix": "icon",
+    "className": "icon-clipboard-minus",
+    "unicode": "&#58818;"
+  },
   "clipboard-paste": {
     "encodedCode": "\\e3e3",
     "prefix": "icon",
@@ -2104,6 +2128,12 @@
     "prefix": "icon",
     "className": "icon-clipboard-pen",
     "unicode": "&#58110;"
+  },
+  "clipboard-plus": {
+    "encodedCode": "\\e5c3",
+    "prefix": "icon",
+    "className": "icon-clipboard-plus",
+    "unicode": "&#58819;"
   },
   "clipboard-type": {
     "encodedCode": "\\e300",
@@ -4097,6 +4127,12 @@
     "className": "icon-hand",
     "unicode": "&#57805;"
   },
+  "handshake": {
+    "encodedCode": "\\e5c4",
+    "prefix": "icon",
+    "className": "icon-handshake",
+    "unicode": "&#58820;"
+  },
   "hard-drive-download": {
     "encodedCode": "\\e4e9",
     "prefix": "icon",
@@ -4186,6 +4222,12 @@
     "prefix": "icon",
     "className": "icon-headphones",
     "unicode": "&#57579;"
+  },
+  "headset": {
+    "encodedCode": "\\e5c1",
+    "prefix": "icon",
+    "className": "icon-headset",
+    "unicode": "&#58817;"
   },
   "heart-crack": {
     "encodedCode": "\\e2cd",
@@ -4318,6 +4360,12 @@
     "prefix": "icon",
     "className": "icon-image",
     "unicode": "&#57585;"
+  },
+  "images": {
+    "encodedCode": "\\e5c8",
+    "prefix": "icon",
+    "className": "icon-images",
+    "unicode": "&#58824;"
   },
   "import": {
     "encodedCode": "\\e226",
@@ -6281,6 +6329,12 @@
     "className": "icon-radiation",
     "unicode": "&#58433;"
   },
+  "radical": {
+    "encodedCode": "\\e5c6",
+    "prefix": "icon",
+    "className": "icon-radical",
+    "unicode": "&#58822;"
+  },
   "radio-receiver": {
     "encodedCode": "\\e1f2",
     "prefix": "icon",
@@ -7301,6 +7355,12 @@
     "className": "icon-square-pen",
     "unicode": "&#57706;"
   },
+  "square-radical": {
+    "encodedCode": "\\e5c7",
+    "prefix": "icon",
+    "className": "icon-square-radical",
+    "unicode": "&#58823;"
+  },
   "square-stack": {
     "encodedCode": "\\e4a2",
     "prefix": "icon",
@@ -7426,12 +7486,6 @@
     "prefix": "icon",
     "className": "icon-subscript",
     "unicode": "&#57939;"
-  },
-  "subtitles": {
-    "encodedCode": "\\e39f",
-    "prefix": "icon",
-    "className": "icon-subtitles",
-    "unicode": "&#58271;"
   },
   "sun-dim": {
     "encodedCode": "\\e290",
@@ -7606,6 +7660,12 @@
     "prefix": "icon",
     "className": "icon-target",
     "unicode": "&#57718;"
+  },
+  "telescope": {
+    "encodedCode": "\\e5c9",
+    "prefix": "icon",
+    "className": "icon-telescope",
+    "unicode": "&#58825;"
   },
   "tent-tree": {
     "encodedCode": "\\e53f",

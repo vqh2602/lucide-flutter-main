@@ -1,0 +1,2 @@
+
+ dart pub publish -f
