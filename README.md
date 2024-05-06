@@ -1,7 +1,7 @@
 
 # lucide_icons
 
-version: 0.363.0
+version: 0.378.0
 
   
 

@@ -660,6 +660,9 @@ class LucideIcons {
   /// bot-message-square
   static const IconData botMessageSquare = const LucideIconData(58834);
 
+  /// bot-off
+  static const IconData botOff = const LucideIconData(58852);
+
   /// bot
   static const IconData bot = const LucideIconData(57785);
 
@@ -1356,8 +1359,14 @@ class LucideIcons {
   /// diameter
   static const IconData diameter = const LucideIconData(58666);
 
+  /// diamond-minus
+  static const IconData diamondMinus = const LucideIconData(58853);
+
   /// diamond-percent
   static const IconData diamondPercent = const LucideIconData(58655);
+
+  /// diamond-plus
+  static const IconData diamondPlus = const LucideIconData(58854);
 
   /// diamond
   static const IconData diamond = const LucideIconData(58065);
@@ -2025,6 +2034,12 @@ class LucideIcons {
   /// grape
   static const IconData grape = const LucideIconData(58197);
 
+  /// grid-2x2-check
+  static const IconData grid2x2Check = const LucideIconData(58856);
+
+  /// grid-2x2-x
+  static const IconData grid2x2X = const LucideIconData(58857);
+
   /// grid-2x2
   static const IconData grid2x2 = const LucideIconData(58627);
 
@@ -2181,6 +2196,9 @@ class LucideIcons {
   /// image-off
   static const IconData imageOff = const LucideIconData(57791);
 
+  /// image-play
+  static const IconData imagePlay = const LucideIconData(58851);
+
   /// image-plus
   static const IconData imagePlus = const LucideIconData(57845);
 
@@ -2249,6 +2267,9 @@ class LucideIcons {
 
   /// keyboard-music
   static const IconData keyboardMusic = const LucideIconData(58724);
+
+  /// keyboard-off
+  static const IconData keyboardOff = const LucideIconData(58850);
 
   /// keyboard
   static const IconData keyboard = const LucideIconData(57987);
@@ -2408,6 +2429,9 @@ class LucideIcons {
 
   /// loader-circle
   static const IconData loaderCircle = const LucideIconData(57611);
+
+  /// loader-pinwheel
+  static const IconData loaderPinwheel = const LucideIconData(58858);
 
   /// loader
   static const IconData loader = const LucideIconData(57610);
@@ -2685,8 +2709,14 @@ class LucideIcons {
   /// mountain
   static const IconData mountain = const LucideIconData(57904);
 
+  /// mouse-off
+  static const IconData mouseOff = const LucideIconData(58847);
+
   /// mouse-pointer-2
   static const IconData mousePointer2 = const LucideIconData(57794);
+
+  /// mouse-pointer-ban
+  static const IconData mousePointerBan = const LucideIconData(58859);
 
   /// mouse-pointer-click
   static const IconData mousePointerClick = const LucideIconData(57633);
@@ -2813,6 +2843,9 @@ class LucideIcons {
 
   /// orbit
   static const IconData orbit = const LucideIconData(58346);
+
+  /// origami
+  static const IconData origami = const LucideIconData(58855);
 
   /// package-2
   static const IconData package2 = const LucideIconData(58179);
@@ -2999,6 +3032,12 @@ class LucideIcons {
 
   /// piggy-bank
   static const IconData piggyBank = const LucideIconData(57660);
+
+  /// pilcrow-left
+  static const IconData pilcrowLeft = const LucideIconData(58848);
+
+  /// pilcrow-right
+  static const IconData pilcrowRight = const LucideIconData(58849);
 
   /// pilcrow
   static const IconData pilcrow = const LucideIconData(58278);

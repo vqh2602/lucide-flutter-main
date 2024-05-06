@@ -1283,6 +1283,12 @@
     "className": "icon-bot-message-square",
     "unicode": "&#58834;"
   },
+  "bot-off": {
+    "encodedCode": "\\e5e4",
+    "prefix": "icon",
+    "className": "icon-bot-off",
+    "unicode": "&#58852;"
+  },
   "bot": {
     "encodedCode": "\\e1b9",
     "prefix": "icon",
@@ -2675,11 +2681,23 @@
     "className": "icon-diameter",
     "unicode": "&#58666;"
   },
+  "diamond-minus": {
+    "encodedCode": "\\e5e5",
+    "prefix": "icon",
+    "className": "icon-diamond-minus",
+    "unicode": "&#58853;"
+  },
   "diamond-percent": {
     "encodedCode": "\\e51f",
     "prefix": "icon",
     "className": "icon-diamond-percent",
     "unicode": "&#58655;"
+  },
+  "diamond-plus": {
+    "encodedCode": "\\e5e6",
+    "prefix": "icon",
+    "className": "icon-diamond-plus",
+    "unicode": "&#58854;"
   },
   "diamond": {
     "encodedCode": "\\e2d1",
@@ -4013,6 +4031,18 @@
     "className": "icon-grape",
     "unicode": "&#58197;"
   },
+  "grid-2x2-check": {
+    "encodedCode": "\\e5e8",
+    "prefix": "icon",
+    "className": "icon-grid-2x2-check",
+    "unicode": "&#58856;"
+  },
+  "grid-2x2-x": {
+    "encodedCode": "\\e5e9",
+    "prefix": "icon",
+    "className": "icon-grid-2x2-x",
+    "unicode": "&#58857;"
+  },
   "grid-2x2": {
     "encodedCode": "\\e503",
     "prefix": "icon",
@@ -4325,6 +4355,12 @@
     "className": "icon-image-off",
     "unicode": "&#57791;"
   },
+  "image-play": {
+    "encodedCode": "\\e5e3",
+    "prefix": "icon",
+    "className": "icon-image-play",
+    "unicode": "&#58851;"
+  },
   "image-plus": {
     "encodedCode": "\\e1f5",
     "prefix": "icon",
@@ -4462,6 +4498,12 @@
     "prefix": "icon",
     "className": "icon-keyboard-music",
     "unicode": "&#58724;"
+  },
+  "keyboard-off": {
+    "encodedCode": "\\e5e2",
+    "prefix": "icon",
+    "className": "icon-keyboard-off",
+    "unicode": "&#58850;"
   },
   "keyboard": {
     "encodedCode": "\\e283",
@@ -4780,6 +4822,12 @@
     "prefix": "icon",
     "className": "icon-loader-circle",
     "unicode": "&#57611;"
+  },
+  "loader-pinwheel": {
+    "encodedCode": "\\e5ea",
+    "prefix": "icon",
+    "className": "icon-loader-pinwheel",
+    "unicode": "&#58858;"
   },
   "loader": {
     "encodedCode": "\\e10a",
@@ -5333,11 +5381,23 @@
     "className": "icon-mountain",
     "unicode": "&#57904;"
   },
+  "mouse-off": {
+    "encodedCode": "\\e5df",
+    "prefix": "icon",
+    "className": "icon-mouse-off",
+    "unicode": "&#58847;"
+  },
   "mouse-pointer-2": {
     "encodedCode": "\\e1c2",
     "prefix": "icon",
     "className": "icon-mouse-pointer-2",
     "unicode": "&#57794;"
+  },
+  "mouse-pointer-ban": {
+    "encodedCode": "\\e5eb",
+    "prefix": "icon",
+    "className": "icon-mouse-pointer-ban",
+    "unicode": "&#58859;"
   },
   "mouse-pointer-click": {
     "encodedCode": "\\e121",
@@ -5590,6 +5650,12 @@
     "prefix": "icon",
     "className": "icon-orbit",
     "unicode": "&#58346;"
+  },
+  "origami": {
+    "encodedCode": "\\e5e7",
+    "prefix": "icon",
+    "className": "icon-origami",
+    "unicode": "&#58855;"
   },
   "package-2": {
     "encodedCode": "\\e343",
@@ -5962,6 +6028,18 @@
     "prefix": "icon",
     "className": "icon-piggy-bank",
     "unicode": "&#57660;"
+  },
+  "pilcrow-left": {
+    "encodedCode": "\\e5e0",
+    "prefix": "icon",
+    "className": "icon-pilcrow-left",
+    "unicode": "&#58848;"
+  },
+  "pilcrow-right": {
+    "encodedCode": "\\e5e1",
+    "prefix": "icon",
+    "className": "icon-pilcrow-right",
+    "unicode": "&#58849;"
   },
   "pilcrow": {
     "encodedCode": "\\e3a6",
