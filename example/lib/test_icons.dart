@@ -956,7 +956,7 @@ List<IconData> icons = [
   LucideIcons.package,
   LucideIcons.paintBucket,
   LucideIcons.paintRoller,
-  LucideIcons.paintbrush2,
+  LucideIcons.paintbrushVertical,
   LucideIcons.paintbrush,
   LucideIcons.palette,
   LucideIcons.panelBottomClose,

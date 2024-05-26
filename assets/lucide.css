@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1714725290315'); /* IE9*/
-  src: url('lucide.eot?t=1714725290315#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1714725290315") format("woff2"),
-  url("lucide.woff?t=1714725290315") format("woff"),
-  url('lucide.ttf?t=1714725290315') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1714725290315#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1716298702637'); /* IE9*/
+  src: url('lucide.eot?t=1716298702637#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1716298702637") format("woff2"),
+  url("lucide.woff?t=1716298702637") format("woff"),
+  url('lucide.ttf?t=1716298702637') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1716298702637#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -970,7 +970,7 @@
 .icon-package:before { content: "\e12a"; }
 .icon-paint-bucket:before { content: "\e2e5"; }
 .icon-paint-roller:before { content: "\e5a2"; }
-.icon-paintbrush-2:before { content: "\e2e7"; }
+.icon-paintbrush-vertical:before { content: "\e2e7"; }
 .icon-paintbrush:before { content: "\e2e6"; }
 .icon-palette:before { content: "\e1db"; }
 .icon-panel-bottom-close:before { content: "\e431"; }

@@ -5717,10 +5717,10 @@
     "className": "icon-paint-roller",
     "unicode": "&#58786;"
   },
-  "paintbrush-2": {
+  "paintbrush-vertical": {
     "encodedCode": "\\e2e7",
     "prefix": "icon",
-    "className": "icon-paintbrush-2",
+    "className": "icon-paintbrush-vertical",
     "unicode": "&#58087;"
   },
   "paintbrush": {
