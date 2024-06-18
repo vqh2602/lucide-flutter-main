@@ -1,13 +1,8 @@
-
 # lucide_icons
 
-version: 0.378.0
-
-  
+version: 0.395.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
-
-  
 
 ## Example
 
@@ -19,4 +14,4 @@ Icon(LucideIcons.activity);
 
 ```
 
-  ![enter image description here](https://i.imgur.com/iopbEUh.png)
+![enter image description here](https://i.imgur.com/iopbEUh.png)

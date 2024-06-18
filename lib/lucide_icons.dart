@@ -1,4 +1,5 @@
 library lucide_icons;
+
 import "package:flutter/widgets.dart";
 import "src/icon_data.dart";
 
@@ -6,2924 +7,4419 @@ import "src/icon_data.dart";
 
 /// Lucide Icons
 class LucideIcons {
-/// a-arrow-down
-static const IconData aArrowDown = const LucideIconData(58761);
-/// a-arrow-up
-static const IconData aArrowUp = const LucideIconData(58762);
-/// a-large-small
-static const IconData aLargeSmall = const LucideIconData(58763);
-/// accessibility
-static const IconData accessibility = const LucideIconData(58006);
-/// activity
-static const IconData activity = const LucideIconData(57400);
-/// air-vent
-static const IconData airVent = const LucideIconData(58192);
-/// airplay
-static const IconData airplay = const LucideIconData(57401);
-/// alarm-clock-check
-static const IconData alarmClockCheck = const LucideIconData(57834);
-/// alarm-clock-minus
-static const IconData alarmClockMinus = const LucideIconData(57835);
-/// alarm-clock-off
-static const IconData alarmClockOff = const LucideIconData(57914);
-/// alarm-clock-plus
-static const IconData alarmClockPlus = const LucideIconData(57836);
-/// alarm-clock
-static const IconData alarmClock = const LucideIconData(57402);
-/// alarm-smoke
-static const IconData alarmSmoke = const LucideIconData(58751);
-/// album
-static const IconData album = const LucideIconData(57403);
-/// align-center-horizontal
-static const IconData alignCenterHorizontal = const LucideIconData(57963);
-/// align-center-vertical
-static const IconData alignCenterVertical = const LucideIconData(57964);
-/// align-center
-static const IconData alignCenter = const LucideIconData(57404);
-/// align-end-horizontal
-static const IconData alignEndHorizontal = const LucideIconData(57965);
-/// align-end-vertical
-static const IconData alignEndVertical = const LucideIconData(57966);
-/// align-horizontal-distribute-center
-static const IconData alignHorizontalDistributeCenter = const LucideIconData(57405);
-/// align-horizontal-distribute-end
-static const IconData alignHorizontalDistributeEnd = const LucideIconData(57406);
-/// align-horizontal-distribute-start
-static const IconData alignHorizontalDistributeStart = const LucideIconData(57407);
-/// align-horizontal-justify-center
-static const IconData alignHorizontalJustifyCenter = const LucideIconData(57969);
-/// align-horizontal-justify-end
-static const IconData alignHorizontalJustifyEnd = const LucideIconData(57970);
-/// align-horizontal-justify-start
-static const IconData alignHorizontalJustifyStart = const LucideIconData(57971);
-/// align-horizontal-space-around
-static const IconData alignHorizontalSpaceAround = const LucideIconData(57972);
-/// align-horizontal-space-between
-static const IconData alignHorizontalSpaceBetween = const LucideIconData(57973);
-/// align-justify
-static const IconData alignJustify = const LucideIconData(57408);
-/// align-left
-static const IconData alignLeft = const LucideIconData(57409);
-/// align-right
-static const IconData alignRight = const LucideIconData(57410);
-/// align-start-horizontal
-static const IconData alignStartHorizontal = const LucideIconData(57967);
-/// align-start-vertical
-static const IconData alignStartVertical = const LucideIconData(57968);
-/// align-vertical-distribute-center
-static const IconData alignVerticalDistributeCenter = const LucideIconData(57981);
-/// align-vertical-distribute-end
-static const IconData alignVerticalDistributeEnd = const LucideIconData(57982);
-/// align-vertical-distribute-start
-static const IconData alignVerticalDistributeStart = const LucideIconData(57983);
-/// align-vertical-justify-center
-static const IconData alignVerticalJustifyCenter = const LucideIconData(57974);
-/// align-vertical-justify-end
-static const IconData alignVerticalJustifyEnd = const LucideIconData(57975);
-/// align-vertical-justify-start
-static const IconData alignVerticalJustifyStart = const LucideIconData(57976);
-/// align-vertical-space-around
-static const IconData alignVerticalSpaceAround = const LucideIconData(57977);
-/// align-vertical-space-between
-static const IconData alignVerticalSpaceBetween = const LucideIconData(57978);
-/// ambulance
-static const IconData ambulance = const LucideIconData(58815);
-/// ampersand
-static const IconData ampersand = const LucideIconData(58528);
-/// ampersands
-static const IconData ampersands = const LucideIconData(58529);
-/// anchor
-static const IconData anchor = const LucideIconData(57411);
-/// angry
-static const IconData angry = const LucideIconData(58107);
-/// annoyed
-static const IconData annoyed = const LucideIconData(58108);
-/// antenna
-static const IconData antenna = const LucideIconData(58598);
-/// anvil
-static const IconData anvil = const LucideIconData(58756);
-/// aperture
-static const IconData aperture = const LucideIconData(57412);
-/// app-window-mac
-static const IconData appWindowMac = const LucideIconData(58838);
-/// app-window
-static const IconData appWindow = const LucideIconData(58410);
-/// apple
-static const IconData apple = const LucideIconData(58193);
-/// archive-restore
-static const IconData archiveRestore = const LucideIconData(58060);
-/// archive-x
-static const IconData archiveX = const LucideIconData(58640);
-/// archive
-static const IconData archive = const LucideIconData(57413);
-/// area-chart
-static const IconData areaChart = const LucideIconData(58583);
-/// armchair
-static const IconData armchair = const LucideIconData(58047);
-/// arrow-big-down-dash
-static const IconData arrowBigDownDash = const LucideIconData(58401);
-/// arrow-big-down
-static const IconData arrowBigDown = const LucideIconData(57823);
-/// arrow-big-left-dash
-static const IconData arrowBigLeftDash = const LucideIconData(58402);
-/// arrow-big-left
-static const IconData arrowBigLeft = const LucideIconData(57824);
-/// arrow-big-right-dash
-static const IconData arrowBigRightDash = const LucideIconData(58403);
-/// arrow-big-right
-static const IconData arrowBigRight = const LucideIconData(57825);
-/// arrow-big-up-dash
-static const IconData arrowBigUpDash = const LucideIconData(58404);
-/// arrow-big-up
-static const IconData arrowBigUp = const LucideIconData(57826);
-/// arrow-down-0-1
-static const IconData arrowDown01 = const LucideIconData(58391);
-/// arrow-down-1-0
-static const IconData arrowDown10 = const LucideIconData(58392);
-/// arrow-down-a-z
-static const IconData arrowDownAZ = const LucideIconData(58393);
-/// arrow-down-from-line
-static const IconData arrowDownFromLine = const LucideIconData(58456);
-/// arrow-down-left
-static const IconData arrowDownLeft = const LucideIconData(57415);
-/// arrow-down-narrow-wide
-static const IconData arrowDownNarrowWide = const LucideIconData(57416);
-/// arrow-down-right
-static const IconData arrowDownRight = const LucideIconData(57417);
-/// arrow-down-to-dot
-static const IconData arrowDownToDot = const LucideIconData(58449);
-/// arrow-down-to-line
-static const IconData arrowDownToLine = const LucideIconData(58457);
-/// arrow-down-up
-static const IconData arrowDownUp = const LucideIconData(57418);
-/// arrow-down-wide-narrow
-static const IconData arrowDownWideNarrow = const LucideIconData(57419);
-/// arrow-down-z-a
-static const IconData arrowDownZA = const LucideIconData(58394);
-/// arrow-down
-static const IconData arrowDown = const LucideIconData(57414);
-/// arrow-left-from-line
-static const IconData arrowLeftFromLine = const LucideIconData(58458);
-/// arrow-left-right
-static const IconData arrowLeftRight = const LucideIconData(57929);
-/// arrow-left-to-line
-static const IconData arrowLeftToLine = const LucideIconData(58459);
-/// arrow-left
-static const IconData arrowLeft = const LucideIconData(57420);
-/// arrow-right-from-line
-static const IconData arrowRightFromLine = const LucideIconData(58460);
-/// arrow-right-left
-static const IconData arrowRightLeft = const LucideIconData(58395);
-/// arrow-right-to-line
-static const IconData arrowRightToLine = const LucideIconData(58461);
-/// arrow-right
-static const IconData arrowRight = const LucideIconData(57421);
-/// arrow-up-0-1
-static const IconData arrowUp01 = const LucideIconData(58396);
-/// arrow-up-1-0
-static const IconData arrowUp10 = const LucideIconData(58397);
-/// arrow-up-a-z
-static const IconData arrowUpAZ = const LucideIconData(58398);
-/// arrow-up-down
-static const IconData arrowUpDown = const LucideIconData(58240);
-/// arrow-up-from-dot
-static const IconData arrowUpFromDot = const LucideIconData(58450);
-/// arrow-up-from-line
-static const IconData arrowUpFromLine = const LucideIconData(58462);
-/// arrow-up-left
-static const IconData arrowUpLeft = const LucideIconData(57423);
-/// arrow-up-narrow-wide
-static const IconData arrowUpNarrowWide = const LucideIconData(57424);
-/// arrow-up-right
-static const IconData arrowUpRight = const LucideIconData(57425);
-/// arrow-up-to-line
-static const IconData arrowUpToLine = const LucideIconData(58463);
-/// arrow-up-wide-narrow
-static const IconData arrowUpWideNarrow = const LucideIconData(58399);
-/// arrow-up-z-a
-static const IconData arrowUpZA = const LucideIconData(58400);
-/// arrow-up
-static const IconData arrowUp = const LucideIconData(57422);
-/// arrows-up-from-line
-static const IconData arrowsUpFromLine = const LucideIconData(58584);
-/// asterisk
-static const IconData asterisk = const LucideIconData(57837);
-/// at-sign
-static const IconData atSign = const LucideIconData(57426);
-/// atom
-static const IconData atom = const LucideIconData(58330);
-/// audio-lines
-static const IconData audioLines = const LucideIconData(58718);
-/// audio-waveform
-static const IconData audioWaveform = const LucideIconData(58719);
-/// award
-static const IconData award = const LucideIconData(57427);
-/// axe
-static const IconData axe = const LucideIconData(57428);
-/// axis-3d
-static const IconData axis3d = const LucideIconData(58109);
-/// baby
-static const IconData baby = const LucideIconData(58061);
-/// backpack
-static const IconData backpack = const LucideIconData(58055);
-/// badge-alert
-static const IconData badgeAlert = const LucideIconData(58489);
-/// badge-cent
-static const IconData badgeCent = const LucideIconData(58643);
-/// badge-check
-static const IconData badgeCheck = const LucideIconData(57920);
-/// badge-dollar-sign
-static const IconData badgeDollarSign = const LucideIconData(58490);
-/// badge-euro
-static const IconData badgeEuro = const LucideIconData(58644);
-/// badge-help
-static const IconData badgeHelp = const LucideIconData(58491);
-/// badge-indian-rupee
-static const IconData badgeIndianRupee = const LucideIconData(58645);
-/// badge-info
-static const IconData badgeInfo = const LucideIconData(58492);
-/// badge-japanese-yen
-static const IconData badgeJapaneseYen = const LucideIconData(58646);
-/// badge-minus
-static const IconData badgeMinus = const LucideIconData(58493);
-/// badge-percent
-static const IconData badgePercent = const LucideIconData(58494);
-/// badge-plus
-static const IconData badgePlus = const LucideIconData(58495);
-/// badge-pound-sterling
-static const IconData badgePoundSterling = const LucideIconData(58647);
-/// badge-russian-ruble
-static const IconData badgeRussianRuble = const LucideIconData(58648);
-/// badge-swiss-franc
-static const IconData badgeSwissFranc = const LucideIconData(58649);
-/// badge-x
-static const IconData badgeX = const LucideIconData(58496);
-/// badge
-static const IconData badge = const LucideIconData(58488);
-/// baggage-claim
-static const IconData baggageClaim = const LucideIconData(58056);
-/// ban
-static const IconData ban = const LucideIconData(57429);
-/// banana
-static const IconData banana = const LucideIconData(58194);
-/// banknote
-static const IconData banknote = const LucideIconData(57430);
-/// bar-chart-2
-static const IconData barChart2 = const LucideIconData(57432);
-/// bar-chart-3
-static const IconData barChart3 = const LucideIconData(58017);
-/// bar-chart-4
-static const IconData barChart4 = const LucideIconData(58018);
-/// bar-chart-big
-static const IconData barChartBig = const LucideIconData(58539);
-/// bar-chart-horizontal-big
-static const IconData barChartHorizontalBig = const LucideIconData(58540);
-/// bar-chart-horizontal
-static const IconData barChartHorizontal = const LucideIconData(58019);
-/// bar-chart
-static const IconData barChart = const LucideIconData(57431);
-/// barcode
-static const IconData barcode = const LucideIconData(58679);
-/// baseline
-static const IconData baseline = const LucideIconData(57988);
-/// bath
-static const IconData bath = const LucideIconData(58026);
-/// battery-charging
-static const IconData batteryCharging = const LucideIconData(57434);
-/// battery-full
-static const IconData batteryFull = const LucideIconData(57435);
-/// battery-low
-static const IconData batteryLow = const LucideIconData(57436);
-/// battery-medium
-static const IconData batteryMedium = const LucideIconData(57437);
-/// battery-warning
-static const IconData batteryWarning = const LucideIconData(58287);
-/// battery
-static const IconData battery = const LucideIconData(57433);
-/// beaker
-static const IconData beaker = const LucideIconData(57438);
-/// bean-off
-static const IconData beanOff = const LucideIconData(58259);
-/// bean
-static const IconData bean = const LucideIconData(58258);
-/// bed-double
-static const IconData bedDouble = const LucideIconData(58049);
-/// bed-single
-static const IconData bedSingle = const LucideIconData(58050);
-/// bed
-static const IconData bed = const LucideIconData(58048);
-/// beef
-static const IconData beef = const LucideIconData(58280);
-/// beer-off
-static const IconData beerOff = const LucideIconData(58845);
-/// beer
-static const IconData beer = const LucideIconData(58062);
-/// bell-dot
-static const IconData bellDot = const LucideIconData(58415);
-/// bell-electric
-static const IconData bellElectric = const LucideIconData(58752);
-/// bell-minus
-static const IconData bellMinus = const LucideIconData(57838);
-/// bell-off
-static const IconData bellOff = const LucideIconData(57440);
-/// bell-plus
-static const IconData bellPlus = const LucideIconData(57839);
-/// bell-ring
-static const IconData bellRing = const LucideIconData(57891);
-/// bell
-static const IconData bell = const LucideIconData(57439);
-/// between-horizontal-end
-static const IconData betweenHorizontalEnd = const LucideIconData(58773);
-/// between-horizontal-start
-static const IconData betweenHorizontalStart = const LucideIconData(58774);
-/// between-vertical-end
-static const IconData betweenVerticalEnd = const LucideIconData(58775);
-/// between-vertical-start
-static const IconData betweenVerticalStart = const LucideIconData(58776);
-/// bike
-static const IconData bike = const LucideIconData(57808);
-/// binary
-static const IconData binary = const LucideIconData(57840);
-/// biohazard
-static const IconData biohazard = const LucideIconData(58437);
-/// bird
-static const IconData bird = const LucideIconData(58312);
-/// bitcoin
-static const IconData bitcoin = const LucideIconData(57441);
-/// blend
-static const IconData blend = const LucideIconData(58784);
-/// blinds
-static const IconData blinds = const LucideIconData(58307);
-/// blocks
-static const IconData blocks = const LucideIconData(58622);
-/// bluetooth-connected
-static const IconData bluetoothConnected = const LucideIconData(57782);
-/// bluetooth-off
-static const IconData bluetoothOff = const LucideIconData(57783);
-/// bluetooth-searching
-static const IconData bluetoothSearching = const LucideIconData(57784);
-/// bluetooth
-static const IconData bluetooth = const LucideIconData(57442);
-/// bold
-static const IconData bold = const LucideIconData(57443);
-/// bolt
-static const IconData bolt = const LucideIconData(58768);
-/// bomb
-static const IconData bomb = const LucideIconData(58110);
-/// bone
-static const IconData bone = const LucideIconData(58203);
-/// book-a
-static const IconData bookA = const LucideIconData(58696);
-/// book-audio
-static const IconData bookAudio = const LucideIconData(58697);
-/// book-check
-static const IconData bookCheck = const LucideIconData(58698);
-/// book-copy
-static const IconData bookCopy = const LucideIconData(58352);
-/// book-dashed
-static const IconData bookDashed = const LucideIconData(58353);
-/// book-down
-static const IconData bookDown = const LucideIconData(58354);
-/// book-headphones
-static const IconData bookHeadphones = const LucideIconData(58699);
-/// book-heart
-static const IconData bookHeart = const LucideIconData(58700);
-/// book-image
-static const IconData bookImage = const LucideIconData(58701);
-/// book-key
-static const IconData bookKey = const LucideIconData(58355);
-/// book-lock
-static const IconData bookLock = const LucideIconData(58356);
-/// book-marked
-static const IconData bookMarked = const LucideIconData(58357);
-/// book-minus
-static const IconData bookMinus = const LucideIconData(58358);
-/// book-open-check
-static const IconData bookOpenCheck = const LucideIconData(58244);
-/// book-open-text
-static const IconData bookOpenText = const LucideIconData(58702);
-/// book-open
-static const IconData bookOpen = const LucideIconData(57445);
-/// book-plus
-static const IconData bookPlus = const LucideIconData(58359);
-/// book-text
-static const IconData bookText = const LucideIconData(58703);
-/// book-type
-static const IconData bookType = const LucideIconData(58704);
-/// book-up-2
-static const IconData bookUp2 = const LucideIconData(58538);
-/// book-up
-static const IconData bookUp = const LucideIconData(58360);
-/// book-user
-static const IconData bookUser = const LucideIconData(58705);
-/// book-x
-static const IconData bookX = const LucideIconData(58361);
-/// book
-static const IconData book = const LucideIconData(57444);
-/// bookmark-check
-static const IconData bookmarkCheck = const LucideIconData(58659);
-/// bookmark-minus
-static const IconData bookmarkMinus = const LucideIconData(57915);
-/// bookmark-plus
-static const IconData bookmarkPlus = const LucideIconData(57916);
-/// bookmark-x
-static const IconData bookmarkX = const LucideIconData(58660);
-/// bookmark
-static const IconData bookmark = const LucideIconData(57446);
-/// boom-box
-static const IconData boomBox = const LucideIconData(58610);
-/// bot-message-square
-static const IconData botMessageSquare = const LucideIconData(58834);
-/// bot-off
-static const IconData botOff = const LucideIconData(58852);
-/// bot
-static const IconData bot = const LucideIconData(57785);
-/// box-select
-static const IconData boxSelect = const LucideIconData(57786);
-/// box
-static const IconData box = const LucideIconData(57447);
-/// boxes
-static const IconData boxes = const LucideIconData(58063);
-/// braces
-static const IconData braces = const LucideIconData(58221);
-/// brackets
-static const IconData brackets = const LucideIconData(58439);
-/// brain-circuit
-static const IconData brainCircuit = const LucideIconData(58314);
-/// brain-cog
-static const IconData brainCog = const LucideIconData(58315);
-/// brain
-static const IconData brain = const LucideIconData(58313);
-/// brick-wall
-static const IconData brickWall = const LucideIconData(58757);
-/// briefcase-business
-static const IconData briefcaseBusiness = const LucideIconData(58841);
-/// briefcase-medical
-static const IconData briefcaseMedical = const LucideIconData(58842);
-/// briefcase
-static const IconData briefcase = const LucideIconData(57448);
-/// bring-to-front
-static const IconData bringToFront = const LucideIconData(58611);
-/// brush
-static const IconData brush = const LucideIconData(57809);
-/// bug-off
-static const IconData bugOff = const LucideIconData(58641);
-/// bug-play
-static const IconData bugPlay = const LucideIconData(58642);
-/// bug
-static const IconData bug = const LucideIconData(57866);
-/// building-2
-static const IconData building2 = const LucideIconData(57999);
-/// building
-static const IconData building = const LucideIconData(57802);
-/// bus-front
-static const IconData busFront = const LucideIconData(58623);
-/// bus
-static const IconData bus = const LucideIconData(57810);
-/// cable-car
-static const IconData cableCar = const LucideIconData(58624);
-/// cable
-static const IconData cable = const LucideIconData(58599);
-/// cake-slice
-static const IconData cakeSlice = const LucideIconData(58557);
-/// cake
-static const IconData cake = const LucideIconData(58183);
-/// calculator
-static const IconData calculator = const LucideIconData(57787);
-/// calendar-check-2
-static const IconData calendarCheck2 = const LucideIconData(58039);
-/// calendar-check
-static const IconData calendarCheck = const LucideIconData(58038);
-/// calendar-clock
-static const IconData calendarClock = const LucideIconData(58115);
-/// calendar-days
-static const IconData calendarDays = const LucideIconData(58040);
-/// calendar-fold
-static const IconData calendarFold = const LucideIconData(58808);
-/// calendar-heart
-static const IconData calendarHeart = const LucideIconData(58116);
-/// calendar-minus-2
-static const IconData calendarMinus2 = const LucideIconData(58809);
-/// calendar-minus
-static const IconData calendarMinus = const LucideIconData(58041);
-/// calendar-off
-static const IconData calendarOff = const LucideIconData(58042);
-/// calendar-plus-2
-static const IconData calendarPlus2 = const LucideIconData(58810);
-/// calendar-plus
-static const IconData calendarPlus = const LucideIconData(58043);
-/// calendar-range
-static const IconData calendarRange = const LucideIconData(58044);
-/// calendar-search
-static const IconData calendarSearch = const LucideIconData(58117);
-/// calendar-x-2
-static const IconData calendarX2 = const LucideIconData(58046);
-/// calendar-x
-static const IconData calendarX = const LucideIconData(58045);
-/// calendar
-static const IconData calendar = const LucideIconData(57449);
-/// camera-off
-static const IconData cameraOff = const LucideIconData(57451);
-/// camera
-static const IconData camera = const LucideIconData(57450);
-/// candlestick-chart
-static const IconData candlestickChart = const LucideIconData(58541);
-/// candy-cane
-static const IconData candyCane = const LucideIconData(58558);
-/// candy-off
-static const IconData candyOff = const LucideIconData(58261);
-/// candy
-static const IconData candy = const LucideIconData(58260);
-/// cannabis
-static const IconData cannabis = const LucideIconData(58840);
-/// captions-off
-static const IconData captionsOff = const LucideIconData(58821);
-/// captions
-static const IconData captions = const LucideIconData(58279);
-/// car-front
-static const IconData carFront = const LucideIconData(58625);
-/// car-taxi-front
-static const IconData carTaxiFront = const LucideIconData(58626);
-/// car
-static const IconData car = const LucideIconData(57811);
-/// caravan
-static const IconData caravan = const LucideIconData(58685);
-/// carrot
-static const IconData carrot = const LucideIconData(57945);
-/// case-lower
-static const IconData caseLower = const LucideIconData(58331);
-/// case-sensitive
-static const IconData caseSensitive = const LucideIconData(58332);
-/// case-upper
-static const IconData caseUpper = const LucideIconData(58333);
-/// cassette-tape
-static const IconData cassetteTape = const LucideIconData(58574);
-/// cast
-static const IconData cast = const LucideIconData(57452);
-/// castle
-static const IconData castle = const LucideIconData(58339);
-/// cat
-static const IconData cat = const LucideIconData(58255);
-/// cctv
-static const IconData cctv = const LucideIconData(58753);
-/// check-check
-static const IconData checkCheck = const LucideIconData(58257);
-/// check
-static const IconData check = const LucideIconData(57453);
-/// chef-hat
-static const IconData chefHat = const LucideIconData(58027);
-/// cherry
-static const IconData cherry = const LucideIconData(58195);
-/// chevron-down
-static const IconData chevronDown = const LucideIconData(57454);
-/// chevron-first
-static const IconData chevronFirst = const LucideIconData(57922);
-/// chevron-last
-static const IconData chevronLast = const LucideIconData(57923);
-/// chevron-left
-static const IconData chevronLeft = const LucideIconData(57455);
-/// chevron-right
-static const IconData chevronRight = const LucideIconData(57456);
-/// chevron-up
-static const IconData chevronUp = const LucideIconData(57457);
-/// chevrons-down-up
-static const IconData chevronsDownUp = const LucideIconData(57895);
-/// chevrons-down
-static const IconData chevronsDown = const LucideIconData(57458);
-/// chevrons-left-right
-static const IconData chevronsLeftRight = const LucideIconData(58002);
-/// chevrons-left
-static const IconData chevronsLeft = const LucideIconData(57459);
-/// chevrons-right-left
-static const IconData chevronsRightLeft = const LucideIconData(58003);
-/// chevrons-right
-static const IconData chevronsRight = const LucideIconData(57460);
-/// chevrons-up-down
-static const IconData chevronsUpDown = const LucideIconData(57872);
-/// chevrons-up
-static const IconData chevronsUp = const LucideIconData(57461);
-/// chrome
-static const IconData chrome = const LucideIconData(57462);
-/// church
-static const IconData church = const LucideIconData(58340);
-/// cigarette-off
-static const IconData cigaretteOff = const LucideIconData(58054);
-/// cigarette
-static const IconData cigarette = const LucideIconData(58053);
-/// circle-alert
-static const IconData circleAlert = const LucideIconData(57464);
-/// circle-arrow-down
-static const IconData circleArrowDown = const LucideIconData(57465);
-/// circle-arrow-left
-static const IconData circleArrowLeft = const LucideIconData(57466);
-/// circle-arrow-out-down-left
-static const IconData circleArrowOutDownLeft = const LucideIconData(58363);
-/// circle-arrow-out-down-right
-static const IconData circleArrowOutDownRight = const LucideIconData(58364);
-/// circle-arrow-out-up-left
-static const IconData circleArrowOutUpLeft = const LucideIconData(58365);
-/// circle-arrow-out-up-right
-static const IconData circleArrowOutUpRight = const LucideIconData(58366);
-/// circle-arrow-right
-static const IconData circleArrowRight = const LucideIconData(57467);
-/// circle-arrow-up
-static const IconData circleArrowUp = const LucideIconData(57468);
-/// circle-check-big
-static const IconData circleCheckBig = const LucideIconData(57469);
-/// circle-check
-static const IconData circleCheck = const LucideIconData(57893);
-/// circle-chevron-down
-static const IconData circleChevronDown = const LucideIconData(58593);
-/// circle-chevron-left
-static const IconData circleChevronLeft = const LucideIconData(58594);
-/// circle-chevron-right
-static const IconData circleChevronRight = const LucideIconData(58595);
-/// circle-chevron-up
-static const IconData circleChevronUp = const LucideIconData(58596);
-/// circle-dashed
-static const IconData circleDashed = const LucideIconData(58548);
-/// circle-divide
-static const IconData circleDivide = const LucideIconData(57470);
-/// circle-dollar-sign
-static const IconData circleDollarSign = const LucideIconData(58497);
-/// circle-dot-dashed
-static const IconData circleDotDashed = const LucideIconData(58549);
-/// circle-dot
-static const IconData circleDot = const LucideIconData(58184);
-/// circle-ellipsis
-static const IconData circleEllipsis = const LucideIconData(58185);
-/// circle-equal
-static const IconData circleEqual = const LucideIconData(58372);
-/// circle-fading-plus
-static const IconData circleFadingPlus = const LucideIconData(58816);
-/// circle-gauge
-static const IconData circleGauge = const LucideIconData(58597);
-/// circle-help
-static const IconData circleHelp = const LucideIconData(57471);
-/// circle-minus
-static const IconData circleMinus = const LucideIconData(57472);
-/// circle-off
-static const IconData circleOff = const LucideIconData(58373);
-/// circle-parking-off
-static const IconData circleParkingOff = const LucideIconData(58317);
-/// circle-parking
-static const IconData circleParking = const LucideIconData(58316);
-/// circle-pause
-static const IconData circlePause = const LucideIconData(57473);
-/// circle-percent
-static const IconData circlePercent = const LucideIconData(58654);
-/// circle-play
-static const IconData circlePlay = const LucideIconData(57474);
-/// circle-plus
-static const IconData circlePlus = const LucideIconData(57475);
-/// circle-power
-static const IconData circlePower = const LucideIconData(58708);
-/// circle-slash-2
-static const IconData circleSlash2 = const LucideIconData(57874);
-/// circle-slash
-static const IconData circleSlash = const LucideIconData(58374);
-/// circle-stop
-static const IconData circleStop = const LucideIconData(57476);
-/// circle-user-round
-static const IconData circleUserRound = const LucideIconData(58470);
-/// circle-user
-static const IconData circleUser = const LucideIconData(58469);
-/// circle-x
-static const IconData circleX = const LucideIconData(57477);
-/// circle
-static const IconData circle = const LucideIconData(57463);
-/// circuit-board
-static const IconData circuitBoard = const LucideIconData(58375);
-/// citrus
-static const IconData citrus = const LucideIconData(58232);
-/// clapperboard
-static const IconData clapperboard = const LucideIconData(58010);
-/// clipboard-check
-static const IconData clipboardCheck = const LucideIconData(57880);
-/// clipboard-copy
-static const IconData clipboardCopy = const LucideIconData(57892);
-/// clipboard-list
-static const IconData clipboardList = const LucideIconData(57479);
-/// clipboard-minus
-static const IconData clipboardMinus = const LucideIconData(58818);
-/// clipboard-paste
-static const IconData clipboardPaste = const LucideIconData(58347);
-/// clipboard-pen-line
-static const IconData clipboardPenLine = const LucideIconData(58119);
-/// clipboard-pen
-static const IconData clipboardPen = const LucideIconData(58118);
-/// clipboard-plus
-static const IconData clipboardPlus = const LucideIconData(58819);
-/// clipboard-type
-static const IconData clipboardType = const LucideIconData(58120);
-/// clipboard-x
-static const IconData clipboardX = const LucideIconData(57889);
-/// clipboard
-static const IconData clipboard = const LucideIconData(57478);
-/// clock-1
-static const IconData clock1 = const LucideIconData(57930);
-/// clock-10
-static const IconData clock10 = const LucideIconData(57931);
-/// clock-11
-static const IconData clock11 = const LucideIconData(57932);
-/// clock-12
-static const IconData clock12 = const LucideIconData(57933);
-/// clock-2
-static const IconData clock2 = const LucideIconData(57934);
-/// clock-3
-static const IconData clock3 = const LucideIconData(57935);
-/// clock-4
-static const IconData clock4 = const LucideIconData(57936);
-/// clock-5
-static const IconData clock5 = const LucideIconData(57937);
-/// clock-6
-static const IconData clock6 = const LucideIconData(57938);
-/// clock-7
-static const IconData clock7 = const LucideIconData(57939);
-/// clock-8
-static const IconData clock8 = const LucideIconData(57940);
-/// clock-9
-static const IconData clock9 = const LucideIconData(57941);
-/// clock
-static const IconData clock = const LucideIconData(57480);
-/// cloud-cog
-static const IconData cloudCog = const LucideIconData(58121);
-/// cloud-download
-static const IconData cloudDownload = const LucideIconData(57482);
-/// cloud-drizzle
-static const IconData cloudDrizzle = const LucideIconData(57483);
-/// cloud-fog
-static const IconData cloudFog = const LucideIconData(57875);
-/// cloud-hail
-static const IconData cloudHail = const LucideIconData(57484);
-/// cloud-lightning
-static const IconData cloudLightning = const LucideIconData(57485);
-/// cloud-moon-rain
-static const IconData cloudMoonRain = const LucideIconData(58105);
-/// cloud-moon
-static const IconData cloudMoon = const LucideIconData(57876);
-/// cloud-off
-static const IconData cloudOff = const LucideIconData(57486);
-/// cloud-rain-wind
-static const IconData cloudRainWind = const LucideIconData(57488);
-/// cloud-rain
-static const IconData cloudRain = const LucideIconData(57487);
-/// cloud-snow
-static const IconData cloudSnow = const LucideIconData(57489);
-/// cloud-sun-rain
-static const IconData cloudSunRain = const LucideIconData(58106);
-/// cloud-sun
-static const IconData cloudSun = const LucideIconData(57877);
-/// cloud-upload
-static const IconData cloudUpload = const LucideIconData(57490);
-/// cloud
-static const IconData cloud = const LucideIconData(57481);
-/// cloudy
-static const IconData cloudy = const LucideIconData(57878);
-/// clover
-static const IconData clover = const LucideIconData(57491);
-/// club
-static const IconData club = const LucideIconData(58522);
-/// code-xml
-static const IconData codeXml = const LucideIconData(57860);
-/// code
-static const IconData code = const LucideIconData(57492);
-/// codepen
-static const IconData codepen = const LucideIconData(57493);
-/// codesandbox
-static const IconData codesandbox = const LucideIconData(57494);
-/// coffee
-static const IconData coffee = const LucideIconData(57495);
-/// cog
-static const IconData cog = const LucideIconData(58122);
-/// coins
-static const IconData coins = const LucideIconData(57496);
-/// columns-2
-static const IconData columns2 = const LucideIconData(57497);
-/// columns-3
-static const IconData columns3 = const LucideIconData(57498);
-/// columns-4
-static const IconData columns4 = const LucideIconData(58765);
-/// combine
-static const IconData combine = const LucideIconData(58448);
-/// command
-static const IconData command = const LucideIconData(57499);
-/// compass
-static const IconData compass = const LucideIconData(57500);
-/// component
-static const IconData component = const LucideIconData(58028);
-/// computer
-static const IconData computer = const LucideIconData(58600);
-/// concierge-bell
-static const IconData conciergeBell = const LucideIconData(58235);
-/// cone
-static const IconData cone = const LucideIconData(58663);
-/// construction
-static const IconData construction = const LucideIconData(58295);
-/// contact-round
-static const IconData contactRound = const LucideIconData(58471);
-/// contact
-static const IconData contact = const LucideIconData(57501);
-/// container
-static const IconData container = const LucideIconData(58585);
-/// contrast
-static const IconData contrast = const LucideIconData(57502);
-/// cookie
-static const IconData cookie = const LucideIconData(57962);
-/// cooking-pot
-static const IconData cookingPot = const LucideIconData(58760);
-/// copy-check
-static const IconData copyCheck = const LucideIconData(58367);
-/// copy-minus
-static const IconData copyMinus = const LucideIconData(58368);
-/// copy-plus
-static const IconData copyPlus = const LucideIconData(58369);
-/// copy-slash
-static const IconData copySlash = const LucideIconData(58370);
-/// copy-x
-static const IconData copyX = const LucideIconData(58371);
-/// copy
-static const IconData copy = const LucideIconData(57503);
-/// copyleft
-static const IconData copyleft = const LucideIconData(57504);
-/// copyright
-static const IconData copyright = const LucideIconData(57505);
-/// corner-down-left
-static const IconData cornerDownLeft = const LucideIconData(57506);
-/// corner-down-right
-static const IconData cornerDownRight = const LucideIconData(57507);
-/// corner-left-down
-static const IconData cornerLeftDown = const LucideIconData(57508);
-/// corner-left-up
-static const IconData cornerLeftUp = const LucideIconData(57509);
-/// corner-right-down
-static const IconData cornerRightDown = const LucideIconData(57510);
-/// corner-right-up
-static const IconData cornerRightUp = const LucideIconData(57511);
-/// corner-up-left
-static const IconData cornerUpLeft = const LucideIconData(57512);
-/// corner-up-right
-static const IconData cornerUpRight = const LucideIconData(57513);
-/// cpu
-static const IconData cpu = const LucideIconData(57514);
-/// creative-commons
-static const IconData creativeCommons = const LucideIconData(58293);
-/// credit-card
-static const IconData creditCard = const LucideIconData(57515);
-/// croissant
-static const IconData croissant = const LucideIconData(58029);
-/// crop
-static const IconData crop = const LucideIconData(57516);
-/// cross
-static const IconData cross = const LucideIconData(57827);
-/// crosshair
-static const IconData crosshair = const LucideIconData(57517);
-/// crown
-static const IconData crown = const LucideIconData(57812);
-/// cuboid
-static const IconData cuboid = const LucideIconData(58664);
-/// cup-soda
-static const IconData cupSoda = const LucideIconData(58064);
-/// currency
-static const IconData currency = const LucideIconData(57903);
-/// cylinder
-static const IconData cylinder = const LucideIconData(58665);
-/// database-backup
-static const IconData databaseBackup = const LucideIconData(58286);
-/// database-zap
-static const IconData databaseZap = const LucideIconData(58639);
-/// database
-static const IconData database = const LucideIconData(57518);
-/// delete
-static const IconData delete = const LucideIconData(57519);
-/// dessert
-static const IconData dessert = const LucideIconData(58559);
-/// diameter
-static const IconData diameter = const LucideIconData(58666);
-/// diamond-minus
-static const IconData diamondMinus = const LucideIconData(58853);
-/// diamond-percent
-static const IconData diamondPercent = const LucideIconData(58655);
-/// diamond-plus
-static const IconData diamondPlus = const LucideIconData(58854);
-/// diamond
-static const IconData diamond = const LucideIconData(58065);
-/// dice-1
-static const IconData dice1 = const LucideIconData(57990);
-/// dice-2
-static const IconData dice2 = const LucideIconData(57991);
-/// dice-3
-static const IconData dice3 = const LucideIconData(57992);
-/// dice-4
-static const IconData dice4 = const LucideIconData(57993);
-/// dice-5
-static const IconData dice5 = const LucideIconData(57994);
-/// dice-6
-static const IconData dice6 = const LucideIconData(57995);
-/// dices
-static const IconData dices = const LucideIconData(58052);
-/// diff
-static const IconData diff = const LucideIconData(58123);
-/// disc-2
-static const IconData disc2 = const LucideIconData(58362);
-/// disc-3
-static const IconData disc3 = const LucideIconData(58520);
-/// disc-album
-static const IconData discAlbum = const LucideIconData(58720);
-/// disc
-static const IconData disc = const LucideIconData(57520);
-/// divide
-static const IconData divide = const LucideIconData(57521);
-/// dna-off
-static const IconData dnaOff = const LucideIconData(58263);
-/// dna
-static const IconData dna = const LucideIconData(58262);
-/// dock
-static const IconData dock = const LucideIconData(58839);
-/// dog
-static const IconData dog = const LucideIconData(58256);
-/// dollar-sign
-static const IconData dollarSign = const LucideIconData(57522);
-/// donut
-static const IconData donut = const LucideIconData(58560);
-/// door-closed
-static const IconData doorClosed = const LucideIconData(58328);
-/// door-open
-static const IconData doorOpen = const LucideIconData(58329);
-/// dot
-static const IconData dot = const LucideIconData(58451);
-/// download
-static const IconData download = const LucideIconData(57523);
-/// drafting-compass
-static const IconData draftingCompass = const LucideIconData(58667);
-/// drama
-static const IconData drama = const LucideIconData(58661);
-/// dribbble
-static const IconData dribbble = const LucideIconData(57524);
-/// drill
-static const IconData drill = const LucideIconData(58769);
-/// droplet
-static const IconData droplet = const LucideIconData(57525);
-/// droplets
-static const IconData droplets = const LucideIconData(57526);
-/// drum
-static const IconData drum = const LucideIconData(58721);
-/// drumstick
-static const IconData drumstick = const LucideIconData(57946);
-/// dumbbell
-static const IconData dumbbell = const LucideIconData(58276);
-/// ear-off
-static const IconData earOff = const LucideIconData(58246);
-/// ear
-static const IconData ear = const LucideIconData(58245);
-/// earth-lock
-static const IconData earthLock = const LucideIconData(58832);
-/// earth
-static const IconData earth = const LucideIconData(57841);
-/// eclipse
-static const IconData eclipse = const LucideIconData(58785);
-/// egg-fried
-static const IconData eggFried = const LucideIconData(58196);
-/// egg-off
-static const IconData eggOff = const LucideIconData(58264);
-/// egg
-static const IconData egg = const LucideIconData(57948);
-/// ellipsis-vertical
-static const IconData ellipsisVertical = const LucideIconData(57528);
-/// ellipsis
-static const IconData ellipsis = const LucideIconData(57527);
-/// equal-not
-static const IconData equalNot = const LucideIconData(57789);
-/// equal
-static const IconData equal = const LucideIconData(57788);
-/// eraser
-static const IconData eraser = const LucideIconData(57998);
-/// euro
-static const IconData euro = const LucideIconData(57529);
-/// expand
-static const IconData expand = const LucideIconData(57881);
-/// external-link
-static const IconData externalLink = const LucideIconData(57530);
-/// eye-off
-static const IconData eyeOff = const LucideIconData(57532);
-/// eye
-static const IconData eye = const LucideIconData(57531);
-/// facebook
-static const IconData facebook = const LucideIconData(57533);
-/// factory
-static const IconData factory = const LucideIconData(58014);
-/// fan
-static const IconData fan = const LucideIconData(58236);
-/// fast-forward
-static const IconData fastForward = const LucideIconData(57534);
-/// feather
-static const IconData feather = const LucideIconData(57535);
-/// fence
-static const IconData fence = const LucideIconData(58758);
-/// ferris-wheel
-static const IconData ferrisWheel = const LucideIconData(58499);
-/// figma
-static const IconData figma = const LucideIconData(57536);
-/// file-archive
-static const IconData fileArchive = const LucideIconData(58124);
-/// file-audio-2
-static const IconData fileAudio2 = const LucideIconData(58126);
-/// file-audio
-static const IconData fileAudio = const LucideIconData(58125);
-/// file-axis-3d
-static const IconData fileAxis3d = const LucideIconData(58127);
-/// file-badge-2
-static const IconData fileBadge2 = const LucideIconData(58129);
-/// file-badge
-static const IconData fileBadge = const LucideIconData(58128);
-/// file-bar-chart-2
-static const IconData fileBarChart2 = const LucideIconData(58131);
-/// file-bar-chart
-static const IconData fileBarChart = const LucideIconData(58130);
-/// file-box
-static const IconData fileBox = const LucideIconData(58132);
-/// file-check-2
-static const IconData fileCheck2 = const LucideIconData(57539);
-/// file-check
-static const IconData fileCheck = const LucideIconData(57538);
-/// file-clock
-static const IconData fileClock = const LucideIconData(58133);
-/// file-code-2
-static const IconData fileCode2 = const LucideIconData(58466);
-/// file-code
-static const IconData fileCode = const LucideIconData(57540);
-/// file-cog
-static const IconData fileCog = const LucideIconData(58134);
-/// file-diff
-static const IconData fileDiff = const LucideIconData(58135);
-/// file-digit
-static const IconData fileDigit = const LucideIconData(57541);
-/// file-down
-static const IconData fileDown = const LucideIconData(58136);
-/// file-heart
-static const IconData fileHeart = const LucideIconData(58137);
-/// file-image
-static const IconData fileImage = const LucideIconData(58138);
-/// file-input
-static const IconData fileInput = const LucideIconData(57542);
-/// file-json-2
-static const IconData fileJson2 = const LucideIconData(58223);
-/// file-json
-static const IconData fileJson = const LucideIconData(58222);
-/// file-key-2
-static const IconData fileKey2 = const LucideIconData(58140);
-/// file-key
-static const IconData fileKey = const LucideIconData(58139);
-/// file-line-chart
-static const IconData fileLineChart = const LucideIconData(58141);
-/// file-lock-2
-static const IconData fileLock2 = const LucideIconData(58143);
-/// file-lock
-static const IconData fileLock = const LucideIconData(58142);
-/// file-minus-2
-static const IconData fileMinus2 = const LucideIconData(57544);
-/// file-minus
-static const IconData fileMinus = const LucideIconData(57543);
-/// file-music
-static const IconData fileMusic = const LucideIconData(58722);
-/// file-output
-static const IconData fileOutput = const LucideIconData(57545);
-/// file-pen-line
-static const IconData filePenLine = const LucideIconData(58145);
-/// file-pen
-static const IconData filePen = const LucideIconData(58144);
-/// file-pie-chart
-static const IconData filePieChart = const LucideIconData(58146);
-/// file-plus-2
-static const IconData filePlus2 = const LucideIconData(57547);
-/// file-plus
-static const IconData filePlus = const LucideIconData(57546);
-/// file-question
-static const IconData fileQuestion = const LucideIconData(58147);
-/// file-scan
-static const IconData fileScan = const LucideIconData(58148);
-/// file-search-2
-static const IconData fileSearch2 = const LucideIconData(58149);
-/// file-search
-static const IconData fileSearch = const LucideIconData(57548);
-/// file-sliders
-static const IconData fileSliders = const LucideIconData(58788);
-/// file-spreadsheet
-static const IconData fileSpreadsheet = const LucideIconData(58150);
-/// file-stack
-static const IconData fileStack = const LucideIconData(58533);
-/// file-symlink
-static const IconData fileSymlink = const LucideIconData(58151);
-/// file-terminal
-static const IconData fileTerminal = const LucideIconData(58152);
-/// file-text
-static const IconData fileText = const LucideIconData(57549);
-/// file-type-2
-static const IconData fileType2 = const LucideIconData(58224);
-/// file-type
-static const IconData fileType = const LucideIconData(58153);
-/// file-up
-static const IconData fileUp = const LucideIconData(58154);
-/// file-video-2
-static const IconData fileVideo2 = const LucideIconData(58156);
-/// file-video
-static const IconData fileVideo = const LucideIconData(58155);
-/// file-volume-2
-static const IconData fileVolume2 = const LucideIconData(58158);
-/// file-volume
-static const IconData fileVolume = const LucideIconData(58157);
-/// file-warning
-static const IconData fileWarning = const LucideIconData(58159);
-/// file-x-2
-static const IconData fileX2 = const LucideIconData(57551);
-/// file-x
-static const IconData fileX = const LucideIconData(57550);
-/// file
-static const IconData file = const LucideIconData(57537);
-/// files
-static const IconData files = const LucideIconData(57552);
-/// film
-static const IconData film = const LucideIconData(57553);
-/// filter-x
-static const IconData filterX = const LucideIconData(58296);
-/// filter
-static const IconData filter = const LucideIconData(57554);
-/// fingerprint
-static const IconData fingerprint = const LucideIconData(58058);
-/// fire-extinguisher
-static const IconData fireExtinguisher = const LucideIconData(58754);
-/// fish-off
-static const IconData fishOff = const LucideIconData(58291);
-/// fish-symbol
-static const IconData fishSymbol = const LucideIconData(58616);
-/// fish
-static const IconData fish = const LucideIconData(58281);
-/// flag-off
-static const IconData flagOff = const LucideIconData(58001);
-/// flag-triangle-left
-static const IconData flagTriangleLeft = const LucideIconData(57910);
-/// flag-triangle-right
-static const IconData flagTriangleRight = const LucideIconData(57911);
-/// flag
-static const IconData flag = const LucideIconData(57555);
-/// flame-kindling
-static const IconData flameKindling = const LucideIconData(58686);
-/// flame
-static const IconData flame = const LucideIconData(57556);
-/// flashlight-off
-static const IconData flashlightOff = const LucideIconData(57558);
-/// flashlight
-static const IconData flashlight = const LucideIconData(57557);
-/// flask-conical-off
-static const IconData flaskConicalOff = const LucideIconData(58265);
-/// flask-conical
-static const IconData flaskConical = const LucideIconData(57559);
-/// flask-round
-static const IconData flaskRound = const LucideIconData(57560);
-/// flip-horizontal-2
-static const IconData flipHorizontal2 = const LucideIconData(58209);
-/// flip-horizontal
-static const IconData flipHorizontal = const LucideIconData(58208);
-/// flip-vertical-2
-static const IconData flipVertical2 = const LucideIconData(58211);
-/// flip-vertical
-static const IconData flipVertical = const LucideIconData(58210);
-/// flower-2
-static const IconData flower2 = const LucideIconData(58067);
-/// flower
-static const IconData flower = const LucideIconData(58066);
-/// focus
-static const IconData focus = const LucideIconData(58013);
-/// fold-horizontal
-static const IconData foldHorizontal = const LucideIconData(58431);
-/// fold-vertical
-static const IconData foldVertical = const LucideIconData(58432);
-/// folder-archive
-static const IconData folderArchive = const LucideIconData(58160);
-/// folder-check
-static const IconData folderCheck = const LucideIconData(58161);
-/// folder-clock
-static const IconData folderClock = const LucideIconData(58162);
-/// folder-closed
-static const IconData folderClosed = const LucideIconData(58163);
-/// folder-cog
-static const IconData folderCog = const LucideIconData(58164);
-/// folder-dot
-static const IconData folderDot = const LucideIconData(58568);
-/// folder-down
-static const IconData folderDown = const LucideIconData(58165);
-/// folder-git-2
-static const IconData folderGit2 = const LucideIconData(58382);
-/// folder-git
-static const IconData folderGit = const LucideIconData(58381);
-/// folder-heart
-static const IconData folderHeart = const LucideIconData(58166);
-/// folder-input
-static const IconData folderInput = const LucideIconData(58167);
-/// folder-kanban
-static const IconData folderKanban = const LucideIconData(58569);
-/// folder-key
-static const IconData folderKey = const LucideIconData(58168);
-/// folder-lock
-static const IconData folderLock = const LucideIconData(58169);
-/// folder-minus
-static const IconData folderMinus = const LucideIconData(57562);
-/// folder-open-dot
-static const IconData folderOpenDot = const LucideIconData(58570);
-/// folder-open
-static const IconData folderOpen = const LucideIconData(57926);
-/// folder-output
-static const IconData folderOutput = const LucideIconData(58170);
-/// folder-pen
-static const IconData folderPen = const LucideIconData(58171);
-/// folder-plus
-static const IconData folderPlus = const LucideIconData(57563);
-/// folder-root
-static const IconData folderRoot = const LucideIconData(58571);
-/// folder-search-2
-static const IconData folderSearch2 = const LucideIconData(58173);
-/// folder-search
-static const IconData folderSearch = const LucideIconData(58172);
-/// folder-symlink
-static const IconData folderSymlink = const LucideIconData(58174);
-/// folder-sync
-static const IconData folderSync = const LucideIconData(58572);
-/// folder-tree
-static const IconData folderTree = const LucideIconData(58175);
-/// folder-up
-static const IconData folderUp = const LucideIconData(58176);
-/// folder-x
-static const IconData folderX = const LucideIconData(58177);
-/// folder
-static const IconData folder = const LucideIconData(57561);
-/// folders
-static const IconData folders = const LucideIconData(58178);
-/// footprints
-static const IconData footprints = const LucideIconData(58300);
-/// forklift
-static const IconData forklift = const LucideIconData(58308);
-/// forward
-static const IconData forward = const LucideIconData(57896);
-/// frame
-static const IconData frame = const LucideIconData(58000);
-/// framer
-static const IconData framer = const LucideIconData(57564);
-/// frown
-static const IconData frown = const LucideIconData(57565);
-/// fuel
-static const IconData fuel = const LucideIconData(58030);
-/// fullscreen
-static const IconData fullscreen = const LucideIconData(58680);
-/// gallery-horizontal-end
-static const IconData galleryHorizontalEnd = const LucideIconData(58579);
-/// gallery-horizontal
-static const IconData galleryHorizontal = const LucideIconData(58578);
-/// gallery-thumbnails
-static const IconData galleryThumbnails = const LucideIconData(58580);
-/// gallery-vertical-end
-static const IconData galleryVerticalEnd = const LucideIconData(58582);
-/// gallery-vertical
-static const IconData galleryVertical = const LucideIconData(58581);
-/// gamepad-2
-static const IconData gamepad2 = const LucideIconData(57567);
-/// gamepad
-static const IconData gamepad = const LucideIconData(57566);
-/// gantt-chart
-static const IconData ganttChart = const LucideIconData(58573);
-/// gauge
-static const IconData gauge = const LucideIconData(57790);
-/// gavel
-static const IconData gavel = const LucideIconData(57568);
-/// gem
-static const IconData gem = const LucideIconData(57921);
-/// ghost
-static const IconData ghost = const LucideIconData(57868);
-/// gift
-static const IconData gift = const LucideIconData(57569);
-/// git-branch-plus
-static const IconData gitBranchPlus = const LucideIconData(57842);
-/// git-branch
-static const IconData gitBranch = const LucideIconData(57570);
-/// git-commit-horizontal
-static const IconData gitCommitHorizontal = const LucideIconData(57571);
-/// git-commit-vertical
-static const IconData gitCommitVertical = const LucideIconData(58710);
-/// git-compare-arrows
-static const IconData gitCompareArrows = const LucideIconData(58711);
-/// git-compare
-static const IconData gitCompare = const LucideIconData(58204);
-/// git-fork
-static const IconData gitFork = const LucideIconData(57996);
-/// git-graph
-static const IconData gitGraph = const LucideIconData(58712);
-/// git-merge
-static const IconData gitMerge = const LucideIconData(57572);
-/// git-pull-request-arrow
-static const IconData gitPullRequestArrow = const LucideIconData(58713);
-/// git-pull-request-closed
-static const IconData gitPullRequestClosed = const LucideIconData(58205);
-/// git-pull-request-create-arrow
-static const IconData gitPullRequestCreateArrow = const LucideIconData(58715);
-/// git-pull-request-create
-static const IconData gitPullRequestCreate = const LucideIconData(58714);
-/// git-pull-request-draft
-static const IconData gitPullRequestDraft = const LucideIconData(58206);
-/// git-pull-request
-static const IconData gitPullRequest = const LucideIconData(57573);
-/// github
-static const IconData github = const LucideIconData(57574);
-/// gitlab
-static const IconData gitlab = const LucideIconData(57575);
-/// glass-water
-static const IconData glassWater = const LucideIconData(58068);
-/// glasses
-static const IconData glasses = const LucideIconData(57867);
-/// globe-lock
-static const IconData globeLock = const LucideIconData(58833);
-/// globe
-static const IconData globe = const LucideIconData(57576);
-/// goal
-static const IconData goal = const LucideIconData(58537);
-/// grab
-static const IconData grab = const LucideIconData(57828);
-/// graduation-cap
-static const IconData graduationCap = const LucideIconData(57907);
-/// grape
-static const IconData grape = const LucideIconData(58197);
-/// grid-2x2-check
-static const IconData grid2x2Check = const LucideIconData(58856);
-/// grid-2x2-x
-static const IconData grid2x2X = const LucideIconData(58857);
-/// grid-2x2
-static const IconData grid2x2 = const LucideIconData(58627);
-/// grid-3x3
-static const IconData grid3x3 = const LucideIconData(57577);
-/// grip-horizontal
-static const IconData gripHorizontal = const LucideIconData(57578);
-/// grip-vertical
-static const IconData gripVertical = const LucideIconData(57579);
-/// grip
-static const IconData grip = const LucideIconData(58292);
-/// group
-static const IconData group = const LucideIconData(58472);
-/// guitar
-static const IconData guitar = const LucideIconData(58723);
-/// ham
-static const IconData ham = const LucideIconData(58843);
-/// hammer
-static const IconData hammer = const LucideIconData(57580);
-/// hand-coins
-static const IconData handCoins = const LucideIconData(58812);
-/// hand-heart
-static const IconData handHeart = const LucideIconData(58813);
-/// hand-helping
-static const IconData handHelping = const LucideIconData(58299);
-/// hand-metal
-static const IconData handMetal = const LucideIconData(57899);
-/// hand-platter
-static const IconData handPlatter = const LucideIconData(58814);
-/// hand
-static const IconData hand = const LucideIconData(57813);
-/// handshake
-static const IconData handshake = const LucideIconData(58820);
-/// hard-drive-download
-static const IconData hardDriveDownload = const LucideIconData(58601);
-/// hard-drive-upload
-static const IconData hardDriveUpload = const LucideIconData(58602);
-/// hard-drive
-static const IconData hardDrive = const LucideIconData(57581);
-/// hard-hat
-static const IconData hardHat = const LucideIconData(57582);
-/// hash
-static const IconData hash = const LucideIconData(57583);
-/// haze
-static const IconData haze = const LucideIconData(57584);
-/// hdmi-port
-static const IconData hdmiPort = const LucideIconData(58603);
-/// heading-1
-static const IconData heading1 = const LucideIconData(58248);
-/// heading-2
-static const IconData heading2 = const LucideIconData(58249);
-/// heading-3
-static const IconData heading3 = const LucideIconData(58250);
-/// heading-4
-static const IconData heading4 = const LucideIconData(58251);
-/// heading-5
-static const IconData heading5 = const LucideIconData(58252);
-/// heading-6
-static const IconData heading6 = const LucideIconData(58253);
-/// heading
-static const IconData heading = const LucideIconData(58247);
-/// headphones
-static const IconData headphones = const LucideIconData(57585);
-/// headset
-static const IconData headset = const LucideIconData(58817);
-/// heart-crack
-static const IconData heartCrack = const LucideIconData(58069);
-/// heart-handshake
-static const IconData heartHandshake = const LucideIconData(58070);
-/// heart-off
-static const IconData heartOff = const LucideIconData(58004);
-/// heart-pulse
-static const IconData heartPulse = const LucideIconData(58225);
-/// heart
-static const IconData heart = const LucideIconData(57586);
-/// heater
-static const IconData heater = const LucideIconData(58770);
-/// hexagon
-static const IconData hexagon = const LucideIconData(57587);
-/// highlighter
-static const IconData highlighter = const LucideIconData(57588);
-/// history
-static const IconData history = const LucideIconData(57843);
-/// home
-static const IconData home = const LucideIconData(57589);
-/// hop-off
-static const IconData hopOff = const LucideIconData(58267);
-/// hop
-static const IconData hop = const LucideIconData(58266);
-/// hospital
-static const IconData hospital = const LucideIconData(58844);
-/// hotel
-static const IconData hotel = const LucideIconData(58341);
-/// hourglass
-static const IconData hourglass = const LucideIconData(58005);
-/// ice-cream-bowl
-static const IconData iceCreamBowl = const LucideIconData(58282);
-/// ice-cream-cone
-static const IconData iceCreamCone = const LucideIconData(58198);
-/// image-down
-static const IconData imageDown = const LucideIconData(58688);
-/// image-minus
-static const IconData imageMinus = const LucideIconData(57844);
-/// image-off
-static const IconData imageOff = const LucideIconData(57791);
-/// image-play
-static const IconData imagePlay = const LucideIconData(58851);
-/// image-plus
-static const IconData imagePlus = const LucideIconData(57845);
-/// image-up
-static const IconData imageUp = const LucideIconData(58831);
-/// image
-static const IconData image = const LucideIconData(57590);
-/// images
-static const IconData images = const LucideIconData(58824);
-/// import
-static const IconData import = const LucideIconData(57902);
-/// inbox
-static const IconData inbox = const LucideIconData(57591);
-/// indent-decrease
-static const IconData indentDecrease = const LucideIconData(57592);
-/// indent-increase
-static const IconData indentIncrease = const LucideIconData(57593);
-/// indian-rupee
-static const IconData indianRupee = const LucideIconData(57594);
-/// infinity
-static const IconData infinity = const LucideIconData(57829);
-/// info
-static const IconData info = const LucideIconData(57595);
-/// inspection-panel
-static const IconData inspectionPanel = const LucideIconData(58759);
-/// instagram
-static const IconData instagram = const LucideIconData(57596);
-/// italic
-static const IconData italic = const LucideIconData(57597);
-/// iteration-ccw
-static const IconData iterationCcw = const LucideIconData(58407);
-/// iteration-cw
-static const IconData iterationCw = const LucideIconData(58408);
-/// japanese-yen
-static const IconData japaneseYen = const LucideIconData(57598);
-/// joystick
-static const IconData joystick = const LucideIconData(58200);
-/// kanban
-static const IconData kanban = const LucideIconData(58592);
-/// key-round
-static const IconData keyRound = const LucideIconData(58535);
-/// key-square
-static const IconData keySquare = const LucideIconData(58536);
-/// key
-static const IconData key = const LucideIconData(57599);
-/// keyboard-music
-static const IconData keyboardMusic = const LucideIconData(58724);
-/// keyboard-off
-static const IconData keyboardOff = const LucideIconData(58850);
-/// keyboard
-static const IconData keyboard = const LucideIconData(57987);
-/// lamp-ceiling
-static const IconData lampCeiling = const LucideIconData(58072);
-/// lamp-desk
-static const IconData lampDesk = const LucideIconData(58073);
-/// lamp-floor
-static const IconData lampFloor = const LucideIconData(58074);
-/// lamp-wall-down
-static const IconData lampWallDown = const LucideIconData(58075);
-/// lamp-wall-up
-static const IconData lampWallUp = const LucideIconData(58076);
-/// lamp
-static const IconData lamp = const LucideIconData(58071);
-/// land-plot
-static const IconData landPlot = const LucideIconData(58668);
-/// landmark
-static const IconData landmark = const LucideIconData(57913);
-/// languages
-static const IconData languages = const LucideIconData(57600);
-/// laptop-minimal
-static const IconData laptopMinimal = const LucideIconData(57814);
-/// laptop
-static const IconData laptop = const LucideIconData(57803);
-/// lasso-select
-static const IconData lassoSelect = const LucideIconData(57805);
-/// lasso
-static const IconData lasso = const LucideIconData(57804);
-/// laugh
-static const IconData laugh = const LucideIconData(58111);
-/// layers-2
-static const IconData layers2 = const LucideIconData(58669);
-/// layers-3
-static const IconData layers3 = const LucideIconData(58670);
-/// layers
-static const IconData layers = const LucideIconData(57601);
-/// layout-dashboard
-static const IconData layoutDashboard = const LucideIconData(57792);
-/// layout-grid
-static const IconData layoutGrid = const LucideIconData(57602);
-/// layout-list
-static const IconData layoutList = const LucideIconData(57815);
-/// layout-panel-left
-static const IconData layoutPanelLeft = const LucideIconData(58484);
-/// layout-panel-top
-static const IconData layoutPanelTop = const LucideIconData(58485);
-/// layout-template
-static const IconData layoutTemplate = const LucideIconData(57861);
-/// leaf
-static const IconData leaf = const LucideIconData(58077);
-/// leafy-green
-static const IconData leafyGreen = const LucideIconData(58483);
-/// library-big
-static const IconData libraryBig = const LucideIconData(58706);
-/// library
-static const IconData library = const LucideIconData(57603);
-/// life-buoy
-static const IconData lifeBuoy = const LucideIconData(57604);
-/// ligature
-static const IconData ligature = const LucideIconData(58430);
-/// lightbulb-off
-static const IconData lightbulbOff = const LucideIconData(57862);
-/// lightbulb
-static const IconData lightbulb = const LucideIconData(57793);
-/// line-chart
-static const IconData lineChart = const LucideIconData(58020);
-/// link-2-off
-static const IconData link2Off = const LucideIconData(57607);
-/// link-2
-static const IconData link2 = const LucideIconData(57606);
-/// link
-static const IconData link = const LucideIconData(57605);
-/// linkedin
-static const IconData linkedin = const LucideIconData(57608);
-/// list-checks
-static const IconData listChecks = const LucideIconData(57806);
-/// list-collapse
-static const IconData listCollapse = const LucideIconData(58783);
-/// list-end
-static const IconData listEnd = const LucideIconData(58078);
-/// list-filter
-static const IconData listFilter = const LucideIconData(58468);
-/// list-minus
-static const IconData listMinus = const LucideIconData(57917);
-/// list-music
-static const IconData listMusic = const LucideIconData(58079);
-/// list-ordered
-static const IconData listOrdered = const LucideIconData(57807);
-/// list-plus
-static const IconData listPlus = const LucideIconData(57918);
-/// list-restart
-static const IconData listRestart = const LucideIconData(58454);
-/// list-start
-static const IconData listStart = const LucideIconData(58080);
-/// list-todo
-static const IconData listTodo = const LucideIconData(58567);
-/// list-tree
-static const IconData listTree = const LucideIconData(58380);
-/// list-video
-static const IconData listVideo = const LucideIconData(58081);
-/// list-x
-static const IconData listX = const LucideIconData(57919);
-/// list
-static const IconData list = const LucideIconData(57609);
-/// loader-circle
-static const IconData loaderCircle = const LucideIconData(57611);
-/// loader-pinwheel
-static const IconData loaderPinwheel = const LucideIconData(58858);
-/// loader
-static const IconData loader = const LucideIconData(57610);
-/// locate-fixed
-static const IconData locateFixed = const LucideIconData(57817);
-/// locate-off
-static const IconData locateOff = const LucideIconData(57985);
-/// locate
-static const IconData locate = const LucideIconData(57816);
-/// lock-keyhole-open
-static const IconData lockKeyholeOpen = const LucideIconData(58678);
-/// lock-keyhole
-static const IconData lockKeyhole = const LucideIconData(58677);
-/// lock-open
-static const IconData lockOpen = const LucideIconData(57613);
-/// lock
-static const IconData lock = const LucideIconData(57612);
-/// log-in
-static const IconData logIn = const LucideIconData(57614);
-/// log-out
-static const IconData logOut = const LucideIconData(57615);
-/// lollipop
-static const IconData lollipop = const LucideIconData(58561);
-/// luggage
-static const IconData luggage = const LucideIconData(58057);
-/// magnet
-static const IconData magnet = const LucideIconData(58036);
-/// mail-check
-static const IconData mailCheck = const LucideIconData(58212);
-/// mail-minus
-static const IconData mailMinus = const LucideIconData(58213);
-/// mail-open
-static const IconData mailOpen = const LucideIconData(58214);
-/// mail-plus
-static const IconData mailPlus = const LucideIconData(58215);
-/// mail-question
-static const IconData mailQuestion = const LucideIconData(58216);
-/// mail-search
-static const IconData mailSearch = const LucideIconData(58217);
-/// mail-warning
-static const IconData mailWarning = const LucideIconData(58218);
-/// mail-x
-static const IconData mailX = const LucideIconData(58219);
-/// mail
-static const IconData mail = const LucideIconData(57616);
-/// mailbox
-static const IconData mailbox = const LucideIconData(58327);
-/// mails
-static const IconData mails = const LucideIconData(58220);
-/// map-pin-off
-static const IconData mapPinOff = const LucideIconData(58021);
-/// map-pin
-static const IconData mapPin = const LucideIconData(57618);
-/// map-pinned
-static const IconData mapPinned = const LucideIconData(58689);
-/// map
-static const IconData map = const LucideIconData(57617);
-/// martini
-static const IconData martini = const LucideIconData(58082);
-/// maximize-2
-static const IconData maximize2 = const LucideIconData(57620);
-/// maximize
-static const IconData maximize = const LucideIconData(57619);
-/// medal
-static const IconData medal = const LucideIconData(58226);
-/// megaphone-off
-static const IconData megaphoneOff = const LucideIconData(58227);
-/// megaphone
-static const IconData megaphone = const LucideIconData(57908);
-/// meh
-static const IconData meh = const LucideIconData(57621);
-/// memory-stick
-static const IconData memoryStick = const LucideIconData(58441);
-/// menu
-static const IconData menu = const LucideIconData(57622);
-/// merge
-static const IconData merge = const LucideIconData(58435);
-/// message-circle-code
-static const IconData messageCircleCode = const LucideIconData(58726);
-/// message-circle-dashed
-static const IconData messageCircleDashed = const LucideIconData(58727);
-/// message-circle-heart
-static const IconData messageCircleHeart = const LucideIconData(58728);
-/// message-circle-more
-static const IconData messageCircleMore = const LucideIconData(58729);
-/// message-circle-off
-static const IconData messageCircleOff = const LucideIconData(58730);
-/// message-circle-plus
-static const IconData messageCirclePlus = const LucideIconData(58731);
-/// message-circle-question
-static const IconData messageCircleQuestion = const LucideIconData(58732);
-/// message-circle-reply
-static const IconData messageCircleReply = const LucideIconData(58733);
-/// message-circle-warning
-static const IconData messageCircleWarning = const LucideIconData(58734);
-/// message-circle-x
-static const IconData messageCircleX = const LucideIconData(58735);
-/// message-circle
-static const IconData messageCircle = const LucideIconData(57623);
-/// message-square-code
-static const IconData messageSquareCode = const LucideIconData(58736);
-/// message-square-dashed
-static const IconData messageSquareDashed = const LucideIconData(58383);
-/// message-square-diff
-static const IconData messageSquareDiff = const LucideIconData(58737);
-/// message-square-dot
-static const IconData messageSquareDot = const LucideIconData(58738);
-/// message-square-heart
-static const IconData messageSquareHeart = const LucideIconData(58739);
-/// message-square-more
-static const IconData messageSquareMore = const LucideIconData(58740);
-/// message-square-off
-static const IconData messageSquareOff = const LucideIconData(58741);
-/// message-square-plus
-static const IconData messageSquarePlus = const LucideIconData(58384);
-/// message-square-quote
-static const IconData messageSquareQuote = const LucideIconData(58742);
-/// message-square-reply
-static const IconData messageSquareReply = const LucideIconData(58743);
-/// message-square-share
-static const IconData messageSquareShare = const LucideIconData(58744);
-/// message-square-text
-static const IconData messageSquareText = const LucideIconData(58745);
-/// message-square-warning
-static const IconData messageSquareWarning = const LucideIconData(58746);
-/// message-square-x
-static const IconData messageSquareX = const LucideIconData(58747);
-/// message-square
-static const IconData messageSquare = const LucideIconData(57624);
-/// messages-square
-static const IconData messagesSquare = const LucideIconData(58385);
-/// mic-off
-static const IconData micOff = const LucideIconData(57626);
-/// mic-vocal
-static const IconData micVocal = const LucideIconData(58188);
-/// mic
-static const IconData mic = const LucideIconData(57625);
-/// microscope
-static const IconData microscope = const LucideIconData(58083);
-/// microwave
-static const IconData microwave = const LucideIconData(58237);
-/// milestone
-static const IconData milestone = const LucideIconData(58007);
-/// milk-off
-static const IconData milkOff = const LucideIconData(58269);
-/// milk
-static const IconData milk = const LucideIconData(58268);
-/// minimize-2
-static const IconData minimize2 = const LucideIconData(57628);
-/// minimize
-static const IconData minimize = const LucideIconData(57627);
-/// minus
-static const IconData minus = const LucideIconData(57629);
-/// monitor-check
-static const IconData monitorCheck = const LucideIconData(58502);
-/// monitor-dot
-static const IconData monitorDot = const LucideIconData(58503);
-/// monitor-down
-static const IconData monitorDown = const LucideIconData(58405);
-/// monitor-off
-static const IconData monitorOff = const LucideIconData(57818);
-/// monitor-pause
-static const IconData monitorPause = const LucideIconData(58504);
-/// monitor-play
-static const IconData monitorPlay = const LucideIconData(58505);
-/// monitor-smartphone
-static const IconData monitorSmartphone = const LucideIconData(58277);
-/// monitor-speaker
-static const IconData monitorSpeaker = const LucideIconData(57870);
-/// monitor-stop
-static const IconData monitorStop = const LucideIconData(58506);
-/// monitor-up
-static const IconData monitorUp = const LucideIconData(58406);
-/// monitor-x
-static const IconData monitorX = const LucideIconData(58507);
-/// monitor
-static const IconData monitor = const LucideIconData(57630);
-/// moon-star
-static const IconData moonStar = const LucideIconData(58388);
-/// moon
-static const IconData moon = const LucideIconData(57631);
-/// mountain-snow
-static const IconData mountainSnow = const LucideIconData(57905);
-/// mountain
-static const IconData mountain = const LucideIconData(57904);
-/// mouse-off
-static const IconData mouseOff = const LucideIconData(58847);
-/// mouse-pointer-2
-static const IconData mousePointer2 = const LucideIconData(57794);
-/// mouse-pointer-ban
-static const IconData mousePointerBan = const LucideIconData(58859);
-/// mouse-pointer-click
-static const IconData mousePointerClick = const LucideIconData(57633);
-/// mouse-pointer
-static const IconData mousePointer = const LucideIconData(57632);
-/// mouse
-static const IconData mouse = const LucideIconData(57997);
-/// move-3d
-static const IconData move3d = const LucideIconData(58084);
-/// move-diagonal-2
-static const IconData moveDiagonal2 = const LucideIconData(57796);
-/// move-diagonal
-static const IconData moveDiagonal = const LucideIconData(57795);
-/// move-down-left
-static const IconData moveDownLeft = const LucideIconData(58513);
-/// move-down-right
-static const IconData moveDownRight = const LucideIconData(58514);
-/// move-down
-static const IconData moveDown = const LucideIconData(58512);
-/// move-horizontal
-static const IconData moveHorizontal = const LucideIconData(57797);
-/// move-left
-static const IconData moveLeft = const LucideIconData(58515);
-/// move-right
-static const IconData moveRight = const LucideIconData(58516);
-/// move-up-left
-static const IconData moveUpLeft = const LucideIconData(58518);
-/// move-up-right
-static const IconData moveUpRight = const LucideIconData(58519);
-/// move-up
-static const IconData moveUp = const LucideIconData(58517);
-/// move-vertical
-static const IconData moveVertical = const LucideIconData(57798);
-/// move
-static const IconData move = const LucideIconData(57634);
-/// music-2
-static const IconData music2 = const LucideIconData(58189);
-/// music-3
-static const IconData music3 = const LucideIconData(58190);
-/// music-4
-static const IconData music4 = const LucideIconData(58191);
-/// music
-static const IconData music = const LucideIconData(57635);
-/// navigation-2-off
-static const IconData navigation2Off = const LucideIconData(58022);
-/// navigation-2
-static const IconData navigation2 = const LucideIconData(57637);
-/// navigation-off
-static const IconData navigationOff = const LucideIconData(58023);
-/// navigation
-static const IconData navigation = const LucideIconData(57636);
-/// network
-static const IconData network = const LucideIconData(57638);
-/// newspaper
-static const IconData newspaper = const LucideIconData(58187);
-/// nfc
-static const IconData nfc = const LucideIconData(58310);
-/// notebook-pen
-static const IconData notebookPen = const LucideIconData(58778);
-/// notebook-tabs
-static const IconData notebookTabs = const LucideIconData(58779);
-/// notebook-text
-static const IconData notebookText = const LucideIconData(58780);
-/// notebook
-static const IconData notebook = const LucideIconData(58777);
-/// notepad-text-dashed
-static const IconData notepadTextDashed = const LucideIconData(58782);
-/// notepad-text
-static const IconData notepadText = const LucideIconData(58781);
-/// nut-off
-static const IconData nutOff = const LucideIconData(58271);
-/// nut
-static const IconData nut = const LucideIconData(58270);
-/// octagon-alert
-static const IconData octagonAlert = const LucideIconData(57640);
-/// octagon-pause
-static const IconData octagonPause = const LucideIconData(57882);
-/// octagon-x
-static const IconData octagonX = const LucideIconData(57641);
-/// octagon
-static const IconData octagon = const LucideIconData(57639);
-/// option
-static const IconData option = const LucideIconData(57846);
-/// orbit
-static const IconData orbit = const LucideIconData(58346);
-/// origami
-static const IconData origami = const LucideIconData(58855);
-/// package-2
-static const IconData package2 = const LucideIconData(58179);
-/// package-check
-static const IconData packageCheck = const LucideIconData(57957);
-/// package-minus
-static const IconData packageMinus = const LucideIconData(57958);
-/// package-open
-static const IconData packageOpen = const LucideIconData(58059);
-/// package-plus
-static const IconData packagePlus = const LucideIconData(57959);
-/// package-search
-static const IconData packageSearch = const LucideIconData(57960);
-/// package-x
-static const IconData packageX = const LucideIconData(57961);
-/// package
-static const IconData package = const LucideIconData(57642);
-/// paint-bucket
-static const IconData paintBucket = const LucideIconData(58085);
-/// paint-roller
-static const IconData paintRoller = const LucideIconData(58786);
-/// paintbrush-vertical
-static const IconData paintbrushVertical = const LucideIconData(58087);
-/// paintbrush
-static const IconData paintbrush = const LucideIconData(58086);
-/// palette
-static const IconData palette = const LucideIconData(57819);
-/// panel-bottom-close
-static const IconData panelBottomClose = const LucideIconData(58417);
-/// panel-bottom-dashed
-static const IconData panelBottomDashed = const LucideIconData(58418);
-/// panel-bottom-open
-static const IconData panelBottomOpen = const LucideIconData(58419);
-/// panel-bottom
-static const IconData panelBottom = const LucideIconData(58416);
-/// panel-left-close
-static const IconData panelLeftClose = const LucideIconData(57883);
-/// panel-left-dashed
-static const IconData panelLeftDashed = const LucideIconData(58420);
-/// panel-left-open
-static const IconData panelLeftOpen = const LucideIconData(57884);
-/// panel-left
-static const IconData panelLeft = const LucideIconData(57643);
-/// panel-right-close
-static const IconData panelRightClose = const LucideIconData(58422);
-/// panel-right-dashed
-static const IconData panelRightDashed = const LucideIconData(58423);
-/// panel-right-open
-static const IconData panelRightOpen = const LucideIconData(58424);
-/// panel-right
-static const IconData panelRight = const LucideIconData(58421);
-/// panel-top-close
-static const IconData panelTopClose = const LucideIconData(58426);
-/// panel-top-dashed
-static const IconData panelTopDashed = const LucideIconData(58427);
-/// panel-top-open
-static const IconData panelTopOpen = const LucideIconData(58428);
-/// panel-top
-static const IconData panelTop = const LucideIconData(58425);
-/// panels-left-bottom
-static const IconData panelsLeftBottom = const LucideIconData(57644);
-/// panels-right-bottom
-static const IconData panelsRightBottom = const LucideIconData(58764);
-/// panels-top-left
-static const IconData panelsTopLeft = const LucideIconData(57645);
-/// paperclip
-static const IconData paperclip = const LucideIconData(57646);
-/// parentheses
-static const IconData parentheses = const LucideIconData(58440);
-/// parking-meter
-static const IconData parkingMeter = const LucideIconData(58628);
-/// party-popper
-static const IconData partyPopper = const LucideIconData(58182);
-/// pause
-static const IconData pause = const LucideIconData(57647);
-/// paw-print
-static const IconData pawPrint = const LucideIconData(58617);
-/// pc-case
-static const IconData pcCase = const LucideIconData(58442);
-/// pen-line
-static const IconData penLine = const LucideIconData(57649);
-/// pen-tool
-static const IconData penTool = const LucideIconData(57650);
-/// pen
-static const IconData pen = const LucideIconData(57648);
-/// pencil-line
-static const IconData pencilLine = const LucideIconData(58612);
-/// pencil-ruler
-static const IconData pencilRuler = const LucideIconData(58613);
-/// pencil
-static const IconData pencil = const LucideIconData(57847);
-/// pentagon
-static const IconData pentagon = const LucideIconData(58671);
-/// percent
-static const IconData percent = const LucideIconData(57651);
-/// person-standing
-static const IconData personStanding = const LucideIconData(57885);
-/// phone-call
-static const IconData phoneCall = const LucideIconData(57653);
-/// phone-forwarded
-static const IconData phoneForwarded = const LucideIconData(57654);
-/// phone-incoming
-static const IconData phoneIncoming = const LucideIconData(57655);
-/// phone-missed
-static const IconData phoneMissed = const LucideIconData(57656);
-/// phone-off
-static const IconData phoneOff = const LucideIconData(57657);
-/// phone-outgoing
-static const IconData phoneOutgoing = const LucideIconData(57658);
-/// phone
-static const IconData phone = const LucideIconData(57652);
-/// pi
-static const IconData pi = const LucideIconData(58486);
-/// piano
-static const IconData piano = const LucideIconData(58725);
-/// pickaxe
-static const IconData pickaxe = const LucideIconData(58826);
-/// picture-in-picture-2
-static const IconData pictureInPicture2 = const LucideIconData(58290);
-/// picture-in-picture
-static const IconData pictureInPicture = const LucideIconData(58289);
-/// pie-chart
-static const IconData pieChart = const LucideIconData(57659);
-/// piggy-bank
-static const IconData piggyBank = const LucideIconData(57660);
-/// pilcrow-left
-static const IconData pilcrowLeft = const LucideIconData(58848);
-/// pilcrow-right
-static const IconData pilcrowRight = const LucideIconData(58849);
-/// pilcrow
-static const IconData pilcrow = const LucideIconData(58278);
-/// pill
-static const IconData pill = const LucideIconData(58304);
-/// pin-off
-static const IconData pinOff = const LucideIconData(58037);
-/// pin
-static const IconData pin = const LucideIconData(57944);
-/// pipette
-static const IconData pipette = const LucideIconData(57661);
-/// pizza
-static const IconData pizza = const LucideIconData(58199);
-/// plane-landing
-static const IconData planeLanding = const LucideIconData(58320);
-/// plane-takeoff
-static const IconData planeTakeoff = const LucideIconData(58321);
-/// plane
-static const IconData plane = const LucideIconData(57820);
-/// play
-static const IconData play = const LucideIconData(57662);
-/// plug-2
-static const IconData plug2 = const LucideIconData(58243);
-/// plug-zap-2
-static const IconData plugZap2 = const LucideIconData(58464);
-/// plug-zap
-static const IconData plugZap = const LucideIconData(57871);
-/// plug
-static const IconData plug = const LucideIconData(58242);
-/// plus
-static const IconData plus = const LucideIconData(57663);
-/// pocket-knife
-static const IconData pocketKnife = const LucideIconData(58532);
-/// pocket
-static const IconData pocket = const LucideIconData(57664);
-/// podcast
-static const IconData podcast = const LucideIconData(57848);
-/// pointer-off
-static const IconData pointerOff = const LucideIconData(58755);
-/// pointer
-static const IconData pointer = const LucideIconData(57830);
-/// popcorn
-static const IconData popcorn = const LucideIconData(58562);
-/// popsicle
-static const IconData popsicle = const LucideIconData(58563);
-/// pound-sterling
-static const IconData poundSterling = const LucideIconData(57665);
-/// power-off
-static const IconData powerOff = const LucideIconData(57863);
-/// power
-static const IconData power = const LucideIconData(57666);
-/// presentation
-static const IconData presentation = const LucideIconData(58546);
-/// printer
-static const IconData printer = const LucideIconData(57667);
-/// projector
-static const IconData projector = const LucideIconData(58547);
-/// proportions
-static const IconData proportions = const LucideIconData(58835);
-/// puzzle
-static const IconData puzzle = const LucideIconData(58011);
-/// pyramid
-static const IconData pyramid = const LucideIconData(58672);
-/// qr-code
-static const IconData qrCode = const LucideIconData(57821);
-/// quote
-static const IconData quote = const LucideIconData(57912);
-/// rabbit
-static const IconData rabbit = const LucideIconData(58618);
-/// radar
-static const IconData radar = const LucideIconData(58523);
-/// radiation
-static const IconData radiation = const LucideIconData(58438);
-/// radical
-static const IconData radical = const LucideIconData(58822);
-/// radio-receiver
-static const IconData radioReceiver = const LucideIconData(57849);
-/// radio-tower
-static const IconData radioTower = const LucideIconData(58376);
-/// radio
-static const IconData radio = const LucideIconData(57668);
-/// radius
-static const IconData radius = const LucideIconData(58673);
-/// rail-symbol
-static const IconData railSymbol = const LucideIconData(58629);
-/// rainbow
-static const IconData rainbow = const LucideIconData(58566);
-/// rat
-static const IconData rat = const LucideIconData(58351);
-/// ratio
-static const IconData ratio = const LucideIconData(58604);
-/// receipt-cent
-static const IconData receiptCent = const LucideIconData(58793);
-/// receipt-euro
-static const IconData receiptEuro = const LucideIconData(58794);
-/// receipt-indian-rupee
-static const IconData receiptIndianRupee = const LucideIconData(58795);
-/// receipt-japanese-yen
-static const IconData receiptJapaneseYen = const LucideIconData(58796);
-/// receipt-pound-sterling
-static const IconData receiptPoundSterling = const LucideIconData(58797);
-/// receipt-russian-ruble
-static const IconData receiptRussianRuble = const LucideIconData(58798);
-/// receipt-swiss-franc
-static const IconData receiptSwissFranc = const LucideIconData(58799);
-/// receipt-text
-static const IconData receiptText = const LucideIconData(58800);
-/// receipt
-static const IconData receipt = const LucideIconData(58326);
-/// rectangle-ellipsis
-static const IconData rectangleEllipsis = const LucideIconData(57886);
-/// rectangle-horizontal
-static const IconData rectangleHorizontal = const LucideIconData(58233);
-/// rectangle-vertical
-static const IconData rectangleVertical = const LucideIconData(58234);
-/// recycle
-static const IconData recycle = const LucideIconData(58088);
-/// redo-2
-static const IconData redo2 = const LucideIconData(58015);
-/// redo-dot
-static const IconData redoDot = const LucideIconData(58452);
-/// redo
-static const IconData redo = const LucideIconData(57669);
-/// refresh-ccw-dot
-static const IconData refreshCcwDot = const LucideIconData(58550);
-/// refresh-ccw
-static const IconData refreshCcw = const LucideIconData(57670);
-/// refresh-cw-off
-static const IconData refreshCwOff = const LucideIconData(58524);
-/// refresh-cw
-static const IconData refreshCw = const LucideIconData(57671);
-/// refrigerator
-static const IconData refrigerator = const LucideIconData(58238);
-/// regex
-static const IconData regex = const LucideIconData(57850);
-/// remove-formatting
-static const IconData removeFormatting = const LucideIconData(58294);
-/// repeat-1
-static const IconData repeat1 = const LucideIconData(57851);
-/// repeat-2
-static const IconData repeat2 = const LucideIconData(58389);
-/// repeat
-static const IconData repeat = const LucideIconData(57672);
-/// replace-all
-static const IconData replaceAll = const LucideIconData(58335);
-/// replace
-static const IconData replace = const LucideIconData(58334);
-/// reply-all
-static const IconData replyAll = const LucideIconData(57898);
-/// reply
-static const IconData reply = const LucideIconData(57897);
-/// rewind
-static const IconData rewind = const LucideIconData(57673);
-/// ribbon
-static const IconData ribbon = const LucideIconData(58716);
-/// rocket
-static const IconData rocket = const LucideIconData(57989);
-/// rocking-chair
-static const IconData rockingChair = const LucideIconData(57906);
-/// roller-coaster
-static const IconData rollerCoaster = const LucideIconData(58500);
-/// rotate-3d
-static const IconData rotate3d = const LucideIconData(58089);
-/// rotate-ccw-square
-static const IconData rotateCcwSquare = const LucideIconData(58836);
-/// rotate-ccw
-static const IconData rotateCcw = const LucideIconData(57674);
-/// rotate-cw-square
-static const IconData rotateCwSquare = const LucideIconData(58837);
-/// rotate-cw
-static const IconData rotateCw = const LucideIconData(57675);
-/// route-off
-static const IconData routeOff = const LucideIconData(58691);
-/// route
-static const IconData route = const LucideIconData(58690);
-/// router
-static const IconData router = const LucideIconData(58306);
-/// rows-2
-static const IconData rows2 = const LucideIconData(58429);
-/// rows-3
-static const IconData rows3 = const LucideIconData(58766);
-/// rows-4
-static const IconData rows4 = const LucideIconData(58767);
-/// rss
-static const IconData rss = const LucideIconData(57676);
-/// ruler
-static const IconData ruler = const LucideIconData(57677);
-/// russian-ruble
-static const IconData russianRuble = const LucideIconData(57678);
-/// sailboat
-static const IconData sailboat = const LucideIconData(58241);
-/// salad
-static const IconData salad = const LucideIconData(58283);
-/// sandwich
-static const IconData sandwich = const LucideIconData(58284);
-/// satellite-dish
-static const IconData satelliteDish = const LucideIconData(58444);
-/// satellite
-static const IconData satellite = const LucideIconData(58443);
-/// save-all
-static const IconData saveAll = const LucideIconData(58387);
-/// save
-static const IconData save = const LucideIconData(57679);
-/// scale-3d
-static const IconData scale3d = const LucideIconData(58090);
-/// scale
-static const IconData scale = const LucideIconData(57873);
-/// scaling
-static const IconData scaling = const LucideIconData(58091);
-/// scan-barcode
-static const IconData scanBarcode = const LucideIconData(58681);
-/// scan-eye
-static const IconData scanEye = const LucideIconData(58682);
-/// scan-face
-static const IconData scanFace = const LucideIconData(58228);
-/// scan-line
-static const IconData scanLine = const LucideIconData(57943);
-/// scan-search
-static const IconData scanSearch = const LucideIconData(58683);
-/// scan-text
-static const IconData scanText = const LucideIconData(58684);
-/// scan
-static const IconData scan = const LucideIconData(57942);
-/// scatter-chart
-static const IconData scatterChart = const LucideIconData(58510);
-/// school
-static const IconData school = const LucideIconData(58342);
-/// scissors-line-dashed
-static const IconData scissorsLineDashed = const LucideIconData(58605);
-/// scissors
-static const IconData scissors = const LucideIconData(57680);
-/// screen-share-off
-static const IconData screenShareOff = const LucideIconData(57682);
-/// screen-share
-static const IconData screenShare = const LucideIconData(57681);
-/// scroll-text
-static const IconData scrollText = const LucideIconData(58467);
-/// scroll
-static const IconData scroll = const LucideIconData(58092);
-/// search-check
-static const IconData searchCheck = const LucideIconData(58542);
-/// search-code
-static const IconData searchCode = const LucideIconData(58543);
-/// search-slash
-static const IconData searchSlash = const LucideIconData(58544);
-/// search-x
-static const IconData searchX = const LucideIconData(58545);
-/// search
-static const IconData search = const LucideIconData(57683);
-/// send-horizontal
-static const IconData sendHorizontal = const LucideIconData(58614);
-/// send-to-back
-static const IconData sendToBack = const LucideIconData(58615);
-/// send
-static const IconData send = const LucideIconData(57684);
-/// separator-horizontal
-static const IconData separatorHorizontal = const LucideIconData(57799);
-/// separator-vertical
-static const IconData separatorVertical = const LucideIconData(57800);
-/// server-cog
-static const IconData serverCog = const LucideIconData(58180);
-/// server-crash
-static const IconData serverCrash = const LucideIconData(57831);
-/// server-off
-static const IconData serverOff = const LucideIconData(57832);
-/// server
-static const IconData server = const LucideIconData(57685);
-/// settings-2
-static const IconData settings2 = const LucideIconData(57924);
-/// settings
-static const IconData settings = const LucideIconData(57686);
-/// shapes
-static const IconData shapes = const LucideIconData(58551);
-/// share-2
-static const IconData share2 = const LucideIconData(57688);
-/// share
-static const IconData share = const LucideIconData(57687);
-/// sheet
-static const IconData sheet = const LucideIconData(57689);
-/// shell
-static const IconData shell = const LucideIconData(58619);
-/// shield-alert
-static const IconData shieldAlert = const LucideIconData(57852);
-/// shield-ban
-static const IconData shieldBan = const LucideIconData(57691);
-/// shield-check
-static const IconData shieldCheck = const LucideIconData(57853);
-/// shield-ellipsis
-static const IconData shieldEllipsis = const LucideIconData(58650);
-/// shield-half
-static const IconData shieldHalf = const LucideIconData(58651);
-/// shield-minus
-static const IconData shieldMinus = const LucideIconData(58652);
-/// shield-off
-static const IconData shieldOff = const LucideIconData(57692);
-/// shield-plus
-static const IconData shieldPlus = const LucideIconData(58653);
-/// shield-question
-static const IconData shieldQuestion = const LucideIconData(58386);
-/// shield-x
-static const IconData shieldX = const LucideIconData(57854);
-/// shield
-static const IconData shield = const LucideIconData(57690);
-/// ship-wheel
-static const IconData shipWheel = const LucideIconData(58630);
-/// ship
-static const IconData ship = const LucideIconData(58301);
-/// shirt
-static const IconData shirt = const LucideIconData(57801);
-/// shopping-bag
-static const IconData shoppingBag = const LucideIconData(57693);
-/// shopping-basket
-static const IconData shoppingBasket = const LucideIconData(58606);
-/// shopping-cart
-static const IconData shoppingCart = const LucideIconData(57694);
-/// shovel
-static const IconData shovel = const LucideIconData(57695);
-/// shower-head
-static const IconData showerHead = const LucideIconData(58239);
-/// shrink
-static const IconData shrink = const LucideIconData(57887);
-/// shrub
-static const IconData shrub = const LucideIconData(58093);
-/// shuffle
-static const IconData shuffle = const LucideIconData(57696);
-/// sigma
-static const IconData sigma = const LucideIconData(57855);
-/// signal-high
-static const IconData signalHigh = const LucideIconData(57951);
-/// signal-low
-static const IconData signalLow = const LucideIconData(57952);
-/// signal-medium
-static const IconData signalMedium = const LucideIconData(57953);
-/// signal-zero
-static const IconData signalZero = const LucideIconData(57954);
-/// signal
-static const IconData signal = const LucideIconData(57950);
-/// signpost-big
-static const IconData signpostBig = const LucideIconData(58693);
-/// signpost
-static const IconData signpost = const LucideIconData(58692);
-/// siren
-static const IconData siren = const LucideIconData(58094);
-/// skip-back
-static const IconData skipBack = const LucideIconData(57697);
-/// skip-forward
-static const IconData skipForward = const LucideIconData(57698);
-/// skull
-static const IconData skull = const LucideIconData(57888);
-/// slack
-static const IconData slack = const LucideIconData(57699);
-/// slash
-static const IconData slash = const LucideIconData(58657);
-/// slice
-static const IconData slice = const LucideIconData(58095);
-/// sliders-horizontal
-static const IconData slidersHorizontal = const LucideIconData(58009);
-/// sliders-vertical
-static const IconData slidersVertical = const LucideIconData(57700);
-/// smartphone-charging
-static const IconData smartphoneCharging = const LucideIconData(57901);
-/// smartphone-nfc
-static const IconData smartphoneNfc = const LucideIconData(58311);
-/// smartphone
-static const IconData smartphone = const LucideIconData(57701);
-/// smile-plus
-static const IconData smilePlus = const LucideIconData(58112);
-/// smile
-static const IconData smile = const LucideIconData(57702);
-/// snail
-static const IconData snail = const LucideIconData(58620);
-/// snowflake
-static const IconData snowflake = const LucideIconData(57703);
-/// sofa
-static const IconData sofa = const LucideIconData(58051);
-/// soup
-static const IconData soup = const LucideIconData(58285);
-/// space
-static const IconData space = const LucideIconData(58336);
-/// spade
-static const IconData spade = const LucideIconData(58525);
-/// sparkle
-static const IconData sparkle = const LucideIconData(58498);
-/// sparkles
-static const IconData sparkles = const LucideIconData(58390);
-/// speaker
-static const IconData speaker = const LucideIconData(57704);
-/// speech
-static const IconData speech = const LucideIconData(58658);
-/// spell-check-2
-static const IconData spellCheck2 = const LucideIconData(58527);
-/// spell-check
-static const IconData spellCheck = const LucideIconData(58526);
-/// spline
-static const IconData spline = const LucideIconData(58254);
-/// split
-static const IconData split = const LucideIconData(58436);
-/// spray-can
-static const IconData sprayCan = const LucideIconData(58521);
-/// sprout
-static const IconData sprout = const LucideIconData(57833);
-/// square-activity
-static const IconData squareActivity = const LucideIconData(58552);
-/// square-arrow-down-left
-static const IconData squareArrowDownLeft = const LucideIconData(58553);
-/// square-arrow-down-right
-static const IconData squareArrowDownRight = const LucideIconData(58554);
-/// square-arrow-down
-static const IconData squareArrowDown = const LucideIconData(58411);
-/// square-arrow-left
-static const IconData squareArrowLeft = const LucideIconData(58412);
-/// square-arrow-out-down-left
-static const IconData squareArrowOutDownLeft = const LucideIconData(58789);
-/// square-arrow-out-down-right
-static const IconData squareArrowOutDownRight = const LucideIconData(58790);
-/// square-arrow-out-up-left
-static const IconData squareArrowOutUpLeft = const LucideIconData(58791);
-/// square-arrow-out-up-right
-static const IconData squareArrowOutUpRight = const LucideIconData(58792);
-/// square-arrow-right
-static const IconData squareArrowRight = const LucideIconData(58413);
-/// square-arrow-up-left
-static const IconData squareArrowUpLeft = const LucideIconData(58555);
-/// square-arrow-up-right
-static const IconData squareArrowUpRight = const LucideIconData(58556);
-/// square-arrow-up
-static const IconData squareArrowUp = const LucideIconData(58414);
-/// square-asterisk
-static const IconData squareAsterisk = const LucideIconData(57706);
-/// square-bottom-dashed-scissors
-static const IconData squareBottomDashedScissors = const LucideIconData(58607);
-/// square-check-big
-static const IconData squareCheckBig = const LucideIconData(57707);
-/// square-check
-static const IconData squareCheck = const LucideIconData(58717);
-/// square-chevron-down
-static const IconData squareChevronDown = const LucideIconData(58322);
-/// square-chevron-left
-static const IconData squareChevronLeft = const LucideIconData(58323);
-/// square-chevron-right
-static const IconData squareChevronRight = const LucideIconData(58324);
-/// square-chevron-up
-static const IconData squareChevronUp = const LucideIconData(58325);
-/// square-code
-static const IconData squareCode = const LucideIconData(57708);
-/// square-dashed-bottom-code
-static const IconData squareDashedBottomCode = const LucideIconData(58565);
-/// square-dashed-bottom
-static const IconData squareDashedBottom = const LucideIconData(58564);
-/// square-dashed-kanban
-static const IconData squareDashedKanban = const LucideIconData(57709);
-/// square-dashed-mouse-pointer
-static const IconData squareDashedMousePointer = const LucideIconData(58637);
-/// square-divide
-static const IconData squareDivide = const LucideIconData(57710);
-/// square-dot
-static const IconData squareDot = const LucideIconData(57711);
-/// square-equal
-static const IconData squareEqual = const LucideIconData(57712);
-/// square-function
-static const IconData squareFunction = const LucideIconData(57900);
-/// square-gantt-chart
-static const IconData squareGanttChart = const LucideIconData(57713);
-/// square-kanban
-static const IconData squareKanban = const LucideIconData(57714);
-/// square-library
-static const IconData squareLibrary = const LucideIconData(58707);
-/// square-m
-static const IconData squareM = const LucideIconData(58631);
-/// square-menu
-static const IconData squareMenu = const LucideIconData(58455);
-/// square-minus
-static const IconData squareMinus = const LucideIconData(57715);
-/// square-mouse-pointer
-static const IconData squareMousePointer = const LucideIconData(57856);
-/// square-parking-off
-static const IconData squareParkingOff = const LucideIconData(58319);
-/// square-parking
-static const IconData squareParking = const LucideIconData(58318);
-/// square-pen
-static const IconData squarePen = const LucideIconData(57716);
-/// square-percent
-static const IconData squarePercent = const LucideIconData(58656);
-/// square-pi
-static const IconData squarePi = const LucideIconData(58508);
-/// square-pilcrow
-static const IconData squarePilcrow = const LucideIconData(58511);
-/// square-play
-static const IconData squarePlay = const LucideIconData(58501);
-/// square-plus
-static const IconData squarePlus = const LucideIconData(57717);
-/// square-power
-static const IconData squarePower = const LucideIconData(58709);
-/// square-radical
-static const IconData squareRadical = const LucideIconData(58823);
-/// square-scissors
-static const IconData squareScissors = const LucideIconData(58608);
-/// square-sigma
-static const IconData squareSigma = const LucideIconData(58509);
-/// square-slash
-static const IconData squareSlash = const LucideIconData(57718);
-/// square-split-horizontal
-static const IconData squareSplitHorizontal = const LucideIconData(58297);
-/// square-split-vertical
-static const IconData squareSplitVertical = const LucideIconData(58298);
-/// square-stack
-static const IconData squareStack = const LucideIconData(58534);
-/// square-terminal
-static const IconData squareTerminal = const LucideIconData(57864);
-/// square-user-round
-static const IconData squareUserRound = const LucideIconData(58474);
-/// square-user
-static const IconData squareUser = const LucideIconData(58473);
-/// square-x
-static const IconData squareX = const LucideIconData(57719);
-/// square
-static const IconData square = const LucideIconData(57705);
-/// squircle
-static const IconData squircle = const LucideIconData(58750);
-/// squirrel
-static const IconData squirrel = const LucideIconData(58531);
-/// stamp
-static const IconData stamp = const LucideIconData(58302);
-/// star-half
-static const IconData starHalf = const LucideIconData(57865);
-/// star-off
-static const IconData starOff = const LucideIconData(58031);
-/// star
-static const IconData star = const LucideIconData(57720);
-/// step-back
-static const IconData stepBack = const LucideIconData(58348);
-/// step-forward
-static const IconData stepForward = const LucideIconData(58349);
-/// stethoscope
-static const IconData stethoscope = const LucideIconData(58096);
-/// sticker
-static const IconData sticker = const LucideIconData(58113);
-/// sticky-note
-static const IconData stickyNote = const LucideIconData(58114);
-/// store
-static const IconData store = const LucideIconData(58343);
-/// stretch-horizontal
-static const IconData stretchHorizontal = const LucideIconData(57979);
-/// stretch-vertical
-static const IconData stretchVertical = const LucideIconData(57980);
-/// strikethrough
-static const IconData strikethrough = const LucideIconData(57721);
-/// subscript
-static const IconData subscript = const LucideIconData(57947);
-/// sun-dim
-static const IconData sunDim = const LucideIconData(58008);
-/// sun-medium
-static const IconData sunMedium = const LucideIconData(58032);
-/// sun-moon
-static const IconData sunMoon = const LucideIconData(58033);
-/// sun-snow
-static const IconData sunSnow = const LucideIconData(58229);
-/// sun
-static const IconData sun = const LucideIconData(57722);
-/// sunrise
-static const IconData sunrise = const LucideIconData(57723);
-/// sunset
-static const IconData sunset = const LucideIconData(57724);
-/// superscript
-static const IconData superscript = const LucideIconData(57949);
-/// swatch-book
-static const IconData swatchBook = const LucideIconData(58787);
-/// swiss-franc
-static const IconData swissFranc = const LucideIconData(57725);
-/// switch-camera
-static const IconData switchCamera = const LucideIconData(57726);
-/// sword
-static const IconData sword = const LucideIconData(58034);
-/// swords
-static const IconData swords = const LucideIconData(58035);
-/// syringe
-static const IconData syringe = const LucideIconData(58097);
-/// table-2
-static const IconData table2 = const LucideIconData(58104);
-/// table-cells-merge
-static const IconData tableCellsMerge = const LucideIconData(58827);
-/// table-cells-split
-static const IconData tableCellsSplit = const LucideIconData(58828);
-/// table-columns-split
-static const IconData tableColumnsSplit = const LucideIconData(58829);
-/// table-properties
-static const IconData tableProperties = const LucideIconData(58591);
-/// table-rows-split
-static const IconData tableRowsSplit = const LucideIconData(58830);
-/// table
-static const IconData table = const LucideIconData(57727);
-/// tablet-smartphone
-static const IconData tabletSmartphone = const LucideIconData(58638);
-/// tablet
-static const IconData tablet = const LucideIconData(57728);
-/// tablets
-static const IconData tablets = const LucideIconData(58305);
-/// tag
-static const IconData tag = const LucideIconData(57729);
-/// tags
-static const IconData tags = const LucideIconData(58207);
-/// tally-1
-static const IconData tally1 = const LucideIconData(58586);
-/// tally-2
-static const IconData tally2 = const LucideIconData(58587);
-/// tally-3
-static const IconData tally3 = const LucideIconData(58588);
-/// tally-4
-static const IconData tally4 = const LucideIconData(58589);
-/// tally-5
-static const IconData tally5 = const LucideIconData(58590);
-/// tangent
-static const IconData tangent = const LucideIconData(58674);
-/// target
-static const IconData target = const LucideIconData(57730);
-/// telescope
-static const IconData telescope = const LucideIconData(58825);
-/// tent-tree
-static const IconData tentTree = const LucideIconData(58687);
-/// tent
-static const IconData tent = const LucideIconData(57894);
-/// terminal
-static const IconData terminal = const LucideIconData(57731);
-/// test-tube-diagonal
-static const IconData testTubeDiagonal = const LucideIconData(58378);
-/// test-tube
-static const IconData testTube = const LucideIconData(58377);
-/// test-tubes
-static const IconData testTubes = const LucideIconData(58379);
-/// text-cursor-input
-static const IconData textCursorInput = const LucideIconData(57956);
-/// text-cursor
-static const IconData textCursor = const LucideIconData(57955);
-/// text-quote
-static const IconData textQuote = const LucideIconData(58530);
-/// text-search
-static const IconData textSearch = const LucideIconData(58801);
-/// text-select
-static const IconData textSelect = const LucideIconData(58337);
-/// text
-static const IconData text = const LucideIconData(58350);
-/// theater
-static const IconData theater = const LucideIconData(58662);
-/// thermometer-snowflake
-static const IconData thermometerSnowflake = const LucideIconData(57733);
-/// thermometer-sun
-static const IconData thermometerSun = const LucideIconData(57734);
-/// thermometer
-static const IconData thermometer = const LucideIconData(57732);
-/// thumbs-down
-static const IconData thumbsDown = const LucideIconData(57735);
-/// thumbs-up
-static const IconData thumbsUp = const LucideIconData(57736);
-/// ticket-check
-static const IconData ticketCheck = const LucideIconData(58802);
-/// ticket-minus
-static const IconData ticketMinus = const LucideIconData(58803);
-/// ticket-percent
-static const IconData ticketPercent = const LucideIconData(58804);
-/// ticket-plus
-static const IconData ticketPlus = const LucideIconData(58805);
-/// ticket-slash
-static const IconData ticketSlash = const LucideIconData(58806);
-/// ticket-x
-static const IconData ticketX = const LucideIconData(58807);
-/// ticket
-static const IconData ticket = const LucideIconData(57869);
-/// timer-off
-static const IconData timerOff = const LucideIconData(57928);
-/// timer-reset
-static const IconData timerReset = const LucideIconData(57909);
-/// timer
-static const IconData timer = const LucideIconData(57822);
-/// toggle-left
-static const IconData toggleLeft = const LucideIconData(57737);
-/// toggle-right
-static const IconData toggleRight = const LucideIconData(57738);
-/// tornado
-static const IconData tornado = const LucideIconData(57879);
-/// torus
-static const IconData torus = const LucideIconData(58675);
-/// touchpad-off
-static const IconData touchpadOff = const LucideIconData(58446);
-/// touchpad
-static const IconData touchpad = const LucideIconData(58445);
-/// tower-control
-static const IconData towerControl = const LucideIconData(58303);
-/// toy-brick
-static const IconData toyBrick = const LucideIconData(58186);
-/// tractor
-static const IconData tractor = const LucideIconData(58632);
-/// traffic-cone
-static const IconData trafficCone = const LucideIconData(58633);
-/// train-front-tunnel
-static const IconData trainFrontTunnel = const LucideIconData(58635);
-/// train-front
-static const IconData trainFront = const LucideIconData(58634);
-/// train-track
-static const IconData trainTrack = const LucideIconData(58636);
-/// tram-front
-static const IconData tramFront = const LucideIconData(58024);
-/// trash-2
-static const IconData trash2 = const LucideIconData(57740);
-/// trash
-static const IconData trash = const LucideIconData(57739);
-/// tree-deciduous
-static const IconData treeDeciduous = const LucideIconData(58098);
-/// tree-palm
-static const IconData treePalm = const LucideIconData(57984);
-/// tree-pine
-static const IconData treePine = const LucideIconData(58099);
-/// trees
-static const IconData trees = const LucideIconData(58100);
-/// trello
-static const IconData trello = const LucideIconData(57741);
-/// trending-down
-static const IconData trendingDown = const LucideIconData(57742);
-/// trending-up
-static const IconData trendingUp = const LucideIconData(57743);
-/// triangle-alert
-static const IconData triangleAlert = const LucideIconData(57745);
-/// triangle-right
-static const IconData triangleRight = const LucideIconData(58609);
-/// triangle
-static const IconData triangle = const LucideIconData(57744);
-/// trophy
-static const IconData trophy = const LucideIconData(58230);
-/// truck
-static const IconData truck = const LucideIconData(57746);
-/// turtle
-static const IconData turtle = const LucideIconData(58621);
-/// tv-2
-static const IconData tv2 = const LucideIconData(57857);
-/// tv
-static const IconData tv = const LucideIconData(57747);
-/// twitch
-static const IconData twitch = const LucideIconData(57748);
-/// twitter
-static const IconData twitter = const LucideIconData(57749);
-/// type
-static const IconData type = const LucideIconData(57750);
-/// umbrella-off
-static const IconData umbrellaOff = const LucideIconData(58695);
-/// umbrella
-static const IconData umbrella = const LucideIconData(57751);
-/// underline
-static const IconData underline = const LucideIconData(57752);
-/// undo-2
-static const IconData undo2 = const LucideIconData(58016);
-/// undo-dot
-static const IconData undoDot = const LucideIconData(58453);
-/// undo
-static const IconData undo = const LucideIconData(57753);
-/// unfold-horizontal
-static const IconData unfoldHorizontal = const LucideIconData(58433);
-/// unfold-vertical
-static const IconData unfoldVertical = const LucideIconData(58434);
-/// ungroup
-static const IconData ungroup = const LucideIconData(58475);
-/// university
-static const IconData university = const LucideIconData(58344);
-/// unlink-2
-static const IconData unlink2 = const LucideIconData(57755);
-/// unlink
-static const IconData unlink = const LucideIconData(57754);
-/// unplug
-static const IconData unplug = const LucideIconData(58465);
-/// upload
-static const IconData upload = const LucideIconData(57756);
-/// usb
-static const IconData usb = const LucideIconData(58201);
-/// user-check
-static const IconData userCheck = const LucideIconData(57758);
-/// user-cog
-static const IconData userCog = const LucideIconData(58181);
-/// user-minus
-static const IconData userMinus = const LucideIconData(57759);
-/// user-plus
-static const IconData userPlus = const LucideIconData(57760);
-/// user-round-check
-static const IconData userRoundCheck = const LucideIconData(58477);
-/// user-round-cog
-static const IconData userRoundCog = const LucideIconData(58478);
-/// user-round-minus
-static const IconData userRoundMinus = const LucideIconData(58479);
-/// user-round-plus
-static const IconData userRoundPlus = const LucideIconData(58480);
-/// user-round-search
-static const IconData userRoundSearch = const LucideIconData(58748);
-/// user-round-x
-static const IconData userRoundX = const LucideIconData(58481);
-/// user-round
-static const IconData userRound = const LucideIconData(58476);
-/// user-search
-static const IconData userSearch = const LucideIconData(58749);
-/// user-x
-static const IconData userX = const LucideIconData(57761);
-/// user
-static const IconData user = const LucideIconData(57757);
-/// users-round
-static const IconData usersRound = const LucideIconData(58482);
-/// users
-static const IconData users = const LucideIconData(57762);
-/// utensils-crossed
-static const IconData utensilsCrossed = const LucideIconData(58102);
-/// utensils
-static const IconData utensils = const LucideIconData(58101);
-/// utility-pole
-static const IconData utilityPole = const LucideIconData(58309);
-/// variable
-static const IconData variable = const LucideIconData(58487);
-/// vault
-static const IconData vault = const LucideIconData(58771);
-/// vegan
-static const IconData vegan = const LucideIconData(58272);
-/// venetian-mask
-static const IconData venetianMask = const LucideIconData(58025);
-/// vibrate-off
-static const IconData vibrateOff = const LucideIconData(58012);
-/// vibrate
-static const IconData vibrate = const LucideIconData(57890);
-/// video-off
-static const IconData videoOff = const LucideIconData(57764);
-/// video
-static const IconData video = const LucideIconData(57763);
-/// videotape
-static const IconData videotape = const LucideIconData(58575);
-/// view
-static const IconData view = const LucideIconData(57765);
-/// voicemail
-static const IconData voicemail = const LucideIconData(57766);
-/// volume-1
-static const IconData volume1 = const LucideIconData(57768);
-/// volume-2
-static const IconData volume2 = const LucideIconData(57769);
-/// volume-x
-static const IconData volumeX = const LucideIconData(57770);
-/// volume
-static const IconData volume = const LucideIconData(57767);
-/// vote
-static const IconData vote = const LucideIconData(58288);
-/// wallet-cards
-static const IconData walletCards = const LucideIconData(58576);
-/// wallet-minimal
-static const IconData walletMinimal = const LucideIconData(58577);
-/// wallet
-static const IconData wallet = const LucideIconData(57858);
-/// wallpaper
-static const IconData wallpaper = const LucideIconData(58447);
-/// wand-sparkles
-static const IconData wandSparkles = const LucideIconData(58202);
-/// wand
-static const IconData wand = const LucideIconData(57925);
-/// warehouse
-static const IconData warehouse = const LucideIconData(58345);
-/// washing-machine
-static const IconData washingMachine = const LucideIconData(58772);
-/// watch
-static const IconData watch = const LucideIconData(57771);
-/// waves
-static const IconData waves = const LucideIconData(57986);
-/// waypoints
-static const IconData waypoints = const LucideIconData(58694);
-/// webcam
-static const IconData webcam = const LucideIconData(57859);
-/// webhook-off
-static const IconData webhookOff = const LucideIconData(58811);
-/// webhook
-static const IconData webhook = const LucideIconData(58231);
-/// weight
-static const IconData weight = const LucideIconData(58676);
-/// wheat-off
-static const IconData wheatOff = const LucideIconData(58274);
-/// wheat
-static const IconData wheat = const LucideIconData(58273);
-/// whole-word
-static const IconData wholeWord = const LucideIconData(58338);
-/// wifi-off
-static const IconData wifiOff = const LucideIconData(57773);
-/// wifi
-static const IconData wifi = const LucideIconData(57772);
-/// wind
-static const IconData wind = const LucideIconData(57774);
-/// wine-off
-static const IconData wineOff = const LucideIconData(58275);
-/// wine
-static const IconData wine = const LucideIconData(58103);
-/// workflow
-static const IconData workflow = const LucideIconData(58409);
-/// worm
-static const IconData worm = const LucideIconData(58846);
-/// wrap-text
-static const IconData wrapText = const LucideIconData(57927);
-/// wrench
-static const IconData wrench = const LucideIconData(57775);
-/// x
-static const IconData x = const LucideIconData(57776);
-/// youtube
-static const IconData youtube = const LucideIconData(57777);
-/// zap-off
-static const IconData zapOff = const LucideIconData(57779);
-/// zap
-static const IconData zap = const LucideIconData(57778);
-/// zoom-in
-static const IconData zoomIn = const LucideIconData(57780);
-/// zoom-out
-static const IconData zoomOut = const LucideIconData(57781);
+  /// a-arrow-down
+  static const IconData aArrowDown = const LucideIconData(58761);
+
+  /// a-arrow-up
+  static const IconData aArrowUp = const LucideIconData(58762);
+
+  /// a-large-small
+  static const IconData aLargeSmall = const LucideIconData(58763);
+
+  /// accessibility
+  static const IconData accessibility = const LucideIconData(58006);
+
+  /// activity
+  static const IconData activity = const LucideIconData(57400);
+
+  /// air-vent
+  static const IconData airVent = const LucideIconData(58192);
+
+  /// airplay
+  static const IconData airplay = const LucideIconData(57401);
+
+  /// alarm-clock-check
+  static const IconData alarmClockCheck = const LucideIconData(57834);
+
+  /// alarm-clock-minus
+  static const IconData alarmClockMinus = const LucideIconData(57835);
+
+  /// alarm-clock-off
+  static const IconData alarmClockOff = const LucideIconData(57914);
+
+  /// alarm-clock-plus
+  static const IconData alarmClockPlus = const LucideIconData(57836);
+
+  /// alarm-clock
+  static const IconData alarmClock = const LucideIconData(57402);
+
+  /// alarm-smoke
+  static const IconData alarmSmoke = const LucideIconData(58751);
+
+  /// album
+  static const IconData album = const LucideIconData(57403);
+
+  /// align-center-horizontal
+  static const IconData alignCenterHorizontal = const LucideIconData(57963);
+
+  /// align-center-vertical
+  static const IconData alignCenterVertical = const LucideIconData(57964);
+
+  /// align-center
+  static const IconData alignCenter = const LucideIconData(57404);
+
+  /// align-end-horizontal
+  static const IconData alignEndHorizontal = const LucideIconData(57965);
+
+  /// align-end-vertical
+  static const IconData alignEndVertical = const LucideIconData(57966);
+
+  /// align-horizontal-distribute-center
+  static const IconData alignHorizontalDistributeCenter =
+      const LucideIconData(57405);
+
+  /// align-horizontal-distribute-end
+  static const IconData alignHorizontalDistributeEnd =
+      const LucideIconData(57406);
+
+  /// align-horizontal-distribute-start
+  static const IconData alignHorizontalDistributeStart =
+      const LucideIconData(57407);
+
+  /// align-horizontal-justify-center
+  static const IconData alignHorizontalJustifyCenter =
+      const LucideIconData(57969);
+
+  /// align-horizontal-justify-end
+  static const IconData alignHorizontalJustifyEnd = const LucideIconData(57970);
+
+  /// align-horizontal-justify-start
+  static const IconData alignHorizontalJustifyStart =
+      const LucideIconData(57971);
+
+  /// align-horizontal-space-around
+  static const IconData alignHorizontalSpaceAround =
+      const LucideIconData(57972);
+
+  /// align-horizontal-space-between
+  static const IconData alignHorizontalSpaceBetween =
+      const LucideIconData(57973);
+
+  /// align-justify
+  static const IconData alignJustify = const LucideIconData(57408);
+
+  /// align-left
+  static const IconData alignLeft = const LucideIconData(57409);
+
+  /// align-right
+  static const IconData alignRight = const LucideIconData(57410);
+
+  /// align-start-horizontal
+  static const IconData alignStartHorizontal = const LucideIconData(57967);
+
+  /// align-start-vertical
+  static const IconData alignStartVertical = const LucideIconData(57968);
+
+  /// align-vertical-distribute-center
+  static const IconData alignVerticalDistributeCenter =
+      const LucideIconData(57981);
+
+  /// align-vertical-distribute-end
+  static const IconData alignVerticalDistributeEnd =
+      const LucideIconData(57982);
+
+  /// align-vertical-distribute-start
+  static const IconData alignVerticalDistributeStart =
+      const LucideIconData(57983);
+
+  /// align-vertical-justify-center
+  static const IconData alignVerticalJustifyCenter =
+      const LucideIconData(57974);
+
+  /// align-vertical-justify-end
+  static const IconData alignVerticalJustifyEnd = const LucideIconData(57975);
+
+  /// align-vertical-justify-start
+  static const IconData alignVerticalJustifyStart = const LucideIconData(57976);
+
+  /// align-vertical-space-around
+  static const IconData alignVerticalSpaceAround = const LucideIconData(57977);
+
+  /// align-vertical-space-between
+  static const IconData alignVerticalSpaceBetween = const LucideIconData(57978);
+
+  /// ambulance
+  static const IconData ambulance = const LucideIconData(58815);
+
+  /// ampersand
+  static const IconData ampersand = const LucideIconData(58528);
+
+  /// ampersands
+  static const IconData ampersands = const LucideIconData(58529);
+
+  /// anchor
+  static const IconData anchor = const LucideIconData(57411);
+
+  /// angry
+  static const IconData angry = const LucideIconData(58107);
+
+  /// annoyed
+  static const IconData annoyed = const LucideIconData(58108);
+
+  /// antenna
+  static const IconData antenna = const LucideIconData(58598);
+
+  /// anvil
+  static const IconData anvil = const LucideIconData(58756);
+
+  /// aperture
+  static const IconData aperture = const LucideIconData(57412);
+
+  /// app-window-mac
+  static const IconData appWindowMac = const LucideIconData(58838);
+
+  /// app-window
+  static const IconData appWindow = const LucideIconData(58410);
+
+  /// apple
+  static const IconData apple = const LucideIconData(58193);
+
+  /// archive-restore
+  static const IconData archiveRestore = const LucideIconData(58060);
+
+  /// archive-x
+  static const IconData archiveX = const LucideIconData(58640);
+
+  /// archive
+  static const IconData archive = const LucideIconData(57413);
+
+  /// area-chart
+  static const IconData areaChart = const LucideIconData(58583);
+
+  /// armchair
+  static const IconData armchair = const LucideIconData(58047);
+
+  /// arrow-big-down-dash
+  static const IconData arrowBigDownDash = const LucideIconData(58401);
+
+  /// arrow-big-down
+  static const IconData arrowBigDown = const LucideIconData(57823);
+
+  /// arrow-big-left-dash
+  static const IconData arrowBigLeftDash = const LucideIconData(58402);
+
+  /// arrow-big-left
+  static const IconData arrowBigLeft = const LucideIconData(57824);
+
+  /// arrow-big-right-dash
+  static const IconData arrowBigRightDash = const LucideIconData(58403);
+
+  /// arrow-big-right
+  static const IconData arrowBigRight = const LucideIconData(57825);
+
+  /// arrow-big-up-dash
+  static const IconData arrowBigUpDash = const LucideIconData(58404);
+
+  /// arrow-big-up
+  static const IconData arrowBigUp = const LucideIconData(57826);
+
+  /// arrow-down-0-1
+  static const IconData arrowDown01 = const LucideIconData(58391);
+
+  /// arrow-down-1-0
+  static const IconData arrowDown10 = const LucideIconData(58392);
+
+  /// arrow-down-a-z
+  static const IconData arrowDownAZ = const LucideIconData(58393);
+
+  /// arrow-down-from-line
+  static const IconData arrowDownFromLine = const LucideIconData(58456);
+
+  /// arrow-down-left
+  static const IconData arrowDownLeft = const LucideIconData(57415);
+
+  /// arrow-down-narrow-wide
+  static const IconData arrowDownNarrowWide = const LucideIconData(57416);
+
+  /// arrow-down-right
+  static const IconData arrowDownRight = const LucideIconData(57417);
+
+  /// arrow-down-to-dot
+  static const IconData arrowDownToDot = const LucideIconData(58449);
+
+  /// arrow-down-to-line
+  static const IconData arrowDownToLine = const LucideIconData(58457);
+
+  /// arrow-down-up
+  static const IconData arrowDownUp = const LucideIconData(57418);
+
+  /// arrow-down-wide-narrow
+  static const IconData arrowDownWideNarrow = const LucideIconData(57419);
+
+  /// arrow-down-z-a
+  static const IconData arrowDownZA = const LucideIconData(58394);
+
+  /// arrow-down
+  static const IconData arrowDown = const LucideIconData(57414);
+
+  /// arrow-left-from-line
+  static const IconData arrowLeftFromLine = const LucideIconData(58458);
+
+  /// arrow-left-right
+  static const IconData arrowLeftRight = const LucideIconData(57929);
+
+  /// arrow-left-to-line
+  static const IconData arrowLeftToLine = const LucideIconData(58459);
+
+  /// arrow-left
+  static const IconData arrowLeft = const LucideIconData(57420);
+
+  /// arrow-right-from-line
+  static const IconData arrowRightFromLine = const LucideIconData(58460);
+
+  /// arrow-right-left
+  static const IconData arrowRightLeft = const LucideIconData(58395);
+
+  /// arrow-right-to-line
+  static const IconData arrowRightToLine = const LucideIconData(58461);
+
+  /// arrow-right
+  static const IconData arrowRight = const LucideIconData(57421);
+
+  /// arrow-up-0-1
+  static const IconData arrowUp01 = const LucideIconData(58396);
+
+  /// arrow-up-1-0
+  static const IconData arrowUp10 = const LucideIconData(58397);
+
+  /// arrow-up-a-z
+  static const IconData arrowUpAZ = const LucideIconData(58398);
+
+  /// arrow-up-down
+  static const IconData arrowUpDown = const LucideIconData(58240);
+
+  /// arrow-up-from-dot
+  static const IconData arrowUpFromDot = const LucideIconData(58450);
+
+  /// arrow-up-from-line
+  static const IconData arrowUpFromLine = const LucideIconData(58462);
+
+  /// arrow-up-left
+  static const IconData arrowUpLeft = const LucideIconData(57423);
+
+  /// arrow-up-narrow-wide
+  static const IconData arrowUpNarrowWide = const LucideIconData(57424);
+
+  /// arrow-up-right
+  static const IconData arrowUpRight = const LucideIconData(57425);
+
+  /// arrow-up-to-line
+  static const IconData arrowUpToLine = const LucideIconData(58463);
+
+  /// arrow-up-wide-narrow
+  static const IconData arrowUpWideNarrow = const LucideIconData(58399);
+
+  /// arrow-up-z-a
+  static const IconData arrowUpZA = const LucideIconData(58400);
+
+  /// arrow-up
+  static const IconData arrowUp = const LucideIconData(57422);
+
+  /// arrows-up-from-line
+  static const IconData arrowsUpFromLine = const LucideIconData(58584);
+
+  /// asterisk
+  static const IconData asterisk = const LucideIconData(57837);
+
+  /// at-sign
+  static const IconData atSign = const LucideIconData(57426);
+
+  /// atom
+  static const IconData atom = const LucideIconData(58330);
+
+  /// audio-lines
+  static const IconData audioLines = const LucideIconData(58718);
+
+  /// audio-waveform
+  static const IconData audioWaveform = const LucideIconData(58719);
+
+  /// award
+  static const IconData award = const LucideIconData(57427);
+
+  /// axe
+  static const IconData axe = const LucideIconData(57428);
+
+  /// axis-3d
+  static const IconData axis3d = const LucideIconData(58109);
+
+  /// baby
+  static const IconData baby = const LucideIconData(58061);
+
+  /// backpack
+  static const IconData backpack = const LucideIconData(58055);
+
+  /// badge-alert
+  static const IconData badgeAlert = const LucideIconData(58489);
+
+  /// badge-cent
+  static const IconData badgeCent = const LucideIconData(58643);
+
+  /// badge-check
+  static const IconData badgeCheck = const LucideIconData(57920);
+
+  /// badge-dollar-sign
+  static const IconData badgeDollarSign = const LucideIconData(58490);
+
+  /// badge-euro
+  static const IconData badgeEuro = const LucideIconData(58644);
+
+  /// badge-help
+  static const IconData badgeHelp = const LucideIconData(58491);
+
+  /// badge-indian-rupee
+  static const IconData badgeIndianRupee = const LucideIconData(58645);
+
+  /// badge-info
+  static const IconData badgeInfo = const LucideIconData(58492);
+
+  /// badge-japanese-yen
+  static const IconData badgeJapaneseYen = const LucideIconData(58646);
+
+  /// badge-minus
+  static const IconData badgeMinus = const LucideIconData(58493);
+
+  /// badge-percent
+  static const IconData badgePercent = const LucideIconData(58494);
+
+  /// badge-plus
+  static const IconData badgePlus = const LucideIconData(58495);
+
+  /// badge-pound-sterling
+  static const IconData badgePoundSterling = const LucideIconData(58647);
+
+  /// badge-russian-ruble
+  static const IconData badgeRussianRuble = const LucideIconData(58648);
+
+  /// badge-swiss-franc
+  static const IconData badgeSwissFranc = const LucideIconData(58649);
+
+  /// badge-x
+  static const IconData badgeX = const LucideIconData(58496);
+
+  /// badge
+  static const IconData badge = const LucideIconData(58488);
+
+  /// baggage-claim
+  static const IconData baggageClaim = const LucideIconData(58056);
+
+  /// ban
+  static const IconData ban = const LucideIconData(57429);
+
+  /// banana
+  static const IconData banana = const LucideIconData(58194);
+
+  /// banknote
+  static const IconData banknote = const LucideIconData(57430);
+
+  /// bar-chart-2
+  static const IconData barChart2 = const LucideIconData(57432);
+
+  /// bar-chart-3
+  static const IconData barChart3 = const LucideIconData(58017);
+
+  /// bar-chart-4
+  static const IconData barChart4 = const LucideIconData(58018);
+
+  /// bar-chart-big
+  static const IconData barChartBig = const LucideIconData(58539);
+
+  /// bar-chart-horizontal-big
+  static const IconData barChartHorizontalBig = const LucideIconData(58540);
+
+  /// bar-chart-horizontal
+  static const IconData barChartHorizontal = const LucideIconData(58019);
+
+  /// bar-chart
+  static const IconData barChart = const LucideIconData(57431);
+
+  /// barcode
+  static const IconData barcode = const LucideIconData(58679);
+
+  /// baseline
+  static const IconData baseline = const LucideIconData(57988);
+
+  /// bath
+  static const IconData bath = const LucideIconData(58026);
+
+  /// battery-charging
+  static const IconData batteryCharging = const LucideIconData(57434);
+
+  /// battery-full
+  static const IconData batteryFull = const LucideIconData(57435);
+
+  /// battery-low
+  static const IconData batteryLow = const LucideIconData(57436);
+
+  /// battery-medium
+  static const IconData batteryMedium = const LucideIconData(57437);
+
+  /// battery-warning
+  static const IconData batteryWarning = const LucideIconData(58287);
+
+  /// battery
+  static const IconData battery = const LucideIconData(57433);
+
+  /// beaker
+  static const IconData beaker = const LucideIconData(57438);
+
+  /// bean-off
+  static const IconData beanOff = const LucideIconData(58259);
+
+  /// bean
+  static const IconData bean = const LucideIconData(58258);
+
+  /// bed-double
+  static const IconData bedDouble = const LucideIconData(58049);
+
+  /// bed-single
+  static const IconData bedSingle = const LucideIconData(58050);
+
+  /// bed
+  static const IconData bed = const LucideIconData(58048);
+
+  /// beef
+  static const IconData beef = const LucideIconData(58280);
+
+  /// beer-off
+  static const IconData beerOff = const LucideIconData(58845);
+
+  /// beer
+  static const IconData beer = const LucideIconData(58062);
+
+  /// bell-dot
+  static const IconData bellDot = const LucideIconData(58415);
+
+  /// bell-electric
+  static const IconData bellElectric = const LucideIconData(58752);
+
+  /// bell-minus
+  static const IconData bellMinus = const LucideIconData(57838);
+
+  /// bell-off
+  static const IconData bellOff = const LucideIconData(57440);
+
+  /// bell-plus
+  static const IconData bellPlus = const LucideIconData(57839);
+
+  /// bell-ring
+  static const IconData bellRing = const LucideIconData(57891);
+
+  /// bell
+  static const IconData bell = const LucideIconData(57439);
+
+  /// between-horizontal-end
+  static const IconData betweenHorizontalEnd = const LucideIconData(58773);
+
+  /// between-horizontal-start
+  static const IconData betweenHorizontalStart = const LucideIconData(58774);
+
+  /// between-vertical-end
+  static const IconData betweenVerticalEnd = const LucideIconData(58775);
+
+  /// between-vertical-start
+  static const IconData betweenVerticalStart = const LucideIconData(58776);
+
+  /// biceps-flexed
+  static const IconData bicepsFlexed = const LucideIconData(58863);
+
+  /// bike
+  static const IconData bike = const LucideIconData(57808);
+
+  /// binary
+  static const IconData binary = const LucideIconData(57840);
+
+  /// biohazard
+  static const IconData biohazard = const LucideIconData(58437);
+
+  /// bird
+  static const IconData bird = const LucideIconData(58312);
+
+  /// bitcoin
+  static const IconData bitcoin = const LucideIconData(57441);
+
+  /// blend
+  static const IconData blend = const LucideIconData(58784);
+
+  /// blinds
+  static const IconData blinds = const LucideIconData(58307);
+
+  /// blocks
+  static const IconData blocks = const LucideIconData(58622);
+
+  /// bluetooth-connected
+  static const IconData bluetoothConnected = const LucideIconData(57782);
+
+  /// bluetooth-off
+  static const IconData bluetoothOff = const LucideIconData(57783);
+
+  /// bluetooth-searching
+  static const IconData bluetoothSearching = const LucideIconData(57784);
+
+  /// bluetooth
+  static const IconData bluetooth = const LucideIconData(57442);
+
+  /// bold
+  static const IconData bold = const LucideIconData(57443);
+
+  /// bolt
+  static const IconData bolt = const LucideIconData(58768);
+
+  /// bomb
+  static const IconData bomb = const LucideIconData(58110);
+
+  /// bone
+  static const IconData bone = const LucideIconData(58203);
+
+  /// book-a
+  static const IconData bookA = const LucideIconData(58696);
+
+  /// book-audio
+  static const IconData bookAudio = const LucideIconData(58697);
+
+  /// book-check
+  static const IconData bookCheck = const LucideIconData(58698);
+
+  /// book-copy
+  static const IconData bookCopy = const LucideIconData(58352);
+
+  /// book-dashed
+  static const IconData bookDashed = const LucideIconData(58353);
+
+  /// book-down
+  static const IconData bookDown = const LucideIconData(58354);
+
+  /// book-headphones
+  static const IconData bookHeadphones = const LucideIconData(58699);
+
+  /// book-heart
+  static const IconData bookHeart = const LucideIconData(58700);
+
+  /// book-image
+  static const IconData bookImage = const LucideIconData(58701);
+
+  /// book-key
+  static const IconData bookKey = const LucideIconData(58355);
+
+  /// book-lock
+  static const IconData bookLock = const LucideIconData(58356);
+
+  /// book-marked
+  static const IconData bookMarked = const LucideIconData(58357);
+
+  /// book-minus
+  static const IconData bookMinus = const LucideIconData(58358);
+
+  /// book-open-check
+  static const IconData bookOpenCheck = const LucideIconData(58244);
+
+  /// book-open-text
+  static const IconData bookOpenText = const LucideIconData(58702);
+
+  /// book-open
+  static const IconData bookOpen = const LucideIconData(57445);
+
+  /// book-plus
+  static const IconData bookPlus = const LucideIconData(58359);
+
+  /// book-text
+  static const IconData bookText = const LucideIconData(58703);
+
+  /// book-type
+  static const IconData bookType = const LucideIconData(58704);
+
+  /// book-up-2
+  static const IconData bookUp2 = const LucideIconData(58538);
+
+  /// book-up
+  static const IconData bookUp = const LucideIconData(58360);
+
+  /// book-user
+  static const IconData bookUser = const LucideIconData(58705);
+
+  /// book-x
+  static const IconData bookX = const LucideIconData(58361);
+
+  /// book
+  static const IconData book = const LucideIconData(57444);
+
+  /// bookmark-check
+  static const IconData bookmarkCheck = const LucideIconData(58659);
+
+  /// bookmark-minus
+  static const IconData bookmarkMinus = const LucideIconData(57915);
+
+  /// bookmark-plus
+  static const IconData bookmarkPlus = const LucideIconData(57916);
+
+  /// bookmark-x
+  static const IconData bookmarkX = const LucideIconData(58660);
+
+  /// bookmark
+  static const IconData bookmark = const LucideIconData(57446);
+
+  /// boom-box
+  static const IconData boomBox = const LucideIconData(58610);
+
+  /// bot-message-square
+  static const IconData botMessageSquare = const LucideIconData(58834);
+
+  /// bot-off
+  static const IconData botOff = const LucideIconData(58852);
+
+  /// bot
+  static const IconData bot = const LucideIconData(57785);
+
+  /// box-select
+  static const IconData boxSelect = const LucideIconData(57786);
+
+  /// box
+  static const IconData box = const LucideIconData(57447);
+
+  /// boxes
+  static const IconData boxes = const LucideIconData(58063);
+
+  /// braces
+  static const IconData braces = const LucideIconData(58221);
+
+  /// brackets
+  static const IconData brackets = const LucideIconData(58439);
+
+  /// brain-circuit
+  static const IconData brainCircuit = const LucideIconData(58314);
+
+  /// brain-cog
+  static const IconData brainCog = const LucideIconData(58315);
+
+  /// brain
+  static const IconData brain = const LucideIconData(58313);
+
+  /// brick-wall
+  static const IconData brickWall = const LucideIconData(58757);
+
+  /// briefcase-business
+  static const IconData briefcaseBusiness = const LucideIconData(58841);
+
+  /// briefcase-medical
+  static const IconData briefcaseMedical = const LucideIconData(58842);
+
+  /// briefcase
+  static const IconData briefcase = const LucideIconData(57448);
+
+  /// bring-to-front
+  static const IconData bringToFront = const LucideIconData(58611);
+
+  /// brush
+  static const IconData brush = const LucideIconData(57809);
+
+  /// bug-off
+  static const IconData bugOff = const LucideIconData(58641);
+
+  /// bug-play
+  static const IconData bugPlay = const LucideIconData(58642);
+
+  /// bug
+  static const IconData bug = const LucideIconData(57866);
+
+  /// building-2
+  static const IconData building2 = const LucideIconData(57999);
+
+  /// building
+  static const IconData building = const LucideIconData(57802);
+
+  /// bus-front
+  static const IconData busFront = const LucideIconData(58623);
+
+  /// bus
+  static const IconData bus = const LucideIconData(57810);
+
+  /// cable-car
+  static const IconData cableCar = const LucideIconData(58624);
+
+  /// cable
+  static const IconData cable = const LucideIconData(58599);
+
+  /// cake-slice
+  static const IconData cakeSlice = const LucideIconData(58557);
+
+  /// cake
+  static const IconData cake = const LucideIconData(58183);
+
+  /// calculator
+  static const IconData calculator = const LucideIconData(57787);
+
+  /// calendar-check-2
+  static const IconData calendarCheck2 = const LucideIconData(58039);
+
+  /// calendar-check
+  static const IconData calendarCheck = const LucideIconData(58038);
+
+  /// calendar-clock
+  static const IconData calendarClock = const LucideIconData(58115);
+
+  /// calendar-cog
+  static const IconData calendarCog = const LucideIconData(58865);
+
+  /// calendar-days
+  static const IconData calendarDays = const LucideIconData(58040);
+
+  /// calendar-fold
+  static const IconData calendarFold = const LucideIconData(58808);
+
+  /// calendar-heart
+  static const IconData calendarHeart = const LucideIconData(58116);
+
+  /// calendar-minus-2
+  static const IconData calendarMinus2 = const LucideIconData(58809);
+
+  /// calendar-minus
+  static const IconData calendarMinus = const LucideIconData(58041);
+
+  /// calendar-off
+  static const IconData calendarOff = const LucideIconData(58042);
+
+  /// calendar-plus-2
+  static const IconData calendarPlus2 = const LucideIconData(58810);
+
+  /// calendar-plus
+  static const IconData calendarPlus = const LucideIconData(58043);
+
+  /// calendar-range
+  static const IconData calendarRange = const LucideIconData(58044);
+
+  /// calendar-search
+  static const IconData calendarSearch = const LucideIconData(58117);
+
+  /// calendar-x-2
+  static const IconData calendarX2 = const LucideIconData(58046);
+
+  /// calendar-x
+  static const IconData calendarX = const LucideIconData(58045);
+
+  /// calendar
+  static const IconData calendar = const LucideIconData(57449);
+
+  /// camera-off
+  static const IconData cameraOff = const LucideIconData(57451);
+
+  /// camera
+  static const IconData camera = const LucideIconData(57450);
+
+  /// candlestick-chart
+  static const IconData candlestickChart = const LucideIconData(58541);
+
+  /// candy-cane
+  static const IconData candyCane = const LucideIconData(58558);
+
+  /// candy-off
+  static const IconData candyOff = const LucideIconData(58261);
+
+  /// candy
+  static const IconData candy = const LucideIconData(58260);
+
+  /// cannabis
+  static const IconData cannabis = const LucideIconData(58840);
+
+  /// captions-off
+  static const IconData captionsOff = const LucideIconData(58821);
+
+  /// captions
+  static const IconData captions = const LucideIconData(58279);
+
+  /// car-front
+  static const IconData carFront = const LucideIconData(58625);
+
+  /// car-taxi-front
+  static const IconData carTaxiFront = const LucideIconData(58626);
+
+  /// car
+  static const IconData car = const LucideIconData(57811);
+
+  /// caravan
+  static const IconData caravan = const LucideIconData(58685);
+
+  /// carrot
+  static const IconData carrot = const LucideIconData(57945);
+
+  /// case-lower
+  static const IconData caseLower = const LucideIconData(58331);
+
+  /// case-sensitive
+  static const IconData caseSensitive = const LucideIconData(58332);
+
+  /// case-upper
+  static const IconData caseUpper = const LucideIconData(58333);
+
+  /// cassette-tape
+  static const IconData cassetteTape = const LucideIconData(58574);
+
+  /// cast
+  static const IconData cast = const LucideIconData(57452);
+
+  /// castle
+  static const IconData castle = const LucideIconData(58339);
+
+  /// cat
+  static const IconData cat = const LucideIconData(58255);
+
+  /// cctv
+  static const IconData cctv = const LucideIconData(58753);
+
+  /// check-check
+  static const IconData checkCheck = const LucideIconData(58257);
+
+  /// check
+  static const IconData check = const LucideIconData(57453);
+
+  /// chef-hat
+  static const IconData chefHat = const LucideIconData(58027);
+
+  /// cherry
+  static const IconData cherry = const LucideIconData(58195);
+
+  /// chevron-down
+  static const IconData chevronDown = const LucideIconData(57454);
+
+  /// chevron-first
+  static const IconData chevronFirst = const LucideIconData(57922);
+
+  /// chevron-last
+  static const IconData chevronLast = const LucideIconData(57923);
+
+  /// chevron-left
+  static const IconData chevronLeft = const LucideIconData(57455);
+
+  /// chevron-right
+  static const IconData chevronRight = const LucideIconData(57456);
+
+  /// chevron-up
+  static const IconData chevronUp = const LucideIconData(57457);
+
+  /// chevrons-down-up
+  static const IconData chevronsDownUp = const LucideIconData(57895);
+
+  /// chevrons-down
+  static const IconData chevronsDown = const LucideIconData(57458);
+
+  /// chevrons-left-right
+  static const IconData chevronsLeftRight = const LucideIconData(58002);
+
+  /// chevrons-left
+  static const IconData chevronsLeft = const LucideIconData(57459);
+
+  /// chevrons-right-left
+  static const IconData chevronsRightLeft = const LucideIconData(58003);
+
+  /// chevrons-right
+  static const IconData chevronsRight = const LucideIconData(57460);
+
+  /// chevrons-up-down
+  static const IconData chevronsUpDown = const LucideIconData(57872);
+
+  /// chevrons-up
+  static const IconData chevronsUp = const LucideIconData(57461);
+
+  /// chrome
+  static const IconData chrome = const LucideIconData(57462);
+
+  /// church
+  static const IconData church = const LucideIconData(58340);
+
+  /// cigarette-off
+  static const IconData cigaretteOff = const LucideIconData(58054);
+
+  /// cigarette
+  static const IconData cigarette = const LucideIconData(58053);
+
+  /// circle-alert
+  static const IconData circleAlert = const LucideIconData(57464);
+
+  /// circle-arrow-down
+  static const IconData circleArrowDown = const LucideIconData(57465);
+
+  /// circle-arrow-left
+  static const IconData circleArrowLeft = const LucideIconData(57466);
+
+  /// circle-arrow-out-down-left
+  static const IconData circleArrowOutDownLeft = const LucideIconData(58363);
+
+  /// circle-arrow-out-down-right
+  static const IconData circleArrowOutDownRight = const LucideIconData(58364);
+
+  /// circle-arrow-out-up-left
+  static const IconData circleArrowOutUpLeft = const LucideIconData(58365);
+
+  /// circle-arrow-out-up-right
+  static const IconData circleArrowOutUpRight = const LucideIconData(58366);
+
+  /// circle-arrow-right
+  static const IconData circleArrowRight = const LucideIconData(57467);
+
+  /// circle-arrow-up
+  static const IconData circleArrowUp = const LucideIconData(57468);
+
+  /// circle-check-big
+  static const IconData circleCheckBig = const LucideIconData(57469);
+
+  /// circle-check
+  static const IconData circleCheck = const LucideIconData(57893);
+
+  /// circle-chevron-down
+  static const IconData circleChevronDown = const LucideIconData(58593);
+
+  /// circle-chevron-left
+  static const IconData circleChevronLeft = const LucideIconData(58594);
+
+  /// circle-chevron-right
+  static const IconData circleChevronRight = const LucideIconData(58595);
+
+  /// circle-chevron-up
+  static const IconData circleChevronUp = const LucideIconData(58596);
+
+  /// circle-dashed
+  static const IconData circleDashed = const LucideIconData(58548);
+
+  /// circle-divide
+  static const IconData circleDivide = const LucideIconData(57470);
+
+  /// circle-dollar-sign
+  static const IconData circleDollarSign = const LucideIconData(58497);
+
+  /// circle-dot-dashed
+  static const IconData circleDotDashed = const LucideIconData(58549);
+
+  /// circle-dot
+  static const IconData circleDot = const LucideIconData(58184);
+
+  /// circle-ellipsis
+  static const IconData circleEllipsis = const LucideIconData(58185);
+
+  /// circle-equal
+  static const IconData circleEqual = const LucideIconData(58372);
+
+  /// circle-fading-plus
+  static const IconData circleFadingPlus = const LucideIconData(58816);
+
+  /// circle-gauge
+  static const IconData circleGauge = const LucideIconData(58597);
+
+  /// circle-help
+  static const IconData circleHelp = const LucideIconData(57471);
+
+  /// circle-minus
+  static const IconData circleMinus = const LucideIconData(57472);
+
+  /// circle-off
+  static const IconData circleOff = const LucideIconData(58373);
+
+  /// circle-parking-off
+  static const IconData circleParkingOff = const LucideIconData(58317);
+
+  /// circle-parking
+  static const IconData circleParking = const LucideIconData(58316);
+
+  /// circle-pause
+  static const IconData circlePause = const LucideIconData(57473);
+
+  /// circle-percent
+  static const IconData circlePercent = const LucideIconData(58654);
+
+  /// circle-play
+  static const IconData circlePlay = const LucideIconData(57474);
+
+  /// circle-plus
+  static const IconData circlePlus = const LucideIconData(57475);
+
+  /// circle-power
+  static const IconData circlePower = const LucideIconData(58708);
+
+  /// circle-slash-2
+  static const IconData circleSlash2 = const LucideIconData(57874);
+
+  /// circle-slash
+  static const IconData circleSlash = const LucideIconData(58374);
+
+  /// circle-stop
+  static const IconData circleStop = const LucideIconData(57476);
+
+  /// circle-user-round
+  static const IconData circleUserRound = const LucideIconData(58470);
+
+  /// circle-user
+  static const IconData circleUser = const LucideIconData(58469);
+
+  /// circle-x
+  static const IconData circleX = const LucideIconData(57477);
+
+  /// circle
+  static const IconData circle = const LucideIconData(57463);
+
+  /// circuit-board
+  static const IconData circuitBoard = const LucideIconData(58375);
+
+  /// citrus
+  static const IconData citrus = const LucideIconData(58232);
+
+  /// clapperboard
+  static const IconData clapperboard = const LucideIconData(58010);
+
+  /// clipboard-check
+  static const IconData clipboardCheck = const LucideIconData(57880);
+
+  /// clipboard-copy
+  static const IconData clipboardCopy = const LucideIconData(57892);
+
+  /// clipboard-list
+  static const IconData clipboardList = const LucideIconData(57479);
+
+  /// clipboard-minus
+  static const IconData clipboardMinus = const LucideIconData(58818);
+
+  /// clipboard-paste
+  static const IconData clipboardPaste = const LucideIconData(58347);
+
+  /// clipboard-pen-line
+  static const IconData clipboardPenLine = const LucideIconData(58119);
+
+  /// clipboard-pen
+  static const IconData clipboardPen = const LucideIconData(58118);
+
+  /// clipboard-plus
+  static const IconData clipboardPlus = const LucideIconData(58819);
+
+  /// clipboard-type
+  static const IconData clipboardType = const LucideIconData(58120);
+
+  /// clipboard-x
+  static const IconData clipboardX = const LucideIconData(57889);
+
+  /// clipboard
+  static const IconData clipboard = const LucideIconData(57478);
+
+  /// clock-1
+  static const IconData clock1 = const LucideIconData(57930);
+
+  /// clock-10
+  static const IconData clock10 = const LucideIconData(57931);
+
+  /// clock-11
+  static const IconData clock11 = const LucideIconData(57932);
+
+  /// clock-12
+  static const IconData clock12 = const LucideIconData(57933);
+
+  /// clock-2
+  static const IconData clock2 = const LucideIconData(57934);
+
+  /// clock-3
+  static const IconData clock3 = const LucideIconData(57935);
+
+  /// clock-4
+  static const IconData clock4 = const LucideIconData(57936);
+
+  /// clock-5
+  static const IconData clock5 = const LucideIconData(57937);
+
+  /// clock-6
+  static const IconData clock6 = const LucideIconData(57938);
+
+  /// clock-7
+  static const IconData clock7 = const LucideIconData(57939);
+
+  /// clock-8
+  static const IconData clock8 = const LucideIconData(57940);
+
+  /// clock-9
+  static const IconData clock9 = const LucideIconData(57941);
+
+  /// clock
+  static const IconData clock = const LucideIconData(57480);
+
+  /// cloud-cog
+  static const IconData cloudCog = const LucideIconData(58121);
+
+  /// cloud-download
+  static const IconData cloudDownload = const LucideIconData(57482);
+
+  /// cloud-drizzle
+  static const IconData cloudDrizzle = const LucideIconData(57483);
+
+  /// cloud-fog
+  static const IconData cloudFog = const LucideIconData(57875);
+
+  /// cloud-hail
+  static const IconData cloudHail = const LucideIconData(57484);
+
+  /// cloud-lightning
+  static const IconData cloudLightning = const LucideIconData(57485);
+
+  /// cloud-moon-rain
+  static const IconData cloudMoonRain = const LucideIconData(58105);
+
+  /// cloud-moon
+  static const IconData cloudMoon = const LucideIconData(57876);
+
+  /// cloud-off
+  static const IconData cloudOff = const LucideIconData(57486);
+
+  /// cloud-rain-wind
+  static const IconData cloudRainWind = const LucideIconData(57488);
+
+  /// cloud-rain
+  static const IconData cloudRain = const LucideIconData(57487);
+
+  /// cloud-snow
+  static const IconData cloudSnow = const LucideIconData(57489);
+
+  /// cloud-sun-rain
+  static const IconData cloudSunRain = const LucideIconData(58106);
+
+  /// cloud-sun
+  static const IconData cloudSun = const LucideIconData(57877);
+
+  /// cloud-upload
+  static const IconData cloudUpload = const LucideIconData(57490);
+
+  /// cloud
+  static const IconData cloud = const LucideIconData(57481);
+
+  /// cloudy
+  static const IconData cloudy = const LucideIconData(57878);
+
+  /// clover
+  static const IconData clover = const LucideIconData(57491);
+
+  /// club
+  static const IconData club = const LucideIconData(58522);
+
+  /// code-xml
+  static const IconData codeXml = const LucideIconData(57860);
+
+  /// code
+  static const IconData code = const LucideIconData(57492);
+
+  /// codepen
+  static const IconData codepen = const LucideIconData(57493);
+
+  /// codesandbox
+  static const IconData codesandbox = const LucideIconData(57494);
+
+  /// coffee
+  static const IconData coffee = const LucideIconData(57495);
+
+  /// cog
+  static const IconData cog = const LucideIconData(58122);
+
+  /// coins
+  static const IconData coins = const LucideIconData(57496);
+
+  /// columns-2
+  static const IconData columns2 = const LucideIconData(57497);
+
+  /// columns-3
+  static const IconData columns3 = const LucideIconData(57498);
+
+  /// columns-4
+  static const IconData columns4 = const LucideIconData(58765);
+
+  /// combine
+  static const IconData combine = const LucideIconData(58448);
+
+  /// command
+  static const IconData command = const LucideIconData(57499);
+
+  /// compass
+  static const IconData compass = const LucideIconData(57500);
+
+  /// component
+  static const IconData component = const LucideIconData(58028);
+
+  /// computer
+  static const IconData computer = const LucideIconData(58600);
+
+  /// concierge-bell
+  static const IconData conciergeBell = const LucideIconData(58235);
+
+  /// cone
+  static const IconData cone = const LucideIconData(58663);
+
+  /// construction
+  static const IconData construction = const LucideIconData(58295);
+
+  /// contact-round
+  static const IconData contactRound = const LucideIconData(58471);
+
+  /// contact
+  static const IconData contact = const LucideIconData(57501);
+
+  /// container
+  static const IconData container = const LucideIconData(58585);
+
+  /// contrast
+  static const IconData contrast = const LucideIconData(57502);
+
+  /// cookie
+  static const IconData cookie = const LucideIconData(57962);
+
+  /// cooking-pot
+  static const IconData cookingPot = const LucideIconData(58760);
+
+  /// copy-check
+  static const IconData copyCheck = const LucideIconData(58367);
+
+  /// copy-minus
+  static const IconData copyMinus = const LucideIconData(58368);
+
+  /// copy-plus
+  static const IconData copyPlus = const LucideIconData(58369);
+
+  /// copy-slash
+  static const IconData copySlash = const LucideIconData(58370);
+
+  /// copy-x
+  static const IconData copyX = const LucideIconData(58371);
+
+  /// copy
+  static const IconData copy = const LucideIconData(57503);
+
+  /// copyleft
+  static const IconData copyleft = const LucideIconData(57504);
+
+  /// copyright
+  static const IconData copyright = const LucideIconData(57505);
+
+  /// corner-down-left
+  static const IconData cornerDownLeft = const LucideIconData(57506);
+
+  /// corner-down-right
+  static const IconData cornerDownRight = const LucideIconData(57507);
+
+  /// corner-left-down
+  static const IconData cornerLeftDown = const LucideIconData(57508);
+
+  /// corner-left-up
+  static const IconData cornerLeftUp = const LucideIconData(57509);
+
+  /// corner-right-down
+  static const IconData cornerRightDown = const LucideIconData(57510);
+
+  /// corner-right-up
+  static const IconData cornerRightUp = const LucideIconData(57511);
+
+  /// corner-up-left
+  static const IconData cornerUpLeft = const LucideIconData(57512);
+
+  /// corner-up-right
+  static const IconData cornerUpRight = const LucideIconData(57513);
+
+  /// cpu
+  static const IconData cpu = const LucideIconData(57514);
+
+  /// creative-commons
+  static const IconData creativeCommons = const LucideIconData(58293);
+
+  /// credit-card
+  static const IconData creditCard = const LucideIconData(57515);
+
+  /// croissant
+  static const IconData croissant = const LucideIconData(58029);
+
+  /// crop
+  static const IconData crop = const LucideIconData(57516);
+
+  /// cross
+  static const IconData cross = const LucideIconData(57827);
+
+  /// crosshair
+  static const IconData crosshair = const LucideIconData(57517);
+
+  /// crown
+  static const IconData crown = const LucideIconData(57812);
+
+  /// cuboid
+  static const IconData cuboid = const LucideIconData(58664);
+
+  /// cup-soda
+  static const IconData cupSoda = const LucideIconData(58064);
+
+  /// currency
+  static const IconData currency = const LucideIconData(57903);
+
+  /// cylinder
+  static const IconData cylinder = const LucideIconData(58665);
+
+  /// database-backup
+  static const IconData databaseBackup = const LucideIconData(58286);
+
+  /// database-zap
+  static const IconData databaseZap = const LucideIconData(58639);
+
+  /// database
+  static const IconData database = const LucideIconData(57518);
+
+  /// delete
+  static const IconData delete = const LucideIconData(57519);
+
+  /// dessert
+  static const IconData dessert = const LucideIconData(58559);
+
+  /// diameter
+  static const IconData diameter = const LucideIconData(58666);
+
+  /// diamond-minus
+  static const IconData diamondMinus = const LucideIconData(58853);
+
+  /// diamond-percent
+  static const IconData diamondPercent = const LucideIconData(58655);
+
+  /// diamond-plus
+  static const IconData diamondPlus = const LucideIconData(58854);
+
+  /// diamond
+  static const IconData diamond = const LucideIconData(58065);
+
+  /// dice-1
+  static const IconData dice1 = const LucideIconData(57990);
+
+  /// dice-2
+  static const IconData dice2 = const LucideIconData(57991);
+
+  /// dice-3
+  static const IconData dice3 = const LucideIconData(57992);
+
+  /// dice-4
+  static const IconData dice4 = const LucideIconData(57993);
+
+  /// dice-5
+  static const IconData dice5 = const LucideIconData(57994);
+
+  /// dice-6
+  static const IconData dice6 = const LucideIconData(57995);
+
+  /// dices
+  static const IconData dices = const LucideIconData(58052);
+
+  /// diff
+  static const IconData diff = const LucideIconData(58123);
+
+  /// disc-2
+  static const IconData disc2 = const LucideIconData(58362);
+
+  /// disc-3
+  static const IconData disc3 = const LucideIconData(58520);
+
+  /// disc-album
+  static const IconData discAlbum = const LucideIconData(58720);
+
+  /// disc
+  static const IconData disc = const LucideIconData(57520);
+
+  /// divide
+  static const IconData divide = const LucideIconData(57521);
+
+  /// dna-off
+  static const IconData dnaOff = const LucideIconData(58263);
+
+  /// dna
+  static const IconData dna = const LucideIconData(58262);
+
+  /// dock
+  static const IconData dock = const LucideIconData(58839);
+
+  /// dog
+  static const IconData dog = const LucideIconData(58256);
+
+  /// dollar-sign
+  static const IconData dollarSign = const LucideIconData(57522);
+
+  /// donut
+  static const IconData donut = const LucideIconData(58560);
+
+  /// door-closed
+  static const IconData doorClosed = const LucideIconData(58328);
+
+  /// door-open
+  static const IconData doorOpen = const LucideIconData(58329);
+
+  /// dot
+  static const IconData dot = const LucideIconData(58451);
+
+  /// download
+  static const IconData download = const LucideIconData(57523);
+
+  /// drafting-compass
+  static const IconData draftingCompass = const LucideIconData(58667);
+
+  /// drama
+  static const IconData drama = const LucideIconData(58661);
+
+  /// dribbble
+  static const IconData dribbble = const LucideIconData(57524);
+
+  /// drill
+  static const IconData drill = const LucideIconData(58769);
+
+  /// droplet
+  static const IconData droplet = const LucideIconData(57525);
+
+  /// droplets
+  static const IconData droplets = const LucideIconData(57526);
+
+  /// drum
+  static const IconData drum = const LucideIconData(58721);
+
+  /// drumstick
+  static const IconData drumstick = const LucideIconData(57946);
+
+  /// dumbbell
+  static const IconData dumbbell = const LucideIconData(58276);
+
+  /// ear-off
+  static const IconData earOff = const LucideIconData(58246);
+
+  /// ear
+  static const IconData ear = const LucideIconData(58245);
+
+  /// earth-lock
+  static const IconData earthLock = const LucideIconData(58832);
+
+  /// earth
+  static const IconData earth = const LucideIconData(57841);
+
+  /// eclipse
+  static const IconData eclipse = const LucideIconData(58785);
+
+  /// egg-fried
+  static const IconData eggFried = const LucideIconData(58196);
+
+  /// egg-off
+  static const IconData eggOff = const LucideIconData(58264);
+
+  /// egg
+  static const IconData egg = const LucideIconData(57948);
+
+  /// ellipsis-vertical
+  static const IconData ellipsisVertical = const LucideIconData(57528);
+
+  /// ellipsis
+  static const IconData ellipsis = const LucideIconData(57527);
+
+  /// equal-not
+  static const IconData equalNot = const LucideIconData(57789);
+
+  /// equal
+  static const IconData equal = const LucideIconData(57788);
+
+  /// eraser
+  static const IconData eraser = const LucideIconData(57998);
+
+  /// euro
+  static const IconData euro = const LucideIconData(57529);
+
+  /// expand
+  static const IconData expand = const LucideIconData(57881);
+
+  /// external-link
+  static const IconData externalLink = const LucideIconData(57530);
+
+  /// eye-off
+  static const IconData eyeOff = const LucideIconData(57532);
+
+  /// eye
+  static const IconData eye = const LucideIconData(57531);
+
+  /// facebook
+  static const IconData facebook = const LucideIconData(57533);
+
+  /// factory
+  static const IconData factory = const LucideIconData(58014);
+
+  /// fan
+  static const IconData fan = const LucideIconData(58236);
+
+  /// fast-forward
+  static const IconData fastForward = const LucideIconData(57534);
+
+  /// feather
+  static const IconData feather = const LucideIconData(57535);
+
+  /// fence
+  static const IconData fence = const LucideIconData(58758);
+
+  /// ferris-wheel
+  static const IconData ferrisWheel = const LucideIconData(58499);
+
+  /// figma
+  static const IconData figma = const LucideIconData(57536);
+
+  /// file-archive
+  static const IconData fileArchive = const LucideIconData(58124);
+
+  /// file-audio-2
+  static const IconData fileAudio2 = const LucideIconData(58126);
+
+  /// file-audio
+  static const IconData fileAudio = const LucideIconData(58125);
+
+  /// file-axis-3d
+  static const IconData fileAxis3d = const LucideIconData(58127);
+
+  /// file-badge-2
+  static const IconData fileBadge2 = const LucideIconData(58129);
+
+  /// file-badge
+  static const IconData fileBadge = const LucideIconData(58128);
+
+  /// file-bar-chart-2
+  static const IconData fileBarChart2 = const LucideIconData(58131);
+
+  /// file-bar-chart
+  static const IconData fileBarChart = const LucideIconData(58130);
+
+  /// file-box
+  static const IconData fileBox = const LucideIconData(58132);
+
+  /// file-check-2
+  static const IconData fileCheck2 = const LucideIconData(57539);
+
+  /// file-check
+  static const IconData fileCheck = const LucideIconData(57538);
+
+  /// file-clock
+  static const IconData fileClock = const LucideIconData(58133);
+
+  /// file-code-2
+  static const IconData fileCode2 = const LucideIconData(58466);
+
+  /// file-code
+  static const IconData fileCode = const LucideIconData(57540);
+
+  /// file-cog
+  static const IconData fileCog = const LucideIconData(58134);
+
+  /// file-diff
+  static const IconData fileDiff = const LucideIconData(58135);
+
+  /// file-digit
+  static const IconData fileDigit = const LucideIconData(57541);
+
+  /// file-down
+  static const IconData fileDown = const LucideIconData(58136);
+
+  /// file-heart
+  static const IconData fileHeart = const LucideIconData(58137);
+
+  /// file-image
+  static const IconData fileImage = const LucideIconData(58138);
+
+  /// file-input
+  static const IconData fileInput = const LucideIconData(57542);
+
+  /// file-json-2
+  static const IconData fileJson2 = const LucideIconData(58223);
+
+  /// file-json
+  static const IconData fileJson = const LucideIconData(58222);
+
+  /// file-key-2
+  static const IconData fileKey2 = const LucideIconData(58140);
+
+  /// file-key
+  static const IconData fileKey = const LucideIconData(58139);
+
+  /// file-line-chart
+  static const IconData fileLineChart = const LucideIconData(58141);
+
+  /// file-lock-2
+  static const IconData fileLock2 = const LucideIconData(58143);
+
+  /// file-lock
+  static const IconData fileLock = const LucideIconData(58142);
+
+  /// file-minus-2
+  static const IconData fileMinus2 = const LucideIconData(57544);
+
+  /// file-minus
+  static const IconData fileMinus = const LucideIconData(57543);
+
+  /// file-music
+  static const IconData fileMusic = const LucideIconData(58722);
+
+  /// file-output
+  static const IconData fileOutput = const LucideIconData(57545);
+
+  /// file-pen-line
+  static const IconData filePenLine = const LucideIconData(58145);
+
+  /// file-pen
+  static const IconData filePen = const LucideIconData(58144);
+
+  /// file-pie-chart
+  static const IconData filePieChart = const LucideIconData(58146);
+
+  /// file-plus-2
+  static const IconData filePlus2 = const LucideIconData(57547);
+
+  /// file-plus
+  static const IconData filePlus = const LucideIconData(57546);
+
+  /// file-question
+  static const IconData fileQuestion = const LucideIconData(58147);
+
+  /// file-scan
+  static const IconData fileScan = const LucideIconData(58148);
+
+  /// file-search-2
+  static const IconData fileSearch2 = const LucideIconData(58149);
+
+  /// file-search
+  static const IconData fileSearch = const LucideIconData(57548);
+
+  /// file-sliders
+  static const IconData fileSliders = const LucideIconData(58788);
+
+  /// file-spreadsheet
+  static const IconData fileSpreadsheet = const LucideIconData(58150);
+
+  /// file-stack
+  static const IconData fileStack = const LucideIconData(58533);
+
+  /// file-symlink
+  static const IconData fileSymlink = const LucideIconData(58151);
+
+  /// file-terminal
+  static const IconData fileTerminal = const LucideIconData(58152);
+
+  /// file-text
+  static const IconData fileText = const LucideIconData(57549);
+
+  /// file-type-2
+  static const IconData fileType2 = const LucideIconData(58224);
+
+  /// file-type
+  static const IconData fileType = const LucideIconData(58153);
+
+  /// file-up
+  static const IconData fileUp = const LucideIconData(58154);
+
+  /// file-video-2
+  static const IconData fileVideo2 = const LucideIconData(58156);
+
+  /// file-video
+  static const IconData fileVideo = const LucideIconData(58155);
+
+  /// file-volume-2
+  static const IconData fileVolume2 = const LucideIconData(58158);
+
+  /// file-volume
+  static const IconData fileVolume = const LucideIconData(58157);
+
+  /// file-warning
+  static const IconData fileWarning = const LucideIconData(58159);
+
+  /// file-x-2
+  static const IconData fileX2 = const LucideIconData(57551);
+
+  /// file-x
+  static const IconData fileX = const LucideIconData(57550);
+
+  /// file
+  static const IconData file = const LucideIconData(57537);
+
+  /// files
+  static const IconData files = const LucideIconData(57552);
+
+  /// film
+  static const IconData film = const LucideIconData(57553);
+
+  /// filter-x
+  static const IconData filterX = const LucideIconData(58296);
+
+  /// filter
+  static const IconData filter = const LucideIconData(57554);
+
+  /// fingerprint
+  static const IconData fingerprint = const LucideIconData(58058);
+
+  /// fire-extinguisher
+  static const IconData fireExtinguisher = const LucideIconData(58754);
+
+  /// fish-off
+  static const IconData fishOff = const LucideIconData(58291);
+
+  /// fish-symbol
+  static const IconData fishSymbol = const LucideIconData(58616);
+
+  /// fish
+  static const IconData fish = const LucideIconData(58281);
+
+  /// flag-off
+  static const IconData flagOff = const LucideIconData(58001);
+
+  /// flag-triangle-left
+  static const IconData flagTriangleLeft = const LucideIconData(57910);
+
+  /// flag-triangle-right
+  static const IconData flagTriangleRight = const LucideIconData(57911);
+
+  /// flag
+  static const IconData flag = const LucideIconData(57555);
+
+  /// flame-kindling
+  static const IconData flameKindling = const LucideIconData(58686);
+
+  /// flame
+  static const IconData flame = const LucideIconData(57556);
+
+  /// flashlight-off
+  static const IconData flashlightOff = const LucideIconData(57558);
+
+  /// flashlight
+  static const IconData flashlight = const LucideIconData(57557);
+
+  /// flask-conical-off
+  static const IconData flaskConicalOff = const LucideIconData(58265);
+
+  /// flask-conical
+  static const IconData flaskConical = const LucideIconData(57559);
+
+  /// flask-round
+  static const IconData flaskRound = const LucideIconData(57560);
+
+  /// flip-horizontal-2
+  static const IconData flipHorizontal2 = const LucideIconData(58209);
+
+  /// flip-horizontal
+  static const IconData flipHorizontal = const LucideIconData(58208);
+
+  /// flip-vertical-2
+  static const IconData flipVertical2 = const LucideIconData(58211);
+
+  /// flip-vertical
+  static const IconData flipVertical = const LucideIconData(58210);
+
+  /// flower-2
+  static const IconData flower2 = const LucideIconData(58067);
+
+  /// flower
+  static const IconData flower = const LucideIconData(58066);
+
+  /// focus
+  static const IconData focus = const LucideIconData(58013);
+
+  /// fold-horizontal
+  static const IconData foldHorizontal = const LucideIconData(58431);
+
+  /// fold-vertical
+  static const IconData foldVertical = const LucideIconData(58432);
+
+  /// folder-archive
+  static const IconData folderArchive = const LucideIconData(58160);
+
+  /// folder-check
+  static const IconData folderCheck = const LucideIconData(58161);
+
+  /// folder-clock
+  static const IconData folderClock = const LucideIconData(58162);
+
+  /// folder-closed
+  static const IconData folderClosed = const LucideIconData(58163);
+
+  /// folder-cog
+  static const IconData folderCog = const LucideIconData(58164);
+
+  /// folder-dot
+  static const IconData folderDot = const LucideIconData(58568);
+
+  /// folder-down
+  static const IconData folderDown = const LucideIconData(58165);
+
+  /// folder-git-2
+  static const IconData folderGit2 = const LucideIconData(58382);
+
+  /// folder-git
+  static const IconData folderGit = const LucideIconData(58381);
+
+  /// folder-heart
+  static const IconData folderHeart = const LucideIconData(58166);
+
+  /// folder-input
+  static const IconData folderInput = const LucideIconData(58167);
+
+  /// folder-kanban
+  static const IconData folderKanban = const LucideIconData(58569);
+
+  /// folder-key
+  static const IconData folderKey = const LucideIconData(58168);
+
+  /// folder-lock
+  static const IconData folderLock = const LucideIconData(58169);
+
+  /// folder-minus
+  static const IconData folderMinus = const LucideIconData(57562);
+
+  /// folder-open-dot
+  static const IconData folderOpenDot = const LucideIconData(58570);
+
+  /// folder-open
+  static const IconData folderOpen = const LucideIconData(57926);
+
+  /// folder-output
+  static const IconData folderOutput = const LucideIconData(58170);
+
+  /// folder-pen
+  static const IconData folderPen = const LucideIconData(58171);
+
+  /// folder-plus
+  static const IconData folderPlus = const LucideIconData(57563);
+
+  /// folder-root
+  static const IconData folderRoot = const LucideIconData(58571);
+
+  /// folder-search-2
+  static const IconData folderSearch2 = const LucideIconData(58173);
+
+  /// folder-search
+  static const IconData folderSearch = const LucideIconData(58172);
+
+  /// folder-symlink
+  static const IconData folderSymlink = const LucideIconData(58174);
+
+  /// folder-sync
+  static const IconData folderSync = const LucideIconData(58572);
+
+  /// folder-tree
+  static const IconData folderTree = const LucideIconData(58175);
+
+  /// folder-up
+  static const IconData folderUp = const LucideIconData(58176);
+
+  /// folder-x
+  static const IconData folderX = const LucideIconData(58177);
+
+  /// folder
+  static const IconData folder = const LucideIconData(57561);
+
+  /// folders
+  static const IconData folders = const LucideIconData(58178);
+
+  /// footprints
+  static const IconData footprints = const LucideIconData(58300);
+
+  /// forklift
+  static const IconData forklift = const LucideIconData(58308);
+
+  /// forward
+  static const IconData forward = const LucideIconData(57896);
+
+  /// frame
+  static const IconData frame = const LucideIconData(58000);
+
+  /// framer
+  static const IconData framer = const LucideIconData(57564);
+
+  /// frown
+  static const IconData frown = const LucideIconData(57565);
+
+  /// fuel
+  static const IconData fuel = const LucideIconData(58030);
+
+  /// fullscreen
+  static const IconData fullscreen = const LucideIconData(58680);
+
+  /// gallery-horizontal-end
+  static const IconData galleryHorizontalEnd = const LucideIconData(58579);
+
+  /// gallery-horizontal
+  static const IconData galleryHorizontal = const LucideIconData(58578);
+
+  /// gallery-thumbnails
+  static const IconData galleryThumbnails = const LucideIconData(58580);
+
+  /// gallery-vertical-end
+  static const IconData galleryVerticalEnd = const LucideIconData(58582);
+
+  /// gallery-vertical
+  static const IconData galleryVertical = const LucideIconData(58581);
+
+  /// gamepad-2
+  static const IconData gamepad2 = const LucideIconData(57567);
+
+  /// gamepad
+  static const IconData gamepad = const LucideIconData(57566);
+
+  /// gantt-chart
+  static const IconData ganttChart = const LucideIconData(58573);
+
+  /// gauge
+  static const IconData gauge = const LucideIconData(57790);
+
+  /// gavel
+  static const IconData gavel = const LucideIconData(57568);
+
+  /// gem
+  static const IconData gem = const LucideIconData(57921);
+
+  /// ghost
+  static const IconData ghost = const LucideIconData(57868);
+
+  /// gift
+  static const IconData gift = const LucideIconData(57569);
+
+  /// git-branch-plus
+  static const IconData gitBranchPlus = const LucideIconData(57842);
+
+  /// git-branch
+  static const IconData gitBranch = const LucideIconData(57570);
+
+  /// git-commit-horizontal
+  static const IconData gitCommitHorizontal = const LucideIconData(57571);
+
+  /// git-commit-vertical
+  static const IconData gitCommitVertical = const LucideIconData(58710);
+
+  /// git-compare-arrows
+  static const IconData gitCompareArrows = const LucideIconData(58711);
+
+  /// git-compare
+  static const IconData gitCompare = const LucideIconData(58204);
+
+  /// git-fork
+  static const IconData gitFork = const LucideIconData(57996);
+
+  /// git-graph
+  static const IconData gitGraph = const LucideIconData(58712);
+
+  /// git-merge
+  static const IconData gitMerge = const LucideIconData(57572);
+
+  /// git-pull-request-arrow
+  static const IconData gitPullRequestArrow = const LucideIconData(58713);
+
+  /// git-pull-request-closed
+  static const IconData gitPullRequestClosed = const LucideIconData(58205);
+
+  /// git-pull-request-create-arrow
+  static const IconData gitPullRequestCreateArrow = const LucideIconData(58715);
+
+  /// git-pull-request-create
+  static const IconData gitPullRequestCreate = const LucideIconData(58714);
+
+  /// git-pull-request-draft
+  static const IconData gitPullRequestDraft = const LucideIconData(58206);
+
+  /// git-pull-request
+  static const IconData gitPullRequest = const LucideIconData(57573);
+
+  /// github
+  static const IconData github = const LucideIconData(57574);
+
+  /// gitlab
+  static const IconData gitlab = const LucideIconData(57575);
+
+  /// glass-water
+  static const IconData glassWater = const LucideIconData(58068);
+
+  /// glasses
+  static const IconData glasses = const LucideIconData(57867);
+
+  /// globe-lock
+  static const IconData globeLock = const LucideIconData(58833);
+
+  /// globe
+  static const IconData globe = const LucideIconData(57576);
+
+  /// goal
+  static const IconData goal = const LucideIconData(58537);
+
+  /// grab
+  static const IconData grab = const LucideIconData(57828);
+
+  /// graduation-cap
+  static const IconData graduationCap = const LucideIconData(57907);
+
+  /// grape
+  static const IconData grape = const LucideIconData(58197);
+
+  /// grid-2x2-check
+  static const IconData grid2x2Check = const LucideIconData(58856);
+
+  /// grid-2x2-x
+  static const IconData grid2x2X = const LucideIconData(58857);
+
+  /// grid-2x2
+  static const IconData grid2x2 = const LucideIconData(58627);
+
+  /// grid-3x3
+  static const IconData grid3x3 = const LucideIconData(57577);
+
+  /// grip-horizontal
+  static const IconData gripHorizontal = const LucideIconData(57578);
+
+  /// grip-vertical
+  static const IconData gripVertical = const LucideIconData(57579);
+
+  /// grip
+  static const IconData grip = const LucideIconData(58292);
+
+  /// group
+  static const IconData group = const LucideIconData(58472);
+
+  /// guitar
+  static const IconData guitar = const LucideIconData(58723);
+
+  /// ham
+  static const IconData ham = const LucideIconData(58843);
+
+  /// hammer
+  static const IconData hammer = const LucideIconData(57580);
+
+  /// hand-coins
+  static const IconData handCoins = const LucideIconData(58812);
+
+  /// hand-heart
+  static const IconData handHeart = const LucideIconData(58813);
+
+  /// hand-helping
+  static const IconData handHelping = const LucideIconData(58299);
+
+  /// hand-metal
+  static const IconData handMetal = const LucideIconData(57899);
+
+  /// hand-platter
+  static const IconData handPlatter = const LucideIconData(58814);
+
+  /// hand
+  static const IconData hand = const LucideIconData(57813);
+
+  /// handshake
+  static const IconData handshake = const LucideIconData(58820);
+
+  /// hard-drive-download
+  static const IconData hardDriveDownload = const LucideIconData(58601);
+
+  /// hard-drive-upload
+  static const IconData hardDriveUpload = const LucideIconData(58602);
+
+  /// hard-drive
+  static const IconData hardDrive = const LucideIconData(57581);
+
+  /// hard-hat
+  static const IconData hardHat = const LucideIconData(57582);
+
+  /// hash
+  static const IconData hash = const LucideIconData(57583);
+
+  /// haze
+  static const IconData haze = const LucideIconData(57584);
+
+  /// hdmi-port
+  static const IconData hdmiPort = const LucideIconData(58603);
+
+  /// heading-1
+  static const IconData heading1 = const LucideIconData(58248);
+
+  /// heading-2
+  static const IconData heading2 = const LucideIconData(58249);
+
+  /// heading-3
+  static const IconData heading3 = const LucideIconData(58250);
+
+  /// heading-4
+  static const IconData heading4 = const LucideIconData(58251);
+
+  /// heading-5
+  static const IconData heading5 = const LucideIconData(58252);
+
+  /// heading-6
+  static const IconData heading6 = const LucideIconData(58253);
+
+  /// heading
+  static const IconData heading = const LucideIconData(58247);
+
+  /// headphones
+  static const IconData headphones = const LucideIconData(57585);
+
+  /// headset
+  static const IconData headset = const LucideIconData(58817);
+
+  /// heart-crack
+  static const IconData heartCrack = const LucideIconData(58069);
+
+  /// heart-handshake
+  static const IconData heartHandshake = const LucideIconData(58070);
+
+  /// heart-off
+  static const IconData heartOff = const LucideIconData(58004);
+
+  /// heart-pulse
+  static const IconData heartPulse = const LucideIconData(58225);
+
+  /// heart
+  static const IconData heart = const LucideIconData(57586);
+
+  /// heater
+  static const IconData heater = const LucideIconData(58770);
+
+  /// hexagon
+  static const IconData hexagon = const LucideIconData(57587);
+
+  /// highlighter
+  static const IconData highlighter = const LucideIconData(57588);
+
+  /// history
+  static const IconData history = const LucideIconData(57843);
+
+  /// home
+  static const IconData home = const LucideIconData(57589);
+
+  /// hop-off
+  static const IconData hopOff = const LucideIconData(58267);
+
+  /// hop
+  static const IconData hop = const LucideIconData(58266);
+
+  /// hospital
+  static const IconData hospital = const LucideIconData(58844);
+
+  /// hotel
+  static const IconData hotel = const LucideIconData(58341);
+
+  /// hourglass
+  static const IconData hourglass = const LucideIconData(58005);
+
+  /// ice-cream-bowl
+  static const IconData iceCreamBowl = const LucideIconData(58282);
+
+  /// ice-cream-cone
+  static const IconData iceCreamCone = const LucideIconData(58198);
+
+  /// image-down
+  static const IconData imageDown = const LucideIconData(58688);
+
+  /// image-minus
+  static const IconData imageMinus = const LucideIconData(57844);
+
+  /// image-off
+  static const IconData imageOff = const LucideIconData(57791);
+
+  /// image-play
+  static const IconData imagePlay = const LucideIconData(58851);
+
+  /// image-plus
+  static const IconData imagePlus = const LucideIconData(57845);
+
+  /// image-up
+  static const IconData imageUp = const LucideIconData(58831);
+
+  /// image
+  static const IconData image = const LucideIconData(57590);
+
+  /// images
+  static const IconData images = const LucideIconData(58824);
+
+  /// import
+  static const IconData import = const LucideIconData(57902);
+
+  /// inbox
+  static const IconData inbox = const LucideIconData(57591);
+
+  /// indent-decrease
+  static const IconData indentDecrease = const LucideIconData(57592);
+
+  /// indent-increase
+  static const IconData indentIncrease = const LucideIconData(57593);
+
+  /// indian-rupee
+  static const IconData indianRupee = const LucideIconData(57594);
+
+  /// infinity
+  static const IconData infinity = const LucideIconData(57829);
+
+  /// info
+  static const IconData info = const LucideIconData(57595);
+
+  /// inspection-panel
+  static const IconData inspectionPanel = const LucideIconData(58759);
+
+  /// instagram
+  static const IconData instagram = const LucideIconData(57596);
+
+  /// italic
+  static const IconData italic = const LucideIconData(57597);
+
+  /// iteration-ccw
+  static const IconData iterationCcw = const LucideIconData(58407);
+
+  /// iteration-cw
+  static const IconData iterationCw = const LucideIconData(58408);
+
+  /// japanese-yen
+  static const IconData japaneseYen = const LucideIconData(57598);
+
+  /// joystick
+  static const IconData joystick = const LucideIconData(58200);
+
+  /// kanban
+  static const IconData kanban = const LucideIconData(58592);
+
+  /// key-round
+  static const IconData keyRound = const LucideIconData(58535);
+
+  /// key-square
+  static const IconData keySquare = const LucideIconData(58536);
+
+  /// key
+  static const IconData key = const LucideIconData(57599);
+
+  /// keyboard-music
+  static const IconData keyboardMusic = const LucideIconData(58724);
+
+  /// keyboard-off
+  static const IconData keyboardOff = const LucideIconData(58850);
+
+  /// keyboard
+  static const IconData keyboard = const LucideIconData(57987);
+
+  /// lamp-ceiling
+  static const IconData lampCeiling = const LucideIconData(58072);
+
+  /// lamp-desk
+  static const IconData lampDesk = const LucideIconData(58073);
+
+  /// lamp-floor
+  static const IconData lampFloor = const LucideIconData(58074);
+
+  /// lamp-wall-down
+  static const IconData lampWallDown = const LucideIconData(58075);
+
+  /// lamp-wall-up
+  static const IconData lampWallUp = const LucideIconData(58076);
+
+  /// lamp
+  static const IconData lamp = const LucideIconData(58071);
+
+  /// land-plot
+  static const IconData landPlot = const LucideIconData(58668);
+
+  /// landmark
+  static const IconData landmark = const LucideIconData(57913);
+
+  /// languages
+  static const IconData languages = const LucideIconData(57600);
+
+  /// laptop-minimal
+  static const IconData laptopMinimal = const LucideIconData(57814);
+
+  /// laptop
+  static const IconData laptop = const LucideIconData(57803);
+
+  /// lasso-select
+  static const IconData lassoSelect = const LucideIconData(57805);
+
+  /// lasso
+  static const IconData lasso = const LucideIconData(57804);
+
+  /// laugh
+  static const IconData laugh = const LucideIconData(58111);
+
+  /// layers-2
+  static const IconData layers2 = const LucideIconData(58669);
+
+  /// layers-3
+  static const IconData layers3 = const LucideIconData(58670);
+
+  /// layers
+  static const IconData layers = const LucideIconData(57601);
+
+  /// layout-dashboard
+  static const IconData layoutDashboard = const LucideIconData(57792);
+
+  /// layout-grid
+  static const IconData layoutGrid = const LucideIconData(57602);
+
+  /// layout-list
+  static const IconData layoutList = const LucideIconData(57815);
+
+  /// layout-panel-left
+  static const IconData layoutPanelLeft = const LucideIconData(58484);
+
+  /// layout-panel-top
+  static const IconData layoutPanelTop = const LucideIconData(58485);
+
+  /// layout-template
+  static const IconData layoutTemplate = const LucideIconData(57861);
+
+  /// leaf
+  static const IconData leaf = const LucideIconData(58077);
+
+  /// leafy-green
+  static const IconData leafyGreen = const LucideIconData(58483);
+
+  /// lectern
+  static const IconData lectern = const LucideIconData(58861);
+
+  /// library-big
+  static const IconData libraryBig = const LucideIconData(58706);
+
+  /// library
+  static const IconData library = const LucideIconData(57603);
+
+  /// life-buoy
+  static const IconData lifeBuoy = const LucideIconData(57604);
+
+  /// ligature
+  static const IconData ligature = const LucideIconData(58430);
+
+  /// lightbulb-off
+  static const IconData lightbulbOff = const LucideIconData(57862);
+
+  /// lightbulb
+  static const IconData lightbulb = const LucideIconData(57793);
+
+  /// line-chart
+  static const IconData lineChart = const LucideIconData(58020);
+
+  /// link-2-off
+  static const IconData link2Off = const LucideIconData(57607);
+
+  /// link-2
+  static const IconData link2 = const LucideIconData(57606);
+
+  /// link
+  static const IconData link = const LucideIconData(57605);
+
+  /// linkedin
+  static const IconData linkedin = const LucideIconData(57608);
+
+  /// list-checks
+  static const IconData listChecks = const LucideIconData(57806);
+
+  /// list-collapse
+  static const IconData listCollapse = const LucideIconData(58783);
+
+  /// list-end
+  static const IconData listEnd = const LucideIconData(58078);
+
+  /// list-filter
+  static const IconData listFilter = const LucideIconData(58468);
+
+  /// list-minus
+  static const IconData listMinus = const LucideIconData(57917);
+
+  /// list-music
+  static const IconData listMusic = const LucideIconData(58079);
+
+  /// list-ordered
+  static const IconData listOrdered = const LucideIconData(57807);
+
+  /// list-plus
+  static const IconData listPlus = const LucideIconData(57918);
+
+  /// list-restart
+  static const IconData listRestart = const LucideIconData(58454);
+
+  /// list-start
+  static const IconData listStart = const LucideIconData(58080);
+
+  /// list-todo
+  static const IconData listTodo = const LucideIconData(58567);
+
+  /// list-tree
+  static const IconData listTree = const LucideIconData(58380);
+
+  /// list-video
+  static const IconData listVideo = const LucideIconData(58081);
+
+  /// list-x
+  static const IconData listX = const LucideIconData(57919);
+
+  /// list
+  static const IconData list = const LucideIconData(57609);
+
+  /// loader-circle
+  static const IconData loaderCircle = const LucideIconData(57611);
+
+  /// loader-pinwheel
+  static const IconData loaderPinwheel = const LucideIconData(58858);
+
+  /// loader
+  static const IconData loader = const LucideIconData(57610);
+
+  /// locate-fixed
+  static const IconData locateFixed = const LucideIconData(57817);
+
+  /// locate-off
+  static const IconData locateOff = const LucideIconData(57985);
+
+  /// locate
+  static const IconData locate = const LucideIconData(57816);
+
+  /// lock-keyhole-open
+  static const IconData lockKeyholeOpen = const LucideIconData(58678);
+
+  /// lock-keyhole
+  static const IconData lockKeyhole = const LucideIconData(58677);
+
+  /// lock-open
+  static const IconData lockOpen = const LucideIconData(57613);
+
+  /// lock
+  static const IconData lock = const LucideIconData(57612);
+
+  /// log-in
+  static const IconData logIn = const LucideIconData(57614);
+
+  /// log-out
+  static const IconData logOut = const LucideIconData(57615);
+
+  /// lollipop
+  static const IconData lollipop = const LucideIconData(58561);
+
+  /// luggage
+  static const IconData luggage = const LucideIconData(58057);
+
+  /// magnet
+  static const IconData magnet = const LucideIconData(58036);
+
+  /// mail-check
+  static const IconData mailCheck = const LucideIconData(58212);
+
+  /// mail-minus
+  static const IconData mailMinus = const LucideIconData(58213);
+
+  /// mail-open
+  static const IconData mailOpen = const LucideIconData(58214);
+
+  /// mail-plus
+  static const IconData mailPlus = const LucideIconData(58215);
+
+  /// mail-question
+  static const IconData mailQuestion = const LucideIconData(58216);
+
+  /// mail-search
+  static const IconData mailSearch = const LucideIconData(58217);
+
+  /// mail-warning
+  static const IconData mailWarning = const LucideIconData(58218);
+
+  /// mail-x
+  static const IconData mailX = const LucideIconData(58219);
+
+  /// mail
+  static const IconData mail = const LucideIconData(57616);
+
+  /// mailbox
+  static const IconData mailbox = const LucideIconData(58327);
+
+  /// mails
+  static const IconData mails = const LucideIconData(58220);
+
+  /// map-pin-off
+  static const IconData mapPinOff = const LucideIconData(58021);
+
+  /// map-pin
+  static const IconData mapPin = const LucideIconData(57618);
+
+  /// map-pinned
+  static const IconData mapPinned = const LucideIconData(58689);
+
+  /// map
+  static const IconData map = const LucideIconData(57617);
+
+  /// martini
+  static const IconData martini = const LucideIconData(58082);
+
+  /// maximize-2
+  static const IconData maximize2 = const LucideIconData(57620);
+
+  /// maximize
+  static const IconData maximize = const LucideIconData(57619);
+
+  /// medal
+  static const IconData medal = const LucideIconData(58226);
+
+  /// megaphone-off
+  static const IconData megaphoneOff = const LucideIconData(58227);
+
+  /// megaphone
+  static const IconData megaphone = const LucideIconData(57908);
+
+  /// meh
+  static const IconData meh = const LucideIconData(57621);
+
+  /// memory-stick
+  static const IconData memoryStick = const LucideIconData(58441);
+
+  /// menu
+  static const IconData menu = const LucideIconData(57622);
+
+  /// merge
+  static const IconData merge = const LucideIconData(58435);
+
+  /// message-circle-code
+  static const IconData messageCircleCode = const LucideIconData(58726);
+
+  /// message-circle-dashed
+  static const IconData messageCircleDashed = const LucideIconData(58727);
+
+  /// message-circle-heart
+  static const IconData messageCircleHeart = const LucideIconData(58728);
+
+  /// message-circle-more
+  static const IconData messageCircleMore = const LucideIconData(58729);
+
+  /// message-circle-off
+  static const IconData messageCircleOff = const LucideIconData(58730);
+
+  /// message-circle-plus
+  static const IconData messageCirclePlus = const LucideIconData(58731);
+
+  /// message-circle-question
+  static const IconData messageCircleQuestion = const LucideIconData(58732);
+
+  /// message-circle-reply
+  static const IconData messageCircleReply = const LucideIconData(58733);
+
+  /// message-circle-warning
+  static const IconData messageCircleWarning = const LucideIconData(58734);
+
+  /// message-circle-x
+  static const IconData messageCircleX = const LucideIconData(58735);
+
+  /// message-circle
+  static const IconData messageCircle = const LucideIconData(57623);
+
+  /// message-square-code
+  static const IconData messageSquareCode = const LucideIconData(58736);
+
+  /// message-square-dashed
+  static const IconData messageSquareDashed = const LucideIconData(58383);
+
+  /// message-square-diff
+  static const IconData messageSquareDiff = const LucideIconData(58737);
+
+  /// message-square-dot
+  static const IconData messageSquareDot = const LucideIconData(58738);
+
+  /// message-square-heart
+  static const IconData messageSquareHeart = const LucideIconData(58739);
+
+  /// message-square-more
+  static const IconData messageSquareMore = const LucideIconData(58740);
+
+  /// message-square-off
+  static const IconData messageSquareOff = const LucideIconData(58741);
+
+  /// message-square-plus
+  static const IconData messageSquarePlus = const LucideIconData(58384);
+
+  /// message-square-quote
+  static const IconData messageSquareQuote = const LucideIconData(58742);
+
+  /// message-square-reply
+  static const IconData messageSquareReply = const LucideIconData(58743);
+
+  /// message-square-share
+  static const IconData messageSquareShare = const LucideIconData(58744);
+
+  /// message-square-text
+  static const IconData messageSquareText = const LucideIconData(58745);
+
+  /// message-square-warning
+  static const IconData messageSquareWarning = const LucideIconData(58746);
+
+  /// message-square-x
+  static const IconData messageSquareX = const LucideIconData(58747);
+
+  /// message-square
+  static const IconData messageSquare = const LucideIconData(57624);
+
+  /// messages-square
+  static const IconData messagesSquare = const LucideIconData(58385);
+
+  /// mic-off
+  static const IconData micOff = const LucideIconData(57626);
+
+  /// mic-vocal
+  static const IconData micVocal = const LucideIconData(58188);
+
+  /// mic
+  static const IconData mic = const LucideIconData(57625);
+
+  /// microscope
+  static const IconData microscope = const LucideIconData(58083);
+
+  /// microwave
+  static const IconData microwave = const LucideIconData(58237);
+
+  /// milestone
+  static const IconData milestone = const LucideIconData(58007);
+
+  /// milk-off
+  static const IconData milkOff = const LucideIconData(58269);
+
+  /// milk
+  static const IconData milk = const LucideIconData(58268);
+
+  /// minimize-2
+  static const IconData minimize2 = const LucideIconData(57628);
+
+  /// minimize
+  static const IconData minimize = const LucideIconData(57627);
+
+  /// minus
+  static const IconData minus = const LucideIconData(57629);
+
+  /// monitor-check
+  static const IconData monitorCheck = const LucideIconData(58502);
+
+  /// monitor-dot
+  static const IconData monitorDot = const LucideIconData(58503);
+
+  /// monitor-down
+  static const IconData monitorDown = const LucideIconData(58405);
+
+  /// monitor-off
+  static const IconData monitorOff = const LucideIconData(57818);
+
+  /// monitor-pause
+  static const IconData monitorPause = const LucideIconData(58504);
+
+  /// monitor-play
+  static const IconData monitorPlay = const LucideIconData(58505);
+
+  /// monitor-smartphone
+  static const IconData monitorSmartphone = const LucideIconData(58277);
+
+  /// monitor-speaker
+  static const IconData monitorSpeaker = const LucideIconData(57870);
+
+  /// monitor-stop
+  static const IconData monitorStop = const LucideIconData(58506);
+
+  /// monitor-up
+  static const IconData monitorUp = const LucideIconData(58406);
+
+  /// monitor-x
+  static const IconData monitorX = const LucideIconData(58507);
+
+  /// monitor
+  static const IconData monitor = const LucideIconData(57630);
+
+  /// moon-star
+  static const IconData moonStar = const LucideIconData(58388);
+
+  /// moon
+  static const IconData moon = const LucideIconData(57631);
+
+  /// mountain-snow
+  static const IconData mountainSnow = const LucideIconData(57905);
+
+  /// mountain
+  static const IconData mountain = const LucideIconData(57904);
+
+  /// mouse-off
+  static const IconData mouseOff = const LucideIconData(58847);
+
+  /// mouse-pointer-2
+  static const IconData mousePointer2 = const LucideIconData(57794);
+
+  /// mouse-pointer-ban
+  static const IconData mousePointerBan = const LucideIconData(58859);
+
+  /// mouse-pointer-click
+  static const IconData mousePointerClick = const LucideIconData(57633);
+
+  /// mouse-pointer
+  static const IconData mousePointer = const LucideIconData(57632);
+
+  /// mouse
+  static const IconData mouse = const LucideIconData(57997);
+
+  /// move-3d
+  static const IconData move3d = const LucideIconData(58084);
+
+  /// move-diagonal-2
+  static const IconData moveDiagonal2 = const LucideIconData(57796);
+
+  /// move-diagonal
+  static const IconData moveDiagonal = const LucideIconData(57795);
+
+  /// move-down-left
+  static const IconData moveDownLeft = const LucideIconData(58513);
+
+  /// move-down-right
+  static const IconData moveDownRight = const LucideIconData(58514);
+
+  /// move-down
+  static const IconData moveDown = const LucideIconData(58512);
+
+  /// move-horizontal
+  static const IconData moveHorizontal = const LucideIconData(57797);
+
+  /// move-left
+  static const IconData moveLeft = const LucideIconData(58515);
+
+  /// move-right
+  static const IconData moveRight = const LucideIconData(58516);
+
+  /// move-up-left
+  static const IconData moveUpLeft = const LucideIconData(58518);
+
+  /// move-up-right
+  static const IconData moveUpRight = const LucideIconData(58519);
+
+  /// move-up
+  static const IconData moveUp = const LucideIconData(58517);
+
+  /// move-vertical
+  static const IconData moveVertical = const LucideIconData(57798);
+
+  /// move
+  static const IconData move = const LucideIconData(57634);
+
+  /// music-2
+  static const IconData music2 = const LucideIconData(58189);
+
+  /// music-3
+  static const IconData music3 = const LucideIconData(58190);
+
+  /// music-4
+  static const IconData music4 = const LucideIconData(58191);
+
+  /// music
+  static const IconData music = const LucideIconData(57635);
+
+  /// navigation-2-off
+  static const IconData navigation2Off = const LucideIconData(58022);
+
+  /// navigation-2
+  static const IconData navigation2 = const LucideIconData(57637);
+
+  /// navigation-off
+  static const IconData navigationOff = const LucideIconData(58023);
+
+  /// navigation
+  static const IconData navigation = const LucideIconData(57636);
+
+  /// network
+  static const IconData network = const LucideIconData(57638);
+
+  /// newspaper
+  static const IconData newspaper = const LucideIconData(58187);
+
+  /// nfc
+  static const IconData nfc = const LucideIconData(58310);
+
+  /// notebook-pen
+  static const IconData notebookPen = const LucideIconData(58778);
+
+  /// notebook-tabs
+  static const IconData notebookTabs = const LucideIconData(58779);
+
+  /// notebook-text
+  static const IconData notebookText = const LucideIconData(58780);
+
+  /// notebook
+  static const IconData notebook = const LucideIconData(58777);
+
+  /// notepad-text-dashed
+  static const IconData notepadTextDashed = const LucideIconData(58782);
+
+  /// notepad-text
+  static const IconData notepadText = const LucideIconData(58781);
+
+  /// nut-off
+  static const IconData nutOff = const LucideIconData(58271);
+
+  /// nut
+  static const IconData nut = const LucideIconData(58270);
+
+  /// octagon-alert
+  static const IconData octagonAlert = const LucideIconData(57640);
+
+  /// octagon-pause
+  static const IconData octagonPause = const LucideIconData(57882);
+
+  /// octagon-x
+  static const IconData octagonX = const LucideIconData(57641);
+
+  /// octagon
+  static const IconData octagon = const LucideIconData(57639);
+
+  /// option
+  static const IconData option = const LucideIconData(57846);
+
+  /// orbit
+  static const IconData orbit = const LucideIconData(58346);
+
+  /// origami
+  static const IconData origami = const LucideIconData(58855);
+
+  /// package-2
+  static const IconData package2 = const LucideIconData(58179);
+
+  /// package-check
+  static const IconData packageCheck = const LucideIconData(57957);
+
+  /// package-minus
+  static const IconData packageMinus = const LucideIconData(57958);
+
+  /// package-open
+  static const IconData packageOpen = const LucideIconData(58059);
+
+  /// package-plus
+  static const IconData packagePlus = const LucideIconData(57959);
+
+  /// package-search
+  static const IconData packageSearch = const LucideIconData(57960);
+
+  /// package-x
+  static const IconData packageX = const LucideIconData(57961);
+
+  /// package
+  static const IconData package = const LucideIconData(57642);
+
+  /// paint-bucket
+  static const IconData paintBucket = const LucideIconData(58085);
+
+  /// paint-roller
+  static const IconData paintRoller = const LucideIconData(58786);
+
+  /// paintbrush-vertical
+  static const IconData paintbrushVertical = const LucideIconData(58087);
+
+  /// paintbrush
+  static const IconData paintbrush = const LucideIconData(58086);
+
+  /// palette
+  static const IconData palette = const LucideIconData(57819);
+
+  /// panel-bottom-close
+  static const IconData panelBottomClose = const LucideIconData(58417);
+
+  /// panel-bottom-dashed
+  static const IconData panelBottomDashed = const LucideIconData(58418);
+
+  /// panel-bottom-open
+  static const IconData panelBottomOpen = const LucideIconData(58419);
+
+  /// panel-bottom
+  static const IconData panelBottom = const LucideIconData(58416);
+
+  /// panel-left-close
+  static const IconData panelLeftClose = const LucideIconData(57883);
+
+  /// panel-left-dashed
+  static const IconData panelLeftDashed = const LucideIconData(58420);
+
+  /// panel-left-open
+  static const IconData panelLeftOpen = const LucideIconData(57884);
+
+  /// panel-left
+  static const IconData panelLeft = const LucideIconData(57643);
+
+  /// panel-right-close
+  static const IconData panelRightClose = const LucideIconData(58422);
+
+  /// panel-right-dashed
+  static const IconData panelRightDashed = const LucideIconData(58423);
+
+  /// panel-right-open
+  static const IconData panelRightOpen = const LucideIconData(58424);
+
+  /// panel-right
+  static const IconData panelRight = const LucideIconData(58421);
+
+  /// panel-top-close
+  static const IconData panelTopClose = const LucideIconData(58426);
+
+  /// panel-top-dashed
+  static const IconData panelTopDashed = const LucideIconData(58427);
+
+  /// panel-top-open
+  static const IconData panelTopOpen = const LucideIconData(58428);
+
+  /// panel-top
+  static const IconData panelTop = const LucideIconData(58425);
+
+  /// panels-left-bottom
+  static const IconData panelsLeftBottom = const LucideIconData(57644);
+
+  /// panels-right-bottom
+  static const IconData panelsRightBottom = const LucideIconData(58764);
+
+  /// panels-top-left
+  static const IconData panelsTopLeft = const LucideIconData(57645);
+
+  /// paperclip
+  static const IconData paperclip = const LucideIconData(57646);
+
+  /// parentheses
+  static const IconData parentheses = const LucideIconData(58440);
+
+  /// parking-meter
+  static const IconData parkingMeter = const LucideIconData(58628);
+
+  /// party-popper
+  static const IconData partyPopper = const LucideIconData(58182);
+
+  /// pause
+  static const IconData pause = const LucideIconData(57647);
+
+  /// paw-print
+  static const IconData pawPrint = const LucideIconData(58617);
+
+  /// pc-case
+  static const IconData pcCase = const LucideIconData(58442);
+
+  /// pen-line
+  static const IconData penLine = const LucideIconData(57649);
+
+  /// pen-off
+  static const IconData penOff = const LucideIconData(58866);
+
+  /// pen-tool
+  static const IconData penTool = const LucideIconData(57650);
+
+  /// pen
+  static const IconData pen = const LucideIconData(57648);
+
+  /// pencil-line
+  static const IconData pencilLine = const LucideIconData(58612);
+
+  /// pencil-off
+  static const IconData pencilOff = const LucideIconData(58867);
+
+  /// pencil-ruler
+  static const IconData pencilRuler = const LucideIconData(58613);
+
+  /// pencil
+  static const IconData pencil = const LucideIconData(57847);
+
+  /// pentagon
+  static const IconData pentagon = const LucideIconData(58671);
+
+  /// percent
+  static const IconData percent = const LucideIconData(57651);
+
+  /// person-standing
+  static const IconData personStanding = const LucideIconData(57885);
+
+  /// phone-call
+  static const IconData phoneCall = const LucideIconData(57653);
+
+  /// phone-forwarded
+  static const IconData phoneForwarded = const LucideIconData(57654);
+
+  /// phone-incoming
+  static const IconData phoneIncoming = const LucideIconData(57655);
+
+  /// phone-missed
+  static const IconData phoneMissed = const LucideIconData(57656);
+
+  /// phone-off
+  static const IconData phoneOff = const LucideIconData(57657);
+
+  /// phone-outgoing
+  static const IconData phoneOutgoing = const LucideIconData(57658);
+
+  /// phone
+  static const IconData phone = const LucideIconData(57652);
+
+  /// pi
+  static const IconData pi = const LucideIconData(58486);
+
+  /// piano
+  static const IconData piano = const LucideIconData(58725);
+
+  /// pickaxe
+  static const IconData pickaxe = const LucideIconData(58826);
+
+  /// picture-in-picture-2
+  static const IconData pictureInPicture2 = const LucideIconData(58290);
+
+  /// picture-in-picture
+  static const IconData pictureInPicture = const LucideIconData(58289);
+
+  /// pie-chart
+  static const IconData pieChart = const LucideIconData(57659);
+
+  /// piggy-bank
+  static const IconData piggyBank = const LucideIconData(57660);
+
+  /// pilcrow-left
+  static const IconData pilcrowLeft = const LucideIconData(58848);
+
+  /// pilcrow-right
+  static const IconData pilcrowRight = const LucideIconData(58849);
+
+  /// pilcrow
+  static const IconData pilcrow = const LucideIconData(58278);
+
+  /// pill-bottle
+  static const IconData pillBottle = const LucideIconData(58862);
+
+  /// pill
+  static const IconData pill = const LucideIconData(58304);
+
+  /// pin-off
+  static const IconData pinOff = const LucideIconData(58037);
+
+  /// pin
+  static const IconData pin = const LucideIconData(57944);
+
+  /// pipette
+  static const IconData pipette = const LucideIconData(57661);
+
+  /// pizza
+  static const IconData pizza = const LucideIconData(58199);
+
+  /// plane-landing
+  static const IconData planeLanding = const LucideIconData(58320);
+
+  /// plane-takeoff
+  static const IconData planeTakeoff = const LucideIconData(58321);
+
+  /// plane
+  static const IconData plane = const LucideIconData(57820);
+
+  /// play
+  static const IconData play = const LucideIconData(57662);
+
+  /// plug-2
+  static const IconData plug2 = const LucideIconData(58243);
+
+  /// plug-zap-2
+  static const IconData plugZap2 = const LucideIconData(58464);
+
+  /// plug-zap
+  static const IconData plugZap = const LucideIconData(57871);
+
+  /// plug
+  static const IconData plug = const LucideIconData(58242);
+
+  /// plus
+  static const IconData plus = const LucideIconData(57663);
+
+  /// pocket-knife
+  static const IconData pocketKnife = const LucideIconData(58532);
+
+  /// pocket
+  static const IconData pocket = const LucideIconData(57664);
+
+  /// podcast
+  static const IconData podcast = const LucideIconData(57848);
+
+  /// pointer-off
+  static const IconData pointerOff = const LucideIconData(58755);
+
+  /// pointer
+  static const IconData pointer = const LucideIconData(57830);
+
+  /// popcorn
+  static const IconData popcorn = const LucideIconData(58562);
+
+  /// popsicle
+  static const IconData popsicle = const LucideIconData(58563);
+
+  /// pound-sterling
+  static const IconData poundSterling = const LucideIconData(57665);
+
+  /// power-off
+  static const IconData powerOff = const LucideIconData(57863);
+
+  /// power
+  static const IconData power = const LucideIconData(57666);
+
+  /// presentation
+  static const IconData presentation = const LucideIconData(58546);
+
+  /// printer
+  static const IconData printer = const LucideIconData(57667);
+
+  /// projector
+  static const IconData projector = const LucideIconData(58547);
+
+  /// proportions
+  static const IconData proportions = const LucideIconData(58835);
+
+  /// puzzle
+  static const IconData puzzle = const LucideIconData(58011);
+
+  /// pyramid
+  static const IconData pyramid = const LucideIconData(58672);
+
+  /// qr-code
+  static const IconData qrCode = const LucideIconData(57821);
+
+  /// quote
+  static const IconData quote = const LucideIconData(57912);
+
+  /// rabbit
+  static const IconData rabbit = const LucideIconData(58618);
+
+  /// radar
+  static const IconData radar = const LucideIconData(58523);
+
+  /// radiation
+  static const IconData radiation = const LucideIconData(58438);
+
+  /// radical
+  static const IconData radical = const LucideIconData(58822);
+
+  /// radio-receiver
+  static const IconData radioReceiver = const LucideIconData(57849);
+
+  /// radio-tower
+  static const IconData radioTower = const LucideIconData(58376);
+
+  /// radio
+  static const IconData radio = const LucideIconData(57668);
+
+  /// radius
+  static const IconData radius = const LucideIconData(58673);
+
+  /// rail-symbol
+  static const IconData railSymbol = const LucideIconData(58629);
+
+  /// rainbow
+  static const IconData rainbow = const LucideIconData(58566);
+
+  /// rat
+  static const IconData rat = const LucideIconData(58351);
+
+  /// ratio
+  static const IconData ratio = const LucideIconData(58604);
+
+  /// receipt-cent
+  static const IconData receiptCent = const LucideIconData(58793);
+
+  /// receipt-euro
+  static const IconData receiptEuro = const LucideIconData(58794);
+
+  /// receipt-indian-rupee
+  static const IconData receiptIndianRupee = const LucideIconData(58795);
+
+  /// receipt-japanese-yen
+  static const IconData receiptJapaneseYen = const LucideIconData(58796);
+
+  /// receipt-pound-sterling
+  static const IconData receiptPoundSterling = const LucideIconData(58797);
+
+  /// receipt-russian-ruble
+  static const IconData receiptRussianRuble = const LucideIconData(58798);
+
+  /// receipt-swiss-franc
+  static const IconData receiptSwissFranc = const LucideIconData(58799);
+
+  /// receipt-text
+  static const IconData receiptText = const LucideIconData(58800);
+
+  /// receipt
+  static const IconData receipt = const LucideIconData(58326);
+
+  /// rectangle-ellipsis
+  static const IconData rectangleEllipsis = const LucideIconData(57886);
+
+  /// rectangle-horizontal
+  static const IconData rectangleHorizontal = const LucideIconData(58233);
+
+  /// rectangle-vertical
+  static const IconData rectangleVertical = const LucideIconData(58234);
+
+  /// recycle
+  static const IconData recycle = const LucideIconData(58088);
+
+  /// redo-2
+  static const IconData redo2 = const LucideIconData(58015);
+
+  /// redo-dot
+  static const IconData redoDot = const LucideIconData(58452);
+
+  /// redo
+  static const IconData redo = const LucideIconData(57669);
+
+  /// refresh-ccw-dot
+  static const IconData refreshCcwDot = const LucideIconData(58550);
+
+  /// refresh-ccw
+  static const IconData refreshCcw = const LucideIconData(57670);
+
+  /// refresh-cw-off
+  static const IconData refreshCwOff = const LucideIconData(58524);
+
+  /// refresh-cw
+  static const IconData refreshCw = const LucideIconData(57671);
+
+  /// refrigerator
+  static const IconData refrigerator = const LucideIconData(58238);
+
+  /// regex
+  static const IconData regex = const LucideIconData(57850);
+
+  /// remove-formatting
+  static const IconData removeFormatting = const LucideIconData(58294);
+
+  /// repeat-1
+  static const IconData repeat1 = const LucideIconData(57851);
+
+  /// repeat-2
+  static const IconData repeat2 = const LucideIconData(58389);
+
+  /// repeat
+  static const IconData repeat = const LucideIconData(57672);
+
+  /// replace-all
+  static const IconData replaceAll = const LucideIconData(58335);
+
+  /// replace
+  static const IconData replace = const LucideIconData(58334);
+
+  /// reply-all
+  static const IconData replyAll = const LucideIconData(57898);
+
+  /// reply
+  static const IconData reply = const LucideIconData(57897);
+
+  /// rewind
+  static const IconData rewind = const LucideIconData(57673);
+
+  /// ribbon
+  static const IconData ribbon = const LucideIconData(58716);
+
+  /// rocket
+  static const IconData rocket = const LucideIconData(57989);
+
+  /// rocking-chair
+  static const IconData rockingChair = const LucideIconData(57906);
+
+  /// roller-coaster
+  static const IconData rollerCoaster = const LucideIconData(58500);
+
+  /// rotate-3d
+  static const IconData rotate3d = const LucideIconData(58089);
+
+  /// rotate-ccw-square
+  static const IconData rotateCcwSquare = const LucideIconData(58836);
+
+  /// rotate-ccw
+  static const IconData rotateCcw = const LucideIconData(57674);
+
+  /// rotate-cw-square
+  static const IconData rotateCwSquare = const LucideIconData(58837);
+
+  /// rotate-cw
+  static const IconData rotateCw = const LucideIconData(57675);
+
+  /// route-off
+  static const IconData routeOff = const LucideIconData(58691);
+
+  /// route
+  static const IconData route = const LucideIconData(58690);
+
+  /// router
+  static const IconData router = const LucideIconData(58306);
+
+  /// rows-2
+  static const IconData rows2 = const LucideIconData(58429);
+
+  /// rows-3
+  static const IconData rows3 = const LucideIconData(58766);
+
+  /// rows-4
+  static const IconData rows4 = const LucideIconData(58767);
+
+  /// rss
+  static const IconData rss = const LucideIconData(57676);
+
+  /// ruler
+  static const IconData ruler = const LucideIconData(57677);
+
+  /// russian-ruble
+  static const IconData russianRuble = const LucideIconData(57678);
+
+  /// sailboat
+  static const IconData sailboat = const LucideIconData(58241);
+
+  /// salad
+  static const IconData salad = const LucideIconData(58283);
+
+  /// sandwich
+  static const IconData sandwich = const LucideIconData(58284);
+
+  /// satellite-dish
+  static const IconData satelliteDish = const LucideIconData(58444);
+
+  /// satellite
+  static const IconData satellite = const LucideIconData(58443);
+
+  /// save-all
+  static const IconData saveAll = const LucideIconData(58387);
+
+  /// save
+  static const IconData save = const LucideIconData(57679);
+
+  /// scale-3d
+  static const IconData scale3d = const LucideIconData(58090);
+
+  /// scale
+  static const IconData scale = const LucideIconData(57873);
+
+  /// scaling
+  static const IconData scaling = const LucideIconData(58091);
+
+  /// scan-barcode
+  static const IconData scanBarcode = const LucideIconData(58681);
+
+  /// scan-eye
+  static const IconData scanEye = const LucideIconData(58682);
+
+  /// scan-face
+  static const IconData scanFace = const LucideIconData(58228);
+
+  /// scan-line
+  static const IconData scanLine = const LucideIconData(57943);
+
+  /// scan-search
+  static const IconData scanSearch = const LucideIconData(58683);
+
+  /// scan-text
+  static const IconData scanText = const LucideIconData(58684);
+
+  /// scan
+  static const IconData scan = const LucideIconData(57942);
+
+  /// scatter-chart
+  static const IconData scatterChart = const LucideIconData(58510);
+
+  /// school
+  static const IconData school = const LucideIconData(58342);
+
+  /// scissors-line-dashed
+  static const IconData scissorsLineDashed = const LucideIconData(58605);
+
+  /// scissors
+  static const IconData scissors = const LucideIconData(57680);
+
+  /// screen-share-off
+  static const IconData screenShareOff = const LucideIconData(57682);
+
+  /// screen-share
+  static const IconData screenShare = const LucideIconData(57681);
+
+  /// scroll-text
+  static const IconData scrollText = const LucideIconData(58467);
+
+  /// scroll
+  static const IconData scroll = const LucideIconData(58092);
+
+  /// search-check
+  static const IconData searchCheck = const LucideIconData(58542);
+
+  /// search-code
+  static const IconData searchCode = const LucideIconData(58543);
+
+  /// search-slash
+  static const IconData searchSlash = const LucideIconData(58544);
+
+  /// search-x
+  static const IconData searchX = const LucideIconData(58545);
+
+  /// search
+  static const IconData search = const LucideIconData(57683);
+
+  /// section
+  static const IconData section = const LucideIconData(58860);
+
+  /// send-horizontal
+  static const IconData sendHorizontal = const LucideIconData(58614);
+
+  /// send-to-back
+  static const IconData sendToBack = const LucideIconData(58615);
+
+  /// send
+  static const IconData send = const LucideIconData(57684);
+
+  /// separator-horizontal
+  static const IconData separatorHorizontal = const LucideIconData(57799);
+
+  /// separator-vertical
+  static const IconData separatorVertical = const LucideIconData(57800);
+
+  /// server-cog
+  static const IconData serverCog = const LucideIconData(58180);
+
+  /// server-crash
+  static const IconData serverCrash = const LucideIconData(57831);
+
+  /// server-off
+  static const IconData serverOff = const LucideIconData(57832);
+
+  /// server
+  static const IconData server = const LucideIconData(57685);
+
+  /// settings-2
+  static const IconData settings2 = const LucideIconData(57924);
+
+  /// settings
+  static const IconData settings = const LucideIconData(57686);
+
+  /// shapes
+  static const IconData shapes = const LucideIconData(58551);
+
+  /// share-2
+  static const IconData share2 = const LucideIconData(57688);
+
+  /// share
+  static const IconData share = const LucideIconData(57687);
+
+  /// sheet
+  static const IconData sheet = const LucideIconData(57689);
+
+  /// shell
+  static const IconData shell = const LucideIconData(58619);
+
+  /// shield-alert
+  static const IconData shieldAlert = const LucideIconData(57852);
+
+  /// shield-ban
+  static const IconData shieldBan = const LucideIconData(57691);
+
+  /// shield-check
+  static const IconData shieldCheck = const LucideIconData(57853);
+
+  /// shield-ellipsis
+  static const IconData shieldEllipsis = const LucideIconData(58650);
+
+  /// shield-half
+  static const IconData shieldHalf = const LucideIconData(58651);
+
+  /// shield-minus
+  static const IconData shieldMinus = const LucideIconData(58652);
+
+  /// shield-off
+  static const IconData shieldOff = const LucideIconData(57692);
+
+  /// shield-plus
+  static const IconData shieldPlus = const LucideIconData(58653);
+
+  /// shield-question
+  static const IconData shieldQuestion = const LucideIconData(58386);
+
+  /// shield-x
+  static const IconData shieldX = const LucideIconData(57854);
+
+  /// shield
+  static const IconData shield = const LucideIconData(57690);
+
+  /// ship-wheel
+  static const IconData shipWheel = const LucideIconData(58630);
+
+  /// ship
+  static const IconData ship = const LucideIconData(58301);
+
+  /// shirt
+  static const IconData shirt = const LucideIconData(57801);
+
+  /// shopping-bag
+  static const IconData shoppingBag = const LucideIconData(57693);
+
+  /// shopping-basket
+  static const IconData shoppingBasket = const LucideIconData(58606);
+
+  /// shopping-cart
+  static const IconData shoppingCart = const LucideIconData(57694);
+
+  /// shovel
+  static const IconData shovel = const LucideIconData(57695);
+
+  /// shower-head
+  static const IconData showerHead = const LucideIconData(58239);
+
+  /// shrink
+  static const IconData shrink = const LucideIconData(57887);
+
+  /// shrub
+  static const IconData shrub = const LucideIconData(58093);
+
+  /// shuffle
+  static const IconData shuffle = const LucideIconData(57696);
+
+  /// sigma
+  static const IconData sigma = const LucideIconData(57855);
+
+  /// signal-high
+  static const IconData signalHigh = const LucideIconData(57951);
+
+  /// signal-low
+  static const IconData signalLow = const LucideIconData(57952);
+
+  /// signal-medium
+  static const IconData signalMedium = const LucideIconData(57953);
+
+  /// signal-zero
+  static const IconData signalZero = const LucideIconData(57954);
+
+  /// signal
+  static const IconData signal = const LucideIconData(57950);
+
+  /// signpost-big
+  static const IconData signpostBig = const LucideIconData(58693);
+
+  /// signpost
+  static const IconData signpost = const LucideIconData(58692);
+
+  /// siren
+  static const IconData siren = const LucideIconData(58094);
+
+  /// skip-back
+  static const IconData skipBack = const LucideIconData(57697);
+
+  /// skip-forward
+  static const IconData skipForward = const LucideIconData(57698);
+
+  /// skull
+  static const IconData skull = const LucideIconData(57888);
+
+  /// slack
+  static const IconData slack = const LucideIconData(57699);
+
+  /// slash
+  static const IconData slash = const LucideIconData(58657);
+
+  /// slice
+  static const IconData slice = const LucideIconData(58095);
+
+  /// sliders-horizontal
+  static const IconData slidersHorizontal = const LucideIconData(58009);
+
+  /// sliders-vertical
+  static const IconData slidersVertical = const LucideIconData(57700);
+
+  /// smartphone-charging
+  static const IconData smartphoneCharging = const LucideIconData(57901);
+
+  /// smartphone-nfc
+  static const IconData smartphoneNfc = const LucideIconData(58311);
+
+  /// smartphone
+  static const IconData smartphone = const LucideIconData(57701);
+
+  /// smile-plus
+  static const IconData smilePlus = const LucideIconData(58112);
+
+  /// smile
+  static const IconData smile = const LucideIconData(57702);
+
+  /// snail
+  static const IconData snail = const LucideIconData(58620);
+
+  /// snowflake
+  static const IconData snowflake = const LucideIconData(57703);
+
+  /// sofa
+  static const IconData sofa = const LucideIconData(58051);
+
+  /// soup
+  static const IconData soup = const LucideIconData(58285);
+
+  /// space
+  static const IconData space = const LucideIconData(58336);
+
+  /// spade
+  static const IconData spade = const LucideIconData(58525);
+
+  /// sparkle
+  static const IconData sparkle = const LucideIconData(58498);
+
+  /// sparkles
+  static const IconData sparkles = const LucideIconData(58390);
+
+  /// speaker
+  static const IconData speaker = const LucideIconData(57704);
+
+  /// speech
+  static const IconData speech = const LucideIconData(58658);
+
+  /// spell-check-2
+  static const IconData spellCheck2 = const LucideIconData(58527);
+
+  /// spell-check
+  static const IconData spellCheck = const LucideIconData(58526);
+
+  /// spline
+  static const IconData spline = const LucideIconData(58254);
+
+  /// split
+  static const IconData split = const LucideIconData(58436);
+
+  /// spray-can
+  static const IconData sprayCan = const LucideIconData(58521);
+
+  /// sprout
+  static const IconData sprout = const LucideIconData(57833);
+
+  /// square-activity
+  static const IconData squareActivity = const LucideIconData(58552);
+
+  /// square-arrow-down-left
+  static const IconData squareArrowDownLeft = const LucideIconData(58553);
+
+  /// square-arrow-down-right
+  static const IconData squareArrowDownRight = const LucideIconData(58554);
+
+  /// square-arrow-down
+  static const IconData squareArrowDown = const LucideIconData(58411);
+
+  /// square-arrow-left
+  static const IconData squareArrowLeft = const LucideIconData(58412);
+
+  /// square-arrow-out-down-left
+  static const IconData squareArrowOutDownLeft = const LucideIconData(58789);
+
+  /// square-arrow-out-down-right
+  static const IconData squareArrowOutDownRight = const LucideIconData(58790);
+
+  /// square-arrow-out-up-left
+  static const IconData squareArrowOutUpLeft = const LucideIconData(58791);
+
+  /// square-arrow-out-up-right
+  static const IconData squareArrowOutUpRight = const LucideIconData(58792);
+
+  /// square-arrow-right
+  static const IconData squareArrowRight = const LucideIconData(58413);
+
+  /// square-arrow-up-left
+  static const IconData squareArrowUpLeft = const LucideIconData(58555);
+
+  /// square-arrow-up-right
+  static const IconData squareArrowUpRight = const LucideIconData(58556);
+
+  /// square-arrow-up
+  static const IconData squareArrowUp = const LucideIconData(58414);
+
+  /// square-asterisk
+  static const IconData squareAsterisk = const LucideIconData(57706);
+
+  /// square-bottom-dashed-scissors
+  static const IconData squareBottomDashedScissors =
+      const LucideIconData(58607);
+
+  /// square-check-big
+  static const IconData squareCheckBig = const LucideIconData(57707);
+
+  /// square-check
+  static const IconData squareCheck = const LucideIconData(58717);
+
+  /// square-chevron-down
+  static const IconData squareChevronDown = const LucideIconData(58322);
+
+  /// square-chevron-left
+  static const IconData squareChevronLeft = const LucideIconData(58323);
+
+  /// square-chevron-right
+  static const IconData squareChevronRight = const LucideIconData(58324);
+
+  /// square-chevron-up
+  static const IconData squareChevronUp = const LucideIconData(58325);
+
+  /// square-code
+  static const IconData squareCode = const LucideIconData(57708);
+
+  /// square-dashed-bottom-code
+  static const IconData squareDashedBottomCode = const LucideIconData(58565);
+
+  /// square-dashed-bottom
+  static const IconData squareDashedBottom = const LucideIconData(58564);
+
+  /// square-dashed-kanban
+  static const IconData squareDashedKanban = const LucideIconData(57709);
+
+  /// square-dashed-mouse-pointer
+  static const IconData squareDashedMousePointer = const LucideIconData(58637);
+
+  /// square-divide
+  static const IconData squareDivide = const LucideIconData(57710);
+
+  /// square-dot
+  static const IconData squareDot = const LucideIconData(57711);
+
+  /// square-equal
+  static const IconData squareEqual = const LucideIconData(57712);
+
+  /// square-function
+  static const IconData squareFunction = const LucideIconData(57900);
+
+  /// square-gantt-chart
+  static const IconData squareGanttChart = const LucideIconData(57713);
+
+  /// square-kanban
+  static const IconData squareKanban = const LucideIconData(57714);
+
+  /// square-library
+  static const IconData squareLibrary = const LucideIconData(58707);
+
+  /// square-m
+  static const IconData squareM = const LucideIconData(58631);
+
+  /// square-menu
+  static const IconData squareMenu = const LucideIconData(58455);
+
+  /// square-minus
+  static const IconData squareMinus = const LucideIconData(57715);
+
+  /// square-mouse-pointer
+  static const IconData squareMousePointer = const LucideIconData(57856);
+
+  /// square-parking-off
+  static const IconData squareParkingOff = const LucideIconData(58319);
+
+  /// square-parking
+  static const IconData squareParking = const LucideIconData(58318);
+
+  /// square-pen
+  static const IconData squarePen = const LucideIconData(57716);
+
+  /// square-percent
+  static const IconData squarePercent = const LucideIconData(58656);
+
+  /// square-pi
+  static const IconData squarePi = const LucideIconData(58508);
+
+  /// square-pilcrow
+  static const IconData squarePilcrow = const LucideIconData(58511);
+
+  /// square-play
+  static const IconData squarePlay = const LucideIconData(58501);
+
+  /// square-plus
+  static const IconData squarePlus = const LucideIconData(57717);
+
+  /// square-power
+  static const IconData squarePower = const LucideIconData(58709);
+
+  /// square-radical
+  static const IconData squareRadical = const LucideIconData(58823);
+
+  /// square-scissors
+  static const IconData squareScissors = const LucideIconData(58608);
+
+  /// square-sigma
+  static const IconData squareSigma = const LucideIconData(58509);
+
+  /// square-slash
+  static const IconData squareSlash = const LucideIconData(57718);
+
+  /// square-split-horizontal
+  static const IconData squareSplitHorizontal = const LucideIconData(58297);
+
+  /// square-split-vertical
+  static const IconData squareSplitVertical = const LucideIconData(58298);
+
+  /// square-stack
+  static const IconData squareStack = const LucideIconData(58534);
+
+  /// square-terminal
+  static const IconData squareTerminal = const LucideIconData(57864);
+
+  /// square-user-round
+  static const IconData squareUserRound = const LucideIconData(58474);
+
+  /// square-user
+  static const IconData squareUser = const LucideIconData(58473);
+
+  /// square-x
+  static const IconData squareX = const LucideIconData(57719);
+
+  /// square
+  static const IconData square = const LucideIconData(57705);
+
+  /// squircle
+  static const IconData squircle = const LucideIconData(58750);
+
+  /// squirrel
+  static const IconData squirrel = const LucideIconData(58531);
+
+  /// stamp
+  static const IconData stamp = const LucideIconData(58302);
+
+  /// star-half
+  static const IconData starHalf = const LucideIconData(57865);
+
+  /// star-off
+  static const IconData starOff = const LucideIconData(58031);
+
+  /// star
+  static const IconData star = const LucideIconData(57720);
+
+  /// step-back
+  static const IconData stepBack = const LucideIconData(58348);
+
+  /// step-forward
+  static const IconData stepForward = const LucideIconData(58349);
+
+  /// stethoscope
+  static const IconData stethoscope = const LucideIconData(58096);
+
+  /// sticker
+  static const IconData sticker = const LucideIconData(58113);
+
+  /// sticky-note
+  static const IconData stickyNote = const LucideIconData(58114);
+
+  /// store
+  static const IconData store = const LucideIconData(58343);
+
+  /// stretch-horizontal
+  static const IconData stretchHorizontal = const LucideIconData(57979);
+
+  /// stretch-vertical
+  static const IconData stretchVertical = const LucideIconData(57980);
+
+  /// strikethrough
+  static const IconData strikethrough = const LucideIconData(57721);
+
+  /// subscript
+  static const IconData subscript = const LucideIconData(57947);
+
+  /// sun-dim
+  static const IconData sunDim = const LucideIconData(58008);
+
+  /// sun-medium
+  static const IconData sunMedium = const LucideIconData(58032);
+
+  /// sun-moon
+  static const IconData sunMoon = const LucideIconData(58033);
+
+  /// sun-snow
+  static const IconData sunSnow = const LucideIconData(58229);
+
+  /// sun
+  static const IconData sun = const LucideIconData(57722);
+
+  /// sunrise
+  static const IconData sunrise = const LucideIconData(57723);
+
+  /// sunset
+  static const IconData sunset = const LucideIconData(57724);
+
+  /// superscript
+  static const IconData superscript = const LucideIconData(57949);
+
+  /// swatch-book
+  static const IconData swatchBook = const LucideIconData(58787);
+
+  /// swiss-franc
+  static const IconData swissFranc = const LucideIconData(57725);
+
+  /// switch-camera
+  static const IconData switchCamera = const LucideIconData(57726);
+
+  /// sword
+  static const IconData sword = const LucideIconData(58034);
+
+  /// swords
+  static const IconData swords = const LucideIconData(58035);
+
+  /// syringe
+  static const IconData syringe = const LucideIconData(58097);
+
+  /// table-2
+  static const IconData table2 = const LucideIconData(58104);
+
+  /// table-cells-merge
+  static const IconData tableCellsMerge = const LucideIconData(58827);
+
+  /// table-cells-split
+  static const IconData tableCellsSplit = const LucideIconData(58828);
+
+  /// table-columns-split
+  static const IconData tableColumnsSplit = const LucideIconData(58829);
+
+  /// table-properties
+  static const IconData tableProperties = const LucideIconData(58591);
+
+  /// table-rows-split
+  static const IconData tableRowsSplit = const LucideIconData(58830);
+
+  /// table
+  static const IconData table = const LucideIconData(57727);
+
+  /// tablet-smartphone
+  static const IconData tabletSmartphone = const LucideIconData(58638);
+
+  /// tablet
+  static const IconData tablet = const LucideIconData(57728);
+
+  /// tablets
+  static const IconData tablets = const LucideIconData(58305);
+
+  /// tag
+  static const IconData tag = const LucideIconData(57729);
+
+  /// tags
+  static const IconData tags = const LucideIconData(58207);
+
+  /// tally-1
+  static const IconData tally1 = const LucideIconData(58586);
+
+  /// tally-2
+  static const IconData tally2 = const LucideIconData(58587);
+
+  /// tally-3
+  static const IconData tally3 = const LucideIconData(58588);
+
+  /// tally-4
+  static const IconData tally4 = const LucideIconData(58589);
+
+  /// tally-5
+  static const IconData tally5 = const LucideIconData(58590);
+
+  /// tangent
+  static const IconData tangent = const LucideIconData(58674);
+
+  /// target
+  static const IconData target = const LucideIconData(57730);
+
+  /// telescope
+  static const IconData telescope = const LucideIconData(58825);
+
+  /// tent-tree
+  static const IconData tentTree = const LucideIconData(58687);
+
+  /// tent
+  static const IconData tent = const LucideIconData(57894);
+
+  /// terminal
+  static const IconData terminal = const LucideIconData(57731);
+
+  /// test-tube-diagonal
+  static const IconData testTubeDiagonal = const LucideIconData(58378);
+
+  /// test-tube
+  static const IconData testTube = const LucideIconData(58377);
+
+  /// test-tubes
+  static const IconData testTubes = const LucideIconData(58379);
+
+  /// text-cursor-input
+  static const IconData textCursorInput = const LucideIconData(57956);
+
+  /// text-cursor
+  static const IconData textCursor = const LucideIconData(57955);
+
+  /// text-quote
+  static const IconData textQuote = const LucideIconData(58530);
+
+  /// text-search
+  static const IconData textSearch = const LucideIconData(58801);
+
+  /// text-select
+  static const IconData textSelect = const LucideIconData(58337);
+
+  /// text
+  static const IconData text = const LucideIconData(58350);
+
+  /// theater
+  static const IconData theater = const LucideIconData(58662);
+
+  /// thermometer-snowflake
+  static const IconData thermometerSnowflake = const LucideIconData(57733);
+
+  /// thermometer-sun
+  static const IconData thermometerSun = const LucideIconData(57734);
+
+  /// thermometer
+  static const IconData thermometer = const LucideIconData(57732);
+
+  /// thumbs-down
+  static const IconData thumbsDown = const LucideIconData(57735);
+
+  /// thumbs-up
+  static const IconData thumbsUp = const LucideIconData(57736);
+
+  /// ticket-check
+  static const IconData ticketCheck = const LucideIconData(58802);
+
+  /// ticket-minus
+  static const IconData ticketMinus = const LucideIconData(58803);
+
+  /// ticket-percent
+  static const IconData ticketPercent = const LucideIconData(58804);
+
+  /// ticket-plus
+  static const IconData ticketPlus = const LucideIconData(58805);
+
+  /// ticket-slash
+  static const IconData ticketSlash = const LucideIconData(58806);
+
+  /// ticket-x
+  static const IconData ticketX = const LucideIconData(58807);
+
+  /// ticket
+  static const IconData ticket = const LucideIconData(57869);
+
+  /// timer-off
+  static const IconData timerOff = const LucideIconData(57928);
+
+  /// timer-reset
+  static const IconData timerReset = const LucideIconData(57909);
+
+  /// timer
+  static const IconData timer = const LucideIconData(57822);
+
+  /// toggle-left
+  static const IconData toggleLeft = const LucideIconData(57737);
+
+  /// toggle-right
+  static const IconData toggleRight = const LucideIconData(57738);
+
+  /// tornado
+  static const IconData tornado = const LucideIconData(57879);
+
+  /// torus
+  static const IconData torus = const LucideIconData(58675);
+
+  /// touchpad-off
+  static const IconData touchpadOff = const LucideIconData(58446);
+
+  /// touchpad
+  static const IconData touchpad = const LucideIconData(58445);
+
+  /// tower-control
+  static const IconData towerControl = const LucideIconData(58303);
+
+  /// toy-brick
+  static const IconData toyBrick = const LucideIconData(58186);
+
+  /// tractor
+  static const IconData tractor = const LucideIconData(58632);
+
+  /// traffic-cone
+  static const IconData trafficCone = const LucideIconData(58633);
+
+  /// train-front-tunnel
+  static const IconData trainFrontTunnel = const LucideIconData(58635);
+
+  /// train-front
+  static const IconData trainFront = const LucideIconData(58634);
+
+  /// train-track
+  static const IconData trainTrack = const LucideIconData(58636);
+
+  /// tram-front
+  static const IconData tramFront = const LucideIconData(58024);
+
+  /// trash-2
+  static const IconData trash2 = const LucideIconData(57740);
+
+  /// trash
+  static const IconData trash = const LucideIconData(57739);
+
+  /// tree-deciduous
+  static const IconData treeDeciduous = const LucideIconData(58098);
+
+  /// tree-palm
+  static const IconData treePalm = const LucideIconData(57984);
+
+  /// tree-pine
+  static const IconData treePine = const LucideIconData(58099);
+
+  /// trees
+  static const IconData trees = const LucideIconData(58100);
+
+  /// trello
+  static const IconData trello = const LucideIconData(57741);
+
+  /// trending-down
+  static const IconData trendingDown = const LucideIconData(57742);
+
+  /// trending-up
+  static const IconData trendingUp = const LucideIconData(57743);
+
+  /// triangle-alert
+  static const IconData triangleAlert = const LucideIconData(57745);
+
+  /// triangle-right
+  static const IconData triangleRight = const LucideIconData(58609);
+
+  /// triangle
+  static const IconData triangle = const LucideIconData(57744);
+
+  /// trophy
+  static const IconData trophy = const LucideIconData(58230);
+
+  /// truck
+  static const IconData truck = const LucideIconData(57746);
+
+  /// turtle
+  static const IconData turtle = const LucideIconData(58621);
+
+  /// tv-minimal-play
+  static const IconData tvMinimalPlay = const LucideIconData(58864);
+
+  /// tv-minimal
+  static const IconData tvMinimal = const LucideIconData(57857);
+
+  /// tv
+  static const IconData tv = const LucideIconData(57747);
+
+  /// twitch
+  static const IconData twitch = const LucideIconData(57748);
+
+  /// twitter
+  static const IconData twitter = const LucideIconData(57749);
+
+  /// type
+  static const IconData type = const LucideIconData(57750);
+
+  /// umbrella-off
+  static const IconData umbrellaOff = const LucideIconData(58695);
+
+  /// umbrella
+  static const IconData umbrella = const LucideIconData(57751);
+
+  /// underline
+  static const IconData underline = const LucideIconData(57752);
+
+  /// undo-2
+  static const IconData undo2 = const LucideIconData(58016);
+
+  /// undo-dot
+  static const IconData undoDot = const LucideIconData(58453);
+
+  /// undo
+  static const IconData undo = const LucideIconData(57753);
+
+  /// unfold-horizontal
+  static const IconData unfoldHorizontal = const LucideIconData(58433);
+
+  /// unfold-vertical
+  static const IconData unfoldVertical = const LucideIconData(58434);
+
+  /// ungroup
+  static const IconData ungroup = const LucideIconData(58475);
+
+  /// university
+  static const IconData university = const LucideIconData(58344);
+
+  /// unlink-2
+  static const IconData unlink2 = const LucideIconData(57755);
+
+  /// unlink
+  static const IconData unlink = const LucideIconData(57754);
+
+  /// unplug
+  static const IconData unplug = const LucideIconData(58465);
+
+  /// upload
+  static const IconData upload = const LucideIconData(57756);
+
+  /// usb
+  static const IconData usb = const LucideIconData(58201);
+
+  /// user-check
+  static const IconData userCheck = const LucideIconData(57758);
+
+  /// user-cog
+  static const IconData userCog = const LucideIconData(58181);
+
+  /// user-minus
+  static const IconData userMinus = const LucideIconData(57759);
+
+  /// user-plus
+  static const IconData userPlus = const LucideIconData(57760);
+
+  /// user-round-check
+  static const IconData userRoundCheck = const LucideIconData(58477);
+
+  /// user-round-cog
+  static const IconData userRoundCog = const LucideIconData(58478);
+
+  /// user-round-minus
+  static const IconData userRoundMinus = const LucideIconData(58479);
+
+  /// user-round-plus
+  static const IconData userRoundPlus = const LucideIconData(58480);
+
+  /// user-round-search
+  static const IconData userRoundSearch = const LucideIconData(58748);
+
+  /// user-round-x
+  static const IconData userRoundX = const LucideIconData(58481);
+
+  /// user-round
+  static const IconData userRound = const LucideIconData(58476);
+
+  /// user-search
+  static const IconData userSearch = const LucideIconData(58749);
+
+  /// user-x
+  static const IconData userX = const LucideIconData(57761);
+
+  /// user
+  static const IconData user = const LucideIconData(57757);
+
+  /// users-round
+  static const IconData usersRound = const LucideIconData(58482);
+
+  /// users
+  static const IconData users = const LucideIconData(57762);
+
+  /// utensils-crossed
+  static const IconData utensilsCrossed = const LucideIconData(58102);
+
+  /// utensils
+  static const IconData utensils = const LucideIconData(58101);
+
+  /// utility-pole
+  static const IconData utilityPole = const LucideIconData(58309);
+
+  /// variable
+  static const IconData variable = const LucideIconData(58487);
+
+  /// vault
+  static const IconData vault = const LucideIconData(58771);
+
+  /// vegan
+  static const IconData vegan = const LucideIconData(58272);
+
+  /// venetian-mask
+  static const IconData venetianMask = const LucideIconData(58025);
+
+  /// vibrate-off
+  static const IconData vibrateOff = const LucideIconData(58012);
+
+  /// vibrate
+  static const IconData vibrate = const LucideIconData(57890);
+
+  /// video-off
+  static const IconData videoOff = const LucideIconData(57764);
+
+  /// video
+  static const IconData video = const LucideIconData(57763);
+
+  /// videotape
+  static const IconData videotape = const LucideIconData(58575);
+
+  /// view
+  static const IconData view = const LucideIconData(57765);
+
+  /// voicemail
+  static const IconData voicemail = const LucideIconData(57766);
+
+  /// volume-1
+  static const IconData volume1 = const LucideIconData(57768);
+
+  /// volume-2
+  static const IconData volume2 = const LucideIconData(57769);
+
+  /// volume-x
+  static const IconData volumeX = const LucideIconData(57770);
+
+  /// volume
+  static const IconData volume = const LucideIconData(57767);
+
+  /// vote
+  static const IconData vote = const LucideIconData(58288);
+
+  /// wallet-cards
+  static const IconData walletCards = const LucideIconData(58576);
+
+  /// wallet-minimal
+  static const IconData walletMinimal = const LucideIconData(58577);
+
+  /// wallet
+  static const IconData wallet = const LucideIconData(57858);
+
+  /// wallpaper
+  static const IconData wallpaper = const LucideIconData(58447);
+
+  /// wand-sparkles
+  static const IconData wandSparkles = const LucideIconData(58202);
+
+  /// wand
+  static const IconData wand = const LucideIconData(57925);
+
+  /// warehouse
+  static const IconData warehouse = const LucideIconData(58345);
+
+  /// washing-machine
+  static const IconData washingMachine = const LucideIconData(58772);
+
+  /// watch
+  static const IconData watch = const LucideIconData(57771);
+
+  /// waves
+  static const IconData waves = const LucideIconData(57986);
+
+  /// waypoints
+  static const IconData waypoints = const LucideIconData(58694);
+
+  /// webcam
+  static const IconData webcam = const LucideIconData(57859);
+
+  /// webhook-off
+  static const IconData webhookOff = const LucideIconData(58811);
+
+  /// webhook
+  static const IconData webhook = const LucideIconData(58231);
+
+  /// weight
+  static const IconData weight = const LucideIconData(58676);
+
+  /// wheat-off
+  static const IconData wheatOff = const LucideIconData(58274);
+
+  /// wheat
+  static const IconData wheat = const LucideIconData(58273);
+
+  /// whole-word
+  static const IconData wholeWord = const LucideIconData(58338);
+
+  /// wifi-off
+  static const IconData wifiOff = const LucideIconData(57773);
+
+  /// wifi
+  static const IconData wifi = const LucideIconData(57772);
+
+  /// wind
+  static const IconData wind = const LucideIconData(57774);
+
+  /// wine-off
+  static const IconData wineOff = const LucideIconData(58275);
+
+  /// wine
+  static const IconData wine = const LucideIconData(58103);
+
+  /// workflow
+  static const IconData workflow = const LucideIconData(58409);
+
+  /// worm
+  static const IconData worm = const LucideIconData(58846);
+
+  /// wrap-text
+  static const IconData wrapText = const LucideIconData(57927);
+
+  /// wrench
+  static const IconData wrench = const LucideIconData(57775);
+
+  /// x
+  static const IconData x = const LucideIconData(57776);
+
+  /// youtube
+  static const IconData youtube = const LucideIconData(57777);
+
+  /// zap-off
+  static const IconData zapOff = const LucideIconData(57779);
+
+  /// zap
+  static const IconData zap = const LucideIconData(57778);
+
+  /// zoom-in
+  static const IconData zoomIn = const LucideIconData(57780);
+
+  /// zoom-out
+  static const IconData zoomOut = const LucideIconData(57781);
 }

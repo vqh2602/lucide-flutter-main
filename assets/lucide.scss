@@ -1,10 +1,10 @@
 @font-face {font-family: "lucide";
-  src: url('lucide.eot?t=1716298702637'); /* IE9*/
-  src: url('lucide.eot?t=1716298702637#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1716298702637") format("woff2"),
-  url("lucide.woff?t=1716298702637") format("woff"),
-  url('lucide.ttf?t=1716298702637') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1716298702637#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1718362334756'); /* IE9*/
+  src: url('lucide.eot?t=1718362334756#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1718362334756") format("woff2"),
+  url("lucide.woff?t=1718362334756") format("woff"),
+  url('lucide.ttf?t=1718362334756') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1718362334756#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -182,6 +182,7 @@
 .icon-between-horizontal-start:before { content: "\e596"; }
 .icon-between-vertical-end:before { content: "\e597"; }
 .icon-between-vertical-start:before { content: "\e598"; }
+.icon-biceps-flexed:before { content: "\e5ef"; }
 .icon-bike:before { content: "\e1d0"; }
 .icon-binary:before { content: "\e1f0"; }
 .icon-biohazard:before { content: "\e445"; }
@@ -260,6 +261,7 @@
 .icon-calendar-check-2:before { content: "\e2b7"; }
 .icon-calendar-check:before { content: "\e2b6"; }
 .icon-calendar-clock:before { content: "\e303"; }
+.icon-calendar-cog:before { content: "\e5f1"; }
 .icon-calendar-days:before { content: "\e2b8"; }
 .icon-calendar-fold:before { content: "\e5b8"; }
 .icon-calendar-heart:before { content: "\e304"; }
@@ -792,6 +794,7 @@
 .icon-layout-template:before { content: "\e205"; }
 .icon-leaf:before { content: "\e2dd"; }
 .icon-leafy-green:before { content: "\e473"; }
+.icon-lectern:before { content: "\e5ed"; }
 .icon-library-big:before { content: "\e552"; }
 .icon-library:before { content: "\e103"; }
 .icon-life-buoy:before { content: "\e104"; }
@@ -998,9 +1001,11 @@
 .icon-paw-print:before { content: "\e4f9"; }
 .icon-pc-case:before { content: "\e44a"; }
 .icon-pen-line:before { content: "\e131"; }
+.icon-pen-off:before { content: "\e5f2"; }
 .icon-pen-tool:before { content: "\e132"; }
 .icon-pen:before { content: "\e130"; }
 .icon-pencil-line:before { content: "\e4f4"; }
+.icon-pencil-off:before { content: "\e5f3"; }
 .icon-pencil-ruler:before { content: "\e4f5"; }
 .icon-pencil:before { content: "\e1f7"; }
 .icon-pentagon:before { content: "\e52f"; }
@@ -1023,6 +1028,7 @@
 .icon-pilcrow-left:before { content: "\e5e0"; }
 .icon-pilcrow-right:before { content: "\e5e1"; }
 .icon-pilcrow:before { content: "\e3a6"; }
+.icon-pill-bottle:before { content: "\e5ee"; }
 .icon-pill:before { content: "\e3c0"; }
 .icon-pin-off:before { content: "\e2b5"; }
 .icon-pin:before { content: "\e258"; }
@@ -1146,6 +1152,7 @@
 .icon-search-slash:before { content: "\e4b0"; }
 .icon-search-x:before { content: "\e4b1"; }
 .icon-search:before { content: "\e153"; }
+.icon-section:before { content: "\e5ec"; }
 .icon-send-horizontal:before { content: "\e4f6"; }
 .icon-send-to-back:before { content: "\e4f7"; }
 .icon-send:before { content: "\e154"; }
@@ -1387,7 +1394,8 @@
 .icon-trophy:before { content: "\e376"; }
 .icon-truck:before { content: "\e192"; }
 .icon-turtle:before { content: "\e4fd"; }
-.icon-tv-2:before { content: "\e201"; }
+.icon-tv-minimal-play:before { content: "\e5f0"; }
+.icon-tv-minimal:before { content: "\e201"; }
 .icon-tv:before { content: "\e193"; }
 .icon-twitch:before { content: "\e194"; }
 .icon-twitter:before { content: "\e195"; }
@@ -1643,6 +1651,7 @@ $icon-between-horizontal-end: "\e595";
 $icon-between-horizontal-start: "\e596";
 $icon-between-vertical-end: "\e597";
 $icon-between-vertical-start: "\e598";
+$icon-biceps-flexed: "\e5ef";
 $icon-bike: "\e1d0";
 $icon-binary: "\e1f0";
 $icon-biohazard: "\e445";
@@ -1721,6 +1730,7 @@ $icon-calculator: "\e1bb";
 $icon-calendar-check-2: "\e2b7";
 $icon-calendar-check: "\e2b6";
 $icon-calendar-clock: "\e303";
+$icon-calendar-cog: "\e5f1";
 $icon-calendar-days: "\e2b8";
 $icon-calendar-fold: "\e5b8";
 $icon-calendar-heart: "\e304";
@@ -2253,6 +2263,7 @@ $icon-layout-panel-top: "\e475";
 $icon-layout-template: "\e205";
 $icon-leaf: "\e2dd";
 $icon-leafy-green: "\e473";
+$icon-lectern: "\e5ed";
 $icon-library-big: "\e552";
 $icon-library: "\e103";
 $icon-life-buoy: "\e104";
@@ -2459,9 +2470,11 @@ $icon-pause: "\e12f";
 $icon-paw-print: "\e4f9";
 $icon-pc-case: "\e44a";
 $icon-pen-line: "\e131";
+$icon-pen-off: "\e5f2";
 $icon-pen-tool: "\e132";
 $icon-pen: "\e130";
 $icon-pencil-line: "\e4f4";
+$icon-pencil-off: "\e5f3";
 $icon-pencil-ruler: "\e4f5";
 $icon-pencil: "\e1f7";
 $icon-pentagon: "\e52f";
@@ -2484,6 +2497,7 @@ $icon-piggy-bank: "\e13c";
 $icon-pilcrow-left: "\e5e0";
 $icon-pilcrow-right: "\e5e1";
 $icon-pilcrow: "\e3a6";
+$icon-pill-bottle: "\e5ee";
 $icon-pill: "\e3c0";
 $icon-pin-off: "\e2b5";
 $icon-pin: "\e258";
@@ -2607,6 +2621,7 @@ $icon-search-code: "\e4af";
 $icon-search-slash: "\e4b0";
 $icon-search-x: "\e4b1";
 $icon-search: "\e153";
+$icon-section: "\e5ec";
 $icon-send-horizontal: "\e4f6";
 $icon-send-to-back: "\e4f7";
 $icon-send: "\e154";
@@ -2848,7 +2863,8 @@ $icon-triangle: "\e190";
 $icon-trophy: "\e376";
 $icon-truck: "\e192";
 $icon-turtle: "\e4fd";
-$icon-tv-2: "\e201";
+$icon-tv-minimal-play: "\e5f0";
+$icon-tv-minimal: "\e201";
 $icon-tv: "\e193";
 $icon-twitch: "\e194";
 $icon-twitter: "\e195";

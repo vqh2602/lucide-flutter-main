@@ -1001,6 +1001,12 @@
     "className": "icon-between-vertical-start",
     "unicode": "&#58776;"
   },
+  "biceps-flexed": {
+    "encodedCode": "\\e5ef",
+    "prefix": "icon",
+    "className": "icon-biceps-flexed",
+    "unicode": "&#58863;"
+  },
   "bike": {
     "encodedCode": "\\e1d0",
     "prefix": "icon",
@@ -1468,6 +1474,12 @@
     "prefix": "icon",
     "className": "icon-calendar-clock",
     "unicode": "&#58115;"
+  },
+  "calendar-cog": {
+    "encodedCode": "\\e5f1",
+    "prefix": "icon",
+    "className": "icon-calendar-cog",
+    "unicode": "&#58865;"
   },
   "calendar-days": {
     "encodedCode": "\\e2b8",
@@ -4661,6 +4673,12 @@
     "className": "icon-leafy-green",
     "unicode": "&#58483;"
   },
+  "lectern": {
+    "encodedCode": "\\e5ed",
+    "prefix": "icon",
+    "className": "icon-lectern",
+    "unicode": "&#58861;"
+  },
   "library-big": {
     "encodedCode": "\\e552",
     "prefix": "icon",
@@ -5897,6 +5915,12 @@
     "className": "icon-pen-line",
     "unicode": "&#57649;"
   },
+  "pen-off": {
+    "encodedCode": "\\e5f2",
+    "prefix": "icon",
+    "className": "icon-pen-off",
+    "unicode": "&#58866;"
+  },
   "pen-tool": {
     "encodedCode": "\\e132",
     "prefix": "icon",
@@ -5914,6 +5938,12 @@
     "prefix": "icon",
     "className": "icon-pencil-line",
     "unicode": "&#58612;"
+  },
+  "pencil-off": {
+    "encodedCode": "\\e5f3",
+    "prefix": "icon",
+    "className": "icon-pencil-off",
+    "unicode": "&#58867;"
   },
   "pencil-ruler": {
     "encodedCode": "\\e4f5",
@@ -6046,6 +6076,12 @@
     "prefix": "icon",
     "className": "icon-pilcrow",
     "unicode": "&#58278;"
+  },
+  "pill-bottle": {
+    "encodedCode": "\\e5ee",
+    "prefix": "icon",
+    "className": "icon-pill-bottle",
+    "unicode": "&#58862;"
   },
   "pill": {
     "encodedCode": "\\e3c0",
@@ -6784,6 +6820,12 @@
     "prefix": "icon",
     "className": "icon-search",
     "unicode": "&#57683;"
+  },
+  "section": {
+    "encodedCode": "\\e5ec",
+    "prefix": "icon",
+    "className": "icon-section",
+    "unicode": "&#58860;"
   },
   "send-horizontal": {
     "encodedCode": "\\e4f6",
@@ -8231,10 +8273,16 @@
     "className": "icon-turtle",
     "unicode": "&#58621;"
   },
-  "tv-2": {
+  "tv-minimal-play": {
+    "encodedCode": "\\e5f0",
+    "prefix": "icon",
+    "className": "icon-tv-minimal-play",
+    "unicode": "&#58864;"
+  },
+  "tv-minimal": {
     "encodedCode": "\\e201",
     "prefix": "icon",
-    "className": "icon-tv-2",
+    "className": "icon-tv-minimal",
     "unicode": "&#57857;"
   },
   "tv": {
