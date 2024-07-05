@@ -4301,12 +4301,6 @@
     "className": "icon-history",
     "unicode": "&#57843;"
   },
-  "home": {
-    "encodedCode": "\\e0f5",
-    "prefix": "icon",
-    "className": "icon-home",
-    "unicode": "&#57589;"
-  },
   "hop-off": {
     "encodedCode": "\\e39b",
     "prefix": "icon",
@@ -4336,6 +4330,24 @@
     "prefix": "icon",
     "className": "icon-hourglass",
     "unicode": "&#58005;"
+  },
+  "house-plug": {
+    "encodedCode": "\\e5f4",
+    "prefix": "icon",
+    "className": "icon-house-plug",
+    "unicode": "&#58868;"
+  },
+  "house-plus": {
+    "encodedCode": "\\e5f5",
+    "prefix": "icon",
+    "className": "icon-house-plus",
+    "unicode": "&#58869;"
+  },
+  "house": {
+    "encodedCode": "\\e0f5",
+    "prefix": "icon",
+    "className": "icon-house",
+    "unicode": "&#57589;"
   },
   "ice-cream-bowl": {
     "encodedCode": "\\e3aa",
@@ -4906,6 +4918,12 @@
     "prefix": "icon",
     "className": "icon-log-out",
     "unicode": "&#57615;"
+  },
+  "logs": {
+    "encodedCode": "\\e5f8",
+    "prefix": "icon",
+    "className": "icon-logs",
+    "unicode": "&#58872;"
   },
   "lollipop": {
     "encodedCode": "\\e4c1",
@@ -6233,6 +6251,12 @@
     "className": "icon-presentation",
     "unicode": "&#58546;"
   },
+  "printer-check": {
+    "encodedCode": "\\e5f9",
+    "prefix": "icon",
+    "className": "icon-printer-check",
+    "unicode": "&#58873;"
+  },
   "printer": {
     "encodedCode": "\\e143",
     "prefix": "icon",
@@ -6677,6 +6701,12 @@
     "className": "icon-save-all",
     "unicode": "&#58387;"
   },
+  "save-off": {
+    "encodedCode": "\\e5f7",
+    "prefix": "icon",
+    "className": "icon-save-off",
+    "unicode": "&#58871;"
+  },
   "save": {
     "encodedCode": "\\e14f",
     "prefix": "icon",
@@ -7090,6 +7120,12 @@
     "prefix": "icon",
     "className": "icon-signal",
     "unicode": "&#57950;"
+  },
+  "signature": {
+    "encodedCode": "\\e5f6",
+    "prefix": "icon",
+    "className": "icon-signature",
+    "unicode": "&#58870;"
   },
   "signpost-big": {
     "encodedCode": "\\e545",

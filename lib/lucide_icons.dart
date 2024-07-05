@@ -2169,9 +2169,6 @@ class LucideIcons {
   /// history
   static const IconData history = const LucideIconData(57843);
 
-  /// home
-  static const IconData home = const LucideIconData(57589);
-
   /// hop-off
   static const IconData hopOff = const LucideIconData(58267);
 
@@ -2186,6 +2183,15 @@ class LucideIcons {
 
   /// hourglass
   static const IconData hourglass = const LucideIconData(58005);
+
+  /// house-plug
+  static const IconData housePlug = const LucideIconData(58868);
+
+  /// house-plus
+  static const IconData housePlus = const LucideIconData(58869);
+
+  /// house
+  static const IconData house = const LucideIconData(57589);
 
   /// ice-cream-bowl
   static const IconData iceCreamBowl = const LucideIconData(58282);
@@ -2471,6 +2477,9 @@ class LucideIcons {
 
   /// log-out
   static const IconData logOut = const LucideIconData(57615);
+
+  /// logs
+  static const IconData logs = const LucideIconData(58872);
 
   /// lollipop
   static const IconData lollipop = const LucideIconData(58561);
@@ -3135,6 +3144,9 @@ class LucideIcons {
   /// presentation
   static const IconData presentation = const LucideIconData(58546);
 
+  /// printer-check
+  static const IconData printerCheck = const LucideIconData(58873);
+
   /// printer
   static const IconData printer = const LucideIconData(57667);
 
@@ -3357,6 +3369,9 @@ class LucideIcons {
   /// save-all
   static const IconData saveAll = const LucideIconData(58387);
 
+  /// save-off
+  static const IconData saveOff = const LucideIconData(58871);
+
   /// save
   static const IconData save = const LucideIconData(57679);
 
@@ -3563,6 +3578,9 @@ class LucideIcons {
 
   /// signal
   static const IconData signal = const LucideIconData(57950);
+
+  /// signature
+  static const IconData signature = const LucideIconData(58870);
 
   /// signpost-big
   static const IconData signpostBig = const LucideIconData(58693);
