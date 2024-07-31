@@ -2582,8 +2582,32 @@ class LucideIcons {
   /// mails
   static const IconData mails = const LucideIconData(58221);
 
+  /// map-pin-check-inside
+  static const IconData mapPinCheckInside = const LucideIconData(58901);
+
+  /// map-pin-check
+  static const IconData mapPinCheck = const LucideIconData(58900);
+
+  /// map-pin-minus-inside
+  static const IconData mapPinMinusInside = const LucideIconData(58903);
+
+  /// map-pin-minus
+  static const IconData mapPinMinus = const LucideIconData(58902);
+
   /// map-pin-off
   static const IconData mapPinOff = const LucideIconData(58022);
+
+  /// map-pin-plus-inside
+  static const IconData mapPinPlusInside = const LucideIconData(58905);
+
+  /// map-pin-plus
+  static const IconData mapPinPlus = const LucideIconData(58904);
+
+  /// map-pin-x-inside
+  static const IconData mapPinXInside = const LucideIconData(58907);
+
+  /// map-pin-x
+  static const IconData mapPinX = const LucideIconData(58906);
 
   /// map-pin
   static const IconData mapPin = const LucideIconData(57621);
@@ -3893,6 +3917,9 @@ class LucideIcons {
 
   /// square-split-vertical
   static const IconData squareSplitVertical = const LucideIconData(58299);
+
+  /// square-square
+  static const IconData squareSquare = const LucideIconData(58899);
 
   /// square-stack
   static const IconData squareStack = const LucideIconData(58535);

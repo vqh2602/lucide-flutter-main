@@ -1,3 +1,22 @@
+## 1.1.4
+New icons 🎨
+map-pin-check-inside (#2301) by @karsa-mistmere
+map-pin-check (#2301) by @karsa-mistmere
+map-pin-minus-inside (#2301) by @karsa-mistmere
+map-pin-minus (#2301) by @karsa-mistmere
+map-pin-plus-inside (#2301) by @karsa-mistmere
+map-pin-plus (#2301) by @karsa-mistmere
+map-pin-x-inside (#2301) by @karsa-mistmere
+map-pin-x (#2301) by @karsa-mistmere
+square-square (#2241) by @jguddas
+
+Modified Icons 🔨
+chart-column-increasing (#2334) by @jguddas
+map-pin-off (#2301) by @karsa-mistmere
+map-pin (#2301) by @karsa-mistmere
+map-pinned (#2301) by @karsa-mistmere
+
+
 ## 1.1.3
 
 New icons 🎨

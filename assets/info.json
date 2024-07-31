@@ -5123,11 +5123,59 @@
     "className": "icon-mails",
     "unicode": "&#58221;"
   },
+  "map-pin-check-inside": {
+    "encodedCode": "\\e615",
+    "prefix": "icon",
+    "className": "icon-map-pin-check-inside",
+    "unicode": "&#58901;"
+  },
+  "map-pin-check": {
+    "encodedCode": "\\e614",
+    "prefix": "icon",
+    "className": "icon-map-pin-check",
+    "unicode": "&#58900;"
+  },
+  "map-pin-minus-inside": {
+    "encodedCode": "\\e617",
+    "prefix": "icon",
+    "className": "icon-map-pin-minus-inside",
+    "unicode": "&#58903;"
+  },
+  "map-pin-minus": {
+    "encodedCode": "\\e616",
+    "prefix": "icon",
+    "className": "icon-map-pin-minus",
+    "unicode": "&#58902;"
+  },
   "map-pin-off": {
     "encodedCode": "\\e2a6",
     "prefix": "icon",
     "className": "icon-map-pin-off",
     "unicode": "&#58022;"
+  },
+  "map-pin-plus-inside": {
+    "encodedCode": "\\e619",
+    "prefix": "icon",
+    "className": "icon-map-pin-plus-inside",
+    "unicode": "&#58905;"
+  },
+  "map-pin-plus": {
+    "encodedCode": "\\e618",
+    "prefix": "icon",
+    "className": "icon-map-pin-plus",
+    "unicode": "&#58904;"
+  },
+  "map-pin-x-inside": {
+    "encodedCode": "\\e61b",
+    "prefix": "icon",
+    "className": "icon-map-pin-x-inside",
+    "unicode": "&#58907;"
+  },
+  "map-pin-x": {
+    "encodedCode": "\\e61a",
+    "prefix": "icon",
+    "className": "icon-map-pin-x",
+    "unicode": "&#58906;"
   },
   "map-pin": {
     "encodedCode": "\\e115",
@@ -7744,6 +7792,12 @@
     "prefix": "icon",
     "className": "icon-square-split-vertical",
     "unicode": "&#58299;"
+  },
+  "square-square": {
+    "encodedCode": "\\e613",
+    "prefix": "icon",
+    "className": "icon-square-square",
+    "unicode": "&#58899;"
   },
   "square-stack": {
     "encodedCode": "\\e4a7",
