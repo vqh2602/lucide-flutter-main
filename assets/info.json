@@ -257,6 +257,12 @@
     "className": "icon-ampersands",
     "unicode": "&#58530;"
   },
+  "amphora": {
+    "encodedCode": "\\e620",
+    "prefix": "icon",
+    "className": "icon-amphora",
+    "unicode": "&#58912;"
+  },
   "anchor": {
     "encodedCode": "\\e043",
     "prefix": "icon",
@@ -2044,6 +2050,12 @@
     "prefix": "icon",
     "className": "icon-circle-equal",
     "unicode": "&#58373;"
+  },
+  "circle-fading-arrow-up": {
+    "encodedCode": "\\e61d",
+    "prefix": "icon",
+    "className": "icon-circle-fading-arrow-up",
+    "unicode": "&#58909;"
   },
   "circle-fading-plus": {
     "encodedCode": "\\e5c1",
@@ -4469,6 +4481,12 @@
     "className": "icon-ice-cream-cone",
     "unicode": "&#58199;"
   },
+  "id-card": {
+    "encodedCode": "\\e61c",
+    "prefix": "icon",
+    "className": "icon-id-card",
+    "unicode": "&#58908;"
+  },
   "image-down": {
     "encodedCode": "\\e541",
     "prefix": "icon",
@@ -5135,6 +5153,12 @@
     "className": "icon-map-pin-check",
     "unicode": "&#58900;"
   },
+  "map-pin-house": {
+    "encodedCode": "\\e621",
+    "prefix": "icon",
+    "className": "icon-map-pin-house",
+    "unicode": "&#58913;"
+  },
   "map-pin-minus-inside": {
     "encodedCode": "\\e617",
     "prefix": "icon",
@@ -5434,6 +5458,12 @@
     "prefix": "icon",
     "className": "icon-mic",
     "unicode": "&#57628;"
+  },
+  "microchip": {
+    "encodedCode": "\\e61f",
+    "prefix": "icon",
+    "className": "icon-microchip",
+    "unicode": "&#58911;"
   },
   "microscope": {
     "encodedCode": "\\e2e4",
@@ -5842,6 +5872,12 @@
     "prefix": "icon",
     "className": "icon-octagon",
     "unicode": "&#57642;"
+  },
+  "omega": {
+    "encodedCode": "\\e61e",
+    "prefix": "icon",
+    "className": "icon-omega",
+    "unicode": "&#58910;"
   },
   "option": {
     "encodedCode": "\\e1f8",

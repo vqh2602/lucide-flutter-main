@@ -147,6 +147,9 @@ class LucideIcons {
   /// ampersands
   static const IconData ampersands = const LucideIconData(58530);
 
+  /// amphora
+  static const IconData amphora = const LucideIconData(58912);
+
   /// anchor
   static const IconData anchor = const LucideIconData(57411);
 
@@ -1042,6 +1045,9 @@ class LucideIcons {
 
   /// circle-equal
   static const IconData circleEqual = const LucideIconData(58373);
+
+  /// circle-fading-arrow-up
+  static const IconData circleFadingArrowUp = const LucideIconData(58909);
 
   /// circle-fading-plus
   static const IconData circleFadingPlus = const LucideIconData(58817);
@@ -2255,6 +2261,9 @@ class LucideIcons {
   /// ice-cream-cone
   static const IconData iceCreamCone = const LucideIconData(58199);
 
+  /// id-card
+  static const IconData idCard = const LucideIconData(58908);
+
   /// image-down
   static const IconData imageDown = const LucideIconData(58689);
 
@@ -2588,6 +2597,9 @@ class LucideIcons {
   /// map-pin-check
   static const IconData mapPinCheck = const LucideIconData(58900);
 
+  /// map-pin-house
+  static const IconData mapPinHouse = const LucideIconData(58913);
+
   /// map-pin-minus-inside
   static const IconData mapPinMinusInside = const LucideIconData(58903);
 
@@ -2737,6 +2749,9 @@ class LucideIcons {
 
   /// mic
   static const IconData mic = const LucideIconData(57628);
+
+  /// microchip
+  static const IconData microchip = const LucideIconData(58911);
 
   /// microscope
   static const IconData microscope = const LucideIconData(58084);
@@ -2941,6 +2956,9 @@ class LucideIcons {
 
   /// octagon
   static const IconData octagon = const LucideIconData(57642);
+
+  /// omega
+  static const IconData omega = const LucideIconData(58910);
 
   /// option
   static const IconData option = const LucideIconData(57848);

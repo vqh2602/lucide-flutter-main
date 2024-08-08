@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1722153955723'); /* IE9*/
-  src: url('lucide.eot?t=1722153955723#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1722153955723") format("woff2"),
-  url("lucide.woff?t=1722153955723") format("woff"),
-  url('lucide.ttf?t=1722153955723') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1722153955723#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1722595367056'); /* IE9*/
+  src: url('lucide.eot?t=1722595367056#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1722595367056") format("woff2"),
+  url("lucide.woff?t=1722595367056") format("woff"),
+  url('lucide.ttf?t=1722595367056') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1722595367056#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -60,6 +60,7 @@
 .icon-ambulance:before { content: "\e5c0"; }
 .icon-ampersand:before { content: "\e4a1"; }
 .icon-ampersands:before { content: "\e4a2"; }
+.icon-amphora:before { content: "\e620"; }
 .icon-anchor:before { content: "\e043"; }
 .icon-angry:before { content: "\e2fc"; }
 .icon-annoyed:before { content: "\e2fd"; }
@@ -358,6 +359,7 @@
 .icon-circle-dot:before { content: "\e349"; }
 .icon-circle-ellipsis:before { content: "\e34a"; }
 .icon-circle-equal:before { content: "\e405"; }
+.icon-circle-fading-arrow-up:before { content: "\e61d"; }
 .icon-circle-fading-plus:before { content: "\e5c1"; }
 .icon-circle-gauge:before { content: "\e4e6"; }
 .icon-circle-help:before { content: "\e082"; }
@@ -762,6 +764,7 @@
 .icon-house:before { content: "\e0f8"; }
 .icon-ice-cream-bowl:before { content: "\e3ab"; }
 .icon-ice-cream-cone:before { content: "\e357"; }
+.icon-id-card:before { content: "\e61c"; }
 .icon-image-down:before { content: "\e541"; }
 .icon-image-minus:before { content: "\e1f6"; }
 .icon-image-off:before { content: "\e1c1"; }
@@ -873,6 +876,7 @@
 .icon-mails:before { content: "\e36d"; }
 .icon-map-pin-check-inside:before { content: "\e615"; }
 .icon-map-pin-check:before { content: "\e614"; }
+.icon-map-pin-house:before { content: "\e621"; }
 .icon-map-pin-minus-inside:before { content: "\e617"; }
 .icon-map-pin-minus:before { content: "\e616"; }
 .icon-map-pin-off:before { content: "\e2a6"; }
@@ -923,6 +927,7 @@
 .icon-mic-off:before { content: "\e11d"; }
 .icon-mic-vocal:before { content: "\e34d"; }
 .icon-mic:before { content: "\e11c"; }
+.icon-microchip:before { content: "\e61f"; }
 .icon-microscope:before { content: "\e2e4"; }
 .icon-microwave:before { content: "\e37e"; }
 .icon-milestone:before { content: "\e298"; }
@@ -991,6 +996,7 @@
 .icon-octagon-pause:before { content: "\e21b"; }
 .icon-octagon-x:before { content: "\e12c"; }
 .icon-octagon:before { content: "\e12a"; }
+.icon-omega:before { content: "\e61e"; }
 .icon-option:before { content: "\e1f8"; }
 .icon-orbit:before { content: "\e3eb"; }
 .icon-origami:before { content: "\e5e8"; }
