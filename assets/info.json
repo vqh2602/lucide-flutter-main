@@ -779,6 +779,12 @@
     "className": "icon-banana",
     "unicode": "&#58195;"
   },
+  "bandage": {
+    "encodedCode": "\\e622",
+    "prefix": "icon",
+    "className": "icon-bandage",
+    "unicode": "&#58914;"
+  },
   "banknote": {
     "encodedCode": "\\e056",
     "prefix": "icon",
@@ -976,6 +982,12 @@
     "prefix": "icon",
     "className": "icon-binary",
     "unicode": "&#57842;"
+  },
+  "binoculars": {
+    "encodedCode": "\\e626",
+    "prefix": "icon",
+    "className": "icon-binoculars",
+    "unicode": "&#58918;"
   },
   "biohazard": {
     "encodedCode": "\\e446",
@@ -1858,6 +1870,12 @@
     "prefix": "icon",
     "className": "icon-chevrons-down",
     "unicode": "&#57461;"
+  },
+  "chevrons-left-right-ellipsis": {
+    "encodedCode": "\\e624",
+    "prefix": "icon",
+    "className": "icon-chevrons-left-right-ellipsis",
+    "unicode": "&#58916;"
   },
   "chevrons-left-right": {
     "encodedCode": "\\e293",
@@ -3106,6 +3124,12 @@
     "prefix": "icon",
     "className": "icon-eraser",
     "unicode": "&#57999;"
+  },
+  "ethernet-port": {
+    "encodedCode": "\\e625",
+    "prefix": "icon",
+    "className": "icon-ethernet-port",
+    "unicode": "&#58917;"
   },
   "euro": {
     "encodedCode": "\\e0bc",
@@ -8075,6 +8099,12 @@
     "className": "icon-table-columns-split",
     "unicode": "&#58830;"
   },
+  "table-of-contents": {
+    "encodedCode": "\\e623",
+    "prefix": "icon",
+    "className": "icon-table-of-contents",
+    "unicode": "&#58915;"
+  },
   "table-properties": {
     "encodedCode": "\\e4e0",
     "prefix": "icon",
@@ -8320,6 +8350,18 @@
     "prefix": "icon",
     "className": "icon-ticket",
     "unicode": "&#57871;"
+  },
+  "tickets-plane": {
+    "encodedCode": "\\e628",
+    "prefix": "icon",
+    "className": "icon-tickets-plane",
+    "unicode": "&#58920;"
+  },
+  "tickets": {
+    "encodedCode": "\\e627",
+    "prefix": "icon",
+    "className": "icon-tickets",
+    "unicode": "&#58919;"
   },
   "timer-off": {
     "encodedCode": "\\e249",

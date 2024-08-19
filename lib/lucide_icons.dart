@@ -408,6 +408,9 @@ class LucideIcons {
   /// banana
   static const IconData banana = const LucideIconData(58195);
 
+  /// bandage
+  static const IconData bandage = const LucideIconData(58914);
+
   /// banknote
   static const IconData banknote = const LucideIconData(57430);
 
@@ -506,6 +509,9 @@ class LucideIcons {
 
   /// binary
   static const IconData binary = const LucideIconData(57842);
+
+  /// binoculars
+  static const IconData binoculars = const LucideIconData(58918);
 
   /// biohazard
   static const IconData biohazard = const LucideIconData(58438);
@@ -949,6 +955,9 @@ class LucideIcons {
 
   /// chevrons-down
   static const IconData chevronsDown = const LucideIconData(57461);
+
+  /// chevrons-left-right-ellipsis
+  static const IconData chevronsLeftRightEllipsis = const LucideIconData(58916);
 
   /// chevrons-left-right
   static const IconData chevronsLeftRight = const LucideIconData(58003);
@@ -1573,6 +1582,9 @@ class LucideIcons {
 
   /// eraser
   static const IconData eraser = const LucideIconData(57999);
+
+  /// ethernet-port
+  static const IconData ethernetPort = const LucideIconData(58917);
 
   /// euro
   static const IconData euro = const LucideIconData(57532);
@@ -4059,6 +4071,9 @@ class LucideIcons {
   /// table-columns-split
   static const IconData tableColumnsSplit = const LucideIconData(58830);
 
+  /// table-of-contents
+  static const IconData tableOfContents = const LucideIconData(58915);
+
   /// table-properties
   static const IconData tableProperties = const LucideIconData(58592);
 
@@ -4181,6 +4196,12 @@ class LucideIcons {
 
   /// ticket
   static const IconData ticket = const LucideIconData(57871);
+
+  /// tickets-plane
+  static const IconData ticketsPlane = const LucideIconData(58920);
+
+  /// tickets
+  static const IconData tickets = const LucideIconData(58919);
 
   /// timer-off
   static const IconData timerOff = const LucideIconData(57929);
