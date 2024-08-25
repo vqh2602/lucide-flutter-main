@@ -888,6 +888,9 @@ class LucideIcons {
   /// chart-column
   static const IconData chartColumn = const LucideIconData(58019);
 
+  /// chart-gantt
+  static const IconData chartGantt = const LucideIconData(58921);
+
   /// chart-line
   static const IconData chartLine = const LucideIconData(58021);
 
@@ -4278,6 +4281,9 @@ class LucideIcons {
   /// trending-down
   static const IconData trendingDown = const LucideIconData(57744);
 
+  /// trending-up-down
+  static const IconData trendingUpDown = const LucideIconData(58922);
+
   /// trending-up
   static const IconData trendingUp = const LucideIconData(57745);
 
@@ -4466,6 +4472,9 @@ class LucideIcons {
 
   /// volume-2
   static const IconData volume2 = const LucideIconData(57771);
+
+  /// volume-off
+  static const IconData volumeOff = const LucideIconData(58923);
 
   /// volume-x
   static const IconData volumeX = const LucideIconData(57772);

@@ -1739,6 +1739,12 @@
     "className": "icon-chart-column",
     "unicode": "&#58019;"
   },
+  "chart-gantt": {
+    "encodedCode": "\\e629",
+    "prefix": "icon",
+    "className": "icon-chart-gantt",
+    "unicode": "&#58921;"
+  },
   "chart-line": {
     "encodedCode": "\\e2a5",
     "prefix": "icon",
@@ -8513,6 +8519,12 @@
     "className": "icon-trending-down",
     "unicode": "&#57744;"
   },
+  "trending-up-down": {
+    "encodedCode": "\\e62a",
+    "prefix": "icon",
+    "className": "icon-trending-up-down",
+    "unicode": "&#58922;"
+  },
   "trending-up": {
     "encodedCode": "\\e191",
     "prefix": "icon",
@@ -8890,6 +8902,12 @@
     "prefix": "icon",
     "className": "icon-volume-2",
     "unicode": "&#57771;"
+  },
+  "volume-off": {
+    "encodedCode": "\\e62b",
+    "prefix": "icon",
+    "className": "icon-volume-off",
+    "unicode": "&#58923;"
   },
   "volume-x": {
     "encodedCode": "\\e1ac",

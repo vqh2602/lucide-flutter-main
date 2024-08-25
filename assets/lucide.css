@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1723796995041'); /* IE9*/
-  src: url('lucide.eot?t=1723796995041#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1723796995041") format("woff2"),
-  url("lucide.woff?t=1723796995041") format("woff"),
-  url('lucide.ttf?t=1723796995041') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1723796995041#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1724405710009'); /* IE9*/
+  src: url('lucide.eot?t=1724405710009#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1724405710009") format("woff2"),
+  url("lucide.woff?t=1724405710009") format("woff"),
+  url('lucide.ttf?t=1724405710009') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1724405710009#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -307,6 +307,7 @@
 .icon-chart-column-increasing:before { content: "\e2a4"; }
 .icon-chart-column-stacked:before { content: "\e60f"; }
 .icon-chart-column:before { content: "\e2a3"; }
+.icon-chart-gantt:before { content: "\e629"; }
 .icon-chart-line:before { content: "\e2a5"; }
 .icon-chart-network:before { content: "\e610"; }
 .icon-chart-no-axes-column-decreasing:before { content: "\e06d"; }
@@ -1436,6 +1437,7 @@
 .icon-trees:before { content: "\e2f5"; }
 .icon-trello:before { content: "\e18f"; }
 .icon-trending-down:before { content: "\e190"; }
+.icon-trending-up-down:before { content: "\e62a"; }
 .icon-trending-up:before { content: "\e191"; }
 .icon-triangle-alert:before { content: "\e193"; }
 .icon-triangle-right:before { content: "\e4f2"; }
@@ -1499,6 +1501,7 @@
 .icon-voicemail:before { content: "\e1a8"; }
 .icon-volume-1:before { content: "\e1aa"; }
 .icon-volume-2:before { content: "\e1ab"; }
+.icon-volume-off:before { content: "\e62b"; }
 .icon-volume-x:before { content: "\e1ac"; }
 .icon-volume:before { content: "\e1a9"; }
 .icon-vote:before { content: "\e3b1"; }

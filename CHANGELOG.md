@@ -1,3 +1,6 @@
+## 1.1.7
+New icons 0.435.0
+
 ## 1.1.4
 New icons 🎨
 map-pin-check-inside (#2301) by @karsa-mistmere
