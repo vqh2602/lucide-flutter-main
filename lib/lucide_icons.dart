@@ -2963,6 +2963,9 @@ class LucideIcons {
   /// octagon-alert
   static const IconData octagonAlert = const LucideIconData(57643);
 
+  /// octagon-minus
+  static const IconData octagonMinus = const LucideIconData(58924);
+
   /// octagon-pause
   static const IconData octagonPause = const LucideIconData(57883);
 

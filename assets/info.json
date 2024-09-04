@@ -5885,6 +5885,12 @@
     "className": "icon-octagon-alert",
     "unicode": "&#57643;"
   },
+  "octagon-minus": {
+    "encodedCode": "\\e62c",
+    "prefix": "icon",
+    "className": "icon-octagon-minus",
+    "unicode": "&#58924;"
+  },
   "octagon-pause": {
     "encodedCode": "\\e21b",
     "prefix": "icon",

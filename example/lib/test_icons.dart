@@ -984,6 +984,7 @@ List<IconData> icons = [
   LucideIcons.nutOff,
   LucideIcons.nut,
   LucideIcons.octagonAlert,
+  LucideIcons.octagonMinus,
   LucideIcons.octagonPause,
   LucideIcons.octagonX,
   LucideIcons.octagon,

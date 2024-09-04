@@ -1,10 +1,10 @@
 @font-face {font-family: "lucide";
-  src: url('lucide.eot?t=1724405710009'); /* IE9*/
-  src: url('lucide.eot?t=1724405710009#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1724405710009") format("woff2"),
-  url("lucide.woff?t=1724405710009") format("woff"),
-  url('lucide.ttf?t=1724405710009') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1724405710009#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1725217925465'); /* IE9*/
+  src: url('lucide.eot?t=1725217925465#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1725217925465") format("woff2"),
+  url("lucide.woff?t=1725217925465") format("woff"),
+  url('lucide.ttf?t=1725217925465') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1725217925465#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -996,6 +996,7 @@
 .icon-nut-off:before { content: "\e3a0"; }
 .icon-nut:before { content: "\e39f"; }
 .icon-octagon-alert:before { content: "\e12b"; }
+.icon-octagon-minus:before { content: "\e62c"; }
 .icon-octagon-pause:before { content: "\e21b"; }
 .icon-octagon-x:before { content: "\e12c"; }
 .icon-octagon:before { content: "\e12a"; }
@@ -2521,6 +2522,7 @@ $icon-notepad-text: "\e59e";
 $icon-nut-off: "\e3a0";
 $icon-nut: "\e39f";
 $icon-octagon-alert: "\e12b";
+$icon-octagon-minus: "\e62c";
 $icon-octagon-pause: "\e21b";
 $icon-octagon-x: "\e12c";
 $icon-octagon: "\e12a";

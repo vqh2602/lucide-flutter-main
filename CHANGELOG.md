@@ -1,7 +1,9 @@
-## 1.1.7
-New icons 0.435.0
+## 1.1.8
+
+New icons 0.438.0
 
 ## 1.1.4
+
 New icons 🎨
 map-pin-check-inside (#2301) by @karsa-mistmere
 map-pin-check (#2301) by @karsa-mistmere
@@ -18,7 +20,6 @@ chart-column-increasing (#2334) by @jguddas
 map-pin-off (#2301) by @karsa-mistmere
 map-pin (#2301) by @karsa-mistmere
 map-pinned (#2301) by @karsa-mistmere
-
 
 ## 1.1.3
 
@@ -59,7 +60,6 @@ wifi-low (#2157) by @VirtCode
 wifi-zero (#2157) by @VirtCode
 scan-qr-code (#2247) by @vexkiddy
 
-
 ## 1.1.2
 
 New icons 🎨
@@ -83,4 +83,3 @@ quote (#2212) by @jguddas
 
 New icons 🎨
 key (#2067) by @jguddas
-
