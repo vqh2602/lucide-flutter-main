@@ -2120,6 +2120,9 @@ class LucideIcons {
   /// grid-2x2-check
   static const IconData grid2x2Check = const LucideIconData(58857);
 
+  /// grid-2x2-plus
+  static const IconData grid2x2Plus = const LucideIconData(58925);
+
   /// grid-2x2-x
   static const IconData grid2x2X = const LucideIconData(58858);
 
@@ -2212,6 +2215,9 @@ class LucideIcons {
 
   /// heading
   static const IconData heading = const LucideIconData(58248);
+
+  /// headphone-off
+  static const IconData headphoneOff = const LucideIconData(58926);
 
   /// headphones
   static const IconData headphones = const LucideIconData(57588);

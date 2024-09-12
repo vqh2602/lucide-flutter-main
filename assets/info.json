@@ -4199,6 +4199,12 @@
     "className": "icon-grid-2x2-check",
     "unicode": "&#58857;"
   },
+  "grid-2x2-plus": {
+    "encodedCode": "\\e62d",
+    "prefix": "icon",
+    "className": "icon-grid-2x2-plus",
+    "unicode": "&#58925;"
+  },
   "grid-2x2-x": {
     "encodedCode": "\\e5ea",
     "prefix": "icon",
@@ -4384,6 +4390,12 @@
     "prefix": "icon",
     "className": "icon-heading",
     "unicode": "&#58248;"
+  },
+  "headphone-off": {
+    "encodedCode": "\\e62e",
+    "prefix": "icon",
+    "className": "icon-headphone-off",
+    "unicode": "&#58926;"
   },
   "headphones": {
     "encodedCode": "\\e0f4",
