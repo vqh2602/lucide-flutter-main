@@ -1331,6 +1331,12 @@
     "className": "icon-briefcase-business",
     "unicode": "&#58842;"
   },
+  "briefcase-conveyor-belt": {
+    "encodedCode": "\\e630",
+    "prefix": "icon",
+    "className": "icon-briefcase-conveyor-belt",
+    "unicode": "&#58928;"
+  },
   "briefcase-medical": {
     "encodedCode": "\\e5db",
     "prefix": "icon",
@@ -2350,6 +2356,12 @@
     "prefix": "icon",
     "className": "icon-clock-9",
     "unicode": "&#57942;"
+  },
+  "clock-alert": {
+    "encodedCode": "\\e62f",
+    "prefix": "icon",
+    "className": "icon-clock-alert",
+    "unicode": "&#58927;"
   },
   "clock-arrow-down": {
     "encodedCode": "\\e605",

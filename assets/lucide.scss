@@ -1,10 +1,10 @@
 @font-face {font-family: "lucide";
-  src: url('lucide.eot?t=1726129509915'); /* IE9*/
-  src: url('lucide.eot?t=1726129509915#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1726129509915") format("woff2"),
-  url("lucide.woff?t=1726129509915") format("woff"),
-  url('lucide.ttf?t=1726129509915') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1726129509915#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1726867793113'); /* IE9*/
+  src: url('lucide.eot?t=1726867793113#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1726867793113") format("woff2"),
+  url("lucide.woff?t=1726867793113") format("woff"),
+  url('lucide.ttf?t=1726867793113') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1726867793113#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -237,6 +237,7 @@
 .icon-brain:before { content: "\e3ca"; }
 .icon-brick-wall:before { content: "\e586"; }
 .icon-briefcase-business:before { content: "\e5da"; }
+.icon-briefcase-conveyor-belt:before { content: "\e630"; }
 .icon-briefcase-medical:before { content: "\e5db"; }
 .icon-briefcase:before { content: "\e066"; }
 .icon-bring-to-front:before { content: "\e4f4"; }
@@ -407,6 +408,7 @@
 .icon-clock-7:before { content: "\e254"; }
 .icon-clock-8:before { content: "\e255"; }
 .icon-clock-9:before { content: "\e256"; }
+.icon-clock-alert:before { content: "\e62f"; }
 .icon-clock-arrow-down:before { content: "\e605"; }
 .icon-clock-arrow-up:before { content: "\e606"; }
 .icon-clock:before { content: "\e08b"; }
@@ -1765,6 +1767,7 @@ $icon-brain-cog: "\e3cc";
 $icon-brain: "\e3ca";
 $icon-brick-wall: "\e586";
 $icon-briefcase-business: "\e5da";
+$icon-briefcase-conveyor-belt: "\e630";
 $icon-briefcase-medical: "\e5db";
 $icon-briefcase: "\e066";
 $icon-bring-to-front: "\e4f4";
@@ -1935,6 +1938,7 @@ $icon-clock-6: "\e253";
 $icon-clock-7: "\e254";
 $icon-clock-8: "\e255";
 $icon-clock-9: "\e256";
+$icon-clock-alert: "\e62f";
 $icon-clock-arrow-down: "\e605";
 $icon-clock-arrow-up: "\e606";
 $icon-clock: "\e08b";
