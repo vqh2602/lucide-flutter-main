@@ -654,9 +654,6 @@ class LucideIcons {
   /// bot
   static const IconData bot = const LucideIconData(57787);
 
-  /// box-select
-  static const IconData boxSelect = const LucideIconData(57788);
-
   /// box
   static const IconData box = const LucideIconData(57445);
 
@@ -733,7 +730,7 @@ class LucideIcons {
   static const IconData cake = const LucideIconData(58184);
 
   /// calculator
-  static const IconData calculator = const LucideIconData(57789);
+  static const IconData calculator = const LucideIconData(57788);
 
   /// calendar-arrow-down
   static const IconData calendarArrowDown = const LucideIconData(58883);
@@ -1584,10 +1581,10 @@ class LucideIcons {
   static const IconData ellipsis = const LucideIconData(57530);
 
   /// equal-not
-  static const IconData equalNot = const LucideIconData(57791);
+  static const IconData equalNot = const LucideIconData(57790);
 
   /// equal
-  static const IconData equal = const LucideIconData(57790);
+  static const IconData equal = const LucideIconData(57789);
 
   /// eraser
   static const IconData eraser = const LucideIconData(57999);
@@ -1603,6 +1600,9 @@ class LucideIcons {
 
   /// external-link
   static const IconData externalLink = const LucideIconData(57533);
+
+  /// eye-closed
+  static const IconData eyeClosed = const LucideIconData(58931);
 
   /// eye-off
   static const IconData eyeOff = const LucideIconData(57535);
@@ -1783,6 +1783,9 @@ class LucideIcons {
 
   /// file-up
   static const IconData fileUp = const LucideIconData(58155);
+
+  /// file-user
+  static const IconData fileUser = const LucideIconData(58930);
 
   /// file-video-2
   static const IconData fileVideo2 = const LucideIconData(58157);
@@ -2034,7 +2037,7 @@ class LucideIcons {
   static const IconData gamepad = const LucideIconData(57569);
 
   /// gauge
-  static const IconData gauge = const LucideIconData(57792);
+  static const IconData gauge = const LucideIconData(57791);
 
   /// gavel
   static const IconData gavel = const LucideIconData(57571);
@@ -2298,7 +2301,7 @@ class LucideIcons {
   static const IconData imageMinus = const LucideIconData(57846);
 
   /// image-off
-  static const IconData imageOff = const LucideIconData(57793);
+  static const IconData imageOff = const LucideIconData(57792);
 
   /// image-play
   static const IconData imagePlay = const LucideIconData(58852);
@@ -2430,7 +2433,7 @@ class LucideIcons {
   static const IconData layers = const LucideIconData(57604);
 
   /// layout-dashboard
-  static const IconData layoutDashboard = const LucideIconData(57794);
+  static const IconData layoutDashboard = const LucideIconData(57793);
 
   /// layout-grid
   static const IconData layoutGrid = const LucideIconData(57605);
@@ -2475,7 +2478,7 @@ class LucideIcons {
   static const IconData lightbulbOff = const LucideIconData(57864);
 
   /// lightbulb
-  static const IconData lightbulb = const LucideIconData(57795);
+  static const IconData lightbulb = const LucideIconData(57794);
 
   /// link-2-off
   static const IconData link2Off = const LucideIconData(57610);
@@ -2735,6 +2738,9 @@ class LucideIcons {
   /// message-square-heart
   static const IconData messageSquareHeart = const LucideIconData(58740);
 
+  /// message-square-lock
+  static const IconData messageSquareLock = const LucideIconData(58929);
+
   /// message-square-more
   static const IconData messageSquareMore = const LucideIconData(58741);
 
@@ -2859,7 +2865,7 @@ class LucideIcons {
   static const IconData mouseOff = const LucideIconData(58848);
 
   /// mouse-pointer-2
-  static const IconData mousePointer2 = const LucideIconData(57796);
+  static const IconData mousePointer2 = const LucideIconData(57795);
 
   /// mouse-pointer-ban
   static const IconData mousePointerBan = const LucideIconData(58860);
@@ -2877,10 +2883,10 @@ class LucideIcons {
   static const IconData move3d = const LucideIconData(58085);
 
   /// move-diagonal-2
-  static const IconData moveDiagonal2 = const LucideIconData(57798);
+  static const IconData moveDiagonal2 = const LucideIconData(57797);
 
   /// move-diagonal
-  static const IconData moveDiagonal = const LucideIconData(57797);
+  static const IconData moveDiagonal = const LucideIconData(57796);
 
   /// move-down-left
   static const IconData moveDownLeft = const LucideIconData(58514);
@@ -2892,7 +2898,7 @@ class LucideIcons {
   static const IconData moveDown = const LucideIconData(58513);
 
   /// move-horizontal
-  static const IconData moveHorizontal = const LucideIconData(57799);
+  static const IconData moveHorizontal = const LucideIconData(57798);
 
   /// move-left
   static const IconData moveLeft = const LucideIconData(58516);
@@ -2910,7 +2916,7 @@ class LucideIcons {
   static const IconData moveUp = const LucideIconData(58518);
 
   /// move-vertical
-  static const IconData moveVertical = const LucideIconData(57800);
+  static const IconData moveVertical = const LucideIconData(57799);
 
   /// move
   static const IconData move = const LucideIconData(57637);
@@ -3588,10 +3594,10 @@ class LucideIcons {
   static const IconData send = const LucideIconData(57686);
 
   /// separator-horizontal
-  static const IconData separatorHorizontal = const LucideIconData(57801);
+  static const IconData separatorHorizontal = const LucideIconData(57800);
 
   /// separator-vertical
-  static const IconData separatorVertical = const LucideIconData(57802);
+  static const IconData separatorVertical = const LucideIconData(57801);
 
   /// server-cog
   static const IconData serverCog = const LucideIconData(58181);
@@ -3666,7 +3672,7 @@ class LucideIcons {
   static const IconData ship = const LucideIconData(58302);
 
   /// shirt
-  static const IconData shirt = const LucideIconData(57803);
+  static const IconData shirt = const LucideIconData(57802);
 
   /// shopping-bag
   static const IconData shoppingBag = const LucideIconData(57695);
@@ -3890,6 +3896,9 @@ class LucideIcons {
 
   /// square-dashed-mouse-pointer
   static const IconData squareDashedMousePointer = const LucideIconData(58638);
+
+  /// square-dashed
+  static const IconData squareDashed = const LucideIconData(57803);
 
   /// square-divide
   static const IconData squareDivide = const LucideIconData(57713);
@@ -4481,6 +4490,9 @@ class LucideIcons {
 
   /// voicemail
   static const IconData voicemail = const LucideIconData(57768);
+
+  /// volleyball
+  static const IconData volleyball = const LucideIconData(58932);
 
   /// volume-1
   static const IconData volume1 = const LucideIconData(57770);
