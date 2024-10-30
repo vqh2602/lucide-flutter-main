@@ -15,3 +15,8 @@ Icon(LucideIcons.activity);
 ```
 
 ![enter image description here](https://i.imgur.com/iopbEUh.png)
+
+## Contributors
+
+- vqh2602
+- alessandro-amos
