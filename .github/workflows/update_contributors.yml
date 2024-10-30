@@ -16,14 +16,18 @@ jobs:
 
       - name: Get contributors with avatars
         id: contributors
+        env:
+          REPO: ${{ github.repository }}
         run: |
           CONTRIBUTORS_LIST=""
           CONTRIBUTORS_LIST+="\n## Contributors\n\n"
           
           # Lấy danh sách contributors và ảnh đại diện
-          for user in $(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/contributors | jq -r '.[] | .login'); do
-            avatar_url=$(curl -s https://api.github.com/users/$user | jq -r '.avatar_url')
-            CONTRIBUTORS_LIST+="<a href='https://github.com/$user'><img src='$avatar_url' width='50' height='50' alt='$user' style='border-radius:50%;'></a> "
+          contributors=$(curl -s https://api.github.com/repos/$REPO/contributors | jq -r '.[] | {login: .login, avatar_url: .avatar_url} | @base64')
+          for contributor in $contributors; do
+            user=$(echo $contributor | base64 --decode | jq -r .login)
+            avatar_url=$(echo $contributor | base64 --decode | jq -r .avatar_url)
+            CONTRIBUTORS_LIST+="<a href='https://github.com/$user'><img src='$avatar_url' width='50' height='50' alt='$user' style='border-radius:50%; margin-right:8px;'></a> "
           done
           
           echo -e "$CONTRIBUTORS_LIST" > CONTRIBUTORS.md
@@ -42,6 +46,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Update contributors list with avatars [skip ci]" || echo "No changes to commit"
-          
+
+      - name: Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
