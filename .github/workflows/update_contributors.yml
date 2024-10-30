@@ -1,0 +1,34 @@
+name: Update Contributors
+
+on:
+  push:
+    branches:
+      - main 
+      - feature/contributors
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get contributors
+        id: contributors
+        run: |
+          curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/contributors | jq -r '.[] | "- " + .login' > CONTRIBUTORS.md
+
+      - name: Append Contributors to README.md
+        run: |
+          echo -e "\n## Contributors\n" >> README.md
+          cat CONTRIBUTORS.md >> README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update contributors list [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
