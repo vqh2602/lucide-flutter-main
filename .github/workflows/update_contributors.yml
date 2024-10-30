@@ -6,6 +6,7 @@ on:
       - main 
       - feature/contributors
 
+
 jobs:
   update-contributors:
     runs-on: ubuntu-latest
@@ -13,14 +14,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Get contributors
+      - name: Get contributors with avatars
         id: contributors
         run: |
-          curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/contributors | jq -r '.[] | "- " + .login' > CONTRIBUTORS.md
+          CONTRIBUTORS_LIST=""
+          CONTRIBUTORS_LIST+="\n## Contributors\n\n"
+          
+          # Lấy danh sách contributors và ảnh đại diện
+          for user in $(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/contributors | jq -r '.[] | .login'); do
+            avatar_url=$(curl -s https://api.github.com/users/$user | jq -r '.avatar_url')
+            CONTRIBUTORS_LIST+="<a href='https://github.com/$user'><img src='$avatar_url' width='50' height='50' alt='$user' style='border-radius:50%;'></a> "
+          done
+          
+          echo -e "$CONTRIBUTORS_LIST" > CONTRIBUTORS.md
 
       - name: Append Contributors to README.md
         run: |
-          echo -e "\n## Contributors\n" >> README.md
+          # Xóa phần cũ trong README.md nếu có
+          sed -i '/## Contributors/,$d' README.md
+          
+          # Thêm danh sách contributors vào cuối file README.md
           cat CONTRIBUTORS.md >> README.md
 
       - name: Commit changes
@@ -28,7 +41,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update contributors list [skip ci]" || echo "No changes to commit"
-          git push
+          git commit -m "Update contributors list with avatars [skip ci]" || echo "No changes to commit"
+          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
