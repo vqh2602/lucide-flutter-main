@@ -1427,6 +1427,12 @@
     "className": "icon-calculator",
     "unicode": "&#57788;"
   },
+  "calendar-1": {
+    "encodedCode": "\\e635",
+    "prefix": "icon",
+    "className": "icon-calendar-1",
+    "unicode": "&#58933;"
+  },
   "calendar-arrow-down": {
     "encodedCode": "\\e603",
     "prefix": "icon",

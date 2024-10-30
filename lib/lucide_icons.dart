@@ -737,6 +737,9 @@ class LucideIcons {
   /// calculator
   static const IconData calculator = const LucideIconData(57788);
 
+  /// calendar-1
+  static const IconData calendar1 = const LucideIconData(58933);
+
   /// calendar-arrow-down
   static const IconData calendarArrowDown = const LucideIconData(58883);
 

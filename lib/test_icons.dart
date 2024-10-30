@@ -241,6 +241,7 @@ List<IconData> icons = [
   LucideIcons.cakeSlice,
   LucideIcons.cake,
   LucideIcons.calculator,
+  LucideIcons.calendar1,
   LucideIcons.calendarArrowDown,
   LucideIcons.calendarArrowUp,
   LucideIcons.calendarCheck2,

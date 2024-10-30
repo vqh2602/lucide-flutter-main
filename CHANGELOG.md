@@ -1,3 +1,8 @@
+## 1.2.3
+
+v 0.454.0
+Make LucideIcons Constructor Private @alessandro-amos
+
 ## 1.2.0
 
 v 0.451.0
