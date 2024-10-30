@@ -7,6 +7,11 @@ import "src/icon_data.dart";
 
 /// Lucide Icons
 class LucideIcons {
+  /// Private constructor to prevent instantiation.
+  /// This class is intended solely for organizing static icon definitions.
+  /// Making the constructor private stops the IDE from suggesting object creation.
+  const LucideIcons._();
+
   /// a-arrow-down
   static const IconData aArrowDown = const LucideIconData(58762);
 
