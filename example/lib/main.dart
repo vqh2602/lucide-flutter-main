@@ -94,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: const Icon(
           LucideIcons.zoomOut,
           size: 30,
+          weight: 50,
           color: Colors.black,
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
