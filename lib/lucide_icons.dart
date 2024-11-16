@@ -1216,6 +1216,9 @@ class LucideIcons {
   /// clock
   static const IconData clock = const LucideIconData(57483);
 
+  /// cloud-alert
+  static const IconData cloudAlert = const LucideIconData(58936);
+
   /// cloud-cog
   static const IconData cloudCog = const LucideIconData(58122);
 
@@ -1587,6 +1590,9 @@ class LucideIcons {
 
   /// ellipsis
   static const IconData ellipsis = const LucideIconData(57530);
+
+  /// equal-approximately
+  static const IconData equalApproximately = const LucideIconData(58937);
 
   /// equal-not
   static const IconData equalNot = const LucideIconData(57790);
@@ -2415,6 +2421,9 @@ class LucideIcons {
 
   /// languages
   static const IconData languages = const LucideIconData(57603);
+
+  /// laptop-minimal-check
+  static const IconData laptopMinimalCheck = const LucideIconData(58935);
 
   /// laptop-minimal
   static const IconData laptopMinimal = const LucideIconData(57816);
@@ -4253,6 +4262,9 @@ class LucideIcons {
   /// toggle-right
   static const IconData toggleRight = const LucideIconData(57740);
 
+  /// toilet
+  static const IconData toilet = const LucideIconData(58938);
+
   /// tornado
   static const IconData tornado = const LucideIconData(57880);
 
@@ -4588,6 +4600,9 @@ class LucideIcons {
 
   /// wifi
   static const IconData wifi = const LucideIconData(57774);
+
+  /// wind-arrow-down
+  static const IconData windArrowDown = const LucideIconData(58934);
 
   /// wind
   static const IconData wind = const LucideIconData(57776);
