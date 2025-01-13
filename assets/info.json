@@ -4553,6 +4553,12 @@
     "className": "icon-house-plus",
     "unicode": "&#58869;"
   },
+  "house-wifi": {
+    "encodedCode": "\\e640",
+    "prefix": "icon",
+    "className": "icon-house-wifi",
+    "unicode": "&#58944;"
+  },
   "house": {
     "encodedCode": "\\e0f8",
     "prefix": "icon",
@@ -8638,6 +8644,12 @@
     "prefix": "icon",
     "className": "icon-triangle-alert",
     "unicode": "&#57746;"
+  },
+  "triangle-dashed": {
+    "encodedCode": "\\e641",
+    "prefix": "icon",
+    "className": "icon-triangle-dashed",
+    "unicode": "&#58945;"
   },
   "triangle-right": {
     "encodedCode": "\\e4f1",

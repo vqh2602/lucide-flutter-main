@@ -2302,6 +2302,9 @@ class LucideIcons {
   /// house-plus
   static const IconData housePlus = const LucideIconData(58869);
 
+  /// house-wifi
+  static const IconData houseWifi = const LucideIconData(58944);
+
   /// house
   static const IconData house = const LucideIconData(57592);
 
@@ -4345,6 +4348,9 @@ class LucideIcons {
 
   /// triangle-alert
   static const IconData triangleAlert = const LucideIconData(57746);
+
+  /// triangle-dashed
+  static const IconData triangleDashed = const LucideIconData(58945);
 
   /// triangle-right
   static const IconData triangleRight = const LucideIconData(58609);
