@@ -833,6 +833,12 @@
     "className": "icon-battery-medium",
     "unicode": "&#57435;"
   },
+  "battery-plus": {
+    "encodedCode": "\\e642",
+    "prefix": "icon",
+    "className": "icon-battery-plus",
+    "unicode": "&#58946;"
+  },
   "battery-warning": {
     "encodedCode": "\\e3af",
     "prefix": "icon",
@@ -5320,6 +5326,12 @@
     "prefix": "icon",
     "className": "icon-map-pinned",
     "unicode": "&#58689;"
+  },
+  "map-plus": {
+    "encodedCode": "\\e643",
+    "prefix": "icon",
+    "className": "icon-map-plus",
+    "unicode": "&#58947;"
   },
   "map": {
     "encodedCode": "\\e113",

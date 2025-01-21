@@ -440,6 +440,9 @@ class LucideIcons {
   /// battery-medium
   static const IconData batteryMedium = const LucideIconData(57435);
 
+  /// battery-plus
+  static const IconData batteryPlus = const LucideIconData(58946);
+
   /// battery-warning
   static const IconData batteryWarning = const LucideIconData(58287);
 
@@ -2685,6 +2688,9 @@ class LucideIcons {
 
   /// map-pinned
   static const IconData mapPinned = const LucideIconData(58689);
+
+  /// map-plus
+  static const IconData mapPlus = const LucideIconData(58947);
 
   /// map
   static const IconData map = const LucideIconData(57619);
