@@ -1,10 +1,10 @@
 @font-face {font-family: "lucide";
-  src: url('lucide.eot?t=1737128053459'); /* IE9*/
-  src: url('lucide.eot?t=1737128053459#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1737128053459") format("woff2"),
-  url("lucide.woff?t=1737128053459") format("woff"),
-  url('lucide.ttf?t=1737128053459') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1737128053459#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1738987552989'); /* IE9*/
+  src: url('lucide.eot?t=1738987552989#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1738987552989") format("woff2"),
+  url("lucide.woff?t=1738987552989") format("woff"),
+  url('lucide.ttf?t=1738987552989') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1738987552989#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -379,6 +379,7 @@
 .icon-circle-power:before { content: "\e554"; }
 .icon-circle-slash-2:before { content: "\e212"; }
 .icon-circle-slash:before { content: "\e406"; }
+.icon-circle-small:before { content: "\e644"; }
 .icon-circle-stop:before { content: "\e087"; }
 .icon-circle-user-round:before { content: "\e466"; }
 .icon-circle-user:before { content: "\e465"; }
@@ -905,6 +906,8 @@
 .icon-map-pinned:before { content: "\e541"; }
 .icon-map-plus:before { content: "\e643"; }
 .icon-map:before { content: "\e113"; }
+.icon-mars-stroke:before { content: "\e646"; }
+.icon-mars:before { content: "\e645"; }
 .icon-martini:before { content: "\e2e2"; }
 .icon-maximize-2:before { content: "\e116"; }
 .icon-maximize:before { content: "\e115"; }
@@ -1003,6 +1006,7 @@
 .icon-network:before { content: "\e128"; }
 .icon-newspaper:before { content: "\e34b"; }
 .icon-nfc:before { content: "\e3c6"; }
+.icon-non-binary:before { content: "\e647"; }
 .icon-notebook-pen:before { content: "\e59a"; }
 .icon-notebook-tabs:before { content: "\e59b"; }
 .icon-notebook-text:before { content: "\e59c"; }
@@ -1447,6 +1451,7 @@
 .icon-train-front:before { content: "\e50a"; }
 .icon-train-track:before { content: "\e50c"; }
 .icon-tram-front:before { content: "\e2a8"; }
+.icon-transgender:before { content: "\e648"; }
 .icon-trash-2:before { content: "\e18d"; }
 .icon-trash:before { content: "\e18c"; }
 .icon-tree-deciduous:before { content: "\e2f2"; }
@@ -1511,6 +1516,8 @@
 .icon-vault:before { content: "\e593"; }
 .icon-vegan:before { content: "\e3a0"; }
 .icon-venetian-mask:before { content: "\e2a9"; }
+.icon-venus-and-mars:before { content: "\e64a"; }
+.icon-venus:before { content: "\e649"; }
 .icon-vibrate-off:before { content: "\e29c"; }
 .icon-vibrate:before { content: "\e222"; }
 .icon-video-off:before { content: "\e1a5"; }
@@ -1929,6 +1936,7 @@ $icon-circle-plus: '\e086';
 $icon-circle-power: '\e554';
 $icon-circle-slash-2: '\e212';
 $icon-circle-slash: '\e406';
+$icon-circle-small: '\e644';
 $icon-circle-stop: '\e087';
 $icon-circle-user-round: '\e466';
 $icon-circle-user: '\e465';
@@ -2455,6 +2463,8 @@ $icon-map-pin: '\e114';
 $icon-map-pinned: '\e541';
 $icon-map-plus: '\e643';
 $icon-map: '\e113';
+$icon-mars-stroke: '\e646';
+$icon-mars: '\e645';
 $icon-martini: '\e2e2';
 $icon-maximize-2: '\e116';
 $icon-maximize: '\e115';
@@ -2553,6 +2563,7 @@ $icon-navigation: '\e126';
 $icon-network: '\e128';
 $icon-newspaper: '\e34b';
 $icon-nfc: '\e3c6';
+$icon-non-binary: '\e647';
 $icon-notebook-pen: '\e59a';
 $icon-notebook-tabs: '\e59b';
 $icon-notebook-text: '\e59c';
@@ -2997,6 +3008,7 @@ $icon-train-front-tunnel: '\e50b';
 $icon-train-front: '\e50a';
 $icon-train-track: '\e50c';
 $icon-tram-front: '\e2a8';
+$icon-transgender: '\e648';
 $icon-trash-2: '\e18d';
 $icon-trash: '\e18c';
 $icon-tree-deciduous: '\e2f2';
@@ -3061,6 +3073,8 @@ $icon-variable: '\e477';
 $icon-vault: '\e593';
 $icon-vegan: '\e3a0';
 $icon-venetian-mask: '\e2a9';
+$icon-venus-and-mars: '\e64a';
+$icon-venus: '\e649';
 $icon-vibrate-off: '\e29c';
 $icon-vibrate: '\e222';
 $icon-video-off: '\e1a5';

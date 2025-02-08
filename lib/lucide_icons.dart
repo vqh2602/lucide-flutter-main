@@ -1117,6 +1117,9 @@ class LucideIcons {
   /// circle-slash
   static const IconData circleSlash = const LucideIconData(58374);
 
+  /// circle-small
+  static const IconData circleSmall = const LucideIconData(58948);
+
   /// circle-stop
   static const IconData circleStop = const LucideIconData(57479);
 
@@ -2695,6 +2698,12 @@ class LucideIcons {
   /// map
   static const IconData map = const LucideIconData(57619);
 
+  /// mars-stroke
+  static const IconData marsStroke = const LucideIconData(58950);
+
+  /// mars
+  static const IconData mars = const LucideIconData(58949);
+
   /// martini
   static const IconData martini = const LucideIconData(58082);
 
@@ -2988,6 +2997,9 @@ class LucideIcons {
 
   /// nfc
   static const IconData nfc = const LucideIconData(58310);
+
+  /// non-binary
+  static const IconData nonBinary = const LucideIconData(58951);
 
   /// notebook-pen
   static const IconData notebookPen = const LucideIconData(58778);
@@ -4322,6 +4334,9 @@ class LucideIcons {
   /// tram-front
   static const IconData tramFront = const LucideIconData(58024);
 
+  /// transgender
+  static const IconData transgender = const LucideIconData(58952);
+
   /// trash-2
   static const IconData trash2 = const LucideIconData(57741);
 
@@ -4513,6 +4528,12 @@ class LucideIcons {
 
   /// venetian-mask
   static const IconData venetianMask = const LucideIconData(58025);
+
+  /// venus-and-mars
+  static const IconData venusAndMars = const LucideIconData(58954);
+
+  /// venus
+  static const IconData venus = const LucideIconData(58953);
 
   /// vibrate-off
   static const IconData vibrateOff = const LucideIconData(58012);
