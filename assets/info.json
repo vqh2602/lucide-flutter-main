@@ -7367,6 +7367,12 @@
     "className": "icon-shield-question",
     "unicode": "&#58386;"
   },
+  "shield-user": {
+    "encodedCode": "\\e64b",
+    "prefix": "icon",
+    "className": "icon-shield-user",
+    "unicode": "&#58955;"
+  },
   "shield-x": {
     "encodedCode": "\\e1ff",
     "prefix": "icon",

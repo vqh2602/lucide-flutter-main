@@ -1231,6 +1231,7 @@ List<IconData> icons = [
   LucideIcons.shieldOff,
   LucideIcons.shieldPlus,
   LucideIcons.shieldQuestion,
+  LucideIcons.shieldUser,
   LucideIcons.shieldX,
   LucideIcons.shield,
   LucideIcons.shipWheel,

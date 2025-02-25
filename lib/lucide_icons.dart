@@ -3709,6 +3709,9 @@ class LucideIcons {
   /// shield-question
   static const IconData shieldQuestion = const LucideIconData(58386);
 
+  /// shield-user
+  static const IconData shieldUser = const LucideIconData(58955);
+
   /// shield-x
   static const IconData shieldX = const LucideIconData(57855);
 
