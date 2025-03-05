@@ -4013,6 +4013,9 @@ class LucideIcons {
   /// square-radical
   static const IconData squareRadical = const LucideIconData(58823);
 
+  /// square-round-corner
+  static const IconData squareRoundCorner = const LucideIconData(58956);
+
   /// square-scissors
   static const IconData squareScissors = const LucideIconData(58608);
 

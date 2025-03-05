@@ -7973,6 +7973,12 @@
     "className": "icon-square-radical",
     "unicode": "&#58823;"
   },
+  "square-round-corner": {
+    "encodedCode": "\\e64c",
+    "prefix": "icon",
+    "className": "icon-square-round-corner",
+    "unicode": "&#58956;"
+  },
   "square-scissors": {
     "encodedCode": "\\e4f0",
     "prefix": "icon",

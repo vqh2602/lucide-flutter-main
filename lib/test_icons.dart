@@ -1332,6 +1332,7 @@ List<IconData> icons = [
   LucideIcons.squarePlus,
   LucideIcons.squarePower,
   LucideIcons.squareRadical,
+  LucideIcons.squareRoundCorner,
   LucideIcons.squareScissors,
   LucideIcons.squareSigma,
   LucideIcons.squareSlash,
