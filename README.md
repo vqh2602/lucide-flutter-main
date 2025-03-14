@@ -1,6 +1,6 @@
 # lucide_icons
 
-version: v0.477.0
+version: v0.479.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 
