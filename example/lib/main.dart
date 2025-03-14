@@ -77,16 +77,24 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4),
+              crossAxisCount: 2),
           itemCount: icons.length,
           itemBuilder: (context, index) {
             return IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  icons[index],
-                  size: 30,
-                  color: Colors.black,
-                ));
+              onPressed: () {},
+              icon: const LucideIconWidget(
+                icon: LucideIcons.activity,
+                size: 24,
+                color: Colors.blue,
+                strokeWidth: 24 /
+                    6, // Hiện tại chưa sử dụng, nhưng có thể mở rộng sau này
+              ),
+              // icon: Icon(
+              //   icons[index],
+              //   size: 30,
+              //   color: Colors.black,
+              // )
+            );
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
