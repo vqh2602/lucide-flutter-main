@@ -134,6 +134,7 @@ List<IconData> icons = [
   LucideIcons.ban,
   LucideIcons.banana,
   LucideIcons.bandage,
+  LucideIcons.banknoteArrowDown,
   LucideIcons.banknote,
   LucideIcons.barcode,
   LucideIcons.baseline,

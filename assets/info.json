@@ -785,6 +785,12 @@
     "className": "icon-bandage",
     "unicode": "&#58914;"
   },
+  "banknote-arrow-down": {
+    "encodedCode": "\\e651",
+    "prefix": "icon",
+    "className": "icon-banknote-arrow-down",
+    "unicode": "&#58961;"
+  },
   "banknote": {
     "encodedCode": "\\e056",
     "prefix": "icon",
