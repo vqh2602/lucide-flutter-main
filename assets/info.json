@@ -791,6 +791,18 @@
     "className": "icon-banknote-arrow-down",
     "unicode": "&#58961;"
   },
+  "banknote-arrow-up": {
+    "encodedCode": "\\e652",
+    "prefix": "icon",
+    "className": "icon-banknote-arrow-up",
+    "unicode": "&#58962;"
+  },
+  "banknote-x": {
+    "encodedCode": "\\e653",
+    "prefix": "icon",
+    "className": "icon-banknote-x",
+    "unicode": "&#58963;"
+  },
   "banknote": {
     "encodedCode": "\\e056",
     "prefix": "icon",
@@ -7690,6 +7702,12 @@
     "prefix": "icon",
     "className": "icon-spell-check",
     "unicode": "&#58527;"
+  },
+  "spline-pointer": {
+    "encodedCode": "\\e654",
+    "prefix": "icon",
+    "className": "icon-spline-pointer",
+    "unicode": "&#58964;"
   },
   "spline": {
     "encodedCode": "\\e38f",
