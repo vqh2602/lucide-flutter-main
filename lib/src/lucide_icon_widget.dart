@@ -56,7 +56,7 @@ class LucideIconWidget extends StatelessWidget {
   final Color? color;
   final double? strokeWidth;
   final LucideIconsWeight? weight;
-  final bool isCustomPaint = false;
+  final bool isCustomPaint;
 
   const LucideIconWidget(
     this.icon, {
@@ -64,6 +64,7 @@ class LucideIconWidget extends StatelessWidget {
     this.size,
     this.color,
     this.strokeWidth = 0.0,
+    this.isCustomPaint = false,
     this.weight,
   }) : super(key: key);
   LucideIconWidget.customPaint(
@@ -73,6 +74,7 @@ class LucideIconWidget extends StatelessWidget {
     this.color,
     this.strokeWidth,
     this.weight = null,
+    this.isCustomPaint = true,
   });
 
   @override
