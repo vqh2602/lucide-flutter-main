@@ -1,10 +1,10 @@
 import 'package:flutter/widgets.dart';
 
 class LucideIconData extends IconData {
-  const LucideIconData(int codePoint)
+  const LucideIconData(int codePoint, {String? fontFamily})
       : super(
           codePoint,
-          fontFamily: 'Lucide',
+          fontFamily: fontFamily ?? 'Lucide',
           fontPackage: 'lucide_icons_flutter',
         );
 }

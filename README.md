@@ -5,24 +5,25 @@ version: 0.487.0
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 
 ## Example
+Use regular version
 
 ```dart
 import  'package:lucide_icons_flutter/lucide_icons.dart';
 
 Icon(LucideIcons.activity);
 ```
+If you need to change the thickness of each icon stroke, use the way under the wire
 
   ```dart
 import  'package:lucide_icons_flutter/lucide_icons.dart';
 // The best ratio strokeWidth is size /6 or size /8
-LucideIconWidget(
-icon:  LucideIcons.activity,
-size:  24,
-color:  Colors.blue,
-strokeWidth:  24/6,
-)
+LucideIconWidget(LucideIcons.activity,
+                  size: 34,
+                  color: Colors.blue,
+                  weight: LucideIconsWeight.w100
+                  ),
 ```
-
+![enter image description here](https://i.imgur.com/mqY23dY.png)
 ![enter image description here](https://i.imgur.com/iopbEUh.png)
 
   

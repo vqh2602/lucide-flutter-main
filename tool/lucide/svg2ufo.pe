@@ -1,0 +1,9 @@
+# svg2ufo.pe
+# Usage: fontforge -script svg2ufo.pe input.svg output.ufo
+
+Open($argv[1])
+SelectAll()
+Copy()
+New()
+Paste()
+Generate($argv[2])

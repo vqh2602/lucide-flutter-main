@@ -1,4 +1,53 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons_flutter/src/icon_data.dart';
+
+class LucideIconsExtension {
+  static Widget toWeight(
+    IconData icon, {
+    double? size,
+    Color? color,
+    LucideIconsWeight? weight,
+  }) {
+    return Icon(
+      LucideIconData(icon.codePoint, fontFamily: _getFont(weight)),
+      size: size,
+      color: color,
+    );
+  }
+
+  static _getFont(
+    LucideIconsWeight? weight,
+  ) {
+    switch (weight) {
+      case LucideIconsWeight.w700:
+        return 'Lucide700';
+      case LucideIconsWeight.w600:
+        return 'Lucide600';
+      case LucideIconsWeight.w500:
+        return 'Lucide500';
+      case LucideIconsWeight.w400:
+        return 'Lucide400';
+      case LucideIconsWeight.w300:
+        return 'Lucide300';
+      case LucideIconsWeight.w200:
+        return 'Lucide200';
+      case LucideIconsWeight.w100:
+        return 'Lucide100';
+      default:
+        return 'Lucide400';
+    }
+  }
+}
+
+enum LucideIconsWeight {
+  w700,
+  w600,
+  w500,
+  w400,
+  w300,
+  w200,
+  w100,
+}
 
 /// The best ratio strokeWidth is size /6 or size /8
 class LucideIconWidget extends StatelessWidget {
@@ -6,25 +55,43 @@ class LucideIconWidget extends StatelessWidget {
   final double? size;
   final Color? color;
   final double? strokeWidth;
+  final LucideIconsWeight? weight;
+  final bool isCustomPaint = false;
 
-  const LucideIconWidget({
+  const LucideIconWidget(
+    this.icon, {
     Key? key,
-    required this.icon,
     this.size,
     this.color,
     this.strokeWidth = 0.0,
+    this.weight,
   }) : super(key: key);
+  LucideIconWidget.customPaint(
+    this.icon, {
+    Key? key,
+    this.size,
+    this.color,
+    this.strokeWidth,
+    this.weight = null,
+  });
 
   @override
   Widget build(BuildContext context) {
-    // Sử dụng CustomPaint để vẽ icon với độ đậm viền tùy chỉnh
-    return CustomPaint(
-      size: Size(size ?? 24.0, size ?? 24.0),
-      painter: _LucideIconPainter(
-        icon: icon,
-        color: color ?? Theme.of(context).iconTheme.color ?? Colors.black,
-        strokeWidth: strokeWidth ?? 0.0,
-      ),
+    if (isCustomPaint) {
+      return CustomPaint(
+        painter: _LucideIconPainter(
+          icon: icon,
+          color: color ?? Colors.black,
+          strokeWidth: strokeWidth ?? 0.0,
+        ),
+        size: Size(size ?? 24, size ?? 24),
+      );
+    }
+    return LucideIconsExtension.toWeight(
+      icon,
+      size: size,
+      color: color,
+      weight: weight,
     );
   }
 }

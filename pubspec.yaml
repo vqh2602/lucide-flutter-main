@@ -23,6 +23,34 @@ flutter:
     - family: Lucide
       fonts:
         - asset: assets/lucide.ttf
+    - family: Lucide100
+      fonts:
+        - asset: assets/LucideVariable-w100.ttf
+          weight: 100
+    - family: Lucide200
+      fonts:
+        - asset: assets/LucideVariable-w200.ttf
+          weight: 200     
+    - family: Lucide300
+      fonts:
+        - asset: assets/LucideVariable-w300.ttf
+          weight: 300
+    - family: Lucide400
+      fonts:
+        - asset: assets/LucideVariable-w400.ttf
+          weight: 400
+    - family: Lucide500
+      fonts:
+        - asset: assets/LucideVariable-w500.ttf
+          weight: 500
+    - family: Lucide600
+      fonts:
+        - asset: assets/LucideVariable-w600.ttf
+          weight: 600
+    - family: Lucide700
+      fonts:
+        - asset: assets/LucideVariable-w700.ttf
+          weight: 700
 # This package supports all platforms listed below.
 platforms:
   android:
