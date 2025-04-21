@@ -48,26 +48,6 @@ void main(List<String> args) {
     "\n/// Lucide Icons",
     "\nList<IconData> icons = ["
   ];
-// {
-//   "accessibility": {
-//     "encodedCode": "\\e28c",
-//     "prefix": "icon",
-//     "className": "icon-accessibility",
-//     "unicode": "&#57996;"
-//   },
-  // for (final icon in list) {
-  //   final name = icon
-  //       .getElementsByClassName('className')
-  //       .first
-  //       .attributes['value']!
-  //       .replaceFirst('.icon-', '');
-  //   stdout.write("info message");
-  //   final val = icon
-  //       .getElementsByClassName('unicode')
-  //       .first
-  //       .attributes['value']!
-  //       .replaceFirst('&#x', '')
-  //       .replaceFirst(';', '');
   for (Map data in resultList) {
     String iconName = data['name'];
     String svgContent = '';
