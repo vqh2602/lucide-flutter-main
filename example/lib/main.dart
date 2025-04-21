@@ -95,9 +95,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                   ? LucideIconsWeight.w400
                                   : index < 30
                                       ? LucideIconsWeight.w500
-                                      : index < 36
-                                          ? LucideIconsWeight.w600
-                                          : LucideIconsWeight.w700
+                                      : LucideIconsWeight.w600
+
                   // weight: 800,
                   ),
 

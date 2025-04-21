@@ -1295,6 +1295,12 @@
     "className": "icon-bot",
     "unicode": "&#57787;"
   },
+  "bow-arrow": {
+    "encodedCode": "\\e663",
+    "prefix": "icon",
+    "className": "icon-bow-arrow",
+    "unicode": "&#58979;"
+  },
   "box": {
     "encodedCode": "\\e065",
     "prefix": "icon",
@@ -1337,6 +1343,12 @@
     "className": "icon-brain",
     "unicode": "&#58314;"
   },
+  "brick-wall-fire": {
+    "encodedCode": "\\e658",
+    "prefix": "icon",
+    "className": "icon-brick-wall-fire",
+    "unicode": "&#58968;"
+  },
   "brick-wall": {
     "encodedCode": "\\e586",
     "prefix": "icon",
@@ -1378,6 +1390,12 @@
     "prefix": "icon",
     "className": "icon-brush",
     "unicode": "&#57811;"
+  },
+  "bubbles": {
+    "encodedCode": "\\e659",
+    "prefix": "icon",
+    "className": "icon-bubbles",
+    "unicode": "&#58969;"
   },
   "bug-off": {
     "encodedCode": "\\e512",
@@ -2591,6 +2609,12 @@
     "className": "icon-columns-2",
     "unicode": "&#57500;"
   },
+  "columns-3-cog": {
+    "encodedCode": "\\e666",
+    "prefix": "icon",
+    "className": "icon-columns-3-cog",
+    "unicode": "&#58982;"
+  },
   "columns-3": {
     "encodedCode": "\\e09d",
     "prefix": "icon",
@@ -2878,6 +2902,18 @@
     "prefix": "icon",
     "className": "icon-database",
     "unicode": "&#57521;"
+  },
+  "decimals-arrow-left": {
+    "encodedCode": "\\e661",
+    "prefix": "icon",
+    "className": "icon-decimals-arrow-left",
+    "unicode": "&#58977;"
+  },
+  "decimals-arrow-right": {
+    "encodedCode": "\\e662",
+    "prefix": "icon",
+    "className": "icon-decimals-arrow-right",
+    "unicode": "&#58978;"
   },
   "delete": {
     "encodedCode": "\\e0b2",
@@ -4511,11 +4547,23 @@
     "className": "icon-heart-handshake",
     "unicode": "&#58071;"
   },
+  "heart-minus": {
+    "encodedCode": "\\e656",
+    "prefix": "icon",
+    "className": "icon-heart-minus",
+    "unicode": "&#58966;"
+  },
   "heart-off": {
     "encodedCode": "\\e295",
     "prefix": "icon",
     "className": "icon-heart-off",
     "unicode": "&#58005;"
+  },
+  "heart-plus": {
+    "encodedCode": "\\e657",
+    "prefix": "icon",
+    "className": "icon-heart-plus",
+    "unicode": "&#58967;"
   },
   "heart-pulse": {
     "encodedCode": "\\e372",
@@ -5164,6 +5212,12 @@
     "prefix": "icon",
     "className": "icon-locate",
     "unicode": "&#57818;"
+  },
+  "location-edit": {
+    "encodedCode": "\\e65a",
+    "prefix": "icon",
+    "className": "icon-location-edit",
+    "unicode": "&#58970;"
   },
   "lock-keyhole-open": {
     "encodedCode": "\\e537",
@@ -6815,6 +6869,12 @@
     "className": "icon-rectangle-ellipsis",
     "unicode": "&#57887;"
   },
+  "rectangle-goggles": {
+    "encodedCode": "\\e65b",
+    "prefix": "icon",
+    "className": "icon-rectangle-goggles",
+    "unicode": "&#58971;"
+  },
   "rectangle-horizontal": {
     "encodedCode": "\\e37a",
     "prefix": "icon",
@@ -6970,6 +7030,12 @@
     "prefix": "icon",
     "className": "icon-rotate-3d",
     "unicode": "&#58090;"
+  },
+  "rotate-ccw-key": {
+    "encodedCode": "\\e655",
+    "prefix": "icon",
+    "className": "icon-rotate-ccw-key",
+    "unicode": "&#58965;"
   },
   "rotate-ccw-square": {
     "encodedCode": "\\e5d5",
@@ -7468,6 +7534,12 @@
     "prefix": "icon",
     "className": "icon-shower-head",
     "unicode": "&#58240;"
+  },
+  "shredder": {
+    "encodedCode": "\\e660",
+    "prefix": "icon",
+    "className": "icon-shredder",
+    "unicode": "&#58976;"
   },
   "shrimp": {
     "encodedCode": "\\e64e",
@@ -8098,6 +8170,30 @@
     "prefix": "icon",
     "className": "icon-square",
     "unicode": "&#57707;"
+  },
+  "squares-exclude": {
+    "encodedCode": "\\e65c",
+    "prefix": "icon",
+    "className": "icon-squares-exclude",
+    "unicode": "&#58972;"
+  },
+  "squares-intersect": {
+    "encodedCode": "\\e65d",
+    "prefix": "icon",
+    "className": "icon-squares-intersect",
+    "unicode": "&#58973;"
+  },
+  "squares-subtract": {
+    "encodedCode": "\\e65e",
+    "prefix": "icon",
+    "className": "icon-squares-subtract",
+    "unicode": "&#58974;"
+  },
+  "squares-unite": {
+    "encodedCode": "\\e65f",
+    "prefix": "icon",
+    "className": "icon-squares-unite",
+    "unicode": "&#58975;"
   },
   "squircle": {
     "encodedCode": "\\e57f",
@@ -8771,6 +8867,12 @@
     "className": "icon-trophy",
     "unicode": "&#58231;"
   },
+  "truck-electric": {
+    "encodedCode": "\\e664",
+    "prefix": "icon",
+    "className": "icon-truck-electric",
+    "unicode": "&#58980;"
+  },
   "truck": {
     "encodedCode": "\\e194",
     "prefix": "icon",
@@ -8926,6 +9028,12 @@
     "prefix": "icon",
     "className": "icon-user-cog",
     "unicode": "&#58182;"
+  },
+  "user-lock": {
+    "encodedCode": "\\e665",
+    "prefix": "icon",
+    "className": "icon-user-lock",
+    "unicode": "&#58981;"
   },
   "user-minus": {
     "encodedCode": "\\e1a1",

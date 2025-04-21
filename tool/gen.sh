@@ -2,4 +2,4 @@
 cd ../
 dart pub get
 cd tool
-dart run generate_fonts.dart ../assets/info.json
+dart run generate_fonts_1.dart ../assets/info.json

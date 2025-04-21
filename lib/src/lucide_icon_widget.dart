@@ -19,8 +19,8 @@ class LucideIconsExtension {
     LucideIconsWeight? weight,
   ) {
     switch (weight) {
-      case LucideIconsWeight.w700:
-        return 'Lucide700';
+      // case LucideIconsWeight.w700:
+      //   return 'Lucide700';
       case LucideIconsWeight.w600:
         return 'Lucide600';
       case LucideIconsWeight.w500:
@@ -40,7 +40,7 @@ class LucideIconsExtension {
 }
 
 enum LucideIconsWeight {
-  w700,
+  // w700,
   w600,
   w500,
   w400,

@@ -7,7 +7,7 @@ ICON_CODE_JSON="../../assets/info.json"
 ICON_NAME="LucideVariable"
 WORKDIR="build_font"
 SVG_INPUT_DIR="svg_input"
-WEIGHTS=(100 200 300 400 500 600 700 800)
+WEIGHTS=(100 200 300 400 500 600)
 
 # --- CHECK DEPENDENCIES ---
 command -v jq >/dev/null 2>&1 || {

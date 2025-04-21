@@ -73,7 +73,9 @@ void main(List<String> args) {
     String svgContent = '';
 
     try {
-      File svgFile = File('../icons/${iconName}.svg');
+      File svgFile =
+          File('lucide/lucide/icons/${iconName.replaceAll('icon-', '')}.svg');
+      print('$svgFile');
       if (svgFile.existsSync()) {
         svgContent = svgFile.readAsStringSync();
 
@@ -104,6 +106,7 @@ void main(List<String> args) {
 
     if (svgContent.isEmpty) {
       // Tạo một SVG đơn giản nếu không tìm thấy file
+      print('Không tìm thấy SVG cho $iconName');
       String fallbackSvg =
           '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff0000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>';
       svgContent = base64Encode(utf8.encode(fallbackSvg));
