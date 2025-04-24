@@ -7103,6 +7103,12 @@
     "className": "icon-rss",
     "unicode": "&#57678;"
   },
+  "ruler-dimension-line": {
+    "encodedCode": "\\e667",
+    "prefix": "icon",
+    "className": "icon-ruler-dimension-line",
+    "unicode": "&#58983;"
+  },
   "ruler": {
     "encodedCode": "\\e14f",
     "prefix": "icon",
@@ -9400,6 +9406,12 @@
     "prefix": "icon",
     "className": "icon-wifi-off",
     "unicode": "&#57775;"
+  },
+  "wifi-pen": {
+    "encodedCode": "\\e668",
+    "prefix": "icon",
+    "className": "icon-wifi-pen",
+    "unicode": "&#58984;"
   },
   "wifi-zero": {
     "encodedCode": "\\e5fe",

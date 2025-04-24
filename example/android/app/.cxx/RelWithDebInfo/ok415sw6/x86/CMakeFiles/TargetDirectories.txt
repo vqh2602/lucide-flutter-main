@@ -1,0 +1,2 @@
+/Users/vuongquanghuy/code/flutter project/lucide-flutter-main/example/android/app/.cxx/RelWithDebInfo/ok415sw6/x86/CMakeFiles/edit_cache.dir
+/Users/vuongquanghuy/code/flutter project/lucide-flutter-main/example/android/app/.cxx/RelWithDebInfo/ok415sw6/x86/CMakeFiles/rebuild_cache.dir
