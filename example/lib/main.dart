@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
-import 'package:my_app/test_icons.dart';
+import 'package:lucide_icons_flutter/test_icons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -81,31 +81,12 @@ class _MyHomePageState extends State<MyHomePage> {
           itemCount: icons.length,
           itemBuilder: (context, index) {
             return IconButton(
-              onPressed: () {},
-              icon: LucideIconWidget(icons[index],
-                  size: 34,
-                  color: Colors.blue,
-                  weight: index < 6
-                      ? LucideIconsWeight.w100
-                      : index < 12
-                          ? LucideIconsWeight.w200
-                          : index < 18
-                              ? LucideIconsWeight.w300
-                              : index < 24
-                                  ? LucideIconsWeight.w400
-                                  : index < 30
-                                      ? LucideIconsWeight.w500
-                                      : LucideIconsWeight.w600
-
-                  // weight: 800,
-                  ),
-
-              // icon: Icon(
-              //   icons[index],
-              //   size: 30,
-              //   color: Colors.black,
-              // )
-            );
+                onPressed: () {},
+                icon: Icon(
+                  icons[index],
+                  size: 30,
+                  color: Colors.black,
+                ));
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
