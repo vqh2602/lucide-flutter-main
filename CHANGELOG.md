@@ -1,3 +1,6 @@
+## 3.0.0 
+[Issue #10 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/10)
+
 ## 2.0.6
 0.501.0
 
