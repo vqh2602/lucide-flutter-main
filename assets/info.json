@@ -1385,6 +1385,12 @@
     "className": "icon-bring-to-front",
     "unicode": "&#58612;"
   },
+  "brush-cleaning": {
+    "encodedCode": "\\e66b",
+    "prefix": "icon",
+    "className": "icon-brush-cleaning",
+    "unicode": "&#58987;"
+  },
   "brush": {
     "encodedCode": "\\e1d3",
     "prefix": "icon",
@@ -2435,6 +2441,12 @@
     "className": "icon-clock-fading",
     "unicode": "&#58959;"
   },
+  "clock-plus": {
+    "encodedCode": "\\e66c",
+    "prefix": "icon",
+    "className": "icon-clock-plus",
+    "unicode": "&#58988;"
+  },
   "clock": {
     "encodedCode": "\\e08b",
     "prefix": "icon",
@@ -3070,6 +3082,12 @@
     "prefix": "icon",
     "className": "icon-donut",
     "unicode": "&#58561;"
+  },
+  "door-closed-locked": {
+    "encodedCode": "\\e669",
+    "prefix": "icon",
+    "className": "icon-door-closed-locked",
+    "unicode": "&#58985;"
   },
   "door-closed": {
     "encodedCode": "\\e3d9",
@@ -4384,6 +4402,12 @@
     "prefix": "icon",
     "className": "icon-ham",
     "unicode": "&#58844;"
+  },
+  "hamburger": {
+    "encodedCode": "\\e66a",
+    "prefix": "icon",
+    "className": "icon-hamburger",
+    "unicode": "&#58986;"
   },
   "hammer": {
     "encodedCode": "\\e0f0",
@@ -7720,6 +7744,12 @@
     "prefix": "icon",
     "className": "icon-snowflake",
     "unicode": "&#57705;"
+  },
+  "soap-dispenser-droplet": {
+    "encodedCode": "\\e66d",
+    "prefix": "icon",
+    "className": "icon-soap-dispenser-droplet",
+    "unicode": "&#58989;"
   },
   "sofa": {
     "encodedCode": "\\e2c4",

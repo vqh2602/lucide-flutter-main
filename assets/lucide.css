@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1745231029299'); /* IE9*/
-  src: url('lucide.eot?t=1745231029299#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide.woff2?t=1745231029299") format("woff2"),
-  url("lucide.woff?t=1745231029299") format("woff"),
-  url('lucide.ttf?t=1745231029299') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide.svg?t=1745231029299#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1746216458801'); /* IE9*/
+  src: url('lucide.eot?t=1746216458801#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1746216458801") format("woff2"),
+  url("lucide.woff?t=1746216458801") format("woff"),
+  url('lucide.ttf?t=1746216458801') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1746216458801#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -247,6 +247,7 @@
 .icon-briefcase-medical:before { content: "\e5db"; }
 .icon-briefcase:before { content: "\e066"; }
 .icon-bring-to-front:before { content: "\e4f4"; }
+.icon-brush-cleaning:before { content: "\e66b"; }
 .icon-brush:before { content: "\e1d3"; }
 .icon-bubbles:before { content: "\e659"; }
 .icon-bug-off:before { content: "\e512"; }
@@ -422,6 +423,7 @@
 .icon-clock-arrow-down:before { content: "\e605"; }
 .icon-clock-arrow-up:before { content: "\e606"; }
 .icon-clock-fading:before { content: "\e64f"; }
+.icon-clock-plus:before { content: "\e66c"; }
 .icon-clock:before { content: "\e08b"; }
 .icon-cloud-alert:before { content: "\e638"; }
 .icon-cloud-cog:before { content: "\e30a"; }
@@ -528,6 +530,7 @@
 .icon-dog:before { content: "\e391"; }
 .icon-dollar-sign:before { content: "\e0b5"; }
 .icon-donut:before { content: "\e4c1"; }
+.icon-door-closed-locked:before { content: "\e669"; }
 .icon-door-closed:before { content: "\e3d9"; }
 .icon-door-open:before { content: "\e3da"; }
 .icon-dot:before { content: "\e454"; }
@@ -747,6 +750,7 @@
 .icon-group:before { content: "\e469"; }
 .icon-guitar:before { content: "\e564"; }
 .icon-ham:before { content: "\e5dc"; }
+.icon-hamburger:before { content: "\e66a"; }
 .icon-hammer:before { content: "\e0f0"; }
 .icon-hand-coins:before { content: "\e5bd"; }
 .icon-hand-heart:before { content: "\e5be"; }
@@ -1303,6 +1307,7 @@
 .icon-smile:before { content: "\e168"; }
 .icon-snail:before { content: "\e4fd"; }
 .icon-snowflake:before { content: "\e169"; }
+.icon-soap-dispenser-droplet:before { content: "\e66d"; }
 .icon-sofa:before { content: "\e2c4"; }
 .icon-soup:before { content: "\e3ae"; }
 .icon-space:before { content: "\e3e1"; }
