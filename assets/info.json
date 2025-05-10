@@ -4319,6 +4319,12 @@
     "className": "icon-goal",
     "unicode": "&#58538;"
   },
+  "gpu": {
+    "encodedCode": "\\e66f",
+    "prefix": "icon",
+    "className": "icon-gpu",
+    "unicode": "&#58991;"
+  },
   "grab": {
     "encodedCode": "\\e1e6",
     "prefix": "icon",
@@ -6239,6 +6245,12 @@
     "className": "icon-palette",
     "unicode": "&#57821;"
   },
+  "panda": {
+    "encodedCode": "\\e66d",
+    "prefix": "icon",
+    "className": "icon-panda",
+    "unicode": "&#58989;"
+  },
   "panel-bottom-close": {
     "encodedCode": "\\e432",
     "prefix": "icon",
@@ -7746,10 +7758,10 @@
     "unicode": "&#57705;"
   },
   "soap-dispenser-droplet": {
-    "encodedCode": "\\e66d",
+    "encodedCode": "\\e66e",
     "prefix": "icon",
     "className": "icon-soap-dispenser-droplet",
-    "unicode": "&#58989;"
+    "unicode": "&#58990;"
   },
   "sofa": {
     "encodedCode": "\\e2c4",

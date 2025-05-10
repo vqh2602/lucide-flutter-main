@@ -20,12 +20,12 @@ command -v xmlstarlet >/dev/null 2>&1 || { echo "❌ xmlstarlet not found. Insta
 # --- CLEANUP ---
 rm -rf "$WORKDIR" "$SVG_INPUT_DIR"
 mkdir -p "$WORKDIR" "$SVG_INPUT_DIR"
-
-# --- CLONE ICONS ---
-if [ ! -d "$SVG_CLONE_DIR" ]; then
-  echo "📦 Cloning Lucide icons..."
-  git clone --depth 1 https://github.com/lucide-icons/lucide.git "$SVG_CLONE_DIR"
-fi
+# TODO:
+# # --- CLONE ICONS ---
+# if [ ! -d "$SVG_CLONE_DIR" ]; then
+#   echo "📦 Cloning Lucide icons..."
+#   git clone --depth 1 https://github.com/lucide-icons/lucide.git "$SVG_CLONE_DIR"
+# fi
 
 # --- GENERATE SVGs PER WEIGHT ---
 echo "🎨 Generating SVGs for weights..."
