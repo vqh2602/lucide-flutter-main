@@ -1871,6 +1871,12 @@
     "className": "icon-check-check",
     "unicode": "&#58258;"
   },
+  "check-line": {
+    "encodedCode": "\\e670",
+    "prefix": "icon",
+    "className": "icon-check-line",
+    "unicode": "&#58992;"
+  },
   "check": {
     "encodedCode": "\\e070",
     "prefix": "icon",
@@ -8014,6 +8020,12 @@
     "prefix": "icon",
     "className": "icon-square-dashed-mouse-pointer",
     "unicode": "&#58638;"
+  },
+  "square-dashed-top-solid": {
+    "encodedCode": "\\e671",
+    "prefix": "icon",
+    "className": "icon-square-dashed-top-solid",
+    "unicode": "&#58993;"
   },
   "square-dashed": {
     "encodedCode": "\\e1cb",
