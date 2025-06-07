@@ -5,7 +5,7 @@ set -e
 # --- SETTINGS ---
 ICON_NAME="LucideVariable"
 WORKDIR="build_font"
-SVG_CLONE_DIR="lucide"
+SVG_CLONE_DIR="lucide-source"
 SVG_SRC_DIR="${SVG_CLONE_DIR}/icons"
 SVG_INPUT_DIR="svg_input"
 WEIGHTS=(100 200 300 400 500 600)
@@ -26,6 +26,7 @@ mkdir -p "$WORKDIR" "$SVG_INPUT_DIR"
 #   echo "📦 Cloning Lucide icons..."
 #   git clone --depth 1 https://github.com/lucide-icons/lucide.git "$SVG_CLONE_DIR"
 # fi
+sh clone.sh
 
 # --- GENERATE SVGs PER WEIGHT ---
 echo "🎨 Generating SVGs for weights..."

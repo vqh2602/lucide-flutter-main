@@ -1673,6 +1673,12 @@
     "className": "icon-caravan",
     "unicode": "&#58686;"
   },
+  "card-sim": {
+    "encodedCode": "\\e676",
+    "prefix": "icon",
+    "className": "icon-card-sim",
+    "unicode": "&#58998;"
+  },
   "carrot": {
     "encodedCode": "\\e25a",
     "prefix": "icon",
@@ -2213,6 +2219,12 @@
     "className": "icon-circle-plus",
     "unicode": "&#57478;"
   },
+  "circle-pound-sterling": {
+    "encodedCode": "\\e672",
+    "prefix": "icon",
+    "className": "icon-circle-pound-sterling",
+    "unicode": "&#58994;"
+  },
   "circle-power": {
     "encodedCode": "\\e555",
     "prefix": "icon",
@@ -2464,6 +2476,12 @@
     "prefix": "icon",
     "className": "icon-cloud-alert",
     "unicode": "&#58936;"
+  },
+  "cloud-check": {
+    "encodedCode": "\\e673",
+    "prefix": "icon",
+    "className": "icon-cloud-check",
+    "unicode": "&#58995;"
   },
   "cloud-cog": {
     "encodedCode": "\\e30a",
@@ -4373,6 +4391,12 @@
     "className": "icon-grid-2x2",
     "unicode": "&#58628;"
   },
+  "grid-3x2": {
+    "encodedCode": "\\e674",
+    "prefix": "icon",
+    "className": "icon-grid-3x2",
+    "unicode": "&#58996;"
+  },
   "grid-3x3": {
     "encodedCode": "\\e0ed",
     "prefix": "icon",
@@ -4702,6 +4726,12 @@
     "prefix": "icon",
     "className": "icon-ice-cream-cone",
     "unicode": "&#58199;"
+  },
+  "id-card-lanyard": {
+    "encodedCode": "\\e675",
+    "prefix": "icon",
+    "className": "icon-id-card-lanyard",
+    "unicode": "&#58997;"
   },
   "id-card": {
     "encodedCode": "\\e61c",
