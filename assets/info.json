@@ -689,12 +689,6 @@
     "className": "icon-badge-euro",
     "unicode": "&#58645;"
   },
-  "badge-help": {
-    "encodedCode": "\\e47c",
-    "prefix": "icon",
-    "className": "icon-badge-help",
-    "unicode": "&#58492;"
-  },
   "badge-indian-rupee": {
     "encodedCode": "\\e516",
     "prefix": "icon",
@@ -702,10 +696,10 @@
     "unicode": "&#58646;"
   },
   "badge-info": {
-    "encodedCode": "\\e47d",
+    "encodedCode": "\\e47c",
     "prefix": "icon",
     "className": "icon-badge-info",
-    "unicode": "&#58493;"
+    "unicode": "&#58492;"
   },
   "badge-japanese-yen": {
     "encodedCode": "\\e517",
@@ -714,28 +708,34 @@
     "unicode": "&#58647;"
   },
   "badge-minus": {
-    "encodedCode": "\\e47e",
+    "encodedCode": "\\e47d",
     "prefix": "icon",
     "className": "icon-badge-minus",
-    "unicode": "&#58494;"
+    "unicode": "&#58493;"
   },
   "badge-percent": {
-    "encodedCode": "\\e47f",
+    "encodedCode": "\\e47e",
     "prefix": "icon",
     "className": "icon-badge-percent",
-    "unicode": "&#58495;"
+    "unicode": "&#58494;"
   },
   "badge-plus": {
-    "encodedCode": "\\e480",
+    "encodedCode": "\\e47f",
     "prefix": "icon",
     "className": "icon-badge-plus",
-    "unicode": "&#58496;"
+    "unicode": "&#58495;"
   },
   "badge-pound-sterling": {
     "encodedCode": "\\e518",
     "prefix": "icon",
     "className": "icon-badge-pound-sterling",
     "unicode": "&#58648;"
+  },
+  "badge-question-mark": {
+    "encodedCode": "\\e480",
+    "prefix": "icon",
+    "className": "icon-badge-question-mark",
+    "unicode": "&#58496;"
   },
   "badge-russian-ruble": {
     "encodedCode": "\\e519",
@@ -814,6 +814,12 @@
     "prefix": "icon",
     "className": "icon-barcode",
     "unicode": "&#58680;"
+  },
+  "barrel": {
+    "encodedCode": "\\e67a",
+    "prefix": "icon",
+    "className": "icon-barrel",
+    "unicode": "&#59002;"
   },
   "baseline": {
     "encodedCode": "\\e285",
@@ -1103,6 +1109,12 @@
     "className": "icon-book-a",
     "unicode": "&#58697;"
   },
+  "book-alert": {
+    "encodedCode": "\\e677",
+    "prefix": "icon",
+    "className": "icon-book-alert",
+    "unicode": "&#58999;"
+  },
   "book-audio": {
     "encodedCode": "\\e54a",
     "prefix": "icon",
@@ -1294,6 +1306,12 @@
     "prefix": "icon",
     "className": "icon-bot",
     "unicode": "&#57787;"
+  },
+  "bottle-wine": {
+    "encodedCode": "\\e680",
+    "prefix": "icon",
+    "className": "icon-bottle-wine",
+    "unicode": "&#59008;"
   },
   "bow-arrow": {
     "encodedCode": "\\e663",
@@ -2165,17 +2183,11 @@
     "className": "icon-circle-gauge",
     "unicode": "&#58598;"
   },
-  "circle-help": {
+  "circle-minus": {
     "encodedCode": "\\e082",
     "prefix": "icon",
-    "className": "icon-circle-help",
-    "unicode": "&#57474;"
-  },
-  "circle-minus": {
-    "encodedCode": "\\e083",
-    "prefix": "icon",
     "className": "icon-circle-minus",
-    "unicode": "&#57475;"
+    "unicode": "&#57474;"
   },
   "circle-off": {
     "encodedCode": "\\e406",
@@ -2196,10 +2208,10 @@
     "unicode": "&#58317;"
   },
   "circle-pause": {
-    "encodedCode": "\\e084",
+    "encodedCode": "\\e083",
     "prefix": "icon",
     "className": "icon-circle-pause",
-    "unicode": "&#57476;"
+    "unicode": "&#57475;"
   },
   "circle-percent": {
     "encodedCode": "\\e51f",
@@ -2208,16 +2220,16 @@
     "unicode": "&#58655;"
   },
   "circle-play": {
-    "encodedCode": "\\e085",
+    "encodedCode": "\\e084",
     "prefix": "icon",
     "className": "icon-circle-play",
-    "unicode": "&#57477;"
+    "unicode": "&#57476;"
   },
   "circle-plus": {
-    "encodedCode": "\\e086",
+    "encodedCode": "\\e085",
     "prefix": "icon",
     "className": "icon-circle-plus",
-    "unicode": "&#57478;"
+    "unicode": "&#57477;"
   },
   "circle-pound-sterling": {
     "encodedCode": "\\e672",
@@ -2230,6 +2242,12 @@
     "prefix": "icon",
     "className": "icon-circle-power",
     "unicode": "&#58709;"
+  },
+  "circle-question-mark": {
+    "encodedCode": "\\e086",
+    "prefix": "icon",
+    "className": "icon-circle-question-mark",
+    "unicode": "&#57478;"
   },
   "circle-slash-2": {
     "encodedCode": "\\e213",
@@ -3161,6 +3179,12 @@
     "className": "icon-drill",
     "unicode": "&#58770;"
   },
+  "drone": {
+    "encodedCode": "\\e67b",
+    "prefix": "icon",
+    "className": "icon-drone",
+    "unicode": "&#59003;"
+  },
   "droplet-off": {
     "encodedCode": "\\e63d",
     "prefix": "icon",
@@ -3593,10 +3617,10 @@
     "className": "icon-file-plus",
     "unicode": "&#57549;"
   },
-  "file-question": {
+  "file-question-mark": {
     "encodedCode": "\\e324",
     "prefix": "icon",
-    "className": "icon-file-question",
+    "className": "icon-file-question-mark",
     "unicode": "&#58148;"
   },
   "file-scan": {
@@ -4198,6 +4222,12 @@
     "prefix": "icon",
     "className": "icon-gem",
     "unicode": "&#57922;"
+  },
+  "georgian-lari": {
+    "encodedCode": "\\e67d",
+    "prefix": "icon",
+    "className": "icon-georgian-lari",
+    "unicode": "&#59005;"
   },
   "ghost": {
     "encodedCode": "\\e20e",
@@ -5117,6 +5147,12 @@
     "className": "icon-lightbulb",
     "unicode": "&#57794;"
   },
+  "line-squiggle": {
+    "encodedCode": "\\e67f",
+    "prefix": "icon",
+    "className": "icon-line-squiggle",
+    "unicode": "&#59007;"
+  },
   "link-2-off": {
     "encodedCode": "\\e10a",
     "prefix": "icon",
@@ -5369,10 +5405,10 @@
     "className": "icon-mail-plus",
     "unicode": "&#58216;"
   },
-  "mail-question": {
+  "mail-question-mark": {
     "encodedCode": "\\e369",
     "prefix": "icon",
-    "className": "icon-mail-question",
+    "className": "icon-mail-question-mark",
     "unicode": "&#58217;"
   },
   "mail-search": {
@@ -5603,10 +5639,10 @@
     "className": "icon-message-circle-plus",
     "unicode": "&#58732;"
   },
-  "message-circle-question": {
+  "message-circle-question-mark": {
     "encodedCode": "\\e56d",
     "prefix": "icon",
-    "className": "icon-message-circle-question",
+    "className": "icon-message-circle-question-mark",
     "unicode": "&#58733;"
   },
   "message-circle-reply": {
@@ -6935,6 +6971,12 @@
     "className": "icon-receipt",
     "unicode": "&#58327;"
   },
+  "rectangle-circle": {
+    "encodedCode": "\\e678",
+    "prefix": "icon",
+    "className": "icon-rectangle-circle",
+    "unicode": "&#59000;"
+  },
   "rectangle-ellipsis": {
     "encodedCode": "\\e21f",
     "prefix": "icon",
@@ -7541,10 +7583,10 @@
     "className": "icon-shield-plus",
     "unicode": "&#58654;"
   },
-  "shield-question": {
+  "shield-question-mark": {
     "encodedCode": "\\e413",
     "prefix": "icon",
-    "className": "icon-shield-question",
+    "className": "icon-shield-question-mark",
     "unicode": "&#58387;"
   },
   "shield-user": {
@@ -7876,6 +7918,12 @@
     "prefix": "icon",
     "className": "icon-split",
     "unicode": "&#58437;"
+  },
+  "spool": {
+    "encodedCode": "\\e67c",
+    "prefix": "icon",
+    "className": "icon-spool",
+    "unicode": "&#59004;"
   },
   "spray-can": {
     "encodedCode": "\\e49a",
@@ -8284,6 +8332,12 @@
     "prefix": "icon",
     "className": "icon-squares-unite",
     "unicode": "&#58975;"
+  },
+  "squircle-dashed": {
+    "encodedCode": "\\e67e",
+    "prefix": "icon",
+    "className": "icon-squircle-dashed",
+    "unicode": "&#59006;"
   },
   "squircle": {
     "encodedCode": "\\e57f",
@@ -9472,6 +9526,12 @@
     "prefix": "icon",
     "className": "icon-whole-word",
     "unicode": "&#58339;"
+  },
+  "wifi-cog": {
+    "encodedCode": "\\e679",
+    "prefix": "icon",
+    "className": "icon-wifi-cog",
+    "unicode": "&#59001;"
   },
   "wifi-high": {
     "encodedCode": "\\e5fc",

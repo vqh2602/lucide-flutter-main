@@ -52,8 +52,8 @@ void main(List<String> args) {
     String svgContent = '';
 
     try {
-      File svgFile =
-          File('lucide/lucide/icons/${iconName.replaceAll('icon-', '')}.svg');
+      File svgFile = File(
+          'lucide/lucide-source/icons/${iconName.replaceAll('icon-', '')}.svg');
       print('$svgFile');
       if (svgFile.existsSync()) {
         svgContent = svgFile.readAsStringSync();
@@ -100,6 +100,48 @@ void main(List<String> args) {
 
     // Sinh thêm các biến với fontFamily Lucide100...Lucide600
     for (int i = 100; i <= 600; i += 100) {
+      String svgContent = '';
+
+      try {
+        File svgFile = File(
+            'lucide/svg_input/weight${i}/${iconName.replaceAll('icon-', '')}.svg');
+        print('$svgFile');
+        if (svgFile.existsSync()) {
+          svgContent = svgFile.readAsStringSync();
+
+          // Đảm bảo SVG có kích thước nhỏ và đơn giản
+          svgContent = svgContent
+              .replaceAll(
+                  'stroke="currentColor"', 'stroke="#0066cc"') // Màu đỏ nổi bật
+              // .replaceAll(
+              //     'stroke-width="2"', 'stroke-width="3"') // Đường viền dày hơn
+              .replaceAll('width="24"', 'width="48"') // Kích thước lớn hơn
+              .replaceAll('height="24"', 'height="48"');
+
+          // Thêm thuộc tính XML cần thiết
+          if (!svgContent.contains('xmlns="http://www.w3.org/2000/svg"')) {
+            svgContent = svgContent.replaceFirst(
+                '<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+          }
+
+          // Đảm bảo SVG có đủ các thuộc tính cần thiết
+          svgContent = svgContent.replaceFirst('<svg', '<svg version="1.1"');
+
+          // Mã hóa SVG thành base64 với định dạng chuẩn
+          svgContent = base64Encode(utf8.encode(svgContent));
+        }
+      } catch (e) {
+        print('Không thể đọc SVG cho $iconName: $e');
+      }
+
+      if (svgContent.isEmpty) {
+        // Tạo một SVG đơn giản nếu không tìm thấy file
+        print('Không tìm thấy SVG cho $iconName');
+        String fallbackSvg =
+            '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff0000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>';
+        svgContent = base64Encode(utf8.encode(fallbackSvg));
+      }
+
       String fontFamily = 'Lucide$i';
       String varName = '${ReCase(data['name']).camelCase}$i';
       generatedOutput.add("/// ${data['name']} với fontFamily $fontFamily\n"

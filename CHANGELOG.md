@@ -1,3 +1,8 @@
+## 3.0.6
+
+0.523.0
+sửa lỗi tạo svg icon trong comment
+
 ## 3.0.5
 
 0.513.0
