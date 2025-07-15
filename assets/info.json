@@ -8843,6 +8843,12 @@
     "className": "icon-toilet",
     "unicode": "&#58938;"
   },
+  "tool-case": {
+    "encodedCode": "\\e682",
+    "prefix": "icon",
+    "className": "icon-tool-case",
+    "unicode": "&#59010;"
+  },
   "tornado": {
     "encodedCode": "\\e218",
     "prefix": "icon",
@@ -9304,6 +9310,12 @@
     "prefix": "icon",
     "className": "icon-vault",
     "unicode": "&#58772;"
+  },
+  "vector-square": {
+    "encodedCode": "\\e681",
+    "prefix": "icon",
+    "className": "icon-vector-square",
+    "unicode": "&#59009;"
   },
   "vegan": {
     "encodedCode": "\\e3a1",

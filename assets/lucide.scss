@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1750763199046'); /* IE9*/
-  src: url('lucide.eot?t=1750763199046#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1750763199046') format('woff2'),
-  url('lucide.woff?t=1750763199046') format('woff'),
-  url('lucide.ttf?t=1750763199046') format('truetype'),
-  url('lucide.svg?t=1750763199046') format('svg');
+  src: url('lucide.eot?t=1751036098915'); /* IE9*/
+  src: url('lucide.eot?t=1751036098915#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1751036098915') format('woff2'),
+  url('lucide.woff?t=1751036098915') format('woff'),
+  url('lucide.ttf?t=1751036098915') format('truetype'),
+  url('lucide.svg?t=1751036098915') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -1490,6 +1490,7 @@
 .icon-toggle-left::before { content: "\e18b"; }
 .icon-toggle-right::before { content: "\e18c"; }
 .icon-toilet::before { content: "\e63a"; }
+.icon-tool-case::before { content: "\e682"; }
 .icon-tornado::before { content: "\e218"; }
 .icon-torus::before { content: "\e534"; }
 .icon-touchpad-off::before { content: "\e44f"; }
@@ -1567,6 +1568,7 @@
 .icon-utility-pole::before { content: "\e3c6"; }
 .icon-variable::before { content: "\e478"; }
 .icon-vault::before { content: "\e594"; }
+.icon-vector-square::before { content: "\e681"; }
 .icon-vegan::before { content: "\e3a1"; }
 .icon-venetian-mask::before { content: "\e2aa"; }
 .icon-venus-and-mars::before { content: "\e64b"; }
@@ -3101,6 +3103,7 @@ $icon-timer: '\e1e0';
 $icon-toggle-left: '\e18b';
 $icon-toggle-right: '\e18c';
 $icon-toilet: '\e63a';
+$icon-tool-case: '\e682';
 $icon-tornado: '\e218';
 $icon-torus: '\e534';
 $icon-touchpad-off: '\e44f';
@@ -3178,6 +3181,7 @@ $icon-utensils: '\e2f6';
 $icon-utility-pole: '\e3c6';
 $icon-variable: '\e478';
 $icon-vault: '\e594';
+$icon-vector-square: '\e681';
 $icon-vegan: '\e3a1';
 $icon-venetian-mask: '\e2aa';
 $icon-venus-and-mars: '\e64b';
