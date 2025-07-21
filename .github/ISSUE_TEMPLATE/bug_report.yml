@@ -1,0 +1,73 @@
+name: 🐛 Bug Report
+description: Use this form to report a bug in the system
+title: '[BUG] - Write a short title here'
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug!  
+        Please fill out all the information below so we can investigate quickly.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Device, OS version, Flutter version, etc.
+      placeholder: e.g. Android 14, iOS 17, Flutter 3.22.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the detailed steps to trigger the bug
+      placeholder: |
+        1. Open screen X  
+        2. Tap button Y  
+        3. App crashes
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should the app do instead?
+      placeholder: e.g. The app should navigate to screen Z
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What is the app doing instead?
+      placeholder: e.g. The app crashes or shows an error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs or Screenshots (optional)
+      description: Helps us understand the issue better
+      placeholder: |
+        Paste the error log from the console or attach screenshots here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: Please rate the impact of this bug
+      options:
+        - 🟢 Minor (not much impact)
+        - 🟡 Moderate (some features affected)
+        - 🔴 Critical (major functionality broken)
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Câu hỏi chung / Hỗ trợ / Thảo luận
+    url: https://github.com/<owner>/<repo>/discussions
+    about: Vui lòng sử dụng Discussions để đặt câu hỏi hoặc yêu cầu không phải bug.
