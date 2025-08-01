@@ -1,6 +1,6 @@
 name: lucide_icons_flutter
-description: A Lucide (0.525.0) icon library package for Flutter applications. Fork of Feather Icons, open for anyone to contribute icons.
-version: 3.0.7
+description: A Lucide icon library package for Flutter applications. Fork of Feather Icons, open for anyone to contribute icons.
+version: 3.0.8
 homepage: https://lucide.dev
 repository: https://github.com/vqh2602/lucide-flutter-main
 
@@ -30,7 +30,7 @@ flutter:
     - family: Lucide200
       fonts:
         - asset: assets/build_font/LucideVariable-w200.ttf
-          weight: 200     
+          weight: 200
     - family: Lucide300
       fonts:
         - asset: assets/build_font/LucideVariable-w300.ttf
