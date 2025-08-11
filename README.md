@@ -1,10 +1,10 @@
 
 # lucide_icons
-![Pub Version](https://img.shields.io/pub/v/:packageName)
+![Pub Version](https://img.shields.io/pub/v/lucide_icons_flutter)
 ![Pub Monthly Downloads](https://img.shields.io/pub/dm/lucide_icons_flutter)
-![Pub Likes](https://img.shields.io/pub/likes/:packageName)
-![Pub Points](https://img.shields.io/pub/points/:packageName)
-![Pub Publisher](https://img.shields.io/pub/publisher/:packageName)
+![Pub Likes](https://img.shields.io/pub/likes/lucide_icons_flutter)
+![Pub Points](https://img.shields.io/pub/points/lucide_icons_flutter)
+![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
 
 version: 0.539.0
 
