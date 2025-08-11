@@ -1373,6 +1373,12 @@
     "className": "icon-brick-wall-fire",
     "unicode": "&#58968;"
   },
+  "brick-wall-shield": {
+    "encodedCode": "\\e695",
+    "prefix": "icon",
+    "className": "icon-brick-wall-shield",
+    "unicode": "&#59029;"
+  },
   "brick-wall": {
     "encodedCode": "\\e586",
     "prefix": "icon",
@@ -2272,6 +2278,12 @@
     "prefix": "icon",
     "className": "icon-circle-small",
     "unicode": "&#58949;"
+  },
+  "circle-star": {
+    "encodedCode": "\\e692",
+    "prefix": "icon",
+    "className": "icon-circle-star",
+    "unicode": "&#59026;"
   },
   "circle-stop": {
     "encodedCode": "\\e087",
@@ -4397,12 +4409,6 @@
     "className": "icon-gpu",
     "unicode": "&#58991;"
   },
-  "grab": {
-    "encodedCode": "\\e1e6",
-    "prefix": "icon",
-    "className": "icon-grab",
-    "unicode": "&#57830;"
-  },
   "graduation-cap": {
     "encodedCode": "\\e234",
     "prefix": "icon",
@@ -4504,6 +4510,18 @@
     "prefix": "icon",
     "className": "icon-hand-coins",
     "unicode": "&#58813;"
+  },
+  "hand-fist": {
+    "encodedCode": "\\e690",
+    "prefix": "icon",
+    "className": "icon-hand-fist",
+    "unicode": "&#59024;"
+  },
+  "hand-grab": {
+    "encodedCode": "\\e1e6",
+    "prefix": "icon",
+    "className": "icon-hand-grab",
+    "unicode": "&#57830;"
   },
   "hand-heart": {
     "encodedCode": "\\e5be",
@@ -4942,6 +4960,12 @@
     "prefix": "icon",
     "className": "icon-kanban",
     "unicode": "&#58593;"
+  },
+  "kayak": {
+    "encodedCode": "\\e694",
+    "prefix": "icon",
+    "className": "icon-kayak",
+    "unicode": "&#59028;"
   },
   "key-round": {
     "encodedCode": "\\e4a8",
@@ -8333,6 +8357,12 @@
     "className": "icon-square-stack",
     "unicode": "&#58535;"
   },
+  "square-star": {
+    "encodedCode": "\\e693",
+    "prefix": "icon",
+    "className": "icon-square-star",
+    "unicode": "&#59027;"
+  },
   "square-stop": {
     "encodedCode": "\\e68a",
     "prefix": "icon",
@@ -9094,6 +9124,12 @@
     "prefix": "icon",
     "className": "icon-turkish-lira",
     "unicode": "&#59013;"
+  },
+  "turntable": {
+    "encodedCode": "\\e691",
+    "prefix": "icon",
+    "className": "icon-turntable",
+    "unicode": "&#59025;"
   },
   "turtle": {
     "encodedCode": "\\e4fe",
