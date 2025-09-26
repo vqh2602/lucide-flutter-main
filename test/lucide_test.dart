@@ -55,10 +55,6 @@ void main() {
       final sampleIcons = [
         LucideIcons.activity,
         LucideIcons.airplay,
-        LucideIcons.alignCenter,
-        LucideIcons.alignJustify,
-        LucideIcons.alignLeft,
-        LucideIcons.alignRight,
         LucideIcons.anchor,
         LucideIcons.aperture,
         LucideIcons.archive,

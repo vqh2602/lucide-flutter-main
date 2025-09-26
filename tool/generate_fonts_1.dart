@@ -95,7 +95,7 @@ void main(List<String> args) {
     // Sinh biến gốc (không kèm fontFamily)
     generatedOutput.add("/// ${data['name']}\n" +
         "/// ![${data['name']}](data:image/svg+xml;base64,${svgContent})\n" +
-        "static const IconData ${ReCase(data['name']).camelCase} = const LucideIconData(${parseUnicodeString(data['unicode'])});\n");
+        "static const IconData ${ReCase(data['name']).camelCase} = const LucideIconData(${parseUnicodeString(data['unicode'])}, matchTextDirection: true);\n");
     listIconTest.add("\nLucideIcons.${ReCase(data['name']).camelCase},");
 
     // Sinh thêm các biến với fontFamily Lucide100...Lucide600

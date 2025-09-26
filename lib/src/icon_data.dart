@@ -6,5 +6,6 @@ class LucideIconData extends IconData {
           codePoint,
           fontFamily: fontFamily ?? 'Lucide',
           fontPackage: 'lucide_icons_flutter',
+          matchTextDirection: true,
         );
 }
