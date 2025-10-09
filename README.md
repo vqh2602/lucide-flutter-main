@@ -6,7 +6,7 @@
 ![Pub Points](https://img.shields.io/pub/points/lucide_icons_flutter)
 ![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
 
-version: 0.544.0
+version: 0.545.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 

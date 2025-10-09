@@ -5987,6 +5987,12 @@
     "className": "icon-moon",
     "unicode": "&#57630;"
   },
+  "motorbike": {
+    "encodedCode": "\\e69c",
+    "prefix": "icon",
+    "className": "icon-motorbike",
+    "unicode": "&#59036;"
+  },
   "mountain-snow": {
     "encodedCode": "\\e232",
     "prefix": "icon",

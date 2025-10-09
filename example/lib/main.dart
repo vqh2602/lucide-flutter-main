@@ -80,7 +80,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 prefixIcon: const Icon(LucideIcons.search),
                 suffixIcon: searchQuery.isNotEmpty
                     ? IconButton(
-                        icon: const Icon(LucideIcons.x),
+                        icon: const Icon(
+                          LucideIcons.x,
+                        ),
                         onPressed: clearSearch,
                       )
                     : null,
@@ -119,6 +121,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: const TextStyle(fontSize: 10),
                       overflow: TextOverflow.ellipsis,
                     ),
+                    Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Icon(LucideIcons.aArrowDown
+                            .dir(matchTextDirection: true)))
                   ],
                 );
               },
