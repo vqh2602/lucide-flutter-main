@@ -35,6 +35,22 @@ Icon(LucideIcons.activity600);
 For RTL (right-to-left) support, use the `dir()` extension to make icons automatically flip in RTL layouts:
 
 ```dart
+extension IconDataX on IconData {
+  /// Tạo Icon có matchTextDirection = true (tự động flip khi RTL)
+  IconData dir({
+    bool matchTextDirection = true,
+  }) {
+    return IconData(
+      codePoint,
+      fontFamily: fontFamily,
+      fontPackage: fontPackage,
+      matchTextDirection: matchTextDirection,
+    );
+  }
+}
+```
+
+```dart
 import  'package:lucide_icons_flutter/lucide_icons.dart';
 
 // Icon will automatically flip in RTL layouts
