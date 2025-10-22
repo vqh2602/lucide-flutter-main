@@ -5903,6 +5903,12 @@
     "className": "icon-monitor-check",
     "unicode": "&#58502;"
   },
+  "monitor-cloud": {
+    "encodedCode": "\\e69d",
+    "prefix": "icon",
+    "className": "icon-monitor-cloud",
+    "unicode": "&#59037;"
+  },
   "monitor-cog": {
     "encodedCode": "\\e607",
     "prefix": "icon",
