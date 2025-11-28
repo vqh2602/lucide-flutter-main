@@ -3,7 +3,8 @@ name: Publish to pub.dev
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+' # Stable: v3.2.0, v4.0.0
+      - 'v*.*.*' # Stable: v3.2.0, v4.0.0
+      - '!v*-beta.*' # Exclude beta tags
 
 jobs:
   publish:

@@ -3,7 +3,7 @@ name: Publish Beta to pub.dev
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+' # Beta: v3.1.7-beta.1
+      - 'v*-beta.*' # Beta: v3.1.7-beta.1, v3.1.11-beta.1
 
 jobs:
   publish-beta:
