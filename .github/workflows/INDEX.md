@@ -6,12 +6,13 @@ Hệ thống tự động publish package Flutter lên pub.dev với 2 workflows
 
 - **Beta releases** từ nhánh `develop`
 - **Stable releases** từ nhánh `main`
+- **Authentication**: OIDC (OpenID Connect) - Phương pháp chính thức của Dart
 
 ---
 
-## 📁 Danh sách files đã tạo
+## 📁 Files trong hệ thống
 
-### 1. Workflow Files
+### Workflow Files
 
 #### [`auto_publish.yml`](./auto_publish.yml)
 
@@ -24,12 +25,12 @@ Hệ thống tự động publish package Flutter lên pub.dev với 2 workflows
 
 **Chức năng**:
 
-- ✅ Run tests và analyze
 - ✅ Auto version bump (major/minor/patch)
+- ✅ Run tests và analyze
 - ✅ Update CHANGELOG.md
 - ✅ Create Git tag
 - ✅ Create GitHub Release
-- ✅ Publish to pub.dev (stable)
+- ✅ Publish to pub.dev (stable) với OIDC
 
 **Version format**: `3.2.0`, `4.0.0`, `3.1.7`
 
@@ -46,49 +47,84 @@ Hệ thống tự động publish package Flutter lên pub.dev với 2 workflows
 
 **Chức năng**:
 
+- ✅ Auto increment patch version + beta number
 - ✅ Run tests và analyze
-- ✅ Auto increment beta number
 - ✅ Update CHANGELOG.md
 - ✅ Create Git tag
 - ✅ Create GitHub Pre-release
-- ✅ Publish to pub.dev (pre-release)
+- ✅ Publish to pub.dev (pre-release) với OIDC
 
 **Version format**: `3.1.7-beta.1`, `3.1.7-beta.2`, ...
 
 ---
 
-### 2. Documentation Files
+### Documentation Files
 
-#### [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md) ⭐ MAIN DOC
+#### [`OIDC_SETUP.md`](./OIDC_SETUP.md) ⭐ START HERE
 
 **Nội dung chính**:
 
-- ✅ Hướng dẫn cấu hình chi tiết
-- ✅ Cách lấy pub.dev credentials
-- ✅ Setup GitHub Secrets
-- ✅ Branch protection rules
-- ✅ Branching strategy & best practices
-- ✅ Version numbering strategy
-- ✅ Workflow diagrams (Mermaid)
-- ✅ Troubleshooting guide
-- ✅ Customization options
-- ✅ Example workflows
+- ✅ Hướng dẫn enable automated publishing trên pub.dev
+- ✅ OIDC là gì và tại sao dùng
+- ✅ Setup guide từng bước
+- ✅ Troubleshooting
 
-**Đọc file này trước** để hiểu toàn bộ hệ thống!
+**Đọc file này TRƯỚC** để setup hệ thống!
 
 ---
 
-#### [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md) ⚡ QUICK START
+#### [`README.md`](./README.md) 📖 QUICK START
 
 **Nội dung chính**:
 
-- ✅ Setup checklist
+- ✅ Overview workflows
+- ✅ Quick setup steps
+- ✅ Links to detailed docs
+
+**Dùng file này** làm entry point!
+
+---
+
+#### [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md) 📚 FULL GUIDE
+
+**Nội dung chính**:
+
+- ✅ Hướng dẫn chi tiết đầy đủ
+- ✅ Cách sử dụng workflows
+- ✅ Branch protection rules
+- ✅ Branching strategy & best practices
+- ✅ Version numbering strategy
+- ✅ Troubleshooting guide
+- ✅ Customization options
+
+**Đọc file này** để hiểu sâu toàn bộ hệ thống!
+
+---
+
+#### [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md) ⚡ CHEAT SHEET
+
+**Nội dung chính**:
+
 - ✅ Daily workflow commands
 - ✅ Version bump rules (table)
 - ✅ Troubleshooting quick fixes
 - ✅ Useful commands
 
-**Dùng file này** khi cần tham khảo nhanh trong quá trình làm việc hàng ngày!
+**Dùng file này** khi cần tham khảo nhanh!
+
+---
+
+#### [`FAQ.md`](./FAQ.md) ❓ Q&A
+
+**Nội dung chính**:
+
+- ✅ Common questions
+- ✅ Token & authentication FAQs
+- ✅ Beta version explanation
+- ✅ Workflow troubleshooting
+- ✅ Best practices tips
+
+**Đọc file này** khi có thắc mắc!
 
 ---
 
@@ -96,34 +132,28 @@ Hệ thống tự động publish package Flutter lên pub.dev với 2 workflows
 
 **Nội dung chính**:
 
-- ✅ Git flow diagram (Mermaid)
+- ✅ Git flow diagrams (Mermaid)
 - ✅ Workflow trigger flow
 - ✅ Version progression timeline
 - ✅ State diagrams
-- ✅ Beta vs Stable comparison
 - ✅ Decision tree
 
-**Dùng file này** để hiểu visual flow của hệ thống!
+**Dùng file này** để hiểu visual flow!
 
 ---
 
 ## 🚀 Quick Start (3 bước)
 
-### Bước 1: Cấu hình GitHub Secrets
+### Bước 1: Enable Automated Publishing trên pub.dev
 
-```bash
-# 1. Chạy lệnh này để lấy credentials
-flutter pub publish --dry-run
+Vào: https://pub.dev/packages/lucide_icons_flutter/admin
 
-# 2. Mở file credentials
-# Mac/Linux: ~/.pub-cache/credentials.json
-# Windows: %APPDATA%\Pub\Cache\credentials.json
+Enable automated publishing:
 
-# 3. Copy accessToken và refreshToken
-# 4. Vào GitHub repo → Settings → Secrets → Add:
-#    - PUB_DEV_ACCESS_TOKEN
-#    - PUB_DEV_REFRESH_TOKEN
-```
+- Repository: `vqh2602/lucide-flutter-main`
+- Tag pattern: `v{{version}}`
+
+> [!IMPORTANT] > **OIDC chỉ hoạt động sau khi enable trên pub.dev!**
 
 ### Bước 2: Tạo nhánh develop (nếu chưa có)
 
@@ -135,27 +165,25 @@ git push -u origin develop
 ### Bước 3: Test workflow
 
 ```bash
-# Push một commit vào develop
+# Push commit vào develop
 git checkout develop
-echo "test" >> test.txt
-git add test.txt
-git commit -m "chore: test beta workflow"
+echo "test" >> README.md
+git add README.md
+git commit -m "test: verify OIDC workflow"
 git push
 
 # Kiểm tra: GitHub → Actions → Auto Publish Beta Version
-# Expect: Version 3.1.7-beta.1 được publish
+# Expected: Version 3.1.7-beta.X published với OIDC
 ```
 
 ---
 
 ## 📖 Hướng dẫn đọc docs
 
-Tùy theo mục đích, đọc theo thứ tự:
-
 ### Lần đầu setup:
 
-1. [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md) - Đọc phần "Cấu hình cần thiết"
-2. [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md) - Làm theo checklist
+1. [`OIDC_SETUP.md`](./OIDC_SETUP.md) - Enable trên pub.dev
+2. [`README.md`](./README.md) - Quick start guide
 3. Test workflow
 4. [`BRANCHING_STRATEGY.md`](./BRANCHING_STRATEGY.md) - Hiểu workflow
 
@@ -167,8 +195,9 @@ Tùy theo mục đích, đọc theo thứ tự:
 ### Khi gặp vấn đề:
 
 1. [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md) - Troubleshooting nhanh
-2. [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md) - Troubleshooting chi tiết
-3. GitHub Actions logs - Debug workflow
+2. [`FAQ.md`](./FAQ.md) - Common questions
+3. [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md) - Troubleshooting chi tiết
+4. GitHub Actions logs - Debug workflow
 
 ---
 
@@ -183,7 +212,7 @@ git checkout -b feature/new-icons
 git commit -m "feat: add new icons"
 git push
 # Tạo PR → develop
-# Merge → auto beta.1 published
+# Merge → auto beta.X published với OIDC
 ```
 
 ### Case 2: Fix bug trong beta
@@ -193,26 +222,14 @@ git checkout develop
 # Fix...
 git commit -m "fix: icon size"
 git push
-# → auto beta.2 published
+# → auto beta.Y published
 ```
 
 ### Case 3: Release stable
 
 ```bash
 # Tạo PR: develop → main
-# Merge → auto 3.2.0 published
-```
-
-### Case 4: Hotfix production
-
-```bash
-git checkout main
-git checkout -b hotfix/critical-bug
-# Fix...
-git commit -m "fix: critical bug"
-# Tạo PR → main
-# Merge → auto 3.2.1 published
-# Nhớ merge lại vào develop!
+# Merge → auto stable version published
 ```
 
 ---
@@ -222,12 +239,16 @@ git commit -m "fix: critical bug"
 ```
 .github/
 └── workflows/
-    ├── auto_publish.yml              # Main workflow
-    ├── auto_publish_beta.yml         # Beta workflow
-    ├── README_AUTO_PUBLISH.md        # 📖 Main documentation
-    ├── QUICK_REFERENCE.md            # ⚡ Quick reference
+    ├── auto_publish.yml              # Main workflow (OIDC)
+    ├── auto_publish_beta.yml         # Beta workflow (OIDC)
+    ├── OIDC_SETUP.md                 # ⭐ Setup guide
+    ├── README.md                     # 📖 Entry point
+    ├── README_AUTO_PUBLISH.md        # 📚 Full docs
+    ├── QUICK_REFERENCE.md            # ⚡ Cheat sheet
+    ├── FAQ.md                        # ❓ Q&A
     ├── BRANCHING_STRATEGY.md         # 📊 Visual guide
-    └── INDEX.md                      # 📑 This file
+    ├── INDEX.md                      # 📑 This file
+    └── update_contributors.yml       # Contributors workflow
 ```
 
 ---
@@ -238,18 +259,32 @@ git commit -m "fix: critical bug"
 - **Repository**: https://github.com/vqh2602/lucide-flutter-main
 - **GitHub Actions**: https://github.com/vqh2602/lucide-flutter-main/actions
 - **Releases**: https://github.com/vqh2602/lucide-flutter-main/releases
+- **Dart OIDC Docs**: https://dart.dev/tools/pub/automated-publishing
 
 ---
 
 ## ✅ Checklist sau khi setup
 
-- [ ] Đã add GitHub Secrets (`PUB_DEV_ACCESS_TOKEN`, `PUB_DEV_REFRESH_TOKEN`)
+- [ ] Đã enable automated publishing trên pub.dev
+- [ ] Đã set tag pattern: `v{{version}}`
+- [ ] Đã set repository: `vqh2602/lucide-flutter-main`
 - [ ] Đã tạo nhánh `develop`
-- [ ] Đã test beta workflow (push vào develop → check Actions)
-- [ ] Đã test stable workflow (merge develop → main → check Actions)
+- [ ] Đã test workflow (push vào develop → check Actions)
 - [ ] Đã verify package xuất hiện trên pub.dev
-- [ ] Đã setup branch protection (optional)
+- [ ] (Optional) Đã setup branch protection
 - [ ] Team đã đọc docs và hiểu workflow
+
+---
+
+## 🔐 OIDC vs Manual Tokens
+
+| Feature         | OIDC (Current) | Manual Tokens (Old)  |
+| --------------- | -------------- | -------------------- |
+| **Secrets**     | ❌ None needed | ✅ 2 tokens required |
+| **Setup**       | ✅ Simple      | ❌ Complex           |
+| **Security**    | ✅ High        | ⚠️ Medium            |
+| **Maintenance** | ✅ Zero        | ❌ Token renewal     |
+| **Official**    | ✅ Yes         | ❌ No                |
 
 ---
 
@@ -258,9 +293,10 @@ git commit -m "fix: critical bug"
 Nếu gặp vấn đề:
 
 1. **Check workflow logs**: GitHub → Actions → Click vào workflow run
-2. **Review troubleshooting**: [`README_AUTO_PUBLISH.md`](./README_AUTO_PUBLISH.md#troubleshooting)
+2. **Review OIDC setup**: [`OIDC_SETUP.md`](./OIDC_SETUP.md)
 3. **Quick fixes**: [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md#-troubleshooting-nhanh)
+4. **FAQ**: [`FAQ.md`](./FAQ.md)
 
 ---
 
-**Happy Publishing! 🚀**
+**Happy Auto-Publishing with OIDC! 🚀**
