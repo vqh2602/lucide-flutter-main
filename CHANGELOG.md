@@ -1,3 +1,9 @@
+## [3.1.10-beta.1] - 2025-11-28
+
+### Beta Release
+- Development build from commit 80c0c645
+- This is a pre-release version for testing
+
 ## [3.1.9-beta.1] - 2025-11-28
 
 ### Beta Release
