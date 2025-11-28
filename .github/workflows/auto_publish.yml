@@ -20,8 +20,8 @@ jobs:
   version-and-publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      id-token: write
+      contents: write       # For creating commits and tags
+      id-token: write       # Required for OIDC authentication to pub.dev
     
     steps:
       - name: Checkout code
@@ -35,6 +35,10 @@ jobs:
         with:
           flutter-version: '3.x'
           channel: 'stable'
+      
+      - name: Setup Dart for OIDC
+        uses: dart-lang/setup-dart@v1
+        # This step configures OIDC authentication with pub.dev
       
       - name: Get dependencies
         run: flutter pub get
@@ -140,20 +144,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Setup Pub Credentials
-        run: |
-          mkdir -p $HOME/.pub-cache
-          cat <<EOF > $HOME/.pub-cache/credentials.json
-          {
-            "accessToken": "${{ secrets.PUB_DEV_ACCESS_TOKEN }}",
-            "refreshToken": "${{ secrets.PUB_DEV_REFRESH_TOKEN }}",
-            "tokenEndpoint": "https://accounts.google.com/o/oauth2/token",
-            "scopes": ["openid", "https://www.googleapis.com/auth/userinfo.email"],
-            "expiration": 1234567890000
-          }
-          EOF
-      
       - name: Publish to pub.dev
-        run: flutter pub publish --force
-        env:
-          PUB_CACHE: $HOME/.pub-cache
+        run: dart pub publish --force
