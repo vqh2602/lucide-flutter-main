@@ -1,4 +1,4 @@
-name: Auto Publish Beta Version
+name: Auto Beta Version Bump and Tag
 
 on:
   push:
@@ -7,11 +7,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  beta-publish:
+  beta-version-bump:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # For creating commits and tags
-      id-token: write       # Required for OIDC authentication to pub.dev
+      contents: write
     
     steps:
       - name: Checkout code
@@ -26,10 +25,6 @@ jobs:
           flutter-version: '3.x'
           channel: 'stable'
       
-      - name: Setup Dart for OIDC
-        uses: dart-lang/setup-dart@v1
-        # This step configures OIDC authentication with pub.dev
-      
       - name: Get dependencies
         run: flutter pub get
       
@@ -42,24 +37,14 @@ jobs:
       - name: Get base version and bump
         id: base_version
         run: |
-          # Lấy version hiện tại từ pubspec.yaml
           CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
-          
-          # Loại bỏ suffix beta nếu có (3.1.7-beta.1 -> 3.1.7)
           BASE_VERSION=$(echo "$CURRENT_VERSION" | sed 's/-beta\..*//')
           
-          # Tách version thành major.minor.patch
           IFS='.' read -r MAJOR MINOR PATCH <<< "$BASE_VERSION"
           
-          # Kiểm tra xem đã có beta nào cho version tiếp theo chưa
           NEXT_PATCH=$((PATCH + 1))
           NEXT_VERSION="$MAJOR.$MINOR.$NEXT_PATCH"
           
-          # Kiểm tra xem có beta tags cho NEXT_VERSION không
-          NEXT_BETA_TAGS=$(git tag -l "v${NEXT_VERSION}-beta.*" 2>/dev/null || echo "")
-          
-          # Nếu chưa có beta nào cho next version, dùng next version
-          # Nếu đã có beta, tiếp tục dùng next version (tăng beta number)
           BETA_BASE_VERSION="$NEXT_VERSION"
           
           echo "base=$BETA_BASE_VERSION" >> $GITHUB_OUTPUT
@@ -71,15 +56,12 @@ jobs:
         run: |
           BASE_VERSION="${{ steps.base_version.outputs.base }}"
           
-          # Lấy tất cả tags beta cho version này
           BETA_TAGS=$(git tag -l "v${BASE_VERSION}-beta.*" | sort -V)
           
           if [ -z "$BETA_TAGS" ]; then
-            # Chưa có beta nào, bắt đầu từ beta.1
             BETA_NUM=1
             echo "Starting new beta cycle for version $BASE_VERSION"
           else
-            # Lấy beta number cao nhất và tăng lên 1
             LATEST_BETA=$(echo "$BETA_TAGS" | tail -n 1)
             BETA_NUM=$(echo "$LATEST_BETA" | sed -E 's/.*-beta\.([0-9]+)/\1/')
             BETA_NUM=$((BETA_NUM + 1))
@@ -99,7 +81,6 @@ jobs:
           echo "version=$BETA_VERSION" >> $GITHUB_OUTPUT
           echo "Beta version: $BETA_VERSION"
           
-          # Cập nhật pubspec.yaml
           sed -i "s/^version: .*/version: $BETA_VERSION/" pubspec.yaml
       
       - name: Update CHANGELOG
@@ -108,7 +89,6 @@ jobs:
           TODAY=$(date +%Y-%m-%d)
           COMMIT_SHA=$(git rev-parse --short HEAD)
           
-          # Tạo changelog entry cho beta
           cat > CHANGELOG_ENTRY.md << EOF
           ## [$BETA_VERSION] - $TODAY
           
@@ -131,47 +111,9 @@ jobs:
           git commit -m "chore: bump version to $BETA_VERSION [skip ci]"
           git push
       
-      - name: Create Git tag
+      - name: Create and push Git tag
         run: |
           BETA_VERSION="${{ steps.beta_version.outputs.version }}"
           git tag -a "v$BETA_VERSION" -m "Beta Release v$BETA_VERSION"
           git push origin "v$BETA_VERSION"
-      
-      - name: Create GitHub Pre-release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: v${{ steps.beta_version.outputs.version }}
-          name: Beta v${{ steps.beta_version.outputs.version }}
-          body: |
-            ## 🧪 Beta Release v${{ steps.beta_version.outputs.version }}
-            
-            This is a **pre-release beta version** from the `develop` branch.
-            
-            **⚠️ Warning**: This version is for testing purposes only and may contain bugs or incomplete features.
-            
-            ### Installation
-            
-            Add to your `pubspec.yaml`:
-            ```yaml
-            dependencies:
-              lucide_icons_flutter: ${{ steps.beta_version.outputs.version }}
-            ```
-            
-            ### Commit
-            - SHA: ${{ github.sha }}
-            - Branch: develop
-            
-            See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/develop/CHANGELOG.md) for details.
-          draft: false
-          prerelease: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Publish beta to pub.dev
-        run: dart pub publish --force
-      
-      - name: Comment on commits
-        run: |
-          BETA_VERSION="${{ steps.beta_version.outputs.version }}"
-          echo "✅ Published beta version $BETA_VERSION to pub.dev"
-          echo "📦 Package: https://pub.dev/packages/lucide_icons_flutter/versions/$BETA_VERSION"
+          echo "Created and pushed tag: v$BETA_VERSION"

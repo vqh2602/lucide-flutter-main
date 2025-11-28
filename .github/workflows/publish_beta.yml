@@ -1,0 +1,62 @@
+name: Publish Beta to pub.dev
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+' # Beta: v3.1.7-beta.1
+
+jobs:
+  publish-beta:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC authentication
+      contents: write # For creating GitHub Pre-release
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x'
+          channel: 'stable'
+      
+      - name: Setup Dart for OIDC
+        uses: dart-lang/setup-dart@v1
+      
+      - name: Get dependencies
+        run: flutter pub get
+      
+      - name: Publish beta to pub.dev
+        run: dart pub publish --force
+      
+      - name: Create GitHub Pre-release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Beta ${{ github.ref_name }}
+          body: |
+            ## 🧪 Beta Release ${{ github.ref_name }}
+            
+            This is a **pre-release beta version** from the `develop` branch.
+            
+            **⚠️ Warning**: This version is for testing purposes only and may contain bugs or incomplete features.
+            
+            ### Installation
+            
+            Add to your `pubspec.yaml`:
+            ```yaml
+            dependencies:
+              lucide_icons_flutter: ${{ github.ref_name }}
+            ```
+            
+            ### Commit
+            - SHA: ${{ github.sha }}
+            - Branch: develop
+            
+            See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/develop/CHANGELOG.md) for details.
+          draft: false
+          prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
