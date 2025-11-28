@@ -1,0 +1,159 @@
+name: Auto Version Bump and Publish
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+jobs:
+  version-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x'
+          channel: 'stable'
+      
+      - name: Get dependencies
+        run: flutter pub get
+      
+      - name: Run tests
+        run: flutter test
+      
+      - name: Analyze code
+        run: flutter analyze
+      
+      - name: Get current version
+        id: current_version
+        run: |
+          CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
+          echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+          echo "Current version: $CURRENT_VERSION"
+      
+      - name: Determine version bump type
+        id: version_type
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "type=${{ inputs.version_type }}" >> $GITHUB_OUTPUT
+          else
+            # Kiểm tra commit message để xác định loại version bump
+            COMMIT_MSG="${{ github.event.head_commit.message }}"
+            if echo "$COMMIT_MSG" | grep -qiE '\[major\]|\bbreaking change\b'; then
+              echo "type=major" >> $GITHUB_OUTPUT
+            elif echo "$COMMIT_MSG" | grep -qiE '\[minor\]|\bfeat\b|\bfeature\b'; then
+              echo "type=minor" >> $GITHUB_OUTPUT
+            else
+              echo "type=patch" >> $GITHUB_OUTPUT
+            fi
+          fi
+      
+      - name: Bump version
+        id: new_version
+        run: |
+          CURRENT_VERSION="${{ steps.current_version.outputs.version }}"
+          VERSION_TYPE="${{ steps.version_type.outputs.type }}"
+          
+          # Tách version thành major.minor.patch
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT_VERSION"
+          
+          # Bump version dựa trên type
+          case $VERSION_TYPE in
+            major)
+              MAJOR=$((MAJOR + 1))
+              MINOR=0
+              PATCH=0
+              ;;
+            minor)
+              MINOR=$((MINOR + 1))
+              PATCH=0
+              ;;
+            patch)
+              PATCH=$((PATCH + 1))
+              ;;
+          esac
+          
+          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "New version: $NEW_VERSION"
+          
+          # Cập nhật pubspec.yaml
+          sed -i "s/^version: .*/version: $NEW_VERSION/" pubspec.yaml
+      
+      - name: Update CHANGELOG
+        run: |
+          NEW_VERSION="${{ steps.new_version.outputs.version }}"
+          TODAY=$(date +%Y-%m-%d)
+          
+          # Tạo changelog entry mới
+          echo -e "## [$NEW_VERSION] - $TODAY\n\n### Changed\n- Auto-released version $NEW_VERSION\n\n$(cat CHANGELOG.md)" > CHANGELOG.md
+      
+      - name: Commit version bump
+        run: |
+          NEW_VERSION="${{ steps.new_version.outputs.version }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pubspec.yaml CHANGELOG.md
+          git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
+          git push
+      
+      - name: Create Git tag
+        run: |
+          NEW_VERSION="${{ steps.new_version.outputs.version }}"
+          git tag -a "v$NEW_VERSION" -m "Release v$NEW_VERSION"
+          git push origin "v$NEW_VERSION"
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.new_version.outputs.version }}
+          name: Release v${{ steps.new_version.outputs.version }}
+          body: |
+            ## Changes in v${{ steps.new_version.outputs.version }}
+            
+            Auto-generated release from main branch.
+            
+            See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for detailed changes.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Pub Credentials
+        run: |
+          mkdir -p $HOME/.pub-cache
+          cat <<EOF > $HOME/.pub-cache/credentials.json
+          {
+            "accessToken": "${{ secrets.PUB_DEV_ACCESS_TOKEN }}",
+            "refreshToken": "${{ secrets.PUB_DEV_REFRESH_TOKEN }}",
+            "tokenEndpoint": "https://accounts.google.com/o/oauth2/token",
+            "scopes": ["openid", "https://www.googleapis.com/auth/userinfo.email"],
+            "expiration": 1234567890000
+          }
+          EOF
+      
+      - name: Publish to pub.dev
+        run: flutter pub publish --force
+        env:
+          PUB_CACHE: $HOME/.pub-cache
