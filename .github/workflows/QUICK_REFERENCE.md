@@ -74,11 +74,29 @@ git push
 
 ### Develop branch (auto_publish_beta.yml)
 
-Mỗi push tự động tăng beta number:
+**Beta luôn target next patch version:**
 
 ```
-3.1.7-beta.1 → 3.1.7-beta.2 → 3.1.7-beta.3 → ... → 3.2.0 (stable)
+Stable: 3.1.6
+
+First push to develop:
+  → Auto bump: 3.1.6 + 1 = 3.1.7
+  → 3.1.7-beta.1
+
+Subsequent pushes:
+  → 3.1.7-beta.2
+  → 3.1.7-beta.3
+  → ...
+
+Merge to main (with "feat:"):
+  → 3.2.0 (stable)
+
+Next push to develop:
+  → Auto bump: 3.2.0 + 1 = 3.2.1
+  → 3.2.1-beta.1
 ```
+
+> **Lưu ý**: Beta version **KHÔNG BAO GIỜ** thấp hơn stable version!
 
 ## ⚡ Commands nhanh
 
@@ -121,8 +139,19 @@ flutter analyze
 
 ### Credentials expired?
 
-- Run lại: `flutter pub publish --dry-run`
-- Update GitHub Secrets với tokens mới
+**⚠️ QUAN TRỌNG**: Access token hết hạn sau vài giờ là BÌNH THƯỜNG!
+
+- Workflow tự động dùng `refreshToken` để renew `accessToken`
+- Bạn **KHÔNG cần** update secrets thường xuyên
+- Chỉ update khi workflow báo authentication error
+
+**Nếu thực sự cần update:**
+
+```bash
+dart pub logout
+dart pub login
+# Copy tokens mới vào GitHub Secrets
+```
 
 ### Beta number không đúng?
 

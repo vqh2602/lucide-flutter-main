@@ -35,7 +35,7 @@ jobs:
       - name: Analyze code
         run: flutter analyze
       
-      - name: Get base version
+      - name: Get base version and bump
         id: base_version
         run: |
           # Lấy version hiện tại từ pubspec.yaml
@@ -44,8 +44,23 @@ jobs:
           # Loại bỏ suffix beta nếu có (3.1.7-beta.1 -> 3.1.7)
           BASE_VERSION=$(echo "$CURRENT_VERSION" | sed 's/-beta\..*//')
           
-          echo "base=$BASE_VERSION" >> $GITHUB_OUTPUT
-          echo "Base version: $BASE_VERSION"
+          # Tách version thành major.minor.patch
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$BASE_VERSION"
+          
+          # Kiểm tra xem đã có beta nào cho version tiếp theo chưa
+          NEXT_PATCH=$((PATCH + 1))
+          NEXT_VERSION="$MAJOR.$MINOR.$NEXT_PATCH"
+          
+          # Kiểm tra xem có beta tags cho NEXT_VERSION không
+          NEXT_BETA_TAGS=$(git tag -l "v${NEXT_VERSION}-beta.*" 2>/dev/null || echo "")
+          
+          # Nếu chưa có beta nào cho next version, dùng next version
+          # Nếu đã có beta, tiếp tục dùng next version (tăng beta number)
+          BETA_BASE_VERSION="$NEXT_VERSION"
+          
+          echo "base=$BETA_BASE_VERSION" >> $GITHUB_OUTPUT
+          echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+          echo "Base version for beta: $BETA_BASE_VERSION (current: $CURRENT_VERSION)"
       
       - name: Find latest beta number
         id: beta_number
@@ -58,11 +73,13 @@ jobs:
           if [ -z "$BETA_TAGS" ]; then
             # Chưa có beta nào, bắt đầu từ beta.1
             BETA_NUM=1
+            echo "Starting new beta cycle for version $BASE_VERSION"
           else
             # Lấy beta number cao nhất và tăng lên 1
             LATEST_BETA=$(echo "$BETA_TAGS" | tail -n 1)
             BETA_NUM=$(echo "$LATEST_BETA" | sed -E 's/.*-beta\.([0-9]+)/\1/')
             BETA_NUM=$((BETA_NUM + 1))
+            echo "Incrementing from $LATEST_BETA"
           fi
           
           echo "number=$BETA_NUM" >> $GITHUB_OUTPUT

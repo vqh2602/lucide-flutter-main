@@ -55,10 +55,45 @@ Vào repository GitHub → **Settings** → **Secrets and variables** → **Acti
 
 Thêm 2 secrets sau:
 
-| Secret Name             | Value                                           |
-| ----------------------- | ----------------------------------------------- |
-| `PUB_DEV_ACCESS_TOKEN`  | Giá trị `accessToken` từ file credentials.json  |
-| `PUB_DEV_REFRESH_TOKEN` | Giá trị `refreshToken` từ file credentials.json |
+| Secret Name             | Value                                 | Mục đích               |
+| ----------------------- | ------------------------------------- | ---------------------- |
+| `PUB_DEV_ACCESS_TOKEN`  | Giá trị `accessToken` từ credentials  | ⚠️ Hết hạn sau vài giờ |
+| `PUB_DEV_REFRESH_TOKEN` | Giá trị `refreshToken` từ credentials | ✅ Tồn tại lâu dài     |
+
+> [!IMPORTANT] > **Về Token Expiration:**
+>
+> - **Access Token** (`accessToken`) sẽ **hết hạn sau 1-2 giờ** - điều này là BÌNH THƯỜNG
+> - **Refresh Token** (`refreshToken`) tồn tại **rất lâu** (nhiều tháng/năm)
+> - Workflow tự động dùng `refreshToken` để **renew** `accessToken` khi cần
+> - Bạn **KHÔNG cần** cập nhật secrets thường xuyên!
+> - Chỉ cần update khi workflow báo lỗi authentication (rất hiếm)
+
+#### Cách lấy tokens:
+
+```bash
+# 1. Login để lấy credentials
+dart pub login
+
+# 2. Xem credentials file
+# Mac/Linux:
+cat ~/.pub-cache/credentials.json
+# hoặc
+cat ~/Library/Application\ Support/dart/pub-credentials.json
+
+# Windows:
+type %APPDATA%\dart\pub-credentials.json
+```
+
+Credentials file có format:
+
+```json
+{
+  "accessToken": "ya29.a0A...",     ← Copy vào PUB_DEV_ACCESS_TOKEN
+  "refreshToken": "1//0ej8m...",    ← Copy vào PUB_DEV_REFRESH_TOKEN
+  "tokenEndpoint": "https://...",
+  ...
+}
+```
 
 ### 3. Cấu hình Branch Protection (khuyến nghị)
 
@@ -97,18 +132,30 @@ Bạn có thể chạy workflow thủ công:
 
 Mỗi khi push commit vào `develop`, workflow sẽ tự động:
 
-- Tìm version beta tiếp theo (3.1.7-beta.1 → 3.1.7-beta.2)
+- **Tự động bump patch version lên +1** (3.1.6 → 3.1.7)
+- Tìm beta number tiếp theo (beta.1, beta.2, ...)
 - Chạy tests
 - Publish lên pub.dev với tag `prerelease`
+
+> [!IMPORTANT] > **Beta Version Logic:**
+>
+> - Nếu stable hiện tại là `3.1.6`, beta sẽ là `3.1.7-beta.1` (không phải 3.1.6-beta.X)
+> - Beta luôn hướng tới **patch version tiếp theo**
+> - Khi merge vào main, version sẽ bump lên minor hoặc major tùy commit message
 
 **Ví dụ version progression:**
 
 ```
-Push #1: 3.1.7-beta.1
-Push #2: 3.1.7-beta.2
-Push #3: 3.1.7-beta.3
+Current stable: 3.1.6
+
+Push #1 vào develop → 3.1.7-beta.1
+Push #2 vào develop → 3.1.7-beta.2
+Push #3 vào develop → 3.1.7-beta.3
 ...
-Merge to main: 3.2.0 (stable release)
+Merge to main (với "feat:" message) → 3.2.0 (stable)
+
+# Sau đó, develop tiếp tục:
+Push #1 vào develop → 3.2.1-beta.1
 ```
 
 #### Cài đặt beta version
