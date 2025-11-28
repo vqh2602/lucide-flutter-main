@@ -1,3 +1,9 @@
+## [3.1.11-beta.1] - 2025-11-28
+
+### Beta Release
+- Development build from commit ea86ffdf
+- This is a pre-release version for testing
+
 ## [3.1.10-beta.1] - 2025-11-28
 
 ### Beta Release
