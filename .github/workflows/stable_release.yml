@@ -119,10 +119,15 @@ jobs:
           echo "✅ Created tag: v$NEW_VERSION"
       
       - name: Setup Dart for OIDC
+        if: github.event_name == 'workflow_dispatch'
         uses: dart-lang/setup-dart@v1
       
       - name: Publish to pub.dev
-        run: dart pub publish --force
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "🚀 Publishing to pub.dev..."
+          dart pub publish --force
+          echo "✅ Published successfully!"
       
       - name: Push Git tag
         run: |
