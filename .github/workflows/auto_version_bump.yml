@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write # Required for OIDC authentication to pub.dev
     
     steps:
       - name: Checkout code
@@ -117,4 +118,26 @@ jobs:
           NEW_VERSION="${{ steps.new_version.outputs.version }}"
           git tag -a "v$NEW_VERSION" -m "Release v$NEW_VERSION"
           git push origin "v$NEW_VERSION"
-          echo "Created and pushed tag: v$NEW_VERSION"
+          echo "✅ Created and pushed tag: v$NEW_VERSION"
+      
+      - name: Setup Dart for OIDC
+        uses: dart-lang/setup-dart@v1
+      
+      - name: Publish to pub.dev
+        run: dart pub publish --force
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.new_version.outputs.version }}
+          name: Release v${{ steps.new_version.outputs.version }}
+          body: |
+            ## 🚀 Release v${{ steps.new_version.outputs.version }}
+            
+            Auto-published to pub.dev from main branch.
+            
+            See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for detailed changes.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
