@@ -34,22 +34,22 @@ jobs:
       - name: Analyze code
         run: flutter analyze
       
-      - name: Get base version and bump
+      - name: Get base version for next release
         id: base_version
         run: |
           CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
+          # Remove -beta.X suffix if exists to get the stable base version
           BASE_VERSION=$(echo "$CURRENT_VERSION" | sed 's/-beta\..*//')
           
+          # Calculate next patch version for the upcoming release
           IFS='.' read -r MAJOR MINOR PATCH <<< "$BASE_VERSION"
-          
           NEXT_PATCH=$((PATCH + 1))
           NEXT_VERSION="$MAJOR.$MINOR.$NEXT_PATCH"
           
-          BETA_BASE_VERSION="$NEXT_VERSION"
-          
-          echo "base=$BETA_BASE_VERSION" >> $GITHUB_OUTPUT
+          echo "base=$NEXT_VERSION" >> $GITHUB_OUTPUT
           echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
-          echo "Base version for beta: $BETA_BASE_VERSION (current: $CURRENT_VERSION)"
+          echo "Next release version: $NEXT_VERSION (current: $CURRENT_VERSION)"
+          echo "Beta versions will be: $NEXT_VERSION-beta.1, $NEXT_VERSION-beta.2, etc."
       
       - name: Find latest beta number
         id: beta_number
