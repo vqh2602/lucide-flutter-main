@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - 'v*-beta.*' # Beta: v3.1.7-beta.1, v3.1.11-beta.1
-        
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   publish-beta:

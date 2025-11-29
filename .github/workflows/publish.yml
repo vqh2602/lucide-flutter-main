@@ -5,6 +5,7 @@ on:
     tags:
       - 'v*.*.*' # Stable: v3.2.0, v4.0.0
       - '!v*-beta.*' # Exclude beta tags
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   publish:
