@@ -11,14 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      id-token: write # Required for OIDC authentication to pub.dev
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
       
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -113,44 +112,11 @@ jobs:
           git push
       
       - name: Create and push Git tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           BETA_VERSION="${{ steps.beta_version.outputs.version }}"
           git tag -a "v$BETA_VERSION" -m "Beta Release v$BETA_VERSION"
           git push origin "v$BETA_VERSION"
           echo "✅ Created and pushed tag: v$BETA_VERSION"
-      
-      - name: Setup Dart for OIDC
-        uses: dart-lang/setup-dart@v1
-      
-      - name: Publish beta to pub.dev
-        run: dart pub publish --force
-      
-      - name: Create GitHub Pre-release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: v${{ steps.beta_version.outputs.version }}
-          name: Beta v${{ steps.beta_version.outputs.version }}
-          body: |
-            ## 🧪 Beta Release v${{ steps.beta_version.outputs.version }}
-            
-            This is a **pre-release beta version** from the `develop` branch.
-            
-            **⚠️ Warning**: This version is for testing purposes only and may contain bugs or incomplete features.
-            
-            ### Installation
-            
-            Add to your `pubspec.yaml`:
-            ```yaml
-            dependencies:
-              lucide_icons_flutter: ${{ steps.beta_version.outputs.version }}
-            ```
-            
-            ### Commit
-            - SHA: ${{ github.sha }}
-            - Branch: develop
-            
-            See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/develop/CHANGELOG.md) for details.
-          draft: false
-          prerelease: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "🚀 This will trigger publish_beta.yml workflow"
