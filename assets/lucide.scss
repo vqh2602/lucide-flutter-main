@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1761903384367'); /* IE9*/
-  src: url('lucide.eot?t=1761903384367#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1761903384367') format('woff2'),
-  url('lucide.woff?t=1761903384367') format('woff'),
-  url('lucide.ttf?t=1761903384367') format('truetype'),
-  url('lucide.svg?t=1761903384367') format('svg');
+  src: url('lucide.eot?t=1764145870148'); /* IE9*/
+  src: url('lucide.eot?t=1764145870148#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1764145870148') format('woff2'),
+  url('lucide.woff?t=1764145870148') format('woff'),
+  url('lucide.ttf?t=1764145870148') format('truetype'),
+  url('lucide.svg?t=1764145870148') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -285,6 +285,7 @@
 .icon-calendar-x-2::before { content: "\e2bf"; }
 .icon-calendar-x::before { content: "\e2be"; }
 .icon-calendar::before { content: "\e063"; }
+.icon-calendars::before { content: "\e6a7"; }
 .icon-camera-off::before { content: "\e065"; }
 .icon-camera::before { content: "\e064"; }
 .icon-candy-cane::before { content: "\e4ba"; }
@@ -335,6 +336,12 @@
 .icon-check::before { content: "\e06c"; }
 .icon-chef-hat::before { content: "\e2ac"; }
 .icon-cherry::before { content: "\e350"; }
+.icon-chess-bishop::before { content: "\e6a0"; }
+.icon-chess-king::before { content: "\e6a1"; }
+.icon-chess-knight::before { content: "\e6a2"; }
+.icon-chess-pawn::before { content: "\e6a3"; }
+.icon-chess-queen::before { content: "\e6a4"; }
+.icon-chess-rook::before { content: "\e6a5"; }
 .icon-chevron-down::before { content: "\e06d"; }
 .icon-chevron-first::before { content: "\e243"; }
 .icon-chevron-last::before { content: "\e244"; }
@@ -643,7 +650,7 @@
 .icon-file::before { content: "\e0c0"; }
 .icon-files::before { content: "\e0cf"; }
 .icon-film::before { content: "\e0d0"; }
-.icon-fingerprint::before { content: "\e2cb"; }
+.icon-fingerprint-pattern::before { content: "\e2cb"; }
 .icon-fire-extinguisher::before { content: "\e57e"; }
 .icon-fish-off::before { content: "\e3b0"; }
 .icon-fish-symbol::before { content: "\e4f4"; }
@@ -701,6 +708,7 @@
 .icon-folders::before { content: "\e33f"; }
 .icon-footprints::before { content: "\e3b9"; }
 .icon-forklift::before { content: "\e3c1"; }
+.icon-form::before { content: "\e6a8"; }
 .icon-forward::before { content: "\e229"; }
 .icon-frame::before { content: "\e291"; }
 .icon-framer::before { content: "\e0da"; }
@@ -1020,6 +1028,7 @@
 .icon-mountain-snow::before { content: "\e232"; }
 .icon-mountain::before { content: "\e231"; }
 .icon-mouse-off::before { content: "\e5db"; }
+.icon-mouse-pointer-2-off::before { content: "\e6a6"; }
 .icon-mouse-pointer-2::before { content: "\e1c3"; }
 .icon-mouse-pointer-ban::before { content: "\e5e7"; }
 .icon-mouse-pointer-click::before { content: "\e120"; }
@@ -1625,6 +1634,8 @@
 .icon-warehouse::before { content: "\e3e6"; }
 .icon-washing-machine::before { content: "\e590"; }
 .icon-watch::before { content: "\e1ad"; }
+.icon-waves-arrow-down::before { content: "\e6a9"; }
+.icon-waves-arrow-up::before { content: "\e6aa"; }
 .icon-waves-ladder::before { content: "\e63b"; }
 .icon-waves::before { content: "\e283"; }
 .icon-waypoints::before { content: "\e542"; }
@@ -1927,6 +1938,7 @@ $icon-calendar-sync: '\e636';
 $icon-calendar-x-2: '\e2bf';
 $icon-calendar-x: '\e2be';
 $icon-calendar: '\e063';
+$icon-calendars: '\e6a7';
 $icon-camera-off: '\e065';
 $icon-camera: '\e064';
 $icon-candy-cane: '\e4ba';
@@ -1977,6 +1989,12 @@ $icon-check-line: '\e66b';
 $icon-check: '\e06c';
 $icon-chef-hat: '\e2ac';
 $icon-cherry: '\e350';
+$icon-chess-bishop: '\e6a0';
+$icon-chess-king: '\e6a1';
+$icon-chess-knight: '\e6a2';
+$icon-chess-pawn: '\e6a3';
+$icon-chess-queen: '\e6a4';
+$icon-chess-rook: '\e6a5';
 $icon-chevron-down: '\e06d';
 $icon-chevron-first: '\e243';
 $icon-chevron-last: '\e244';
@@ -2285,7 +2303,7 @@ $icon-file-x: '\e0cd';
 $icon-file: '\e0c0';
 $icon-files: '\e0cf';
 $icon-film: '\e0d0';
-$icon-fingerprint: '\e2cb';
+$icon-fingerprint-pattern: '\e2cb';
 $icon-fire-extinguisher: '\e57e';
 $icon-fish-off: '\e3b0';
 $icon-fish-symbol: '\e4f4';
@@ -2343,6 +2361,7 @@ $icon-folder: '\e0d7';
 $icon-folders: '\e33f';
 $icon-footprints: '\e3b9';
 $icon-forklift: '\e3c1';
+$icon-form: '\e6a8';
 $icon-forward: '\e229';
 $icon-frame: '\e291';
 $icon-framer: '\e0da';
@@ -2662,6 +2681,7 @@ $icon-motorbike: '\e698';
 $icon-mountain-snow: '\e232';
 $icon-mountain: '\e231';
 $icon-mouse-off: '\e5db';
+$icon-mouse-pointer-2-off: '\e6a6';
 $icon-mouse-pointer-2: '\e1c3';
 $icon-mouse-pointer-ban: '\e5e7';
 $icon-mouse-pointer-click: '\e120';
@@ -3267,6 +3287,8 @@ $icon-wand: '\e246';
 $icon-warehouse: '\e3e6';
 $icon-washing-machine: '\e590';
 $icon-watch: '\e1ad';
+$icon-waves-arrow-down: '\e6a9';
+$icon-waves-arrow-up: '\e6aa';
 $icon-waves-ladder: '\e63b';
 $icon-waves: '\e283';
 $icon-waypoints: '\e542';

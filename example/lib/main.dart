@@ -121,6 +121,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: const TextStyle(fontSize: 10),
                       overflow: TextOverflow.ellipsis,
                     ),
+                    const Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Icon(LucideIcons.aArrowDown)),
                     Directionality(
                         textDirection: TextDirection.rtl,
                         child: Icon(LucideIcons.aArrowDown

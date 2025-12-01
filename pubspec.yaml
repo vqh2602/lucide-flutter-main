@@ -1,11 +1,11 @@
 name: lucide_icons_flutter
 description: A Lucide icon library package for Flutter applications. Fork of Feather Icons, open for anyone to contribute icons.
-version: 3.1.6
+version: 3.1.7
 homepage: https://lucide.dev
 repository: https://github.com/vqh2602/lucide-flutter-main
 
 environment:
-  sdk: ^2.17.0
+  sdk: ^3.0.0
   # flutter: ">=1.17.0"
 
 dependencies:
