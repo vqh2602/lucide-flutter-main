@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons.dart';
-import 'package:lucide_icons_flutter/test_icons.dart';
+import 'package:remix_icons_flutter/remixicon_ids.dart';
+import 'package:remix_icons_flutter/remixicon_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lucide Icons',
+      title: 'Remix Icons',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Lucide Icons'),
+      home: const MyHomePage(title: 'Remix Icons'),
     );
   }
 }
@@ -38,16 +38,16 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    filteredIcons = List.from(icons);
+    filteredIcons = List.from(allIcons);
   }
 
   void filterIcons(String query) {
     setState(() {
       searchQuery = query;
       if (query.isEmpty) {
-        filteredIcons = List.from(icons);
+        filteredIcons = List.from(allIcons);
       } else {
-        filteredIcons = icons.where((icon) {
+        filteredIcons = allIcons.where((icon) {
           final iconName =
               icon.codePoint.toString() + icon.toString().toLowerCase();
           return iconName.contains(query.toLowerCase());
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void clearSearch() {
     setState(() {
       searchQuery = '';
-      filteredIcons = List.from(icons);
+      filteredIcons = List.from(allIcons);
     });
   }
 
@@ -77,11 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Tìm kiếm icon...',
-                prefixIcon: const Icon(LucideIcons.search),
+                prefixIcon: const Icon(RemixIcon.searchLine),
                 suffixIcon: searchQuery.isNotEmpty
                     ? IconButton(
                         icon: const Icon(
-                          LucideIcons.x,
+                          RemixIcon.closeLine,
                         ),
                         onPressed: clearSearch,
                       )
@@ -123,11 +123,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     const Directionality(
                         textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDown)),
+                        child: Icon(RemixIcon.sortAsc)),
                     Directionality(
                         textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDown
-                            .dir(matchTextDirection: true)))
+                        child: Icon(
+                            RemixIcon.sortAsc.dir(matchTextDirection: true)))
                   ],
                 );
               },
@@ -139,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () {},
         tooltip: 'Zoom Out',
         child: const Icon(
-          LucideIcons.zoomOut,
+          RemixIcon.zoomOutLine,
           size: 30,
           weight: 50,
           color: Colors.black,
