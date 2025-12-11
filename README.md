@@ -1,12 +1,12 @@
-
 # lucide_icons
+
 ![Pub Version](https://img.shields.io/pub/v/lucide_icons_flutter)
 ![Pub Monthly Downloads](https://img.shields.io/pub/dm/lucide_icons_flutter)
 ![Pub Likes](https://img.shields.io/pub/likes/lucide_icons_flutter)
 ![Pub Points](https://img.shields.io/pub/points/lucide_icons_flutter)
 ![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
 
-version: 0.555.0
+version: 0.556.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 
@@ -62,12 +62,28 @@ Icon(LucideIcons.arrowLeft.dir(matchTextDirection: false));
 
 ![enter image description here](https://i.imgur.com/jg26Cqu.png)
 
+---
 
+## Related Package
 
+### remix_icons_flutter
 
+![Pub Version](https://img.shields.io/pub/v/remix_icons_flutter)
+![Pub Monthly Downloads](https://img.shields.io/pub/dm/remix_icons_flutter)
+![Pub Likes](https://img.shields.io/pub/likes/remix_icons_flutter)
+![Pub Points](https://img.shields.io/pub/points/remix_icons_flutter)
 
+A Remix Icon library package for Flutter applications. Remix Icon ([remixicon.com](https://remixicon.com)) is an open-source neutral style icon system with 2800+ icons.
 
+📦 **Package**: [remix_icons_flutter on pub.dev](https://pub.dev/packages/remix_icons_flutter)
+
+```dart
+import 'package:remix_icons_flutter/remix_icons.dart';
+
+Icon(RemixIcons.home_line);
+Icon(RemixIcons.home_fill);
+```
 
 ## Contributors
 
-<a href='https://github.com/vqh2602'><img src='https://avatars.githubusercontent.com/u/62917858?v=4' width='50' height='50' alt='vqh2602' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/github-actions[bot]'><img src='https://avatars.githubusercontent.com/in/15368?v=4' width='50' height='50' alt='github-actions[bot]' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/alessandro-amos'><img src='https://avatars.githubusercontent.com/u/130871434?v=4' width='50' height='50' alt='alessandro-amos' style='border-radius:50%; margin-right:8px;'></a> 
+<a href='https://github.com/vqh2602'><img src='https://avatars.githubusercontent.com/u/62917858?v=4' width='50' height='50' alt='vqh2602' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/github-actions[bot]'><img src='https://avatars.githubusercontent.com/in/15368?v=4' width='50' height='50' alt='github-actions[bot]' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/alessandro-amos'><img src='https://avatars.githubusercontent.com/u/130871434?v=4' width='50' height='50' alt='alessandro-amos' style='border-radius:50%; margin-right:8px;'></a>
