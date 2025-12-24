@@ -749,6 +749,12 @@
     "className": "icon-baggage-claim",
     "unicode": "&#58057;"
   },
+  "balloon": {
+    "encodedCode": "\\e6af",
+    "prefix": "icon",
+    "className": "icon-balloon",
+    "unicode": "&#59055;"
+  },
   "ban": {
     "encodedCode": "\\e051",
     "prefix": "icon",
@@ -1199,6 +1205,12 @@
     "className": "icon-book-plus",
     "unicode": "&#58355;"
   },
+  "book-search": {
+    "encodedCode": "\\e6ab",
+    "prefix": "icon",
+    "className": "icon-book-search",
+    "unicode": "&#59051;"
+  },
   "book-text": {
     "encodedCode": "\\e54b",
     "prefix": "icon",
@@ -1648,6 +1660,12 @@
     "prefix": "icon",
     "className": "icon-candy",
     "unicode": "&#58257;"
+  },
+  "cannabis-off": {
+    "encodedCode": "\\e6b7",
+    "prefix": "icon",
+    "className": "icon-cannabis-off",
+    "unicode": "&#59063;"
   },
   "cannabis": {
     "encodedCode": "\\e5d4",
@@ -2255,6 +2273,12 @@
     "className": "icon-circle-percent",
     "unicode": "&#58650;"
   },
+  "circle-pile": {
+    "encodedCode": "\\e6b0",
+    "prefix": "icon",
+    "className": "icon-circle-pile",
+    "unicode": "&#59056;"
+  },
   "circle-play": {
     "encodedCode": "\\e080",
     "prefix": "icon",
@@ -2555,6 +2579,12 @@
     "className": "icon-cloud-alert",
     "unicode": "&#58931;"
   },
+  "cloud-backup": {
+    "encodedCode": "\\e6b1",
+    "prefix": "icon",
+    "className": "icon-cloud-backup",
+    "unicode": "&#59057;"
+  },
   "cloud-check": {
     "encodedCode": "\\e66e",
     "prefix": "icon",
@@ -2644,6 +2674,12 @@
     "prefix": "icon",
     "className": "icon-cloud-sun",
     "unicode": "&#57878;"
+  },
+  "cloud-sync": {
+    "encodedCode": "\\e6b2",
+    "prefix": "icon",
+    "className": "icon-cloud-sync",
+    "unicode": "&#59058;"
   },
   "cloud-upload": {
     "encodedCode": "\\e091",
@@ -3833,6 +3869,12 @@
     "className": "icon-fish",
     "unicode": "&#58278;"
   },
+  "fishing-hook": {
+    "encodedCode": "\\e6b6",
+    "prefix": "icon",
+    "className": "icon-fishing-hook",
+    "unicode": "&#59062;"
+  },
   "flag-off": {
     "encodedCode": "\\e292",
     "prefix": "icon",
@@ -4637,6 +4679,12 @@
     "className": "icon-haze",
     "unicode": "&#57584;"
   },
+  "hd": {
+    "encodedCode": "\\e6b5",
+    "prefix": "icon",
+    "className": "icon-hd",
+    "unicode": "&#59061;"
+  },
   "hdmi-port": {
     "encodedCode": "\\e4e7",
     "prefix": "icon",
@@ -5128,6 +5176,12 @@
     "prefix": "icon",
     "className": "icon-layers-2",
     "unicode": "&#58666;"
+  },
+  "layers-plus": {
+    "encodedCode": "\\e6b3",
+    "prefix": "icon",
+    "className": "icon-layers-plus",
+    "unicode": "&#59059;"
   },
   "layers": {
     "encodedCode": "\\e529",
@@ -7529,6 +7583,12 @@
     "className": "icon-scissors",
     "unicode": "&#57678;"
   },
+  "scooter": {
+    "encodedCode": "\\e6ac",
+    "prefix": "icon",
+    "className": "icon-scooter",
+    "unicode": "&#59052;"
+  },
   "screen-share-off": {
     "encodedCode": "\\e150",
     "prefix": "icon",
@@ -7552,6 +7612,12 @@
     "prefix": "icon",
     "className": "icon-scroll",
     "unicode": "&#58093;"
+  },
+  "search-alert": {
+    "encodedCode": "\\e6b4",
+    "prefix": "icon",
+    "className": "icon-search-alert",
+    "unicode": "&#59060;"
   },
   "search-check": {
     "encodedCode": "\\e4aa",
@@ -8585,6 +8651,12 @@
     "className": "icon-sticky-note",
     "unicode": "&#58115;"
   },
+  "stone": {
+    "encodedCode": "\\e6b8",
+    "prefix": "icon",
+    "className": "icon-stone",
+    "unicode": "&#59064;"
+  },
   "store": {
     "encodedCode": "\\e3e4",
     "prefix": "icon",
@@ -9059,6 +9131,12 @@
     "className": "icon-tool-case",
     "unicode": "&#59005;"
   },
+  "toolbox": {
+    "encodedCode": "\\e6b9",
+    "prefix": "icon",
+    "className": "icon-toolbox",
+    "unicode": "&#59065;"
+  },
   "tornado": {
     "encodedCode": "\\e218",
     "prefix": "icon",
@@ -9527,6 +9605,12 @@
     "className": "icon-utility-pole",
     "unicode": "&#58306;"
   },
+  "van": {
+    "encodedCode": "\\e6ad",
+    "prefix": "icon",
+    "className": "icon-van",
+    "unicode": "&#59053;"
+  },
   "variable": {
     "encodedCode": "\\e473",
     "prefix": "icon",
@@ -9754,6 +9838,12 @@
     "prefix": "icon",
     "className": "icon-webhook",
     "unicode": "&#58228;"
+  },
+  "weight-tilde": {
+    "encodedCode": "\\e6ae",
+    "prefix": "icon",
+    "className": "icon-weight-tilde",
+    "unicode": "&#59054;"
   },
   "weight": {
     "encodedCode": "\\e530",
