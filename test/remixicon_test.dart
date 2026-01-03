@@ -9,7 +9,7 @@ void main() {
 
   test('Icon class has correct font family', () {
     expect(RemixIcon.heartFill.fontFamily, 'RemixIcon');
-    expect(RemixIcon.heartFill.fontPackage, 'remixiconflutter');
+    expect(RemixIcon.heartFill.fontPackage, 'remix_icons_flutter');
   });
 
   test('Icon has correct code point', () {
@@ -21,7 +21,7 @@ void main() {
   test('All icons in list have correct metadata', () {
     for (var icon in allIcons) {
       expect(icon.fontFamily, 'RemixIcon');
-      expect(icon.fontPackage, 'remixiconflutter');
+      expect(icon.fontPackage, 'remix_icons_flutter');
     }
   });
 }

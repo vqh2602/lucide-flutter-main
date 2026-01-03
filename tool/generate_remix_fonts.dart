@@ -4,7 +4,7 @@ import 'package:recase/recase.dart';
 
 void main() {
   File glyphFile =
-      File('tool/remix_source/RemixIcon-4.7.0/fonts/remixicon.glyph.json');
+      File('remix_source/RemixIcon-4.8.0/fonts/remixicon.glyph.json');
 
   if (!glyphFile.existsSync()) {
     print('remixicon.glyph.json not found');
@@ -15,7 +15,7 @@ void main() {
   Map<String, dynamic> jsonMap = json.decode(content);
 
   Map<String, File> iconFiles = {};
-  Directory iconsDir = Directory('tool/remix_source/RemixIcon-4.7.0/icons');
+  Directory iconsDir = Directory('remix_source/RemixIcon-4.8.0/icons');
   if (iconsDir.existsSync()) {
     List<FileSystemEntity> entities = iconsDir.listSync(recursive: true);
     for (var entity in entities) {
@@ -33,7 +33,7 @@ void main() {
     "class RemixIcon {\n",
     "  const RemixIcon._();\n\n",
     "  static const String _fontFamily = 'RemixIcon';\n",
-    "  static const String? _fontPackage = 'remixiconflutter';\n\n",
+    "  static const String? _fontPackage = 'remix_icons_flutter';\n\n",
   ];
 
   jsonMap.forEach((key, value) {
@@ -71,12 +71,12 @@ void main() {
 
   generatedOutput.add("}\n");
 
-  File output = File('lib/remixicon_ids.dart');
+  File output = File('../lib/remixicon_ids.dart');
   output.writeAsStringSync(generatedOutput.join());
 
   List<String> listOutput = [
     "import 'package:flutter/widgets.dart';\n",
-    "import 'package:remixiconflutter/remixicon_ids.dart';\n\n",
+    "import 'package:remix_icons_flutter/remixicon_ids.dart';\n\n",
     "List<IconData> allIcons = [\n"
   ];
 
@@ -90,7 +90,7 @@ void main() {
 
   listOutput.add("];\n");
 
-  File listFile = File('lib/remixicon_list.dart');
+  File listFile = File('../lib/remixicon_list.dart');
   listFile.writeAsStringSync(listOutput.join());
 
   print(
