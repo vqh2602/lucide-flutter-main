@@ -1,8 +1,8 @@
 name: remix_icons_flutter
 description: A Remix Icon library package for Flutter applications.
-version: 4.7.0
+version: 4.8.0
 homepage: https://github.com/Remix-Design/RemixIcon
-repository: https://github.com/vqh2602/lucide-flutter-main
+repository: https://github.com/vqh2602/lucide-flutter-main/tree/RemixIcon
 
 environment:
   sdk: ^3.0.0
@@ -33,7 +33,7 @@ platforms:
   windows:
 
 screenshots:
-  - description: Lucide Logo
+  - description: RemixIcon
     path: screenshots/logo.png
 
 topics:
