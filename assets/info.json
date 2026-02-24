@@ -3041,6 +3041,12 @@
     "className": "icon-database-backup",
     "unicode": "&#58283;"
   },
+  "database-search": {
+    "encodedCode": "\\e6bc",
+    "prefix": "icon",
+    "className": "icon-database-search",
+    "unicode": "&#59068;"
+  },
   "database-zap": {
     "encodedCode": "\\e50b",
     "prefix": "icon",
@@ -3942,28 +3948,16 @@
     "unicode": "&#57558;"
   },
   "flip-horizontal-2": {
-    "encodedCode": "\\e35e",
-    "prefix": "icon",
-    "className": "icon-flip-horizontal-2",
-    "unicode": "&#58206;"
-  },
-  "flip-horizontal": {
     "encodedCode": "\\e35d",
     "prefix": "icon",
-    "className": "icon-flip-horizontal",
+    "className": "icon-flip-horizontal-2",
     "unicode": "&#58205;"
   },
   "flip-vertical-2": {
-    "encodedCode": "\\e360",
+    "encodedCode": "\\e35e",
     "prefix": "icon",
     "className": "icon-flip-vertical-2",
-    "unicode": "&#58208;"
-  },
-  "flip-vertical": {
-    "encodedCode": "\\e35f",
-    "prefix": "icon",
-    "className": "icon-flip-vertical",
-    "unicode": "&#58207;"
+    "unicode": "&#58206;"
   },
   "flower-2": {
     "encodedCode": "\\e2d4",
@@ -4391,6 +4385,12 @@
     "className": "icon-git-graph",
     "unicode": "&#58708;"
   },
+  "git-merge-conflict": {
+    "encodedCode": "\\e6c3",
+    "prefix": "icon",
+    "className": "icon-git-merge-conflict",
+    "unicode": "&#59075;"
+  },
   "git-merge": {
     "encodedCode": "\\e0e4",
     "prefix": "icon",
@@ -4462,6 +4462,18 @@
     "prefix": "icon",
     "className": "icon-globe-lock",
     "unicode": "&#58829;"
+  },
+  "globe-off": {
+    "encodedCode": "\\e6c1",
+    "prefix": "icon",
+    "className": "icon-globe-off",
+    "unicode": "&#59073;"
+  },
+  "globe-x": {
+    "encodedCode": "\\e6ba",
+    "prefix": "icon",
+    "className": "icon-globe-x",
+    "unicode": "&#59066;"
   },
   "globe": {
     "encodedCode": "\\e0e8",
@@ -5243,6 +5255,18 @@
     "className": "icon-lectern",
     "unicode": "&#58857;"
   },
+  "lens-concave": {
+    "encodedCode": "\\e6bf",
+    "prefix": "icon",
+    "className": "icon-lens-concave",
+    "unicode": "&#59071;"
+  },
+  "lens-convex": {
+    "encodedCode": "\\e6c0",
+    "prefix": "icon",
+    "className": "icon-lens-convex",
+    "unicode": "&#59072;"
+  },
   "library-big": {
     "encodedCode": "\\e54e",
     "prefix": "icon",
@@ -5278,6 +5302,12 @@
     "prefix": "icon",
     "className": "icon-lightbulb",
     "unicode": "&#57794;"
+  },
+  "line-dot-right-horizontal": {
+    "encodedCode": "\\e6c2",
+    "prefix": "icon",
+    "className": "icon-line-dot-right-horizontal",
+    "unicode": "&#59074;"
   },
   "line-squiggle": {
     "encodedCode": "\\e67a",
@@ -5765,6 +5795,12 @@
     "className": "icon-merge",
     "unicode": "&#58431;"
   },
+  "message-circle-check": {
+    "encodedCode": "\\e6c8",
+    "prefix": "icon",
+    "className": "icon-message-circle-check",
+    "unicode": "&#59080;"
+  },
   "message-circle-code": {
     "encodedCode": "\\e562",
     "prefix": "icon",
@@ -5830,6 +5866,12 @@
     "prefix": "icon",
     "className": "icon-message-circle",
     "unicode": "&#57622;"
+  },
+  "message-square-check": {
+    "encodedCode": "\\e6cc",
+    "prefix": "icon",
+    "className": "icon-message-square-check",
+    "unicode": "&#59084;"
   },
   "message-square-code": {
     "encodedCode": "\\e56c",
@@ -5933,6 +5975,12 @@
     "className": "icon-messages-square",
     "unicode": "&#58381;"
   },
+  "metronome": {
+    "encodedCode": "\\e6cd",
+    "prefix": "icon",
+    "className": "icon-metronome",
+    "unicode": "&#59085;"
+  },
   "mic-off": {
     "encodedCode": "\\e119",
     "prefix": "icon",
@@ -6004,6 +6052,18 @@
     "prefix": "icon",
     "className": "icon-minus",
     "unicode": "&#57628;"
+  },
+  "mirror-rectangular": {
+    "encodedCode": "\\e6c4",
+    "prefix": "icon",
+    "className": "icon-mirror-rectangular",
+    "unicode": "&#59076;"
+  },
+  "mirror-round": {
+    "encodedCode": "\\e6c5",
+    "prefix": "icon",
+    "className": "icon-mirror-round",
+    "unicode": "&#59077;"
   },
   "monitor-check": {
     "encodedCode": "\\e482",
@@ -6119,6 +6179,12 @@
     "className": "icon-mountain",
     "unicode": "&#57905;"
   },
+  "mouse-left": {
+    "encodedCode": "\\e6c9",
+    "prefix": "icon",
+    "className": "icon-mouse-left",
+    "unicode": "&#59081;"
+  },
   "mouse-off": {
     "encodedCode": "\\e5db",
     "prefix": "icon",
@@ -6154,6 +6220,12 @@
     "prefix": "icon",
     "className": "icon-mouse-pointer",
     "unicode": "&#57631;"
+  },
+  "mouse-right": {
+    "encodedCode": "\\e6ca",
+    "prefix": "icon",
+    "className": "icon-mouse-right",
+    "unicode": "&#59082;"
   },
   "mouse": {
     "encodedCode": "\\e28e",
@@ -6995,6 +7067,12 @@
     "className": "icon-printer-check",
     "unicode": "&#58869;"
   },
+  "printer-x": {
+    "encodedCode": "\\e6bb",
+    "prefix": "icon",
+    "className": "icon-printer-x",
+    "unicode": "&#59067;"
+  },
   "printer": {
     "encodedCode": "\\e141",
     "prefix": "icon",
@@ -7751,6 +7829,12 @@
     "className": "icon-shell",
     "unicode": "&#58615;"
   },
+  "shelving-unit": {
+    "encodedCode": "\\e6c7",
+    "prefix": "icon",
+    "className": "icon-shelving-unit",
+    "unicode": "&#59079;"
+  },
   "shield-alert": {
     "encodedCode": "\\e1fe",
     "prefix": "icon",
@@ -8219,6 +8303,18 @@
     "className": "icon-square-arrow-out-up-right",
     "unicode": "&#58788;"
   },
+  "square-arrow-right-enter": {
+    "encodedCode": "\\e6ce",
+    "prefix": "icon",
+    "className": "icon-square-arrow-right-enter",
+    "unicode": "&#59086;"
+  },
+  "square-arrow-right-exit": {
+    "encodedCode": "\\e6cf",
+    "prefix": "icon",
+    "className": "icon-square-arrow-right-exit",
+    "unicode": "&#59087;"
+  },
   "square-arrow-right": {
     "encodedCode": "\\e429",
     "prefix": "icon",
@@ -8254,6 +8350,18 @@
     "prefix": "icon",
     "className": "icon-square-bottom-dashed-scissors",
     "unicode": "&#58603;"
+  },
+  "square-centerline-dashed-horizontal": {
+    "encodedCode": "\\e35f",
+    "prefix": "icon",
+    "className": "icon-square-centerline-dashed-horizontal",
+    "unicode": "&#58207;"
+  },
+  "square-centerline-dashed-vertical": {
+    "encodedCode": "\\e360",
+    "prefix": "icon",
+    "className": "icon-square-centerline-dashed-vertical",
+    "unicode": "&#58208;"
   },
   "square-chart-gantt": {
     "encodedCode": "\\e169",
@@ -9161,6 +9269,12 @@
     "className": "icon-touchpad",
     "unicode": "&#58441;"
   },
+  "towel-rack": {
+    "encodedCode": "\\e6c6",
+    "prefix": "icon",
+    "className": "icon-towel-rack",
+    "unicode": "&#59078;"
+  },
   "tower-control": {
     "encodedCode": "\\e3bc",
     "prefix": "icon",
@@ -9479,6 +9593,12 @@
     "className": "icon-user-cog",
     "unicode": "&#58178;"
   },
+  "user-key": {
+    "encodedCode": "\\e6bd",
+    "prefix": "icon",
+    "className": "icon-user-key",
+    "unicode": "&#59069;"
+  },
   "user-lock": {
     "encodedCode": "\\e660",
     "prefix": "icon",
@@ -9514,6 +9634,12 @@
     "prefix": "icon",
     "className": "icon-user-round-cog",
     "unicode": "&#58474;"
+  },
+  "user-round-key": {
+    "encodedCode": "\\e6be",
+    "prefix": "icon",
+    "className": "icon-user-round-key",
+    "unicode": "&#59070;"
   },
   "user-round-minus": {
     "encodedCode": "\\e46b",
@@ -9958,6 +10084,12 @@
     "prefix": "icon",
     "className": "icon-wrench",
     "unicode": "&#57777;"
+  },
+  "x-line-top": {
+    "encodedCode": "\\e6cb",
+    "prefix": "icon",
+    "className": "icon-x-line-top",
+    "unicode": "&#59083;"
   },
   "x": {
     "encodedCode": "\\e1b2",
