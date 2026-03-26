@@ -4,7 +4,7 @@ import 'package:recase/recase.dart';
 
 void main() {
   File glyphFile =
-      File('remix_source/RemixIcon-4.8.0/fonts/remixicon.glyph.json');
+      File('remix_source/RemixIcon-4.9.1/fonts/remixicon.glyph.json');
 
   if (!glyphFile.existsSync()) {
     print('remixicon.glyph.json not found');
@@ -15,7 +15,7 @@ void main() {
   Map<String, dynamic> jsonMap = json.decode(content);
 
   Map<String, File> iconFiles = {};
-  Directory iconsDir = Directory('remix_source/RemixIcon-4.8.0/icons');
+  Directory iconsDir = Directory('remix_source/RemixIcon-4.9.1/icons');
   if (iconsDir.existsSync()) {
     List<FileSystemEntity> entities = iconsDir.listSync(recursive: true);
     for (var entity in entities) {

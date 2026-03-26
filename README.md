@@ -6,7 +6,7 @@
 ![Pub Points](https://img.shields.io/pub/points/remix_icons_flutter)
 ![Pub Publisher](https://img.shields.io/pub/publisher/remix_icons_flutter)
 
-Remix Icon ([remixicon.com](https://remixicon.com)) for Flutter. Map to Remix Icon v4.7.0.
+Remix Icon ([remixicon.com](https://remixicon.com)) for Flutter. Map to Remix Icon v4.9.1.
 
 ## Looking for Lucide Icons?
 
