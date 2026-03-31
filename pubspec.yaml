@@ -33,7 +33,7 @@ platforms:
   windows:
 
 screenshots:
-  - description: RemixIcon
+  - description: RemixIcon logo 
     path: screenshots/logo.png
 
 topics:
