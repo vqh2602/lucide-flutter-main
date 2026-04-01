@@ -14,5 +14,7 @@ sleep 2
 cd ../
 dart run generate_fonts_1.dart ../assets/info.json
 
-cd ../..
+cd ..
+dart run tool/add_directional_icon_variants.dart
+
 dart format .

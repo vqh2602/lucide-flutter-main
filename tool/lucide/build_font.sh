@@ -8,6 +8,7 @@ ICON_CODE_JSON="../../assets/info.json"  # JSON map tên icon -> encodedCode (vd
 ICON_FAMILY="LucideVariable"
 WORKDIR="build_font"
 SVG_INPUT_DIR="svg_input"
+ICON_METADATA_DIR="lucide-source/icons"
 WEIGHTS=(100 200 300 400 500 600)
 
 # Đặt 1 để bỏ qua SVGO nếu muốn
@@ -88,6 +89,36 @@ decode_unicode_dec() {
   echo "$dec"
 }
 
+prepare_svg_dir_with_aliases() {
+  local source_dir="$1"
+  local prepared_dir="$2"
+
+  mkdir -p "$prepared_dir"
+  cp "$source_dir"/*.svg "$prepared_dir"/ 2>/dev/null || true
+
+  shopt -s nullglob
+  for metadata_file in "$ICON_METADATA_DIR"/*.json; do
+    local canonical_name
+    local canonical_svg
+
+    canonical_name="$(basename "$metadata_file" .json)"
+    canonical_svg="$prepared_dir/${canonical_name}.svg"
+
+    if [[ ! -f "$canonical_svg" ]]; then
+      continue
+    fi
+
+    while IFS= read -r alias_name; do
+      if [[ -z "$alias_name" ]]; then
+        continue
+      fi
+
+      cp "$canonical_svg" "$prepared_dir/${alias_name}.svg"
+    done < <(jq -r '.aliases[]? | if type == "string" then . else .name // empty end' "$metadata_file")
+  done
+  shopt -u nullglob
+}
+
 # =========================
 # BUILD PER WEIGHT
 # =========================
@@ -103,6 +134,9 @@ for weight in "${WEIGHTS[@]}"; do
 
   echo "📦 Generating TTF for weight ${weight}…"
 
+  prepared_weight_dir="${TMP_DIR}/weight${weight}_with_aliases"
+  prepare_svg_dir_with_aliases "$weight_dir" "$prepared_weight_dir"
+
   PE_FILE="$TMP_DIR/gen_w${weight}.pe"
   : > "$PE_FILE"
 
@@ -115,7 +149,7 @@ EOL
 
   i=0
   shopt -s nullglob
-  for svg in "$weight_dir"/*.svg; do
+  for svg in "$prepared_weight_dir"/*.svg; do
     base_name="$(basename "$svg" .svg)"
     glyph_name="$(echo "$base_name" | tr '-' '_' )"
 

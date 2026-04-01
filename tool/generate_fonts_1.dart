@@ -4,7 +4,17 @@ import "dart:io";
 import 'package:recase/recase.dart';
 
 void main(List<String> args) {
-  File fontsPreviewFile = File(args[0]);
+  if (args.isEmpty) {
+    stderr.writeln(
+        'Usage: dart run tool/generate_fonts_1.dart <path-to-info.json>');
+    exit(64);
+  }
+
+  final repoRoot = findRepoRoot();
+  final iconsDirectory =
+      Directory('${repoRoot.path}/tool/lucide/lucide-source/icons');
+  final fontsPreviewFile = resolveInputFile(args[0]);
+  final sourceIconNames = loadSourceIconNames(iconsDirectory);
 
   if (!fontsPreviewFile.existsSync()) {
     print('lucide preview file not found');
@@ -50,39 +60,21 @@ void main(List<String> args) {
   ];
   for (Map data in resultList) {
     String iconName = data['name'];
-    String svgContent = '';
+    final normalizedIconName = normalizeIconName(iconName);
 
-    try {
-      File svgFile = File(
-          'lucide/lucide-source/icons/${iconName.replaceAll('icon-', '')}.svg');
-      print('$svgFile');
-      if (svgFile.existsSync()) {
-        svgContent = svgFile.readAsStringSync();
-
-        // Đảm bảo SVG có kích thước nhỏ và đơn giản
-        svgContent = svgContent
-            .replaceAll(
-                'stroke="currentColor"', 'stroke="#0066cc"') // Màu đỏ nổi bật
-            // .replaceAll(
-            //     'stroke-width="2"', 'stroke-width="3"') // Đường viền dày hơn
-            .replaceAll('width="24"', 'width="48"') // Kích thước lớn hơn
-            .replaceAll('height="24"', 'height="48"');
-
-        // Thêm thuộc tính XML cần thiết
-        if (!svgContent.contains('xmlns="http://www.w3.org/2000/svg"')) {
-          svgContent = svgContent.replaceFirst(
-              '<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
-        }
-
-        // Đảm bảo SVG có đủ các thuộc tính cần thiết
-        svgContent = svgContent.replaceFirst('<svg', '<svg version="1.1"');
-
-        // Mã hóa SVG thành base64 với định dạng chuẩn
-        svgContent = base64Encode(utf8.encode(svgContent));
-      }
-    } catch (e) {
-      print('Không thể đọc SVG cho $iconName: $e');
+    // Chỉ generate icon canonical đang còn tồn tại trong source Lucide hiện tại.
+    // assets/info.json vẫn chứa nhiều alias/deprecated names cũ; nếu sinh cả chúng
+    // thì các tên như arrow-down-1-0 và arrow-down-10 sẽ cùng thành arrowDown10.
+    if (!sourceIconNames.contains(normalizedIconName)) {
+      continue;
     }
+
+    final baseVarName = buildIconVariableName(iconName);
+    String svgContent = loadSvgContent(
+      iconName: iconName,
+      svgPath:
+          '${repoRoot.path}/tool/lucide/lucide-source/icons/$normalizedIconName.svg',
+    );
 
     if (svgContent.isEmpty) {
       // Tạo một SVG đơn giản nếu không tìm thấy file
@@ -96,44 +88,16 @@ void main(List<String> args) {
     // Sinh biến gốc (không kèm fontFamily)
     generatedOutput.add("/// ${data['name']}\n" +
         "/// ![${data['name']}](data:image/svg+xml;base64,${svgContent})\n" +
-        "static const IconData ${ReCase(data['name']).camelCase} = const LucideIconData(${parseUnicodeString(data['unicode'])});\n");
-    listIconTest.add("\nLucideIcons.${ReCase(data['name']).camelCase},");
+        "static const IconData $baseVarName = const LucideIconData(${parseUnicodeString(data['unicode'])});\n");
+    listIconTest.add("\nLucideIcons.$baseVarName,");
 
     // Sinh thêm các biến với fontFamily Lucide100...Lucide600
     for (int i = 100; i <= 600; i += 100) {
-      String svgContent = '';
-
-      try {
-        File svgFile = File(
-            'lucide/svg_input/weight${i}/${iconName.replaceAll('icon-', '')}.svg');
-        print('$svgFile');
-        if (svgFile.existsSync()) {
-          svgContent = svgFile.readAsStringSync();
-
-          // Đảm bảo SVG có kích thước nhỏ và đơn giản
-          svgContent = svgContent
-              .replaceAll(
-                  'stroke="currentColor"', 'stroke="#0066cc"') // Màu đỏ nổi bật
-              // .replaceAll(
-              //     'stroke-width="2"', 'stroke-width="3"') // Đường viền dày hơn
-              .replaceAll('width="24"', 'width="48"') // Kích thước lớn hơn
-              .replaceAll('height="24"', 'height="48"');
-
-          // Thêm thuộc tính XML cần thiết
-          if (!svgContent.contains('xmlns="http://www.w3.org/2000/svg"')) {
-            svgContent = svgContent.replaceFirst(
-                '<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
-          }
-
-          // Đảm bảo SVG có đủ các thuộc tính cần thiết
-          svgContent = svgContent.replaceFirst('<svg', '<svg version="1.1"');
-
-          // Mã hóa SVG thành base64 với định dạng chuẩn
-          svgContent = base64Encode(utf8.encode(svgContent));
-        }
-      } catch (e) {
-        print('Không thể đọc SVG cho $iconName: $e');
-      }
+      String svgContent = loadSvgContent(
+        iconName: iconName,
+        svgPath:
+            '${repoRoot.path}/tool/lucide/svg_input/weight$i/$normalizedIconName.svg',
+      );
 
       if (svgContent.isEmpty) {
         // Tạo một SVG đơn giản nếu không tìm thấy file
@@ -144,7 +108,7 @@ void main(List<String> args) {
       }
 
       String fontFamily = 'Lucide$i';
-      String varName = '${ReCase(data['name']).camelCase}$i';
+      String varName = buildWeightVariableName(baseVarName, i);
       generatedOutput.add("/// ${data['name']} với fontFamily $fontFamily\n"
           "/// ![${data['name']}](data:image/svg+xml;base64,${svgContent})\n"
           "static const IconData $varName = const LucideIconData(${parseUnicodeString(data['unicode'])}, fontFamily: '$fontFamily');\n");
@@ -158,9 +122,9 @@ void main(List<String> args) {
   listIconTest.add("];");
   //  stdout.write("info message2 ${generatedOutput}");
 
-  File output = File('../lib/lucide_icons.dart');
+  File output = File('${repoRoot.path}/lib/lucide_icons.dart');
   output.writeAsStringSync(generatedOutput.join());
-  File outputTest = File('../lib/test_icons.dart');
+  File outputTest = File('${repoRoot.path}/lib/test_icons.dart');
   outputTest.writeAsStringSync(listIconTest.join());
 }
 
@@ -182,4 +146,88 @@ int parseUnicodeString2(String unicodeString) {
   int unicodeInt = int.parse(hexString, radix: 16);
 
   return unicodeInt;
+}
+
+String normalizeIconName(String iconName) {
+  return iconName.replaceAll('icon-', '');
+}
+
+String buildIconVariableName(String iconName) {
+  return ReCase(iconName).camelCase;
+}
+
+String buildWeightVariableName(String baseVarName, int weight) {
+  if (RegExp(r'\d$').hasMatch(baseVarName)) {
+    return '${baseVarName}Weight$weight';
+  }
+
+  return '$baseVarName$weight';
+}
+
+Directory findRepoRoot() {
+  var current = Directory.current.absolute;
+
+  while (true) {
+    if (File('${current.path}/pubspec.yaml').existsSync()) {
+      return current;
+    }
+
+    final parent = current.parent;
+    if (parent.path == current.path) {
+      throw StateError('Không tìm thấy pubspec.yaml để xác định repo root.');
+    }
+
+    current = parent;
+  }
+}
+
+File resolveInputFile(String filePath) {
+  final inputFile = File(filePath);
+  if (inputFile.isAbsolute) {
+    return inputFile;
+  }
+
+  return File('${Directory.current.path}/$filePath');
+}
+
+Set<String> loadSourceIconNames(Directory iconsDirectory) {
+  if (!iconsDirectory.existsSync()) {
+    return const <String>{};
+  }
+
+  return iconsDirectory
+      .listSync()
+      .whereType<File>()
+      .where((file) => file.path.endsWith('.svg'))
+      .map((file) => file.uri.pathSegments.last.replaceFirst('.svg', ''))
+      .toSet();
+}
+
+String loadSvgContent({
+  required String iconName,
+  required String svgPath,
+}) {
+  try {
+    final svgFile = File(svgPath);
+    if (!svgFile.existsSync()) {
+      return '';
+    }
+
+    String svgContent = svgFile.readAsStringSync();
+    svgContent = svgContent
+        .replaceAll('stroke="currentColor"', 'stroke="#0066cc"')
+        .replaceAll('width="24"', 'width="48"')
+        .replaceAll('height="24"', 'height="48"');
+
+    if (!svgContent.contains('xmlns="http://www.w3.org/2000/svg"')) {
+      svgContent = svgContent.replaceFirst(
+          '<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+    }
+
+    svgContent = svgContent.replaceFirst('<svg', '<svg version="1.1"');
+    return base64Encode(utf8.encode(svgContent));
+  } catch (e) {
+    print('Không thể đọc SVG cho $iconName: $e');
+    return '';
+  }
 }

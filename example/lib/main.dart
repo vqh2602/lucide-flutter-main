@@ -124,10 +124,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Directionality(
                         textDirection: TextDirection.rtl,
                         child: Icon(LucideIcons.aArrowDown)),
-                    Directionality(
+                    const Directionality(
                         textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDown
-                            .dir(matchTextDirection: true)))
+                        child: Icon(LucideIcons.aArrowDownDir))
                   ],
                 );
               },
@@ -145,20 +144,6 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Colors.black,
         ),
       ),
-    );
-  }
-}
-
-extension IconDataX on IconData {
-  /// Tạo Icon có matchTextDirection = true (tự động flip khi RTL)
-  IconData dir({
-    bool matchTextDirection = true,
-  }) {
-    return IconData(
-      codePoint,
-      fontFamily: fontFamily,
-      fontPackage: fontPackage,
-      matchTextDirection: matchTextDirection,
     );
   }
 }

@@ -30,34 +30,30 @@ Icon(LucideIcons.activity300);
 Icon(LucideIcons.activity400);
 Icon(LucideIcons.activity500);
 Icon(LucideIcons.activity600);
+
+Icon(LucideIcons.activityDir);
+Icon(LucideIcons.activity600Dir);
 ```
 
-For RTL (right-to-left) support, use the `dir()` extension to make icons automatically flip in RTL layouts:
+For RTL (right-to-left) support, use the `Dir` icon:
 
 ```dart
-extension IconDataX on IconData {
-  /// Tạo Icon có matchTextDirection = true (tự động flip khi RTL)
-  IconData dir({
-    bool matchTextDirection = true,
-  }) {
-    return IconData(
-      codePoint,
-      fontFamily: fontFamily,
-      fontPackage: fontPackage,
-      matchTextDirection: matchTextDirection,
-    );
-  }
-}
+  LucideIcons.aArrowDownDir
+  const Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Icon(LucideIcons.aArrowDownDir))
+
 ```
 
 ```dart
 import  'package:lucide_icons_flutter/lucide_icons.dart';
 
-// Icon will automatically flip in RTL layouts
-Icon(LucideIcons.arrowLeft.dir());
-
-// You can also disable the RTL behavior if needed
-Icon(LucideIcons.arrowLeft.dir(matchTextDirection: false));
+                    const Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Icon(LucideIcons.aArrowDown)),
+                    const Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Icon(LucideIcons.aArrowDownDir))
 ```
 
 ![enter image description here](https://i.imgur.com/jg26Cqu.png)
