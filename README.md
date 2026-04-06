@@ -23,32 +23,15 @@ Icon(RemixIcon.heartFill);
 Icon(RemixIcon.searchLine);
 ```
 
-For RTL (right-to-left) support, use the `dir()` extension to make icons automatically flip in RTL layouts:
-
-```dart
-extension IconDataX on IconData {
-  /// Create Icon with matchTextDirection = true (automatically flip in RTL)
-  IconData dir({
-    bool matchTextDirection = true,
-  }) {
-    return IconData(
-      codePoint,
-      fontFamily: fontFamily,
-      fontPackage: fontPackage,
-      matchTextDirection: matchTextDirection,
-    );
-  }
-}
-```
+For RTL (right-to-left) support, use the generated `Dir` variants. These icons keep
+the same code point and metadata, but enable `matchTextDirection: true`.
 
 ```dart
 import 'package:remix_icons_flutter/remixicon_ids.dart';
 
 // Icon will automatically flip in RTL layouts
-Icon(RemixIcon.arrowLeftLine.dir());
-
-// You can also disable the RTL behavior if needed
-Icon(RemixIcon.arrowLeftLine.dir(matchTextDirection: false));
+Icon(RemixIcon.arrowLeftLineDir);
+Icon(RemixIcon.arrowRightSFillDir);
 ```
 
 ## Contributors

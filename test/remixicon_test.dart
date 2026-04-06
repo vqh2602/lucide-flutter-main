@@ -18,6 +18,13 @@ void main() {
     expect(RemixIcon.heartFill.codePoint, isNot(0));
   });
 
+  test('Directional icon variant preserves metadata and flips in RTL', () {
+    expect(RemixIcon.arrowLeftLineDir.codePoint, RemixIcon.arrowLeftLine.codePoint);
+    expect(RemixIcon.arrowLeftLineDir.fontFamily, 'RemixIcon');
+    expect(RemixIcon.arrowLeftLineDir.fontPackage, 'remix_icons_flutter');
+    expect(RemixIcon.arrowLeftLineDir.matchTextDirection, isTrue);
+  });
+
   test('All icons in list have correct metadata', () {
     for (var icon in allIcons) {
       expect(icon.fontFamily, 'RemixIcon');

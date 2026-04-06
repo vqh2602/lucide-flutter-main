@@ -105,4 +105,7 @@ cd tool
 echo "🚀 Generating RemixIcon Flutter package..."
 dart run generate_remix_fonts.dart
 
+echo "↔️  Generating directional RemixIcon aliases..."
+dart run gen_dir_icon.dart
+
 echo "🎉 Done! RemixIcon Flutter package generated successfully!"
