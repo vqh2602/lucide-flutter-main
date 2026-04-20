@@ -1958,5 +1958,7 @@
   "sport-shoe": 59099,
   "beef-off": 59100,
   "radio-off": 59101,
-  "map-pin-search": 59102
+  "map-pin-search": 59102,
+  "bookmark-off": 59103,
+  "square-dashed-text": 59103
 }

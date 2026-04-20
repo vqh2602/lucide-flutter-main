@@ -1589,6 +1589,12 @@
     "className": "icon-bookmark-minus",
     "unicode": "&#57916;"
   },
+  "bookmark-off": {
+    "encodedCode": "\\e6df",
+    "prefix": "icon",
+    "className": "icon-bookmark-off",
+    "unicode": "&#59103;"
+  },
   "bookmark-plus": {
     "encodedCode": "\\e23d",
     "prefix": "icon",
@@ -9706,6 +9712,12 @@
     "prefix": "icon",
     "className": "icon-square-dashed-mouse-pointer",
     "unicode": "&#58633;"
+  },
+  "square-dashed-text": {
+    "encodedCode": "\\e6df",
+    "prefix": "icon",
+    "className": "icon-square-dashed-text",
+    "unicode": "&#59103;"
   },
   "square-dashed-top-solid": {
     "encodedCode": "\\e66c",
