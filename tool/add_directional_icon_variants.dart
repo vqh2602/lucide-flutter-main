@@ -36,7 +36,7 @@ void main(List<String> args) {
 
 IconDeclaration? parseIconDeclaration(String line) {
   final match = RegExp(
-    r"^(\s*)static const IconData (\w+) = const LucideIconData\((.+)\);\s*$",
+    r"^(\s*)static const IconData (\w+) = const IconData\((.+)\);\s*$",
   ).firstMatch(line);
 
   if (match == null) {
@@ -61,7 +61,7 @@ String buildDirectionalLine(IconDeclaration declaration) {
           : '${declaration.arguments}, matchTextDirection: true';
 
   return '${declaration.indent}static const IconData '
-      '${declaration.name}Dir = const LucideIconData($directionalArguments);';
+      '${declaration.name}Dir = const IconData($directionalArguments);';
 }
 
 Directory findRepoRoot() {
