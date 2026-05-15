@@ -45,7 +45,7 @@ void main(List<String> args) {
     "\nimport 'package:flutter/material.dart';",
     "\nimport 'package:lucide_icons_flutter/lucide_icons.dart';",
     "\n/// Lucide Icons",
-    "\nList<IconData> icons = ["
+    "\nconst List<IconData> icons = ["
   ];
   final generatedIconNames = <String>{};
   for (Map data in resultList) {
@@ -156,6 +156,7 @@ void main(List<String> args) {
       generatedOutput.add("/// ${data['name']} với fontFamily $fontFamily\n"
           "/// ![${data['name']}](data:image/svg+xml;base64,${svgContent})\n"
           "static const IconData $varName = const IconData($codePoint, fontFamily: '$fontFamily', fontPackage: 'lucide_icons_flutter');\n");
+      listIconTest.add("\nLucideIcons.$varName,");
     }
   }
   // print('$val $name');
