@@ -4,15 +4,28 @@ set -euo pipefail
 # =========================
 # SETTINGS
 # =========================
-ICON_CODE_JSON="../../assets/info.json"  # JSON map tên icon -> encodedCode (vd: "\ue987")
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
 ICON_FAMILY="LucideVariable"
 WORKDIR="build_font"
 SVG_INPUT_DIR="svg_input"
-ICON_METADATA_DIR="lucide-source/icons"
+ICON_SOURCE_DIR="lucide-source"
+ICON_METADATA_DIR="$ICON_SOURCE_DIR"
+ASSET_FONT_DIR="../../assets/build_font"
+BASE_FONT="../../assets/lucide.ttf"
 WEIGHTS=(100 200 300 400 500 600)
+
+if [[ -f "$ICON_SOURCE_DIR/codepoints.json" ]]; then
+  ICON_CODE_JSON="$ICON_SOURCE_DIR/codepoints.json"
+else
+  ICON_CODE_JSON="../../assets/codepoints.json"
+fi
 
 # Đặt 1 để bỏ qua SVGO nếu muốn
 SKIP_SVGO="${SKIP_SVGO:-0}"
+# Đặt 1 nếu muốn dùng Inkscape flatten stroke/path trước khi import vào FontForge.
+NORMALIZE_SVG="${NORMALIZE_SVG:-0}"
 
 # =========================
 # DEP CHECK
@@ -20,7 +33,25 @@ SKIP_SVGO="${SKIP_SVGO:-0}"
 need() { command -v "$1" >/dev/null 2>&1 || { echo "❌ Missing: $1"; exit 1; }; }
 need jq
 need fontforge
-need inkscape
+if [[ "$NORMALIZE_SVG" == "1" ]]; then
+  need inkscape
+fi
+PYTHON_BIN=""
+for candidate in "${PYTHON:-}" python3 python; do
+  if [[ -z "$candidate" ]]; then
+    continue
+  fi
+  if command -v "$candidate" >/dev/null 2>&1 && "$candidate" - <<'PY' >/dev/null 2>&1; then
+import fontTools.ttLib
+PY
+    PYTHON_BIN="$candidate"
+    break
+  fi
+done
+if [[ -z "$PYTHON_BIN" ]]; then
+  echo "❌ Missing Python package: fontTools"
+  exit 1
+fi
 if [[ "$SKIP_SVGO" != "1" ]]; then
   if ! command -v svgo >/dev/null 2>&1; then
     echo "ℹ️  svgo not found (optional). Install for better SVG cleanup: npm i -g svgo"
@@ -40,12 +71,15 @@ normalize_svg() {
   local in_svg="$1"
   local out_svg="$2"
 
-  # Inkscape chuyển stroke => path, shape => path
-  inkscape "$in_svg" --export-plain-svg="$out_svg" \
-    --actions="select-all:all;object-stroke-to-path;object-to-path;ungroup-deep;export-do" >/dev/null 2>&1 || true
+  if [[ "$NORMALIZE_SVG" == "1" ]]; then
+    # Inkscape chuyển stroke => path, shape => path khi cần debug SVG phức tạp.
+    inkscape "$in_svg" --export-plain-svg="$out_svg" \
+      --actions="select-all:all;object-stroke-to-path;object-to-path;ungroup-deep;export-do" >/dev/null 2>&1 || true
+  fi
 
-  # Nếu Inkscape thất bại (file đơn giản), fallback copy
-  if [[ ! -s "$out_svg" ]]; then
+  # Default path: dùng SVG đã sinh trong svg_input trực tiếp để giữ flow nhanh,
+  # đồng bộ với stroke-width đã generate cho từng weight.
+  if [[ "$NORMALIZE_SVG" != "1" || ! -s "$out_svg" ]]; then
     cp "$in_svg" "$out_svg"
   fi
 
@@ -59,34 +93,10 @@ normalize_svg() {
   fi
 }
 
-# Đọc mã Unicode từ info.json -> thập phân (trả "" nếu không có)
-# Hỗ trợ: \uXXXX, \UXXXXXXXX, \eXXXX (PUA có tiền tố 'e')
+# Đọc mã Unicode từ codepoints.json -> thập phân (trả "" nếu không có)
 decode_unicode_dec() {
   local name="$1"
-  local encoded=""
-  encoded="$(jq -r --arg k "$name" '.[$k].encodedCode // empty' "$ICON_CODE_JSON")"
-
-  if [[ -z "$encoded" || "$encoded" == "null" ]]; then
-    echo ""
-    return 0
-  fi
-
-  local hex="0x0"
-  # \uXXXX  -> 0xXXXX
-  # \UXXXXXXXX -> 0xXXXXXXXX
-  # \eXXXX  -> 0xEXXXX  (chuyển về vùng PUA bắt đầu bằng E)
-  hex="$(printf '%s' "$encoded" \
-        | sed -E 's/\\u([0-9a-fA-F]+)/0x\1/; s/\\U([0-9a-fA-F]+)/0x\1/; s/\\e([0-9a-fA-F]+)/0xE\1/;')"
-
-  if ! [[ "$hex" =~ ^0x[0-9a-fA-F]+$ ]]; then
-    echo ""
-    return 0
-  fi
-
-  # Đổi sang thập phân
-  local dec=""
-  dec=$((hex)) || dec=""
-  echo "$dec"
+  jq -r --arg k "$name" '.[$k] // empty' "$ICON_CODE_JSON"
 }
 
 prepare_svg_dir_with_aliases() {
@@ -122,7 +132,21 @@ prepare_svg_dir_with_aliases() {
 # =========================
 # BUILD PER WEIGHT
 # =========================
+if [[ ! -f "$ICON_CODE_JSON" ]]; then
+  echo "❌ Missing codepoints file: $ICON_CODE_JSON"
+  exit 1
+fi
+
+if [[ ! -d "$SVG_INPUT_DIR" ]]; then
+  echo "❌ Missing SVG input folder: $SVG_INPUT_DIR"
+  echo "   Run generate_variable_font.sh first."
+  exit 1
+fi
+
+mkdir -p "$ASSET_FONT_DIR"
+
 echo "🔤 Building TTF fonts…"
+echo "🔢 Codepoints: $ICON_CODE_JSON"
 for weight in "${WEIGHTS[@]}"; do
   weight_dir="${SVG_INPUT_DIR}/weight${weight}"
   ttf_path="${WORKDIR}/${ICON_FAMILY}-w${weight}.ttf"
@@ -149,6 +173,7 @@ EOL
 
   i=0
   shopt -s nullglob
+  missing_codepoints=()
   for svg in "$prepared_weight_dir"/*.svg; do
     base_name="$(basename "$svg" .svg)"
     glyph_name="$(echo "$base_name" | tr '-' '_' )"
@@ -157,10 +182,15 @@ EOL
     tmp_svg="$TMP_DIR/${base_name}_w${weight}.svg"
     normalize_svg "$svg" "$tmp_svg"
 
-    # Mã unicode từ JSON (nếu trống sẽ dùng PUA fallback)
+    # Mã unicode từ codepoints.json. Không fallback PUA để tránh lệch mapping
+    # giữa Dart constants, CSS, unicode.html và TTF.
     unicode_dec="$(decode_unicode_dec "$base_name")"
-    fallback_codepoint=$((0xE000 + i))
-    codepoint="${unicode_dec:-$fallback_codepoint}"
+    if [[ -z "$unicode_dec" || "$unicode_dec" == "null" ]]; then
+      missing_codepoints+=("$base_name")
+      continue
+    fi
+
+    codepoint="$unicode_dec"
 
     # Viết lệnh FontForge cho từng glyph
     cat >> "$PE_FILE" <<EOF
@@ -182,9 +212,14 @@ Select(${codepoint});
 SetUnicodeValue(${codepoint});
 EOF
 
-    ((i++))
+    i=$((i + 1))
   done
   shopt -u nullglob
+
+  if [[ ${#missing_codepoints[@]} -gt 0 ]]; then
+    echo "❌ Missing codepoints for weight ${weight}: ${missing_codepoints[*]}"
+    exit 1
+  fi
 
   # Sinh font
   cat >> "$PE_FILE" <<EOL
@@ -193,8 +228,15 @@ Quit()
 EOL
 
   fontforge -script "$PE_FILE" >/dev/null
+  if [[ -f "$BASE_FONT" ]]; then
+    "$PYTHON_BIN" fix_ttf_metrics.py --fallback-font "$BASE_FONT" "$ttf_path"
+  else
+    "$PYTHON_BIN" fix_ttf_metrics.py "$ttf_path"
+  fi
+  cp "$ttf_path" "$ASSET_FONT_DIR/"
   echo "✅  ${ttf_path}"
 done
 
 echo "🎉 Done. Output in: ${WORKDIR}/"
 ls -1 "${WORKDIR}"/*.ttf 2>/dev/null || true
+echo "✅ Synced TTF fonts to ${ASSET_FONT_DIR}"

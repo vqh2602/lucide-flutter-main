@@ -18,11 +18,19 @@ DEFAULT_WEIGHT=400
 DEFAULT_OPSZ=24
 
 # --- CHECK DEPENDENCIES ---
-command -v xmlstarlet >/dev/null 2>&1 || { echo "❌ xmlstarlet not found. Install with: brew install xmlstarlet or sudo apt install xmlstarlet"; exit 1; }
+need() { command -v "$1" >/dev/null 2>&1 || { echo "❌ Missing: $1"; exit 1; }; }
+need bc
+need xmlstarlet
 
 # --- CLEANUP ---
 rm -rf "$SVG_INPUT_DIR"
 mkdir -p "$WORKDIR" "$SVG_INPUT_DIR" "$REPO_ASSET_FONT_DIR"
+
+if ! find "$SVG_SRC_DIR" -maxdepth 1 -name '*.svg' -print -quit | grep -q .; then
+  echo "❌ Missing Lucide SVG source files in ${SVG_SRC_DIR}"
+  echo "   Run clone.sh first, then run this script again."
+  exit 1
+fi
 
 # --- GENERATE SVGs PER WEIGHT ---
 echo "🎨 Generating SVGs for weights..."
@@ -41,33 +49,9 @@ for weight in "${WEIGHTS[@]}"; do
   done
 done
 
-# --- SYNC TTFs USED BY PUBSPEC ---
-# The current workflow only regenerates weighted SVG inputs. Keep the checked-in
-# TTFs available and copy them back to assets/build_font so Flutter can resolve
-# every font entry declared in pubspec.yaml.
-for weight in "${WEIGHTS[@]}"; do
-  font_file="${ICON_NAME}-w${weight}.ttf"
-  work_font="${WORKDIR}/${font_file}"
-  asset_font="${REPO_ASSET_FONT_DIR}/${font_file}"
-
-  if [[ ! -f "$work_font" && -f "$asset_font" ]]; then
-    cp "$asset_font" "$work_font"
-  fi
-
-  if [[ ! -f "$work_font" ]]; then
-    git -C "$REPO_ROOT" show "HEAD:tool/lucide/build_font/${font_file}" > "$work_font" 2>/dev/null || true
-  fi
-
-  if [[ ! -f "$work_font" ]]; then
-    echo "❌ Missing required font: ${work_font}"
-    echo "   Restore it from git or run a real font build before generating icons."
-    exit 1
-  fi
-
-  cp "$work_font" "$asset_font"
-done
-
-echo "✅ Synced TTF fonts to ${REPO_ASSET_FONT_DIR}"
+echo "✅ Generated SVG inputs in ${SVG_INPUT_DIR}"
+echo "🔤 Building TTF fonts from generated SVG inputs..."
+bash "${SCRIPT_DIR}/build_font.sh"
 
 # # --- CONVERT TO UFO ---
 # echo "🔧 Converting SVGs to UFO..."
