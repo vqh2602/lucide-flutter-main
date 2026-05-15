@@ -2,31 +2,27 @@
 
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+
 # --- SETTINGS ---
 ICON_NAME="LucideVariable"
 WORKDIR="build_font"
+REPO_ASSET_FONT_DIR="../../assets/build_font"
 SVG_CLONE_DIR="lucide-source"
-SVG_SRC_DIR="${SVG_CLONE_DIR}/icons"
+SVG_SRC_DIR="${SVG_CLONE_DIR}"
 SVG_INPUT_DIR="svg_input"
 WEIGHTS=(100 200 300 400 500 600)
 DEFAULT_WEIGHT=400
 DEFAULT_OPSZ=24
 
 # --- CHECK DEPENDENCIES ---
-command -v fontmake >/dev/null 2>&1 || { echo "❌ fontmake not found. Run: pip install fontmake"; exit 1; }
-command -v fontforge >/dev/null 2>&1 || { echo "❌ fontforge not found. Install via brew (macOS) or apt (Ubuntu)"; exit 1; }
 command -v xmlstarlet >/dev/null 2>&1 || { echo "❌ xmlstarlet not found. Install with: brew install xmlstarlet or sudo apt install xmlstarlet"; exit 1; }
 
 # --- CLEANUP ---
-rm -rf "$WORKDIR" "$SVG_INPUT_DIR"
-mkdir -p "$WORKDIR" "$SVG_INPUT_DIR"
-# TODO:
-# # --- CLONE ICONS ---
-# if [ ! -d "$SVG_CLONE_DIR" ]; then
-#   echo "📦 Cloning Lucide icons..."
-#   git clone --depth 1 https://github.com/lucide-icons/lucide.git "$SVG_CLONE_DIR"
-# fi
-sh clone.sh
+rm -rf "$SVG_INPUT_DIR"
+mkdir -p "$WORKDIR" "$SVG_INPUT_DIR" "$REPO_ASSET_FONT_DIR"
 
 # --- GENERATE SVGs PER WEIGHT ---
 echo "🎨 Generating SVGs for weights..."
@@ -42,14 +38,36 @@ for weight in "${WEIGHTS[@]}"; do
 
     cp "$svg" "$output_svg"
     xmlstarlet ed -L -u '//@stroke-width' -v "$stroke_width" "$output_svg" 2>/dev/null || true
-
-    # Check if the SVG file is valid before processing
-    if ! fontforge -script -c "Open('$output_svg')" 2>/dev/null; then
-      echo "❌ Skipping invalid or unreadable SVG file: $output_svg"
-      continue
-    fi
   done
 done
+
+# --- SYNC TTFs USED BY PUBSPEC ---
+# The current workflow only regenerates weighted SVG inputs. Keep the checked-in
+# TTFs available and copy them back to assets/build_font so Flutter can resolve
+# every font entry declared in pubspec.yaml.
+for weight in "${WEIGHTS[@]}"; do
+  font_file="${ICON_NAME}-w${weight}.ttf"
+  work_font="${WORKDIR}/${font_file}"
+  asset_font="${REPO_ASSET_FONT_DIR}/${font_file}"
+
+  if [[ ! -f "$work_font" && -f "$asset_font" ]]; then
+    cp "$asset_font" "$work_font"
+  fi
+
+  if [[ ! -f "$work_font" ]]; then
+    git -C "$REPO_ROOT" show "HEAD:tool/lucide/build_font/${font_file}" > "$work_font" 2>/dev/null || true
+  fi
+
+  if [[ ! -f "$work_font" ]]; then
+    echo "❌ Missing required font: ${work_font}"
+    echo "   Restore it from git or run a real font build before generating icons."
+    exit 1
+  fi
+
+  cp "$work_font" "$asset_font"
+done
+
+echo "✅ Synced TTF fonts to ${REPO_ASSET_FONT_DIR}"
 
 # # --- CONVERT TO UFO ---
 # echo "🔧 Converting SVGs to UFO..."

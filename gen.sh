@@ -1,17 +1,16 @@
+#!/bin/bash
 
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
 dart pub get
+
+bash tool/lucide/clone.sh
+bash tool/lucide/generate_variable_font.sh
+
 cd tool
-
-cd lucide
-bash generate_variable_font.sh
-
-sleep 2
-bash build_font.sh
-cp -r build_font ../../assets
-
-sleep 2
-cd ../
 dart run generate_fonts_1.dart ../assets/info.json
 
 cd ..
