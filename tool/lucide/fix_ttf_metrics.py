@@ -4,6 +4,9 @@ from copy import deepcopy
 from pathlib import Path
 
 from fontTools.ttLib import TTFont
+from fontTools.ttLib.tables._g_l_y_f import Glyph
+
+PUA_START = 0xE000
 
 
 def iter_bounds(glyf):
@@ -16,20 +19,89 @@ def iter_bounds(glyf):
         yield glyph.xMin, glyph.yMin, glyph.xMax, glyph.yMax
 
 
-def shift_glyph_y(glyph, glyf, dy):
-    if dy == 0 or getattr(glyph, "numberOfContours", 0) == 0:
+def glyph_bounds(glyph, glyf):
+    if getattr(glyph, "numberOfContours", 0) == 0:
+        return None
+    if not hasattr(glyph, "xMin"):
+        glyph.recalcBounds(glyf)
+    return glyph.xMin, glyph.yMin, glyph.xMax, glyph.yMax
+
+
+def transform_glyph(glyph, glyf, scale=1.0, dx=0, dy=0):
+    if getattr(glyph, "numberOfContours", 0) == 0:
         return
 
     if glyph.isComposite():
         for component in glyph.components:
-            component.y += dy
+            component.x = int(round(component.x * scale + dx))
+            component.y = int(round(component.y * scale + dy))
+            transform = getattr(component, "transform", None)
+            if scale != 1.0 and transform:
+                xx, xy, yx, yy = transform
+                component.transform = (
+                    xx * scale,
+                    xy * scale,
+                    yx * scale,
+                    yy * scale,
+                )
     else:
         coordinates, _, _ = glyph.getCoordinates(glyf)
         for i in range(len(coordinates)):
-            coordinates[i] = (coordinates[i][0], coordinates[i][1] + dy)
+            x, y = coordinates[i]
+            coordinates[i] = (
+                int(round(x * scale + dx)),
+                int(round(y * scale + dy)),
+            )
         glyph.coordinates = coordinates
 
     glyph.recalcBounds(glyf)
+
+
+def generated_icon_glyph_names(font):
+    cmap = unicode_cmap(font)
+    return {
+        glyph_name
+        for codepoint, glyph_name in cmap.items()
+        if codepoint >= PUA_START and glyph_name in font["glyf"].glyphs
+    }
+
+
+def normalize_icon_glyphs(font):
+    glyf = font["glyf"]
+    hmtx = font["hmtx"].metrics
+    units_per_em = font["head"].unitsPerEm or 1000
+    oversized_target = units_per_em * 0.96
+
+    for glyph_name in generated_icon_glyph_names(font):
+        glyph = glyf[glyph_name]
+        bounds = glyph_bounds(glyph, glyf)
+        if bounds is None:
+            continue
+
+        x_min, y_min, x_max, y_max = bounds
+        width = x_max - x_min
+        height = y_max - y_min
+        if width <= 0 or height <= 0:
+            continue
+
+        max_dim = max(width, height)
+        scale = 1.0
+        dx = 0
+
+        # FontForge can import some stroked SVGs far outside the 1000-unit icon
+        # box. Fit those glyphs back before centering them for Flutter.
+        if max_dim > oversized_target:
+            scale = oversized_target / max_dim
+            scaled_width = width * scale
+            dx = (units_per_em - scaled_width) / 2 - x_min * scale
+
+        scaled_height = height * scale
+        dy = (units_per_em - scaled_height) / 2 - y_min * scale
+        transform_glyph(glyph, glyf, scale=scale, dx=dx, dy=dy)
+
+        x_min, _, _, _ = glyph_bounds(glyph, glyf)
+        advance_width, _ = hmtx.get(glyph_name, (units_per_em, 0))
+        hmtx[glyph_name] = (advance_width, x_min)
 
 
 def unicode_cmap(font):
@@ -46,22 +118,39 @@ def copy_missing_glyphs(font, fallback_font):
 
     source_cmap = unicode_cmap(fallback_font)
     target_cmap = unicode_cmap(font)
-    missing_codepoints = sorted(set(source_cmap) - set(target_cmap))
-    if not missing_codepoints:
-        return
-
     source_glyf = fallback_font["glyf"]
     target_glyf = font["glyf"]
     source_hmtx = fallback_font["hmtx"].metrics
     target_hmtx = font["hmtx"].metrics
     glyph_order = font.getGlyphOrder()
 
-    for codepoint in missing_codepoints:
+    if ".notdef" in source_glyf.glyphs:
+        target_glyf.glyphs[".notdef"] = deepcopy(source_glyf[".notdef"])
+        target_hmtx[".notdef"] = source_hmtx.get(".notdef", (1000, 0))
+    else:
+        target_glyf.glyphs[".notdef"] = Glyph()
+        target_glyf.glyphs[".notdef"].numberOfContours = 0
+        target_hmtx[".notdef"] = (1000, 0)
+
+    if ".notdef" not in glyph_order:
+        glyph_order.insert(0, ".notdef")
+
+    fallback_codepoints = sorted(
+        codepoint
+        for codepoint in source_cmap
+        if codepoint not in target_cmap or codepoint < PUA_START
+    )
+    if not fallback_codepoints:
+        font.setGlyphOrder(glyph_order)
+        font["maxp"].numGlyphs = len(glyph_order)
+        return
+
+    for codepoint in fallback_codepoints:
         source_name = source_cmap[codepoint]
         target_name = f"uni{codepoint:04X}"
 
-        if target_name not in target_glyf.glyphs:
-            target_glyf.glyphs[target_name] = deepcopy(source_glyf[source_name])
+        target_glyf.glyphs[target_name] = deepcopy(source_glyf[source_name])
+        if target_name not in glyph_order:
             glyph_order.append(target_name)
 
         target_hmtx[target_name] = source_hmtx.get(source_name, (1000, 0))
@@ -76,6 +165,7 @@ def copy_missing_glyphs(font, fallback_font):
 
 def fix_font(path, fallback_font=None):
     font = TTFont(path)
+    normalize_icon_glyphs(font)
     copy_missing_glyphs(font, fallback_font)
     glyf = font["glyf"]
 
@@ -83,14 +173,6 @@ def fix_font(path, fallback_font=None):
     if not bounds:
         return
 
-    min_y = min(bound[1] for bound in bounds)
-    dy = -min_y if min_y < 0 else 0
-
-    if dy:
-        for glyph_name in glyf.keys():
-            shift_glyph_y(glyf[glyph_name], glyf, dy)
-
-    bounds = list(iter_bounds(glyf))
     font["head"].xMin = min(bound[0] for bound in bounds)
     font["head"].yMin = min(bound[1] for bound in bounds)
     font["head"].xMax = max(bound[2] for bound in bounds)
