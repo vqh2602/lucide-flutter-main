@@ -7,6 +7,7 @@ from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import Glyph
 
 PUA_START = 0xE000
+BROKEN_CONTOUR_MIN_SIZE = 250
 
 
 def iter_bounds(glyf):
@@ -55,6 +56,59 @@ def transform_glyph(glyph, glyf, scale=1.0, dx=0, dy=0):
         glyph.coordinates = coordinates
 
     glyph.recalcBounds(glyf)
+
+
+def has_broken_open_contours(glyph, glyf):
+    if getattr(glyph, "numberOfContours", 0) == 0 or glyph.isComposite():
+        return False
+
+    coordinates, end_points, _ = glyph.getCoordinates(glyf)
+    start = 0
+    for end in end_points:
+        points = coordinates[start : end + 1]
+        start = end + 1
+        if not points:
+            continue
+
+        xs = [point[0] for point in points]
+        ys = [point[1] for point in points]
+        width = max(xs) - min(xs)
+        height = max(ys) - min(ys)
+
+        # FontForge sometimes imports stroked open SVG paths as centerlines
+        # instead of filled outlines. Those zero-area contours are effectively
+        # invisible in a TTF glyph and make icons with many line segments render
+        # as tiny fragments.
+        if (width == 0 or height == 0) and max(width, height) >= BROKEN_CONTOUR_MIN_SIZE:
+            return True
+
+    return False
+
+
+def replace_broken_imports(font, fallback_font):
+    if fallback_font is None:
+        return
+
+    target_cmap = unicode_cmap(font)
+    source_cmap = unicode_cmap(fallback_font)
+    target_glyf = font["glyf"]
+    source_glyf = fallback_font["glyf"]
+    target_hmtx = font["hmtx"].metrics
+    source_hmtx = fallback_font["hmtx"].metrics
+
+    for codepoint, target_name in target_cmap.items():
+        if codepoint < PUA_START or target_name not in target_glyf.glyphs:
+            continue
+        if codepoint not in source_cmap:
+            continue
+
+        target_glyph = target_glyf[target_name]
+        if not has_broken_open_contours(target_glyph, target_glyf):
+            continue
+
+        source_name = source_cmap[codepoint]
+        target_glyf.glyphs[target_name] = deepcopy(source_glyf[source_name])
+        target_hmtx[target_name] = source_hmtx.get(source_name, (1000, 0))
 
 
 def generated_icon_glyph_names(font):
@@ -165,6 +219,7 @@ def copy_missing_glyphs(font, fallback_font):
 
 def fix_font(path, fallback_font=None):
     font = TTFont(path)
+    replace_broken_imports(font, fallback_font)
     normalize_icon_glyphs(font)
     copy_missing_glyphs(font, fallback_font)
     glyf = font["glyf"]
