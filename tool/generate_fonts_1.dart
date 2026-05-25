@@ -47,6 +47,7 @@ void main(List<String> args) {
     "\n/// Lucide Icons",
     "\nconst List<IconData> icons = ["
   ];
+  List<String> listIconNamesTest = ["\n\nconst List<String> iconNames = ["];
   final generatedIconNames = <String>{};
   for (Map data in resultList) {
     String iconName = data['name'];
@@ -106,6 +107,7 @@ void main(List<String> args) {
         "static const IconData $baseName = const IconData($codePoint, fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');\n"
         "static const IconData ${baseName}Dir = const IconData($codePoint, fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter', matchTextDirection: true);\n");
     listIconTest.add("\nLucideIcons.$baseName,");
+    listIconNamesTest.add("\n'$baseName',");
 
     // Sinh thêm các biến với fontFamily Lucide100...Lucide600
     for (int i = 100; i <= 600; i += 100) {
@@ -157,6 +159,7 @@ void main(List<String> args) {
           "/// ![${data['name']}](data:image/svg+xml;base64,${svgContent})\n"
           "static const IconData $varName = const IconData($codePoint, fontFamily: '$fontFamily', fontPackage: 'lucide_icons_flutter');\n");
       listIconTest.add("\nLucideIcons.$varName,");
+      listIconNamesTest.add("\n'$varName',");
     }
   }
   // print('$val $name');
@@ -164,12 +167,13 @@ void main(List<String> args) {
 
   generatedOutput.add("}\n");
   listIconTest.add("];");
+  listIconNamesTest.add("];");
   //  stdout.write("info message2 ${generatedOutput}");
 
   File output = File('../lib/lucide_icons.dart');
   output.writeAsStringSync(generatedOutput.join());
   File outputTest = File('../lib/test_icons.dart');
-  outputTest.writeAsStringSync(listIconTest.join());
+  outputTest.writeAsStringSync(listIconTest.join() + listIconNamesTest.join());
 }
 
 int parseUnicodeString(String unicodeString) {
