@@ -37,6 +37,11 @@ echo "🎨 Generating SVGs for weights..."
 for weight in "${WEIGHTS[@]}"; do
   # Adjust the multiplier to make the progression more gradual
   stroke_width=$(echo "scale=2; ($weight - 100) * 0.005 + 0.5" | bc)
+  # FontForge can import some stroked SVGs incorrectly at exactly 1.5px,
+  # causing a few 300-weight icons to render almost like 400.
+  if [[ "$weight" == "300" ]]; then
+    stroke_width="1.55"
+  fi
   weight_dir="${SVG_INPUT_DIR}/weight${weight}"
   mkdir -p "$weight_dir"
 

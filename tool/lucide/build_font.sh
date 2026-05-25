@@ -14,7 +14,11 @@ ICON_SOURCE_DIR="lucide-source"
 ICON_METADATA_DIR="$ICON_SOURCE_DIR"
 ASSET_FONT_DIR="../../assets/build_font"
 BASE_FONT="../../assets/lucide.ttf"
-WEIGHTS=(100 200 300 400 500 600)
+if [[ -n "${BUILD_WEIGHTS:-}" ]]; then
+  read -r -a WEIGHTS <<< "$BUILD_WEIGHTS"
+else
+  WEIGHTS=(100 200 300 400 500 600)
+fi
 
 if [[ -f "$ICON_SOURCE_DIR/codepoints.json" ]]; then
   ICON_CODE_JSON="$ICON_SOURCE_DIR/codepoints.json"
