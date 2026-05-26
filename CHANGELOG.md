@@ -1,3 +1,7 @@
+## 4.9.3+1
+
+- Fix platform support configuration
+
 ## 4.9.3
 
 - Update Flutter SDK and enhance font generation
