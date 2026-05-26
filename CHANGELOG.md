@@ -1,3 +1,7 @@
+## 4.9.3
+
+- Update Flutter SDK and enhance font generation
+
 ## 4.9.2
 
 - Added generated `Dir` variants for Remix icons with `matchTextDirection: true` to support RTL layouts.
