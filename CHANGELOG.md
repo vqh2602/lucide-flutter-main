@@ -1,3 +1,7 @@
+## 3.1.15
+
+1.24.0
+
 ## 3.1.14+2
 Thêm tính năng tìm kiếm icon vào ứng dụng ví dụ và tooling
 [Issue #20 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/20)
