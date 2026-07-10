@@ -10,6 +10,129 @@ PUA_START = 0xE000
 BROKEN_CONTOUR_MIN_SIZE = 250
 
 
+def contour_area(points):
+    area = 0
+    for index, (x1, y1) in enumerate(points):
+        x2, y2 = points[(index + 1) % len(points)]
+        area += x1 * y2 - x2 * y1
+    return area / 2
+
+
+def contour_bounds(points):
+    xs = [point[0] for point in points]
+    ys = [point[1] for point in points]
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def contour_sample_point(points):
+    x_min, y_min, x_max, y_max = contour_bounds(points)
+    return (x_min + x_max) / 2, (y_min + y_max) / 2
+
+
+def point_in_contour(point, contour_points):
+    x, y = point
+    inside = False
+    previous_x, previous_y = contour_points[-1]
+
+    for current_x, current_y in contour_points:
+        intersects = (current_y > y) != (previous_y > y)
+        if intersects:
+            slope_x = (
+                (previous_x - current_x)
+                * (y - current_y)
+                / (previous_y - current_y)
+                + current_x
+            )
+            if x < slope_x:
+                inside = not inside
+        previous_x, previous_y = current_x, current_y
+
+    return inside
+
+
+def contour_contains(parent, child):
+    parent_bounds = parent["bounds"]
+    child_bounds = child["bounds"]
+
+    if (
+        child_bounds[0] < parent_bounds[0]
+        or child_bounds[1] < parent_bounds[1]
+        or child_bounds[2] > parent_bounds[2]
+        or child_bounds[3] > parent_bounds[3]
+    ):
+        return False
+
+    return point_in_contour(child["sample"], parent["points"])
+
+
+def reverse_contour(glyph, start, end):
+    glyph.coordinates[start : end + 1] = glyph.coordinates[start : end + 1][::-1]
+    glyph.flags[start : end + 1] = glyph.flags[start : end + 1][::-1]
+
+
+def fix_nested_contour_directions(glyph, glyf):
+    if getattr(glyph, "numberOfContours", 0) <= 1 or glyph.isComposite():
+        return
+
+    coordinates, end_points, flags = glyph.getCoordinates(glyf)
+    glyph.coordinates = coordinates
+    glyph.endPtsOfContours = end_points
+    glyph.flags = flags
+
+    contours = []
+    start = 0
+    for index, end in enumerate(end_points):
+        points = list(coordinates[start : end + 1])
+        area = contour_area(points)
+        if area == 0:
+            start = end + 1
+            continue
+
+        contours.append(
+            {
+                "index": index,
+                "start": start,
+                "end": end,
+                "points": points,
+                "area": area,
+                "bounds": contour_bounds(points),
+                "sample": contour_sample_point(points),
+            }
+        )
+        start = end + 1
+
+    if len(contours) <= 1:
+        return
+
+    for child in contours:
+        parents = [
+            parent
+            for parent in contours
+            if parent["index"] != child["index"]
+            and abs(parent["area"]) > abs(child["area"])
+            and contour_contains(parent, child)
+        ]
+        child["parent"] = min(
+            parents,
+            key=lambda parent: abs(parent["area"]),
+            default=None,
+        )
+
+    changed = False
+    for contour in sorted(contours, key=lambda item: abs(item["area"]), reverse=True):
+        parent = contour["parent"]
+        if parent is None:
+            continue
+
+        if (contour["area"] > 0) == (parent["area"] > 0):
+            reverse_contour(glyph, contour["start"], contour["end"])
+            contour["area"] = -contour["area"]
+            changed = True
+
+    if changed:
+        glyph.recalcBounds(glyf)
+
+
 def iter_bounds(glyf):
     for glyph_name in glyf.keys():
         glyph = glyf[glyph_name]
@@ -128,6 +251,8 @@ def normalize_icon_glyphs(font):
 
     for glyph_name in generated_icon_glyph_names(font):
         glyph = glyf[glyph_name]
+        fix_nested_contour_directions(glyph, glyf)
+
         bounds = glyph_bounds(glyph, glyf)
         if bounds is None:
             continue

@@ -28,8 +28,13 @@ fi
 
 # Đặt 1 để bỏ qua SVGO nếu muốn
 SKIP_SVGO="${SKIP_SVGO:-0}"
-# Đặt 1 nếu muốn dùng Inkscape flatten stroke/path trước khi import vào FontForge.
-NORMALIZE_SVG="${NORMALIZE_SVG:-0}"
+# NORMALIZE_SVG modes:
+#   auto: stroke-to-path only known fill-prone SVGs before FontForge import.
+#   closed: stroke-to-path SVGs with closed paths, plus known fill-prone SVGs.
+#   1:    stroke-to-path every SVG.
+#   0:    import generated SVGs directly.
+NORMALIZE_SVG="${NORMALIZE_SVG:-auto}"
+AUTO_OUTLINE_ICONS="${AUTO_OUTLINE_ICONS:-anvil bluetooth bluetooth-connected bluetooth-off bluetooth-searching brain-circuit file-type fish lasso-select layers layers-plus library-big package-open palette podcast ribbon rocket ruler salad scale skull thermometer-snowflake tree-pine usb wheat wheat-off}"
 
 # =========================
 # DEP CHECK
@@ -37,8 +42,10 @@ NORMALIZE_SVG="${NORMALIZE_SVG:-0}"
 need() { command -v "$1" >/dev/null 2>&1 || { echo "❌ Missing: $1"; exit 1; }; }
 need jq
 need fontforge
-if [[ "$NORMALIZE_SVG" == "1" ]]; then
+INKSCAPE_BIN=""
+if [[ "$NORMALIZE_SVG" == "1" || "$NORMALIZE_SVG" == "auto" || "$NORMALIZE_SVG" == "closed" ]]; then
   need inkscape
+  INKSCAPE_BIN="$(command -v inkscape)"
 fi
 PYTHON_BIN=""
 for candidate in "${PYTHON:-}" python3 python; do
@@ -63,27 +70,57 @@ if [[ "$SKIP_SVGO" != "1" ]]; then
 fi
 
 mkdir -p "$WORKDIR"
-TMP_DIR="$(mktemp -d)"
+TMP_DIR="$(mktemp -d /private/tmp/lucide-font.XXXXXX)"
 trap 'rm -rf "$TMP_DIR"' EXIT
+AUTO_OUTLINE_MATCH_FILE="$TMP_DIR/auto_outline_icons.txt"
+ALIAS_MAP_FILE="$TMP_DIR/icon_aliases.tsv"
+CODEPOINT_SHELL_FILE="$TMP_DIR/codepoints.sh"
 
 # =========================
 # HELPERS
 # =========================
 
-# Chuẩn hoá 1 SVG: stroke->path, object->path, ungroup, flatten; tối ưu (nếu có svgo)
+should_outline_svg() {
+  local in_svg="$1"
+  local base_name
+  base_name="$(basename "$in_svg" .svg)"
+
+  case "$NORMALIZE_SVG" in
+    1)
+      return 0
+      ;;
+    0)
+      return 1
+      ;;
+  esac
+
+  if grep -Fxq "$base_name" "$AUTO_OUTLINE_MATCH_FILE"; then
+    return 0
+  fi
+
+  if [[ "$NORMALIZE_SVG" == "closed" ]]; then
+    grep -Eq '<path[^>]*d="[^"]*[zZ][^"]*"' "$in_svg"
+    return $?
+  fi
+
+  return 1
+}
+
+# Chuẩn hoá 1 SVG: stroke->path, object->path; tối ưu (nếu có svgo)
 normalize_svg() {
   local in_svg="$1"
   local out_svg="$2"
 
-  if [[ "$NORMALIZE_SVG" == "1" ]]; then
-    # Inkscape chuyển stroke => path, shape => path khi cần debug SVG phức tạp.
-    inkscape "$in_svg" --export-plain-svg="$out_svg" \
-      --actions="select-all:all;object-stroke-to-path;object-to-path;ungroup-deep;export-do" >/dev/null 2>&1 || true
+  if should_outline_svg "$in_svg"; then
+    # Inkscape chuyển stroke => filled outlines trước khi FontForge import,
+    # tránh việc FontForge fill nhầm path đang có fill="none".
+    "$INKSCAPE_BIN" "$in_svg" --export-filename="$out_svg" --export-type=svg \
+      --actions="select-all:all;object-stroke-to-path;object-to-path;export-do" >/dev/null 2>&1
   fi
 
   # Default path: dùng SVG đã sinh trong svg_input trực tiếp để giữ flow nhanh,
   # đồng bộ với stroke-width đã generate cho từng weight.
-  if [[ "$NORMALIZE_SVG" != "1" || ! -s "$out_svg" ]]; then
+  if [[ ! -s "$out_svg" ]]; then
     cp "$in_svg" "$out_svg"
   fi
 
@@ -97,12 +134,6 @@ normalize_svg() {
   fi
 }
 
-# Đọc mã Unicode từ codepoints.json -> thập phân (trả "" nếu không có)
-decode_unicode_dec() {
-  local name="$1"
-  jq -r --arg k "$name" '.[$k] // empty' "$ICON_CODE_JSON"
-}
-
 prepare_svg_dir_with_aliases() {
   local source_dir="$1"
   local prepared_dir="$2"
@@ -110,27 +141,85 @@ prepare_svg_dir_with_aliases() {
   mkdir -p "$prepared_dir"
   cp "$source_dir"/*.svg "$prepared_dir"/ 2>/dev/null || true
 
-  shopt -s nullglob
-  for metadata_file in "$ICON_METADATA_DIR"/*.json; do
-    local canonical_name
+  while IFS=$'\t' read -r alias_name canonical_name; do
     local canonical_svg
-
-    canonical_name="$(basename "$metadata_file" .json)"
     canonical_svg="$prepared_dir/${canonical_name}.svg"
 
     if [[ ! -f "$canonical_svg" ]]; then
       continue
     fi
 
-    while IFS= read -r alias_name; do
-      if [[ -z "$alias_name" ]]; then
-        continue
-      fi
+    cp "$canonical_svg" "$prepared_dir/${alias_name}.svg"
+  done < "$ALIAS_MAP_FILE"
+}
 
-      cp "$canonical_svg" "$prepared_dir/${alias_name}.svg"
-    done < <(jq -r '.aliases[]? | if type == "string" then . else .name // empty end' "$metadata_file")
+prepare_codepoint_lookup() {
+  PYTHONDONTWRITEBYTECODE=1 "$PYTHON_BIN" - "$ICON_CODE_JSON" > "$CODEPOINT_SHELL_FILE" <<'PY'
+import json
+import re
+import sys
+
+with open(sys.argv[1], encoding="utf-8") as file:
+    codepoints = json.load(file)
+
+for name, codepoint in sorted(codepoints.items()):
+    if isinstance(name, str) and isinstance(codepoint, int):
+        key = "CP_" + re.sub(r"[^A-Za-z0-9_]", "_", name)
+        print(f"{key}={codepoint}")
+PY
+
+  # shellcheck source=/dev/null
+  source "$CODEPOINT_SHELL_FILE"
+}
+
+# Đọc mã Unicode từ codepoints.json -> thập phân (trả "" nếu không có)
+decode_unicode_dec() {
+  local name="$1"
+  local key="CP_${name//-/_}"
+  eval "printf '%s\n' \"\${$key:-}\""
+}
+
+prepare_alias_map() {
+  PYTHONDONTWRITEBYTECODE=1 "$PYTHON_BIN" - "$ICON_METADATA_DIR" > "$ALIAS_MAP_FILE" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+for metadata_file in sorted(Path(sys.argv[1]).glob("*.json")):
+    canonical_name = metadata_file.stem
+    with metadata_file.open(encoding="utf-8") as file:
+        metadata = json.load(file)
+
+    for alias in metadata.get("aliases", []):
+        if isinstance(alias, str):
+            alias_name = alias
+        elif isinstance(alias, dict):
+            alias_name = alias.get("name", "")
+        else:
+            alias_name = ""
+
+        if alias_name:
+            print(f"{alias_name}\t{canonical_name}")
+PY
+}
+
+prepare_auto_outline_matches() {
+  : > "$AUTO_OUTLINE_MATCH_FILE"
+
+  for icon_name in $AUTO_OUTLINE_ICONS; do
+    echo "$icon_name" >> "$AUTO_OUTLINE_MATCH_FILE"
   done
-  shopt -u nullglob
+
+  while IFS=$'\t' read -r alias_name canonical_name; do
+    for icon_name in $AUTO_OUTLINE_ICONS; do
+      if [[ "$canonical_name" == "$icon_name" ]]; then
+        echo "$alias_name" >> "$AUTO_OUTLINE_MATCH_FILE"
+        break
+      fi
+    done
+  done < "$ALIAS_MAP_FILE"
+
+  sort -u "$AUTO_OUTLINE_MATCH_FILE" -o "$AUTO_OUTLINE_MATCH_FILE"
 }
 
 # =========================
@@ -148,6 +237,9 @@ if [[ ! -d "$SVG_INPUT_DIR" ]]; then
 fi
 
 mkdir -p "$ASSET_FONT_DIR"
+prepare_codepoint_lookup
+prepare_alias_map
+prepare_auto_outline_matches
 
 echo "🔤 Building TTF fonts…"
 echo "🔢 Codepoints: $ICON_CODE_JSON"

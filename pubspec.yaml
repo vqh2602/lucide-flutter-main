@@ -15,6 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  golden_test: ^1.1.1
   recase: ^4.1.0
   lint: ^2.8.0
 

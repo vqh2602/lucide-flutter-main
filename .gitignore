@@ -32,3 +32,5 @@ tool/lucide/lucide-source/
 
 # FVM Version Cache
 .fvm/
+test/failures
+test/goldens
