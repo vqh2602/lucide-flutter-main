@@ -116,8 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             child: GridView.builder(
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 6,
-              ),
+                  crossAxisCount: 20, childAspectRatio: 3 / 4),
               itemCount: filteredIcons.length,
               itemBuilder: (context, index) {
                 final icon = filteredIcons[index];
@@ -134,21 +133,21 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       icon: Icon(
                         icon,
-                        size: 30,
+                        // size: 30,
                         color: Colors.black,
                       ),
                     ),
                     Text(
                       iconName,
-                      style: const TextStyle(fontSize: 10),
+                      style: const TextStyle(fontSize: 8),
                       overflow: TextOverflow.ellipsis,
                     ),
-                    const Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDown)),
-                    const Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDownDir))
+                    // const Directionality(
+                    //     textDirection: TextDirection.rtl,
+                    //     child: Icon(LucideIcons.aArrowDown)),
+                    // const Directionality(
+                    //     textDirection: TextDirection.rtl,
+                    //     child: Icon(LucideIcons.aArrowDownDir))
                   ],
                 );
               },
