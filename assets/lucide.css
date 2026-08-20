@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1787051651709'); /* IE9*/
-  src: url('lucide.eot?t=1787051651709#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1787051651709') format('woff2'),
-  url('lucide.woff?t=1787051651709') format('woff'),
-  url('lucide.ttf?t=1787051651709') format('truetype'),
-  url('lucide.svg?t=1787051651709') format('svg');
+  src: url('lucide.eot?t=1787139681503'); /* IE9*/
+  src: url('lucide.eot?t=1787139681503#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1787139681503') format('woff2'),
+  url('lucide.woff?t=1787139681503') format('woff'),
+  url('lucide.ttf?t=1787139681503') format('truetype'),
+  url('lucide.svg?t=1787139681503') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -161,6 +161,7 @@
 .icon-astroid::before { content: "\e6f0"; }
 .icon-at-sign::before { content: "\e04e"; }
 .icon-atom::before { content: "\e3d7"; }
+.icon-audio-lines-off::before { content: "\e737"; }
 .icon-audio-lines-x::before { content: "\e72e"; }
 .icon-audio-lines::before { content: "\e55a"; }
 .icon-audio-waveform::before { content: "\e55b"; }
@@ -1098,6 +1099,7 @@
 .icon-list-checks::before { content: "\e1d0"; }
 .icon-list-chevrons-down-up::before { content: "\e694"; }
 .icon-list-chevrons-up-down::before { content: "\e696"; }
+.icon-list-clock::before { content: "\e738"; }
 .icon-list-collapse::before { content: "\e59b"; }
 .icon-list-end::before { content: "\e2df"; }
 .icon-list-filter-plus::before { content: "\e639"; }
@@ -1220,6 +1222,7 @@
 .icon-microchip::before { content: "\e61a"; }
 .icon-microscope::before { content: "\e2e4"; }
 .icon-microwave::before { content: "\e37a"; }
+.icon-midi-port::before { content: "\e739"; }
 .icon-milestone::before { content: "\e298"; }
 .icon-milk-off::before { content: "\e39a"; }
 .icon-milk::before { content: "\e399"; }
@@ -1246,6 +1249,8 @@
 .icon-monitor::before { content: "\e11d"; }
 .icon-moon-star::before { content: "\e410"; }
 .icon-moon::before { content: "\e11e"; }
+.icon-mop-sparkles::before { content: "\e73a"; }
+.icon-mop::before { content: "\e73b"; }
 .icon-more-horizontal::before { content: "\e0b6"; }
 .icon-more-vertical::before { content: "\e0b7"; }
 .icon-mosque::before { content: "\e725"; }
@@ -1702,6 +1707,7 @@
 .icon-square-dashed-text::before { content: "\e6ea"; }
 .icon-square-dashed-top-solid::before { content: "\e66c"; }
 .icon-square-dashed::before { content: "\e1cb"; }
+.icon-square-dimensions::before { content: "\e73c"; }
 .icon-square-divide::before { content: "\e16d"; }
 .icon-square-dot::before { content: "\e16e"; }
 .icon-square-equal::before { content: "\e16f"; }
@@ -1917,6 +1923,7 @@
 .icon-unplug::before { content: "\e45d"; }
 .icon-upload-cloud::before { content: "\e091"; }
 .icon-upload::before { content: "\e19e"; }
+.icon-usb-c-port::before { content: "\e73d"; }
 .icon-usb::before { content: "\e356"; }
 .icon-user-2::before { content: "\e468"; }
 .icon-user-check-2::before { content: "\e469"; }

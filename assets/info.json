@@ -857,6 +857,12 @@
     "className": "icon-atom",
     "unicode": "&#58327;"
   },
+  "audio-lines-off": {
+    "encodedCode": "\\e737",
+    "prefix": "icon",
+    "className": "icon-audio-lines-off",
+    "unicode": "&#59191;"
+  },
   "audio-lines-x": {
     "encodedCode": "\\e72e",
     "prefix": "icon",
@@ -6479,6 +6485,12 @@
     "className": "icon-list-chevrons-up-down",
     "unicode": "&#59030;"
   },
+  "list-clock": {
+    "encodedCode": "\\e738",
+    "prefix": "icon",
+    "className": "icon-list-clock",
+    "unicode": "&#59192;"
+  },
   "list-collapse": {
     "encodedCode": "\\e59b",
     "prefix": "icon",
@@ -7211,6 +7223,12 @@
     "className": "icon-microwave",
     "unicode": "&#58234;"
   },
+  "midi-port": {
+    "encodedCode": "\\e739",
+    "prefix": "icon",
+    "className": "icon-midi-port",
+    "unicode": "&#59193;"
+  },
   "milestone": {
     "encodedCode": "\\e298",
     "prefix": "icon",
@@ -7366,6 +7384,18 @@
     "prefix": "icon",
     "className": "icon-moon",
     "unicode": "&#57630;"
+  },
+  "mop-sparkles": {
+    "encodedCode": "\\e73a",
+    "prefix": "icon",
+    "className": "icon-mop-sparkles",
+    "unicode": "&#59194;"
+  },
+  "mop": {
+    "encodedCode": "\\e73b",
+    "prefix": "icon",
+    "className": "icon-mop",
+    "unicode": "&#59195;"
   },
   "more-horizontal": {
     "encodedCode": "\\e0b6",
@@ -10103,6 +10133,12 @@
     "className": "icon-square-dashed",
     "unicode": "&#57803;"
   },
+  "square-dimensions": {
+    "encodedCode": "\\e73c",
+    "prefix": "icon",
+    "className": "icon-square-dimensions",
+    "unicode": "&#59196;"
+  },
   "square-divide": {
     "encodedCode": "\\e16d",
     "prefix": "icon",
@@ -11392,6 +11428,12 @@
     "prefix": "icon",
     "className": "icon-upload",
     "unicode": "&#57758;"
+  },
+  "usb-c-port": {
+    "encodedCode": "\\e73d",
+    "prefix": "icon",
+    "className": "icon-usb-c-port",
+    "unicode": "&#59197;"
   },
   "usb": {
     "encodedCode": "\\e356",

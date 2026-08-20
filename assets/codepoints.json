@@ -2045,5 +2045,12 @@
   "eject": 59187,
   "mail-badge": 59188,
   "car-battery": 59189,
-  "square-text": 59190
+  "square-text": 59190,
+  "audio-lines-off": 59191,
+  "list-clock": 59192,
+  "midi-port": 59193,
+  "mop-sparkles": 59194,
+  "mop": 59195,
+  "square-dimensions": 59196,
+  "usb-c-port": 59197
 }
