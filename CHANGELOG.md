@@ -1,3 +1,20 @@
+## 3.1.18
+
+1.40.0
+
+### Lucide 1.40.0 Changelog
+
+#### What's Changed
+* feat(icons): added `can` icon by @l0uisgrange in https://github.com/lucide-icons/lucide/pull/4767
+* feat(icons): added `bridge` icon by @Nykoula in https://github.com/lucide-icons/lucide/pull/3949
+* feat(icons): added `shrimp-off` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3613
+* feat(icons): added `shopping-cart-plus` & `shopping-cart-minus` icons by @Ajay199210 in https://github.com/lucide-icons/lucide/pull/4248
+* fix(docs): updated artboard name on illustrator template by @EthanHazel in https://github.com/lucide-icons/lucide/pull/4724
+* chore(deps): bump softprops/action-gh-release from 3.0.2 to 3.0.3 in the github-actions group by @dependabot[bot] in https://github.com/lucide-icons/lucide/pull/4781
+* feat(icons): added `lighthouse` icon by @Xougui in https://github.com/lucide-icons/lucide/pull/4507
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.39.0...1.40.0
+
 ## 3.1.17
 
 1.33.0
