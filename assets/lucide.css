@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1787139681503'); /* IE9*/
-  src: url('lucide.eot?t=1787139681503#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1787139681503') format('woff2'),
-  url('lucide.woff?t=1787139681503') format('woff'),
-  url('lucide.ttf?t=1787139681503') format('truetype'),
-  url('lucide.svg?t=1787139681503') format('svg');
+  src: url('lucide.eot?t=1788425566433'); /* IE9*/
+  src: url('lucide.eot?t=1788425566433#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1788425566433') format('woff2'),
+  url('lucide.woff?t=1788425566433') format('woff'),
+  url('lucide.ttf?t=1788425566433') format('truetype'),
+  url('lucide.svg?t=1788425566433') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -313,6 +313,7 @@
 .icon-brick-wall-fire::before { content: "\e653"; }
 .icon-brick-wall-shield::before { content: "\e690"; }
 .icon-brick-wall::before { content: "\e581"; }
+.icon-bridge::before { content: "\e74f"; }
 .icon-briefcase-business::before { content: "\e5d5"; }
 .icon-briefcase-conveyor-belt::before { content: "\e62b"; }
 .icon-briefcase-medical::before { content: "\e5d6"; }
@@ -360,6 +361,7 @@
 .icon-calendars::before { content: "\e6a7"; }
 .icon-camera-off::before { content: "\e065"; }
 .icon-camera::before { content: "\e064"; }
+.icon-can::before { content: "\e750"; }
 .icon-candlestick-chart::before { content: "\e4a8"; }
 .icon-candy-cane::before { content: "\e4ba"; }
 .icon-candy-off::before { content: "\e392"; }
@@ -605,6 +607,10 @@
 .icon-corner-up-right::before { content: "\e0a8"; }
 .icon-cpu::before { content: "\e0a9"; }
 .icon-creative-commons::before { content: "\e3b2"; }
+.icon-credit-card-check::before { content: "\e743"; }
+.icon-credit-card-minus::before { content: "\e744"; }
+.icon-credit-card-plus::before { content: "\e74b"; }
+.icon-credit-card-x::before { content: "\e745"; }
 .icon-credit-card::before { content: "\e0aa"; }
 .icon-croissant::before { content: "\e2ae"; }
 .icon-crop::before { content: "\e0ab"; }
@@ -879,6 +885,7 @@
 .icon-funnel-plus::before { content: "\e0dd"; }
 .icon-funnel-x::before { content: "\e3b5"; }
 .icon-funnel::before { content: "\e0dc"; }
+.icon-galaxy::before { content: "\e73f"; }
 .icon-gallery-horizontal-end::before { content: "\e4cf"; }
 .icon-gallery-horizontal::before { content: "\e4ce"; }
 .icon-gallery-thumbnails::before { content: "\e4d0"; }
@@ -1088,6 +1095,7 @@
 .icon-ligature::before { content: "\e43a"; }
 .icon-lightbulb-off::before { content: "\e208"; }
 .icon-lightbulb::before { content: "\e1c2"; }
+.icon-lighthouse::before { content: "\e751"; }
 .icon-line-chart::before { content: "\e2a5"; }
 .icon-line-dot-right-horizontal::before { content: "\e6b9"; }
 .icon-line-squiggle::before { content: "\e67a"; }
@@ -1140,8 +1148,10 @@
 .icon-magnet::before { content: "\e2b5"; }
 .icon-mail-badge::before { content: "\e734"; }
 .icon-mail-check::before { content: "\e361"; }
+.icon-mail-clock::before { content: "\e73e"; }
 .icon-mail-minus::before { content: "\e362"; }
 .icon-mail-open::before { content: "\e363"; }
+.icon-mail-pen::before { content: "\e74e"; }
 .icon-mail-plus::before { content: "\e364"; }
 .icon-mail-question-mark::before { content: "\e365"; }
 .icon-mail-question::before { content: "\e365"; }
@@ -1183,6 +1193,7 @@
 .icon-merge::before { content: "\e43f"; }
 .icon-message-circle-check::before { content: "\e6ba"; }
 .icon-message-circle-code::before { content: "\e562"; }
+.icon-message-circle-dashed-check::before { content: "\e746"; }
 .icon-message-circle-dashed::before { content: "\e563"; }
 .icon-message-circle-heart::before { content: "\e564"; }
 .icon-message-circle-more::before { content: "\e565"; }
@@ -1421,6 +1432,9 @@
 .icon-play-off::before { content: "\e6fe"; }
 .icon-play-square::before { content: "\e481"; }
 .icon-play::before { content: "\e13c"; }
+.icon-playing-card::before { content: "\e747"; }
+.icon-playing-cards-fan::before { content: "\e748"; }
+.icon-playing-cards::before { content: "\e749"; }
 .icon-plug-2::before { content: "\e380"; }
 .icon-plug-zap-2::before { content: "\e45c"; }
 .icon-plug-zap::before { content: "\e45c"; }
@@ -1499,6 +1513,8 @@
 .icon-rewind::before { content: "\e147"; }
 .icon-ribbon::before { content: "\e558"; }
 .icon-road::before { content: "\e6d9"; }
+.icon-robot-arm::before { content: "\e740"; }
+.icon-robot-vacuum::before { content: "\e74a"; }
 .icon-rocket::before { content: "\e286"; }
 .icon-rocking-chair::before { content: "\e233"; }
 .icon-roller-coaster::before { content: "\e480"; }
@@ -1606,15 +1622,19 @@
 .icon-shield-user::before { content: "\e647"; }
 .icon-shield-x::before { content: "\e200"; }
 .icon-shield::before { content: "\e158"; }
+.icon-ship-cargo::before { content: "\e741"; }
 .icon-ship-wheel::before { content: "\e502"; }
 .icon-ship::before { content: "\e3ba"; }
 .icon-shirt::before { content: "\e1ca"; }
 .icon-shopping-bag::before { content: "\e15b"; }
 .icon-shopping-basket::before { content: "\e4ea"; }
+.icon-shopping-cart-minus::before { content: "\e752"; }
+.icon-shopping-cart-plus::before { content: "\e753"; }
 .icon-shopping-cart::before { content: "\e15c"; }
 .icon-shovel::before { content: "\e15d"; }
 .icon-shower-head::before { content: "\e37c"; }
 .icon-shredder::before { content: "\e65b"; }
+.icon-shrimp-off::before { content: "\e754"; }
 .icon-shrimp::before { content: "\e649"; }
 .icon-shrink::before { content: "\e220"; }
 .icon-shrub::before { content: "\e2ee"; }
@@ -1875,6 +1895,7 @@
 .icon-toy-brick::before { content: "\e347"; }
 .icon-tractor::before { content: "\e504"; }
 .icon-traffic-cone::before { content: "\e505"; }
+.icon-trailer::before { content: "\e742"; }
 .icon-train-front-tunnel::before { content: "\e507"; }
 .icon-train-front::before { content: "\e506"; }
 .icon-train-track::before { content: "\e508"; }
@@ -1966,6 +1987,7 @@
 .icon-van::before { content: "\e6ad"; }
 .icon-variable::before { content: "\e473"; }
 .icon-vault::before { content: "\e58f"; }
+.icon-vector-polygon::before { content: "\e74c"; }
 .icon-vector-square::before { content: "\e67c"; }
 .icon-vegan::before { content: "\e39d"; }
 .icon-venetian-mask::before { content: "\e2aa"; }
@@ -2012,6 +2034,7 @@
 .icon-weight::before { content: "\e530"; }
 .icon-wheat-off::before { content: "\e39f"; }
 .icon-wheat::before { content: "\e39e"; }
+.icon-whistle::before { content: "\e74d"; }
 .icon-whole-word::before { content: "\e3df"; }
 .icon-wifi-cog::before { content: "\e674"; }
 .icon-wifi-high::before { content: "\e5f7"; }
