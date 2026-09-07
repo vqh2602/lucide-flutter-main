@@ -2057,6 +2057,12 @@
     "className": "icon-camera",
     "unicode": "&#57444;"
   },
+  "can-soda": {
+    "encodedCode": "\\e755",
+    "prefix": "icon",
+    "className": "icon-can-soda",
+    "unicode": "&#59221;"
+  },
   "can": {
     "encodedCode": "\\e750",
     "prefix": "icon",
@@ -3551,6 +3557,12 @@
     "className": "icon-credit-card-plus",
     "unicode": "&#59211;"
   },
+  "credit-card-reader": {
+    "encodedCode": "\\e756",
+    "prefix": "icon",
+    "className": "icon-credit-card-reader",
+    "unicode": "&#59222;"
+  },
   "credit-card-x": {
     "encodedCode": "\\e745",
     "prefix": "icon",
@@ -3887,6 +3899,12 @@
     "className": "icon-door-open",
     "unicode": "&#58326;"
   },
+  "door-stairwell": {
+    "encodedCode": "\\e757",
+    "prefix": "icon",
+    "className": "icon-door-stairwell",
+    "unicode": "&#59223;"
+  },
   "dot-square": {
     "encodedCode": "\\e16e",
     "prefix": "icon",
@@ -4060,6 +4078,12 @@
     "prefix": "icon",
     "className": "icon-ellipsis",
     "unicode": "&#57526;"
+  },
+  "engine": {
+    "encodedCode": "\\e758",
+    "prefix": "icon",
+    "className": "icon-engine",
+    "unicode": "&#59224;"
   },
   "equal-approximately": {
     "encodedCode": "\\e634",
@@ -5296,6 +5320,18 @@
     "prefix": "icon",
     "className": "icon-georgian-lari",
     "unicode": "&#59000;"
+  },
+  "germ-off": {
+    "encodedCode": "\\e759",
+    "prefix": "icon",
+    "className": "icon-germ-off",
+    "unicode": "&#59225;"
+  },
+  "germ": {
+    "encodedCode": "\\e75a",
+    "prefix": "icon",
+    "className": "icon-germ",
+    "unicode": "&#59226;"
   },
   "ghost": {
     "encodedCode": "\\e20e",
@@ -10277,6 +10313,12 @@
     "className": "icon-square-equal",
     "unicode": "&#57711;"
   },
+  "square-exclamation-point": {
+    "encodedCode": "\\e75b",
+    "prefix": "icon",
+    "className": "icon-square-exclamation-point",
+    "unicode": "&#59227;"
+  },
   "square-function": {
     "encodedCode": "\\e22d",
     "prefix": "icon",
@@ -11890,6 +11932,18 @@
     "prefix": "icon",
     "className": "icon-view",
     "unicode": "&#57767;"
+  },
+  "virus-off": {
+    "encodedCode": "\\e75c",
+    "prefix": "icon",
+    "className": "icon-virus-off",
+    "unicode": "&#59228;"
+  },
+  "virus": {
+    "encodedCode": "\\e75d",
+    "prefix": "icon",
+    "className": "icon-virus",
+    "unicode": "&#59229;"
   },
   "voicemail": {
     "encodedCode": "\\e1a8",

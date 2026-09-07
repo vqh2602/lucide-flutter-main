@@ -1,3 +1,29 @@
+## 3.1.19
+
+1.41.0
+- Enable icon font tree shaking ([PR #23](https://github.com/vqh2602/lucide-flutter-main/pull/23))
+
+### Lucide 1.41.0 Changelog
+
+#### What's Changed
+* feat(icons): Add new icons `germ` and `germ-off` by @rrod497 in https://github.com/lucide-icons/lucide/pull/4056
+* feat(icons): added `door-stairwell` icon & updated `door-*` icons by @jguddas in https://github.com/lucide-icons/lucide/pull/3554
+* feat(icons): added `credit-card-reader` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/4616
+* feat(icons): added 'engine' icon by @benhaube in https://github.com/lucide-icons/lucide/pull/4598
+* feat(icons): fixed `germ` & `germ-off` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4789
+* chore(deps): bump the vue-deps group with 2 updates by @dependabot[bot] in https://github.com/lucide-icons/lucide/pull/4771
+* feat(icons): added `virus`/`virus-off` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4765
+* chore(copilot-reviews): Improve use-cases description. by @ericfennis in https://github.com/lucide-icons/lucide/pull/4558
+* feat(icons): add `can-soda` icon by @jaynewey in https://github.com/lucide-icons/lucide/pull/4718
+* feat(icons): added `square-alert` Icon by @viralcodex in https://github.com/lucide-icons/lucide/pull/3687
+* chore(lab): Add label for lab icons by @ericfennis in https://github.com/lucide-icons/lucide/pull/4793
+* feat(icons): changed `lab/bottle-toothbrush-comb` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4756
+* ci(@lucide/lab): Create automatic release flow for `@lucide/lab` by @ericfennis in https://github.com/lucide-icons/lucide/pull/4792
+* fix(icons): removed `trash` icon in favour of `trash-2` by @jguddas in https://github.com/lucide-icons/lucide/pull/3141
+* feat(icons): changed `leaf` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4801
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.40.0...1.41.0
+
 ## 3.1.18
 
 1.40.0

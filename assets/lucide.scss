@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1788425566433'); /* IE9*/
-  src: url('lucide.eot?t=1788425566433#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1788425566433') format('woff2'),
-  url('lucide.woff?t=1788425566433') format('woff'),
-  url('lucide.ttf?t=1788425566433') format('truetype'),
-  url('lucide.svg?t=1788425566433') format('svg');
+  src: url('lucide.eot?t=1788516814176'); /* IE9*/
+  src: url('lucide.eot?t=1788516814176#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1788516814176') format('woff2'),
+  url('lucide.woff?t=1788516814176') format('woff'),
+  url('lucide.ttf?t=1788516814176') format('truetype'),
+  url('lucide.svg?t=1788516814176') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -361,6 +361,7 @@
 .icon-calendars::before { content: "\e6a7"; }
 .icon-camera-off::before { content: "\e065"; }
 .icon-camera::before { content: "\e064"; }
+.icon-can-soda::before { content: "\e755"; }
 .icon-can::before { content: "\e750"; }
 .icon-candlestick-chart::before { content: "\e4a8"; }
 .icon-candy-cane::before { content: "\e4ba"; }
@@ -610,6 +611,7 @@
 .icon-credit-card-check::before { content: "\e743"; }
 .icon-credit-card-minus::before { content: "\e744"; }
 .icon-credit-card-plus::before { content: "\e74b"; }
+.icon-credit-card-reader::before { content: "\e756"; }
 .icon-credit-card-x::before { content: "\e745"; }
 .icon-credit-card::before { content: "\e0aa"; }
 .icon-croissant::before { content: "\e2ae"; }
@@ -666,6 +668,7 @@
 .icon-door-closed-locked::before { content: "\e664"; }
 .icon-door-closed::before { content: "\e3d5"; }
 .icon-door-open::before { content: "\e3d6"; }
+.icon-door-stairwell::before { content: "\e757"; }
 .icon-dot-square::before { content: "\e16e"; }
 .icon-dot::before { content: "\e44f"; }
 .icon-download-cloud::before { content: "\e089"; }
@@ -695,6 +698,7 @@
 .icon-ellipse::before { content: "\e6b2"; }
 .icon-ellipsis-vertical::before { content: "\e0b7"; }
 .icon-ellipsis::before { content: "\e0b6"; }
+.icon-engine::before { content: "\e758"; }
 .icon-equal-approximately::before { content: "\e634"; }
 .icon-equal-not::before { content: "\e1be"; }
 .icon-equal-square::before { content: "\e16f"; }
@@ -901,6 +905,8 @@
 .icon-gavel::before { content: "\e0e0"; }
 .icon-gem::before { content: "\e242"; }
 .icon-georgian-lari::before { content: "\e678"; }
+.icon-germ-off::before { content: "\e759"; }
+.icon-germ::before { content: "\e75a"; }
 .icon-ghost::before { content: "\e20e"; }
 .icon-gift::before { content: "\e0e1"; }
 .icon-git-branch-minus::before { content: "\e69c"; }
@@ -1731,6 +1737,7 @@
 .icon-square-divide::before { content: "\e16d"; }
 .icon-square-dot::before { content: "\e16e"; }
 .icon-square-equal::before { content: "\e16f"; }
+.icon-square-exclamation-point::before { content: "\e75b"; }
 .icon-square-function::before { content: "\e22d"; }
 .icon-square-gantt-chart::before { content: "\e169"; }
 .icon-square-kanban::before { content: "\e170"; }
@@ -2000,6 +2007,8 @@
 .icon-video::before { content: "\e1a5"; }
 .icon-videotape::before { content: "\e4cb"; }
 .icon-view::before { content: "\e1a7"; }
+.icon-virus-off::before { content: "\e75c"; }
+.icon-virus::before { content: "\e75d"; }
 .icon-voicemail::before { content: "\e1a8"; }
 .icon-volleyball::before { content: "\e62f"; }
 .icon-volume-1::before { content: "\e1aa"; }
@@ -2420,6 +2429,7 @@ $icon-calendar: '\e063';
 $icon-calendars: '\e6a7';
 $icon-camera-off: '\e065';
 $icon-camera: '\e064';
+$icon-can-soda: '\e755';
 $icon-can: '\e750';
 $icon-candlestick-chart: '\e4a8';
 $icon-candy-cane: '\e4ba';
@@ -2669,6 +2679,7 @@ $icon-creative-commons: '\e3b2';
 $icon-credit-card-check: '\e743';
 $icon-credit-card-minus: '\e744';
 $icon-credit-card-plus: '\e74b';
+$icon-credit-card-reader: '\e756';
 $icon-credit-card-x: '\e745';
 $icon-credit-card: '\e0aa';
 $icon-croissant: '\e2ae';
@@ -2725,6 +2736,7 @@ $icon-donut: '\e4bc';
 $icon-door-closed-locked: '\e664';
 $icon-door-closed: '\e3d5';
 $icon-door-open: '\e3d6';
+$icon-door-stairwell: '\e757';
 $icon-dot-square: '\e16e';
 $icon-dot: '\e44f';
 $icon-download-cloud: '\e089';
@@ -2754,6 +2766,7 @@ $icon-eject: '\e733';
 $icon-ellipse: '\e6b2';
 $icon-ellipsis-vertical: '\e0b7';
 $icon-ellipsis: '\e0b6';
+$icon-engine: '\e758';
 $icon-equal-approximately: '\e634';
 $icon-equal-not: '\e1be';
 $icon-equal-square: '\e16f';
@@ -2960,6 +2973,8 @@ $icon-gauge: '\e1bf';
 $icon-gavel: '\e0e0';
 $icon-gem: '\e242';
 $icon-georgian-lari: '\e678';
+$icon-germ-off: '\e759';
+$icon-germ: '\e75a';
 $icon-ghost: '\e20e';
 $icon-gift: '\e0e1';
 $icon-git-branch-minus: '\e69c';
@@ -3790,6 +3805,7 @@ $icon-square-dimensions: '\e73c';
 $icon-square-divide: '\e16d';
 $icon-square-dot: '\e16e';
 $icon-square-equal: '\e16f';
+$icon-square-exclamation-point: '\e75b';
 $icon-square-function: '\e22d';
 $icon-square-gantt-chart: '\e169';
 $icon-square-kanban: '\e170';
@@ -4059,6 +4075,8 @@ $icon-video-off: '\e1a6';
 $icon-video: '\e1a5';
 $icon-videotape: '\e4cb';
 $icon-view: '\e1a7';
+$icon-virus-off: '\e75c';
+$icon-virus: '\e75d';
 $icon-voicemail: '\e1a8';
 $icon-volleyball: '\e62f';
 $icon-volume-1: '\e1aa';
