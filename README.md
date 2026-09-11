@@ -5,6 +5,7 @@
 ![Pub Likes](https://img.shields.io/pub/likes/lucide_icons_flutter)
 ![Pub Points](https://img.shields.io/pub/points/lucide_icons_flutter)
 ![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-vqh2602-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vqh2602)
 
 version: 1.41.0
 
@@ -80,24 +81,15 @@ Icon(RemixIcons.home_line);
 Icon(RemixIcons.home_fill);
 ```
 
+## Support
 
+If you find this project useful, you can support further development by buying me a coffee:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="https://buymeacoffee.com/vqh2602" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
+</a>
 
 
 ## Contributors
 
-<a href='https://github.com/vqh2602'><img src='https://avatars.githubusercontent.com/u/62917858?v=4' width='50' height='50' alt='vqh2602' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/github-actions[bot]'><img src='https://avatars.githubusercontent.com/in/15368?v=4' width='50' height='50' alt='github-actions[bot]' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/vqh2601'><img src='https://avatars.githubusercontent.com/u/209100580?v=4' width='50' height='50' alt='vqh2601' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/huyvq-bachkhoa'><img src='https://avatars.githubusercontent.com/u/315601221?v=4' width='50' height='50' alt='huyvq-bachkhoa' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/alessandro-amos'><img src='https://avatars.githubusercontent.com/u/130871434?v=4' width='50' height='50' alt='alessandro-amos' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/cdeil'><img src='https://avatars.githubusercontent.com/u/852409?v=4' width='50' height='50' alt='cdeil' style='border-radius:50%; margin-right:8px;'></a> 
+<a href='https://github.com/vqh2602'><img src='https://avatars.githubusercontent.com/u/62917858?v=4' width='50' height='50' alt='vqh2602' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/github-actions[bot]'><img src='https://avatars.githubusercontent.com/in/15368?v=4' width='50' height='50' alt='github-actions[bot]' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/vqh2601'><img src='https://avatars.githubusercontent.com/u/209100580?v=4' width='50' height='50' alt='vqh2601' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/huyvq-bachkhoa'><img src='https://avatars.githubusercontent.com/u/315601221?v=4' width='50' height='50' alt='huyvq-bachkhoa' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/alessandro-amos'><img src='https://avatars.githubusercontent.com/u/130871434?v=4' width='50' height='50' alt='alessandro-amos' style='border-radius:50%; margin-right:8px;'></a> <a href='https://github.com/cdeil'><img src='https://avatars.githubusercontent.com/u/852409?v=4' width='50' height='50' alt='cdeil' style='border-radius:50%; margin-right:8px;'></a>

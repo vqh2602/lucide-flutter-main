@@ -3,6 +3,8 @@ description: A Lucide icon library package for Flutter applications. Fork of Fea
 version: 3.1.19
 homepage: https://lucide.dev
 repository: https://github.com/vqh2602/lucide-flutter-main
+funding:
+  - https://buymeacoffee.com/vqh2602
 
 environment:
   sdk: ^3.0.0
