@@ -1,87 +1,108 @@
-## [3.1.18-beta.1] - 2025-11-29
+## 3.1.19
 
-### Beta Release
-- Development build from commit a95235c7
-- This is a pre-release version for testing
+1.41.0
+- Enable icon font tree shaking ([PR #23](https://github.com/vqh2602/lucide-flutter-main/pull/23))
 
-## [3.1.17-beta.1] - 2025-11-29
+### Lucide 1.41.0 Changelog
 
-### Beta Release
-- Development build from commit a065da93
-- This is a pre-release version for testing
+#### What's Changed
+* feat(icons): Add new icons `germ` and `germ-off` by @rrod497 in https://github.com/lucide-icons/lucide/pull/4056
+* feat(icons): added `door-stairwell` icon & updated `door-*` icons by @jguddas in https://github.com/lucide-icons/lucide/pull/3554
+* feat(icons): added `credit-card-reader` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/4616
+* feat(icons): added 'engine' icon by @benhaube in https://github.com/lucide-icons/lucide/pull/4598
+* feat(icons): fixed `germ` & `germ-off` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4789
+* chore(deps): bump the vue-deps group with 2 updates by @dependabot[bot] in https://github.com/lucide-icons/lucide/pull/4771
+* feat(icons): added `virus`/`virus-off` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4765
+* chore(copilot-reviews): Improve use-cases description. by @ericfennis in https://github.com/lucide-icons/lucide/pull/4558
+* feat(icons): add `can-soda` icon by @jaynewey in https://github.com/lucide-icons/lucide/pull/4718
+* feat(icons): added `square-alert` Icon by @viralcodex in https://github.com/lucide-icons/lucide/pull/3687
+* chore(lab): Add label for lab icons by @ericfennis in https://github.com/lucide-icons/lucide/pull/4793
+* feat(icons): changed `lab/bottle-toothbrush-comb` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4756
+* ci(@lucide/lab): Create automatic release flow for `@lucide/lab` by @ericfennis in https://github.com/lucide-icons/lucide/pull/4792
+* fix(icons): removed `trash` icon in favour of `trash-2` by @jguddas in https://github.com/lucide-icons/lucide/pull/3141
+* feat(icons): changed `leaf` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4801
 
-## [3.1.16-beta.1] - 2025-11-29
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.40.0...1.41.0
 
-### Beta Release
-- Development build from commit bd6a417f
-- This is a pre-release version for testing
+## 3.1.18
 
-## [3.1.15-beta.1] - 2025-11-29
+1.40.0
 
-### Beta Release
-- Development build from commit dc90ab4b
-- This is a pre-release version for testing
+### Lucide 1.40.0 Changelog
 
-## [3.1.14-beta.1] - 2025-11-29
+#### What's Changed
+* feat(icons): added `can` icon by @l0uisgrange in https://github.com/lucide-icons/lucide/pull/4767
+* feat(icons): added `bridge` icon by @Nykoula in https://github.com/lucide-icons/lucide/pull/3949
+* feat(icons): added `shrimp-off` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3613
+* feat(icons): added `shopping-cart-plus` & `shopping-cart-minus` icons by @Ajay199210 in https://github.com/lucide-icons/lucide/pull/4248
+* fix(docs): updated artboard name on illustrator template by @EthanHazel in https://github.com/lucide-icons/lucide/pull/4724
+* chore(deps): bump softprops/action-gh-release from 3.0.2 to 3.0.3 in the github-actions group by @dependabot[bot] in https://github.com/lucide-icons/lucide/pull/4781
+* feat(icons): added `lighthouse` icon by @Xougui in https://github.com/lucide-icons/lucide/pull/4507
 
-### Beta Release
-- Development build from commit a6b40d2b
-- This is a pre-release version for testing
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.39.0...1.40.0
 
-## [3.1.13-beta.1] - 2025-11-29
+## 3.1.17
 
-### Beta Release
-- Development build from commit 7fa7796c
-- This is a pre-release version for testing
+1.33.0
 
-## [3.1.12-beta.1] - 2025-11-28
+## 3.1.16
 
-### Beta Release
-- Development build from commit fce1d1b9
-- This is a pre-release version for testing
+1.32.0
 
-## [3.1.11-beta.1] - 2025-11-28
+## 3.1.15
 
-### Beta Release
-- Development build from commit ea86ffdf
-- This is a pre-release version for testing
+1.24.0
 
-## [3.1.10-beta.1] - 2025-11-28
+## 3.1.14+2
+Thêm tính năng tìm kiếm icon vào ứng dụng ví dụ và tooling
+[Issue #20 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/20)
 
-### Beta Release
-- Development build from commit 80c0c645
-- This is a pre-release version for testing
+## 3.1.14+1
+[Issue #19 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/19)
 
-## [3.1.9-beta.1] - 2025-11-28
+## 3.1.14
 
-### Beta Release
-- Development build from commit b0917db0
-- This is a pre-release version for testing
+1.16.0
 
-## [3.1.8-beta.1] - 2025-11-28
+## 3.1.13
 
-### Beta Release
-- Development build from commit 9cc70f9e
-- This is a pre-release version for testing
+1.8.0
 
-## [3.1.7-beta.1] - 2025-11-28
+## 3.1.12
+[Issue #17 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/17)
 
-### Beta Release
-- Development build from commit 61b332a5
-- This is a pre-release version for testing
+## 3.1.11
 
-## [3.1.6-beta.1] - 2025-11-28
+1.7.0
 
-### Beta Release
-- Development build from commit 8c0c46cb
-- This is a pre-release version for testing
+## 3.1.10
+
+0.575.0
+
+## 3.1.9
+
+0.562.0
+
+## 3.1.8
+
+0.556.0
+
+## 3.1.7
+
+0.555.0
 
 ## 3.1.6
+
 0.552.0
+
 ## 3.1.5
+
 0.546.0
+
 ## 3.1.4
+
 [Issue #15 trên GitHub](https://github.com/vqh2602/lucide-flutter-main/issues/15)
+
 ## 3.1.2
 
 0.545.0

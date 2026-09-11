@@ -34,6 +34,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String searchQuery = '';
   List<IconData> filteredIcons = [];
+  late final Map<IconData, String> iconNamesByIcon = {
+    for (var i = 0; i < icons.length; i++) icons[i]: iconNames[i],
+  };
 
   @override
   void initState() {
@@ -41,16 +44,33 @@ class _MyHomePageState extends State<MyHomePage> {
     filteredIcons = List.from(icons);
   }
 
+  String normalizeSearchText(String value) {
+    return value.toLowerCase().replaceAll(RegExp(r'[\s_-]+'), '');
+  }
+
+  String searchTextForIcon(IconData icon) {
+    final name = iconNamesByIcon[icon] ?? '';
+    return [
+      name,
+      normalizeSearchText(name),
+      icon.codePoint.toString(),
+      icon.toString(),
+    ].join(' ').toLowerCase();
+  }
+
   void filterIcons(String query) {
+    final normalizedQuery = normalizeSearchText(query);
+    final lowerCaseQuery = query.toLowerCase();
+
     setState(() {
       searchQuery = query;
       if (query.isEmpty) {
         filteredIcons = List.from(icons);
       } else {
         filteredIcons = icons.where((icon) {
-          final iconName =
-              icon.codePoint.toString() + icon.toString().toLowerCase();
-          return iconName.contains(query.toLowerCase());
+          final searchText = searchTextForIcon(icon);
+          return searchText.contains(lowerCaseQuery) ||
+              searchText.contains(normalizedQuery);
         }).toList();
       }
     });
@@ -96,35 +116,38 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             child: GridView.builder(
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 6,
-              ),
+                  crossAxisCount: 20, childAspectRatio: 3 / 4),
               itemCount: filteredIcons.length,
               itemBuilder: (context, index) {
+                final icon = filteredIcons[index];
+                final iconName = iconNamesByIcon[icon] ?? icon.toString();
+
                 return Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     IconButton(
                       onPressed: () {
-                        final iconName = filteredIcons[index].toString();
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(content: Text(iconName)),
                         );
                       },
                       icon: Icon(
-                        filteredIcons[index],
-                        size: 30,
+                        icon,
+                        // size: 30,
                         color: Colors.black,
                       ),
                     ),
                     Text(
-                      filteredIcons[index].codePoint.toString(),
-                      style: const TextStyle(fontSize: 10),
+                      iconName,
+                      style: const TextStyle(fontSize: 8),
                       overflow: TextOverflow.ellipsis,
                     ),
-                    Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: Icon(LucideIcons.aArrowDown
-                            .dir(matchTextDirection: true)))
+                    // const Directionality(
+                    //     textDirection: TextDirection.rtl,
+                    //     child: Icon(LucideIcons.aArrowDown)),
+                    // const Directionality(
+                    //     textDirection: TextDirection.rtl,
+                    //     child: Icon(LucideIcons.aArrowDownDir))
                   ],
                 );
               },
@@ -142,20 +165,6 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Colors.black,
         ),
       ),
-    );
-  }
-}
-
-extension IconDataX on IconData {
-  /// Tạo Icon có matchTextDirection = true (tự động flip khi RTL)
-  IconData dir({
-    bool matchTextDirection = true,
-  }) {
-    return IconData(
-      codePoint,
-      fontFamily: fontFamily,
-      fontPackage: fontPackage,
-      matchTextDirection: matchTextDirection,
     );
   }
 }

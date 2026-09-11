@@ -2,37 +2,46 @@
 
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+
 # --- SETTINGS ---
 ICON_NAME="LucideVariable"
 WORKDIR="build_font"
+REPO_ASSET_FONT_DIR="../../assets/build_font"
 SVG_CLONE_DIR="lucide-source"
-SVG_SRC_DIR="${SVG_CLONE_DIR}/icons"
+SVG_SRC_DIR="${SVG_CLONE_DIR}"
 SVG_INPUT_DIR="svg_input"
 WEIGHTS=(100 200 300 400 500 600)
 DEFAULT_WEIGHT=400
 DEFAULT_OPSZ=24
 
 # --- CHECK DEPENDENCIES ---
-command -v fontmake >/dev/null 2>&1 || { echo "❌ fontmake not found. Run: pip install fontmake"; exit 1; }
-command -v fontforge >/dev/null 2>&1 || { echo "❌ fontforge not found. Install via brew (macOS) or apt (Ubuntu)"; exit 1; }
-command -v xmlstarlet >/dev/null 2>&1 || { echo "❌ xmlstarlet not found. Install with: brew install xmlstarlet or sudo apt install xmlstarlet"; exit 1; }
+need() { command -v "$1" >/dev/null 2>&1 || { echo "❌ Missing: $1"; exit 1; }; }
+need bc
+need xmlstarlet
 
 # --- CLEANUP ---
-rm -rf "$WORKDIR" "$SVG_INPUT_DIR"
-mkdir -p "$WORKDIR" "$SVG_INPUT_DIR"
-# TODO:
-# # --- CLONE ICONS ---
-# if [ ! -d "$SVG_CLONE_DIR" ]; then
-#   echo "📦 Cloning Lucide icons..."
-#   git clone --depth 1 https://github.com/lucide-icons/lucide.git "$SVG_CLONE_DIR"
-# fi
-sh clone.sh
+rm -rf "$SVG_INPUT_DIR"
+mkdir -p "$WORKDIR" "$SVG_INPUT_DIR" "$REPO_ASSET_FONT_DIR"
+
+if ! find "$SVG_SRC_DIR" -maxdepth 1 -name '*.svg' -print -quit | grep -q .; then
+  echo "❌ Missing Lucide SVG source files in ${SVG_SRC_DIR}"
+  echo "   Run clone.sh first, then run this script again."
+  exit 1
+fi
 
 # --- GENERATE SVGs PER WEIGHT ---
 echo "🎨 Generating SVGs for weights..."
 for weight in "${WEIGHTS[@]}"; do
   # Adjust the multiplier to make the progression more gradual
   stroke_width=$(echo "scale=2; ($weight - 100) * 0.005 + 0.5" | bc)
+  # FontForge can import some stroked SVGs incorrectly at exactly 1.5px,
+  # causing a few 300-weight icons to render almost like 400.
+  if [[ "$weight" == "300" ]]; then
+    stroke_width="1.55"
+  fi
   weight_dir="${SVG_INPUT_DIR}/weight${weight}"
   mkdir -p "$weight_dir"
 
@@ -42,14 +51,12 @@ for weight in "${WEIGHTS[@]}"; do
 
     cp "$svg" "$output_svg"
     xmlstarlet ed -L -u '//@stroke-width' -v "$stroke_width" "$output_svg" 2>/dev/null || true
-
-    # Check if the SVG file is valid before processing
-    if ! fontforge -script -c "Open('$output_svg')" 2>/dev/null; then
-      echo "❌ Skipping invalid or unreadable SVG file: $output_svg"
-      continue
-    fi
   done
 done
+
+echo "✅ Generated SVG inputs in ${SVG_INPUT_DIR}"
+echo "🔤 Building TTF fonts from generated SVG inputs..."
+bash "${SCRIPT_DIR}/build_font.sh"
 
 # # --- CONVERT TO UFO ---
 # echo "🔧 Converting SVGs to UFO..."
