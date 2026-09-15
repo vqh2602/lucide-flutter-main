@@ -1,3 +1,47 @@
+## 3.1.20
+
+1.46.0
+
+### Lucide 1.46.0 Changelog
+
+#### What's Changed
+* feat(icons): add gap-horizontal and gap-vertical by @samuelalake in https://github.com/lucide-icons/lucide/pull/4544
+* feat(icons): added `trash-off` icon by @lx3133584 in https://github.com/lucide-icons/lucide/pull/4788
+* feat(icons): added `circle-dashed-check` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4796
+* feat(icons): added `equal-approximately-not` icon by @ryck in https://github.com/lucide-icons/lucide/pull/4802
+* feat(icons): added dome icons by @swastik7805 in https://github.com/lucide-icons/lucide/pull/4261
+* fix(icons): changed `computer` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4607
+* fix(icons): changed `table-2` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/4810
+* feat(icons): added `user-group` icons by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4782
+* feat(icons): added `tic-tac-toe` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4772
+* fix(icons): changed `id-card` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4820
+* fix(icons): changed `id-card-lanyard` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4819
+* feat(icons): delegate `carton`/`carton-off` from lab by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4818
+* fix(icons): changed `door-open` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4826
+* fix(icons): changed `satellite-dish` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4813
+* fix(icons): arcified flip icons & renamed them by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4833
+* fix(icons): improve legibility of credit card icons by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4831
+* feat(icons): added `toothbrush` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4755
+* feat(icons): added `calendar-chevrons-right` icon by @AlexandrePhilibert in https://github.com/lucide-icons/lucide/pull/3565
+* feat(icons): added `building-complex-plus` icon by @tylerkade in https://github.com/lucide-icons/lucide/pull/4758
+* feat(icons): add hourglass-cog icon by @lazerg in https://github.com/lucide-icons/lucide/pull/4635
+* feat(icons): added `mouth` & `mouth-off` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4787
+* feat(icons): added `iv-bag` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4821
+* fix(icons): changed `lectern` icon by @UsamaKhan in https://github.com/lucide-icons/lucide/pull/2925
+* feat(icons): add `layout-arrow-right` and `layout-arrow-down` by @samuelalake in https://github.com/lucide-icons/lucide/pull/4541
+* feat(icons): added `park` icon by @skajosborn in https://github.com/lucide-icons/lucide/pull/3177
+* fix(icons): changed `album`, `book-marked`, `folder-bookmark` icons by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/3043
+* feat(icons): added `houses` icon by @danielbayley in https://github.com/lucide-icons/lucide/pull/3241
+* feat(icons): added `notebook-dot` icon by @elenakovelskikh in https://github.com/lucide-icons/lucide/pull/3228
+* feat(icons): add `messages-circle` icon by @Mirazstudio-offical in https://github.com/lucide-icons/lucide/pull/4754
+* feat(icons): added `plant-pot` icon by @vqh2602 in https://github.com/lucide-icons/lucide/pull/3122
+* fix(icons): changed `cookie` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4815
+* feat(icons): added `globe-code` icon by @AleksejDix in https://github.com/lucide-icons/lucide/pull/3722
+* feat(icons): Added new icons: `clef-g`, `clef-f` and `clef-c` by @rrod497 in https://github.com/lucide-icons/lucide/pull/4083
+* feat(icons): added `monitor-pc` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4791
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.41.0...1.46.0
+
 ## 3.1.19
 
 1.41.0
