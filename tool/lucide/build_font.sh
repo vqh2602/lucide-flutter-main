@@ -34,7 +34,7 @@ SKIP_SVGO="${SKIP_SVGO:-0}"
 #   1:    stroke-to-path every SVG.
 #   0:    import generated SVGs directly.
 NORMALIZE_SVG="${NORMALIZE_SVG:-auto}"
-AUTO_OUTLINE_ICONS="${AUTO_OUTLINE_ICONS:-anvil bluetooth bluetooth-connected bluetooth-off bluetooth-searching brain-circuit file-type fish lasso-select layers layers-plus library-big package-open palette podcast ribbon rocket ruler salad scale skull thermometer-snowflake tree-pine usb wheat wheat-off}"
+AUTO_OUTLINE_ICONS="${AUTO_OUTLINE_ICONS:-anvil bluetooth bluetooth-connected bluetooth-off bluetooth-searching brain-circuit calendar-fold file-type fish lasso-select layers layers-plus library-big mop package-open palette podcast ribbon rocket ruler salad scale skull thermometer-snowflake tree-pine usb wheat wheat-off}"
 
 # =========================
 # DEP CHECK
@@ -95,6 +95,12 @@ should_outline_svg() {
   esac
 
   if grep -Fxq "$base_name" "$AUTO_OUTLINE_MATCH_FILE"; then
+    return 0
+  fi
+
+  # Auto-outline compound paths with z followed by further commands,
+  # which FontForge's SVG parser drops before z.
+  if grep -Eq 'd="[^"]*[zZ]\s*[^"'\''zZ\s]' "$in_svg"; then
     return 0
   fi
 
