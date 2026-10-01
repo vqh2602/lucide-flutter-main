@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -44,6 +46,11 @@ void main() {
     expect(coveredCount, lucide.icons.length);
   });
 
+  final isCI = Platform.environment['CI'] == 'true' ||
+      Platform.environment['GITHUB_ACTIONS'] == 'true';
+  final hasGoldenFiles = !isCI &&
+      File('test/goldens/lucide_icons/en/light/lucide_icons_regular.png').existsSync();
+
   for (final group in _groups) {
     goldenTest(
       name: 'lucide_icons_${group.name}',
@@ -51,6 +58,7 @@ void main() {
       supportedDevices: [_deviceForIconCount(group.icons.length)],
       supportedThemes: const [Brightness.light],
       subdirectory: 'lucide_icons',
+      skip: !hasGoldenFiles,
     );
   }
 }

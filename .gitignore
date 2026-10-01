@@ -34,3 +34,7 @@ tool/lucide/lucide-source/
 .fvm/
 test/failures
 test/goldens
+
+# Python
+__pycache__/
+*.pyc

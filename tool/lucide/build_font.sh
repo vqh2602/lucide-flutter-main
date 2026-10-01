@@ -27,14 +27,14 @@ else
 fi
 
 # Đặt 1 để bỏ qua SVGO nếu muốn
-SKIP_SVGO="${SKIP_SVGO:-0}"
+SKIP_SVGO="${SKIP_SVGO:-1}"
 # NORMALIZE_SVG modes:
 #   auto: stroke-to-path only known fill-prone SVGs before FontForge import.
 #   closed: stroke-to-path SVGs with closed paths, plus known fill-prone SVGs.
 #   1:    stroke-to-path every SVG.
 #   0:    import generated SVGs directly.
 NORMALIZE_SVG="${NORMALIZE_SVG:-auto}"
-AUTO_OUTLINE_ICONS="${AUTO_OUTLINE_ICONS:-anvil bluetooth bluetooth-connected bluetooth-off bluetooth-searching brain-circuit file-type fish lasso-select layers layers-plus library-big package-open palette podcast ribbon rocket ruler salad scale skull thermometer-snowflake tree-pine usb wheat wheat-off}"
+AUTO_OUTLINE_ICONS="${AUTO_OUTLINE_ICONS:-ampersand ampersands anvil archive-restore badge-russian-ruble baggage-claim beer-off bell-ring bike bird bluetooth bluetooth-connected bluetooth-off bluetooth-searching bone-fracture book book-a book-alert book-audio book-bookmark book-check book-copy book-down book-headphones book-heart book-image book-key book-lock book-marked book-minus book-plus book-text book-type book-up book-up-2 book-user book-x bot-off brain brain-circuit bug-off bus-front calendar-fold can candlestick-chart candy candy-off cannabis-off car-taxi-front carrot carton carton-off case-upper cctv chart-candlestick circle-parking-off clef-treble croissant dna-off dog door-closed-locked door-closed-package eye-off face-grinning faucet file-audio file-audio-2 file-headphone file-type file-video-2 file-video-camera fish fish-off folder-clock form galaxy gift goal hammer hand-fist headphone-off heart-crack heart-handshake keyboard-off land-plot languages lasso-select laugh layers layers-plus letters library-big lightbulb-off line-squiggle mail-clock merge message-square-heart metronome mic-off milk mop motorbike mouth nut-off origami package-open paint-bucket palette palmtree paper-bag parking-circle-off parking-square-off pause pizza podcast radio-off receipt-russian-ruble repeat-2 ribbon rocket rose ruler salad save-off scale scissors-square scissors-square-dashed-bottom scroll scroll-text signature signpost-big skull slice snowflake soap-dispenser-droplet sparkles spool sprout square-bottom-dashed-scissors square-parking-off square-scissors sun-snow tablet-smartphone thermometer-snowflake toothbrush tree-palm tree-pine trees usb vault vegan virus-off wallet wheat wheat-off}"
 
 # =========================
 # DEP CHECK
@@ -98,6 +98,12 @@ should_outline_svg() {
     return 0
   fi
 
+  # Auto-outline compound paths with z followed by further commands,
+  # which FontForge's SVG parser drops before z.
+  if grep -Eq 'd="[^"]*[zZ]\s*[^"'\''zZ\s]' "$in_svg"; then
+    return 0
+  fi
+
   if [[ "$NORMALIZE_SVG" == "closed" ]]; then
     grep -Eq '<path[^>]*d="[^"]*[zZ][^"]*"' "$in_svg"
     return $?
@@ -115,7 +121,7 @@ normalize_svg() {
     # Inkscape chuyển stroke => filled outlines trước khi FontForge import,
     # tránh việc FontForge fill nhầm path đang có fill="none".
     "$INKSCAPE_BIN" "$in_svg" --export-filename="$out_svg" --export-type=svg \
-      --actions="select-all:all;object-stroke-to-path;object-to-path;export-do" >/dev/null 2>&1
+      --actions="select-all:all;object-stroke-to-path;object-to-path;select-all:all;path-union;export-do" >/dev/null 2>&1
   fi
 
   # Default path: dùng SVG đã sinh trong svg_input trực tiếp để giữ flow nhanh,
