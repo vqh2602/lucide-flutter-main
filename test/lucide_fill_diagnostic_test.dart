@@ -7,7 +7,7 @@ void main() {
     final python = await _findPythonWithFontTools();
     final result = await Process.run(
       python,
-      ['tool/lucide/check_filled_icons.py'],
+      ['tool/lucide/check_icons.py'],
       environment: {
         ...Platform.environment,
         'PYTHONDONTWRITEBYTECODE': '1',
