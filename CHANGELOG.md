@@ -1,3 +1,43 @@
+## 3.1.21
+
+1.49.0
+- Updated to Lucide 1.49.0 (19 new icons added).
+- Fixed variable font stroke rendering issues:
+  - Fixed missing strokes/outer frame for `calendarFold` across all weights.
+  - Fixed solid fill / collapsed cutout holes on heavy weights (`letters`, `bookLock`, `signature`, `gift`, `metronome`, etc.).
+  - Added Inkscape `path-union` preprocessing for complex overlapping vector paths before FontForge import.
+  - Added automated icon quality audit verification script (`tool/lucide/check_icons.py`) with topological nesting depth checks integrated into `gen.sh` and tests.
+
+### Lucide 1.49.0 Changelog
+
+#### What's Changed
+* feat(icons): added `letters` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4779
+* feat(icons): added `bangladeshi-taka` icon by @TanvirMahin24 in https://github.com/lucide-icons/lucide/pull/4869
+* feat(icons): added `printer-3d` icon by @Azuzula in https://github.com/lucide-icons/lucide/pull/4414
+* feat(icons): added `briefcase-plus` icon by @tylerkade in https://github.com/lucide-icons/lucide/pull/4757
+* feat(icons): added `square-sparkles` icon by @nananecy in https://github.com/lucide-icons/lucide/pull/3610
+* feat(icons): added `line-dot-left-horizontal` icon by @nathan-de-pachtere in https://github.com/lucide-icons/lucide/pull/3855
+* feat(icons): added `line-dot-top-vertical` icon by @nathan-de-pachtere in https://github.com/lucide-icons/lucide/pull/3856
+* feat(icons): added `line-dot-bottom-vertical` icon by @nathan-de-pachtere in https://github.com/lucide-icons/lucide/pull/3857
+* feat(icons): add house-cog icon by @ajaxjiang96 in https://github.com/lucide-icons/lucide/pull/4904
+* feat(icons): add lambda icon by @UbaidUllah9962 in https://github.com/lucide-icons/lucide/pull/4017
+* feat(icons): delegated `faucet` icon from lab by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4764
+* feat(icons): added `door-closed-package` icon by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4814
+* feat(icons): added 'nepali-rupee' icon by @sarajdhakal in https://github.com/lucide-icons/lucide/pull/4608
+* feat(icons): added `tube-lotion` icon by @AlecRust in https://github.com/lucide-icons/lucide/pull/4029
+* feat(icons): Added cupcake icon by @briz123 in https://github.com/lucide-icons/lucide/pull/3000
+* feat(icons): added square-dashed-x icon by @EthanHazel in https://github.com/lucide-icons/lucide/pull/4535
+* feat(icons): add `rotate-cw-clock` icon by @gkkconan in https://github.com/lucide-icons/lucide/pull/3979
+* feat(icons): added square-dashed-plus by @psjdev in https://github.com/lucide-icons/lucide/pull/4849
+* fix(icons): remove path from save-off by @HPRILLER in https://github.com/lucide-icons/lucide/pull/4848
+* fix(icons): changed `calendar-chevrons-right` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4865
+* fix(icons): changed `broccoli` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/4871
+* fix(icons): Tweak `card-sim` chip by @danielbayley in https://github.com/lucide-icons/lucide/pull/3649
+* fix(icons): changed `map-pinned` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/4880
+* fix(icons): changed `mail-pen` by @karsa-mistmere in https://github.com/lucide-icons/lucide/pull/4899
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.46.0...1.49.0
+
 ## 3.1.20
 
 1.46.0
