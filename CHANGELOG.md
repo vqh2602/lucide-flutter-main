@@ -1,3 +1,9 @@
+## [3.1.22-beta.1] - 2026-10-01
+
+### Beta Release
+- Development build from commit b0416ec2
+- This is a pre-release version for testing
+
 ## 3.1.21
 
 1.49.0
