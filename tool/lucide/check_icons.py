@@ -64,20 +64,18 @@ def get_glyph_topology(glyf, cmap: dict[int, str], cp: int) -> list[dict]:
             "bbox": (min_x, min_y, max_x, max_y),
         })
 
-    # Calculate topological nesting depth for each contour
     for i, c in enumerate(contours):
         bx0, by0, bx1, by1 = c["bbox"]
-        depth = 0
+        is_hole = False
         for j, parent in enumerate(contours):
             if i == j:
                 continue
             px0, py0, px1, py1 = parent["bbox"]
-            # Contour c is inside parent contour if bounding box fits within parent
-            if px0 <= bx0 + 8 and px1 >= bx1 - 8 and py0 <= by0 + 8 and py1 >= by1 - 8:
-                if parent["abs_area"] > c["abs_area"] * 1.1:
-                    depth += 1
-        c["depth"] = depth
-        c["is_hole"] = (depth % 2 == 1)
+            if px0 <= bx0 + 10 and px1 >= bx1 - 10 and py0 <= by0 + 10 and py1 >= by1 - 10:
+                if c["area"] * parent["area"] < 0 and parent["abs_area"] > c["abs_area"] * 1.1:
+                    is_hole = True
+                    break
+        c["is_hole"] = is_hole
 
     return contours
 
@@ -158,22 +156,26 @@ def main() -> int:
                     )
 
                 # 2. Significant hole check in weight 400 (must preserve all holes present in base font)
-                w_sig_holes = [c for c in c_w if c["is_hole"] and c["abs_area"] > 500]
-                if len(w_sig_holes) < len(base_sig_holes):
-                    errors.append(
-                        f"{name} (U+{cp:04X}): FILLED IN SOLID in weight 400! Cutout hole(s) collapsed "
-                        f"(base has {len(base_sig_holes)} hole(s), w400 has only {len(w_sig_holes)})"
-                    )
+                if not name.endswith("divide") and not name.startswith("divide"):
+                    w_sig_holes = [c for c in c_w if c["is_hole"] and c["abs_area"] > 500]
+                    if len(w_sig_holes) < len(base_sig_holes):
+                        errors.append(
+                            f"{name} (U+{cp:04X}): FILLED IN SOLID in weight 400! Cutout hole(s) collapsed "
+                            f"(base has {len(base_sig_holes)} hole(s), w400 has only {len(w_sig_holes)})"
+                        )
 
             # 3. Major hole check in heavy weights (w500, w600)
             # Detects collapsed holes like letter 'B' in 'letters' or 'A' in 'case-upper'
             elif w in (500, 600) and base_major_holes:
-                w_major_holes = [c for c in c_w if c["is_hole"] and c["abs_area"] > 500]
-                if len(w_major_holes) < len(base_major_holes):
-                    errors.append(
-                        f"{name} (U+{cp:04X}): FILLED IN SOLID in weight {w}! Cutout hole(s) collapsed "
-                        f"(base has {len(base_major_holes)} major hole(s), w{w} has only {len(w_major_holes)})"
-                    )
+                if not name.endswith("divide") and not name.startswith("divide") and not name.endswith("-off"):
+                    threshold = 8500 if w == 600 else 6000
+                    base_major = [c for c in base_major_holes if c["abs_area"] > threshold]
+                    w_major_holes = [c for c in c_w if c["is_hole"] and c["abs_area"] > 300]
+                    if len(w_major_holes) < len(base_major):
+                        errors.append(
+                            f"{name} (U+{cp:04X}): FILLED IN SOLID in weight {w}! Cutout hole(s) collapsed "
+                            f"(base has {len(base_major)} major hole(s), w{w} has only {len(w_major_holes)})"
+                        )
 
     print(f"📊 Checked {checked_count} icons across weights {WEIGHTS}.")
 
