@@ -49,7 +49,8 @@ void main() {
   final isCI = Platform.environment['CI'] == 'true' ||
       Platform.environment['GITHUB_ACTIONS'] == 'true';
   final hasGoldenFiles = !isCI &&
-      File('test/goldens/lucide_icons/en/light/lucide_icons_regular.png').existsSync();
+      File('test/goldens/lucide_icons/en/light/lucide_icons_regular.png')
+          .existsSync();
 
   for (final group in _groups) {
     goldenTest(

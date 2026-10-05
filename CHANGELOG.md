@@ -1,8 +1,13 @@
-## [3.1.22-beta.1] - 2026-10-01
+## 3.1.22
 
-### Beta Release
-- Development build from commit b0416ec2
-- This is a pre-release version for testing
+Lucide 1.52.0
+
+- Updated the bundled icons to Lucide 1.52.0.
+- Added `layout-grid-circles`, `rugby-ball`, `door-closed-cog`,
+  `text-align-justify-*`, `wind-arrow-up`, `armenian-dram`, and `kazakh-tenge`.
+- Updated the `nut`, `nut-off`, and `wifi-cog` icon designs.
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.49.0...1.52.0
 
 ## 3.1.21
 
