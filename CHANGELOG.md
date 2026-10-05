@@ -1,3 +1,9 @@
+## [3.1.23-beta.1] - 2026-10-05
+
+### Beta Release
+- Development build from commit 881290cb
+- This is a pre-release version for testing
+
 ## 3.1.22
 
 Lucide 1.52.0
