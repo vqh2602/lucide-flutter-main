@@ -401,6 +401,12 @@
     "className": "icon-armchair",
     "unicode": "&#58048;"
   },
+  "armenian-dram": {
+    "encodedCode": "\\e791",
+    "prefix": "icon",
+    "className": "icon-armenian-dram",
+    "unicode": "&#59281;"
+  },
   "arrow-big-down-dash": {
     "encodedCode": "\\e41d",
     "prefix": "icon",
@@ -3965,6 +3971,12 @@
     "className": "icon-donut",
     "unicode": "&#58556;"
   },
+  "door-closed-cog": {
+    "encodedCode": "\\e792",
+    "prefix": "icon",
+    "className": "icon-door-closed-cog",
+    "unicode": "&#59282;"
+  },
   "door-closed-locked": {
     "encodedCode": "\\e664",
     "prefix": "icon",
@@ -6329,6 +6341,12 @@
     "className": "icon-kayak",
     "unicode": "&#59023;"
   },
+  "kazakh-tenge": {
+    "encodedCode": "\\e793",
+    "prefix": "icon",
+    "className": "icon-kazakh-tenge",
+    "unicode": "&#59283;"
+  },
   "key-round": {
     "encodedCode": "\\e4a3",
     "prefix": "icon",
@@ -6544,6 +6562,12 @@
     "prefix": "icon",
     "className": "icon-layout-freeform",
     "unicode": "&#59171;"
+  },
+  "layout-grid-circles": {
+    "encodedCode": "\\e790",
+    "prefix": "icon",
+    "className": "icon-layout-grid-circles",
+    "unicode": "&#59280;"
   },
   "layout-grid": {
     "encodedCode": "\\e0ff",
@@ -9389,6 +9413,12 @@
     "className": "icon-rss",
     "unicode": "&#57674;"
   },
+  "rugby-ball": {
+    "encodedCode": "\\e794",
+    "prefix": "icon",
+    "className": "icon-rugby-ball",
+    "unicode": "&#59284;"
+  },
   "ruler-dimension-line": {
     "encodedCode": "\\e662",
     "prefix": "icon",
@@ -11315,6 +11345,24 @@
     "className": "icon-text-align-end",
     "unicode": "&#57731;"
   },
+  "text-align-justify-center": {
+    "encodedCode": "\\e795",
+    "prefix": "icon",
+    "className": "icon-text-align-justify-center",
+    "unicode": "&#59285;"
+  },
+  "text-align-justify-end": {
+    "encodedCode": "\\e796",
+    "prefix": "icon",
+    "className": "icon-text-align-justify-end",
+    "unicode": "&#59286;"
+  },
+  "text-align-justify-start": {
+    "encodedCode": "\\e797",
+    "prefix": "icon",
+    "className": "icon-text-align-justify-start",
+    "unicode": "&#59287;"
+  },
   "text-align-justify": {
     "encodedCode": "\\e184",
     "prefix": "icon",
@@ -12544,6 +12592,12 @@
     "prefix": "icon",
     "className": "icon-wind-arrow-down",
     "unicode": "&#58929;"
+  },
+  "wind-arrow-up": {
+    "encodedCode": "\\e798",
+    "prefix": "icon",
+    "className": "icon-wind-arrow-up",
+    "unicode": "&#59288;"
   },
   "wind": {
     "encodedCode": "\\e1b0",

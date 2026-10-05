@@ -1,3 +1,14 @@
+## 3.1.22
+
+Lucide 1.52.0
+
+- Updated the bundled icons to Lucide 1.52.0.
+- Added `layout-grid-circles`, `rugby-ball`, `door-closed-cog`,
+  `text-align-justify-*`, `wind-arrow-up`, `armenian-dram`, and `kazakh-tenge`.
+- Updated the `nut`, `nut-off`, and `wifi-cog` icon designs.
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.49.0...1.52.0
+
 ## 3.1.21
 
 1.49.0
