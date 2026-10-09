@@ -7,7 +7,7 @@
 ![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-vqh2602-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vqh2602)
 
-Lucide version: 1.53.0
+Lucide version: 1.54.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 

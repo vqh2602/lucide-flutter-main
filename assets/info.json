@@ -6647,6 +6647,12 @@
     "className": "icon-lens-convex",
     "unicode": "&#59064;"
   },
+  "lens": {
+    "encodedCode": "\\e79c",
+    "prefix": "icon",
+    "className": "icon-lens",
+    "unicode": "&#59292;"
+  },
   "letter-text": {
     "encodedCode": "\\e605",
     "prefix": "icon",

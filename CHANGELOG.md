@@ -1,3 +1,12 @@
+## 3.1.24
+
+Lucide 1.54.0
+
+- Updated the bundled icons to Lucide 1.54.0.
+- Added `lens` icon.
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.53.0...1.54.0
+
 ## 3.1.23
 
 Lucide 1.53.0
