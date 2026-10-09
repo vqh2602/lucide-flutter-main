@@ -5753,6 +5753,12 @@
     "className": "icon-grip",
     "unicode": "&#58289;"
   },
+  "groceries": {
+    "encodedCode": "\\e799",
+    "prefix": "icon",
+    "className": "icon-groceries",
+    "unicode": "&#59289;"
+  },
   "group": {
     "encodedCode": "\\e464",
     "prefix": "icon",
@@ -6040,6 +6046,12 @@
     "prefix": "icon",
     "className": "icon-highlighter",
     "unicode": "&#57588;"
+  },
+  "hiking-stick": {
+    "encodedCode": "\\e79a",
+    "prefix": "icon",
+    "className": "icon-hiking-stick",
+    "unicode": "&#59290;"
   },
   "history": {
     "encodedCode": "\\e1f5",
@@ -9646,6 +9658,12 @@
     "prefix": "icon",
     "className": "icon-scooter",
     "unicode": "&#59052;"
+  },
+  "scratch-blocks": {
+    "encodedCode": "\\e79b",
+    "prefix": "icon",
+    "className": "icon-scratch-blocks",
+    "unicode": "&#59291;"
   },
   "screen-share-off": {
     "encodedCode": "\\e150",
