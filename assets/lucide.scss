@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1791100974404'); /* IE9*/
-  src: url('lucide.eot?t=1791100974404#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1791100974404') format('woff2'),
-  url('lucide.woff?t=1791100974404') format('woff'),
-  url('lucide.ttf?t=1791100974404') format('truetype'),
-  url('lucide.svg?t=1791100974404') format('svg');
+  src: url('lucide.eot?t=1791439898554'); /* IE9*/
+  src: url('lucide.eot?t=1791439898554#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1791439898554') format('woff2'),
+  url('lucide.woff?t=1791439898554') format('woff'),
+  url('lucide.ttf?t=1791439898554') format('truetype'),
+  url('lucide.svg?t=1791439898554') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -977,6 +977,7 @@
 .icon-grip-horizontal::before { content: "\e0ea"; }
 .icon-grip-vertical::before { content: "\e0eb"; }
 .icon-grip::before { content: "\e3b1"; }
+.icon-groceries::before { content: "\e799"; }
 .icon-group::before { content: "\e464"; }
 .icon-guitar::before { content: "\e55f"; }
 .icon-ham::before { content: "\e5d7"; }
@@ -1025,6 +1026,7 @@
 .icon-helping-hand::before { content: "\e3b8"; }
 .icon-hexagon::before { content: "\e0f3"; }
 .icon-highlighter::before { content: "\e0f4"; }
+.icon-hiking-stick::before { content: "\e79a"; }
 .icon-history::before { content: "\e1f5"; }
 .icon-home::before { content: "\e0f5"; }
 .icon-hop-off::before { content: "\e398"; }
@@ -1626,6 +1628,7 @@
 .icon-scissors-square::before { content: "\e4ec"; }
 .icon-scissors::before { content: "\e14e"; }
 .icon-scooter::before { content: "\e6ac"; }
+.icon-scratch-blocks::before { content: "\e79b"; }
 .icon-screen-share-off::before { content: "\e150"; }
 .icon-screen-share::before { content: "\e14f"; }
 .icon-scroll-text::before { content: "\e45f"; }
@@ -3109,6 +3112,7 @@ $icon-grid: '\e0e9';
 $icon-grip-horizontal: '\e0ea';
 $icon-grip-vertical: '\e0eb';
 $icon-grip: '\e3b1';
+$icon-groceries: '\e799';
 $icon-group: '\e464';
 $icon-guitar: '\e55f';
 $icon-ham: '\e5d7';
@@ -3157,6 +3161,7 @@ $icon-help-circle: '\e082';
 $icon-helping-hand: '\e3b8';
 $icon-hexagon: '\e0f3';
 $icon-highlighter: '\e0f4';
+$icon-hiking-stick: '\e79a';
 $icon-history: '\e1f5';
 $icon-home: '\e0f5';
 $icon-hop-off: '\e398';
@@ -3758,6 +3763,7 @@ $icon-scissors-square-dashed-bottom: '\e4eb';
 $icon-scissors-square: '\e4ec';
 $icon-scissors: '\e14e';
 $icon-scooter: '\e6ac';
+$icon-scratch-blocks: '\e79b';
 $icon-screen-share-off: '\e150';
 $icon-screen-share: '\e14f';
 $icon-scroll-text: '\e45f';
