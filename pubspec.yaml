@@ -22,7 +22,7 @@ dev_dependencies:
   lint: ^2.8.0
 
 flutter:
-  uses-material-design: true
+  # uses-material-design: true
   fonts:
     - family: Lucide
       fonts:
