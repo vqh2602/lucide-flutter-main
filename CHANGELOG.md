@@ -1,8 +1,11 @@
-## [3.1.24-beta.1] - 2026-10-09
+## 3.1.24
 
-### Beta Release
-- Development build from commit ef136f0f
-- This is a pre-release version for testing
+Lucide 1.54.0
+
+- Updated the bundled icons to Lucide 1.54.0.
+- Added `lens` icon.
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.53.0...1.54.0
 
 ## 3.1.23
 
