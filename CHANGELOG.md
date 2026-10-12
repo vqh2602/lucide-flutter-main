@@ -1,3 +1,12 @@
+## 3.1.25
+
+Lucide 1.55.0
+
+- Updated the bundled icons to Lucide 1.55.0.
+- Added `handle-bottom-right`, `mail-dot`, `phone-log`, `screw`, `shield-house`, `user-round-star`, and `wifi-lock`.
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.54.0...1.55.0
+
 ## 3.1.24
 
 Lucide 1.54.0
