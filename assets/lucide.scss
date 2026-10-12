@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1791526257644'); /* IE9*/
-  src: url('lucide.eot?t=1791526257644#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1791526257644') format('woff2'),
-  url('lucide.woff?t=1791526257644') format('woff'),
-  url('lucide.ttf?t=1791526257644') format('truetype'),
-  url('lucide.svg?t=1791526257644') format('svg');
+  src: url('lucide.eot?t=1791612622682'); /* IE9*/
+  src: url('lucide.eot?t=1791612622682#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1791612622682') format('woff2'),
+  url('lucide.woff?t=1791612622682') format('woff'),
+  url('lucide.ttf?t=1791612622682') format('truetype'),
+  url('lucide.svg?t=1791612622682') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -992,6 +992,7 @@
 .icon-hand-platter::before { content: "\e5ba"; }
 .icon-hand::before { content: "\e1d7"; }
 .icon-handbag::before { content: "\e689"; }
+.icon-handle-bottom-right::before { content: "\e79d"; }
 .icon-handshake::before { content: "\e5c0"; }
 .icon-hard-drive-download::before { content: "\e4e5"; }
 .icon-hard-drive-upload::before { content: "\e4e6"; }
@@ -1193,6 +1194,7 @@
 .icon-mail-badge::before { content: "\e734"; }
 .icon-mail-check::before { content: "\e361"; }
 .icon-mail-clock::before { content: "\e73e"; }
+.icon-mail-dot::before { content: "\e79e"; }
 .icon-mail-minus::before { content: "\e362"; }
 .icon-mail-open::before { content: "\e363"; }
 .icon-mail-pen::before { content: "\e74e"; }
@@ -1454,6 +1456,7 @@
 .icon-phone-call::before { content: "\e134"; }
 .icon-phone-forwarded::before { content: "\e135"; }
 .icon-phone-incoming::before { content: "\e136"; }
+.icon-phone-log::before { content: "\e79f"; }
 .icon-phone-missed::before { content: "\e137"; }
 .icon-phone-off::before { content: "\e138"; }
 .icon-phone-outgoing::before { content: "\e139"; }
@@ -1632,6 +1635,7 @@
 .icon-scratch-blocks::before { content: "\e79b"; }
 .icon-screen-share-off::before { content: "\e150"; }
 .icon-screen-share::before { content: "\e14f"; }
+.icon-screw::before { content: "\e7a0"; }
 .icon-scroll-text::before { content: "\e45f"; }
 .icon-scroll::before { content: "\e2ed"; }
 .icon-search-alert::before { content: "\e6e7"; }
@@ -1668,6 +1672,7 @@
 .icon-shield-cog::before { content: "\e6e9"; }
 .icon-shield-ellipsis::before { content: "\e516"; }
 .icon-shield-half::before { content: "\e517"; }
+.icon-shield-house::before { content: "\e7a1"; }
 .icon-shield-keyhole::before { content: "\e722"; }
 .icon-shield-lock::before { content: "\e731"; }
 .icon-shield-minus::before { content: "\e518"; }
@@ -2042,6 +2047,7 @@
 .icon-user-round-pen::before { content: "\e5fd"; }
 .icon-user-round-plus::before { content: "\e46c"; }
 .icon-user-round-search::before { content: "\e578"; }
+.icon-user-round-star::before { content: "\e7a2"; }
 .icon-user-round-x::before { content: "\e46d"; }
 .icon-user-round::before { content: "\e468"; }
 .icon-user-search::before { content: "\e579"; }
@@ -2114,6 +2120,7 @@
 .icon-whole-word::before { content: "\e3df"; }
 .icon-wifi-cog::before { content: "\e674"; }
 .icon-wifi-high::before { content: "\e5f7"; }
+.icon-wifi-lock::before { content: "\e7a3"; }
 .icon-wifi-low::before { content: "\e5f8"; }
 .icon-wifi-off::before { content: "\e1af"; }
 .icon-wifi-pen::before { content: "\e663"; }
@@ -3128,6 +3135,7 @@ $icon-hand-metal: '\e22c';
 $icon-hand-platter: '\e5ba';
 $icon-hand: '\e1d7';
 $icon-handbag: '\e689';
+$icon-handle-bottom-right: '\e79d';
 $icon-handshake: '\e5c0';
 $icon-hard-drive-download: '\e4e5';
 $icon-hard-drive-upload: '\e4e6';
@@ -3329,6 +3337,7 @@ $icon-magnet: '\e2b5';
 $icon-mail-badge: '\e734';
 $icon-mail-check: '\e361';
 $icon-mail-clock: '\e73e';
+$icon-mail-dot: '\e79e';
 $icon-mail-minus: '\e362';
 $icon-mail-open: '\e363';
 $icon-mail-pen: '\e74e';
@@ -3590,6 +3599,7 @@ $icon-philippine-peso: '\e604';
 $icon-phone-call: '\e134';
 $icon-phone-forwarded: '\e135';
 $icon-phone-incoming: '\e136';
+$icon-phone-log: '\e79f';
 $icon-phone-missed: '\e137';
 $icon-phone-off: '\e138';
 $icon-phone-outgoing: '\e139';
@@ -3768,6 +3778,7 @@ $icon-scooter: '\e6ac';
 $icon-scratch-blocks: '\e79b';
 $icon-screen-share-off: '\e150';
 $icon-screen-share: '\e14f';
+$icon-screw: '\e7a0';
 $icon-scroll-text: '\e45f';
 $icon-scroll: '\e2ed';
 $icon-search-alert: '\e6e7';
@@ -3804,6 +3815,7 @@ $icon-shield-cog-corner: '\e6e8';
 $icon-shield-cog: '\e6e9';
 $icon-shield-ellipsis: '\e516';
 $icon-shield-half: '\e517';
+$icon-shield-house: '\e7a1';
 $icon-shield-keyhole: '\e722';
 $icon-shield-lock: '\e731';
 $icon-shield-minus: '\e518';
@@ -4178,6 +4190,7 @@ $icon-user-round-minus: '\e46b';
 $icon-user-round-pen: '\e5fd';
 $icon-user-round-plus: '\e46c';
 $icon-user-round-search: '\e578';
+$icon-user-round-star: '\e7a2';
 $icon-user-round-x: '\e46d';
 $icon-user-round: '\e468';
 $icon-user-search: '\e579';
@@ -4250,6 +4263,7 @@ $icon-whistle: '\e74d';
 $icon-whole-word: '\e3df';
 $icon-wifi-cog: '\e674';
 $icon-wifi-high: '\e5f7';
+$icon-wifi-lock: '\e7a3';
 $icon-wifi-low: '\e5f8';
 $icon-wifi-off: '\e1af';
 $icon-wifi-pen: '\e663';

@@ -5843,6 +5843,12 @@
     "className": "icon-handbag",
     "unicode": "&#59017;"
   },
+  "handle-bottom-right": {
+    "encodedCode": "\\e79d",
+    "prefix": "icon",
+    "className": "icon-handle-bottom-right",
+    "unicode": "&#59293;"
+  },
   "handshake": {
     "encodedCode": "\\e5c0",
     "prefix": "icon",
@@ -7048,6 +7054,12 @@
     "prefix": "icon",
     "className": "icon-mail-clock",
     "unicode": "&#59198;"
+  },
+  "mail-dot": {
+    "encodedCode": "\\e79e",
+    "prefix": "icon",
+    "className": "icon-mail-dot",
+    "unicode": "&#59294;"
   },
   "mail-minus": {
     "encodedCode": "\\e362",
@@ -8615,6 +8627,12 @@
     "className": "icon-phone-incoming",
     "unicode": "&#57654;"
   },
+  "phone-log": {
+    "encodedCode": "\\e79f",
+    "prefix": "icon",
+    "className": "icon-phone-log",
+    "unicode": "&#59295;"
+  },
   "phone-missed": {
     "encodedCode": "\\e137",
     "prefix": "icon",
@@ -9683,6 +9701,12 @@
     "className": "icon-screen-share",
     "unicode": "&#57679;"
   },
+  "screw": {
+    "encodedCode": "\\e7a0",
+    "prefix": "icon",
+    "className": "icon-screw",
+    "unicode": "&#59296;"
+  },
   "scroll-text": {
     "encodedCode": "\\e45f",
     "prefix": "icon",
@@ -9898,6 +9922,12 @@
     "prefix": "icon",
     "className": "icon-shield-half",
     "unicode": "&#58647;"
+  },
+  "shield-house": {
+    "encodedCode": "\\e7a1",
+    "prefix": "icon",
+    "className": "icon-shield-house",
+    "unicode": "&#59297;"
   },
   "shield-keyhole": {
     "encodedCode": "\\e722",
@@ -12143,6 +12173,12 @@
     "className": "icon-user-round-search",
     "unicode": "&#58744;"
   },
+  "user-round-star": {
+    "encodedCode": "\\e7a2",
+    "prefix": "icon",
+    "className": "icon-user-round-star",
+    "unicode": "&#59298;"
+  },
   "user-round-x": {
     "encodedCode": "\\e46d",
     "prefix": "icon",
@@ -12574,6 +12610,12 @@
     "prefix": "icon",
     "className": "icon-wifi-high",
     "unicode": "&#58871;"
+  },
+  "wifi-lock": {
+    "encodedCode": "\\e7a3",
+    "prefix": "icon",
+    "className": "icon-wifi-lock",
+    "unicode": "&#59299;"
   },
   "wifi-low": {
     "encodedCode": "\\e5f8",
