@@ -14,8 +14,6 @@ cd tool
 dart run generate_fonts_1.dart ../assets/info.json
 
 cd ..
-dart run tool/add_directional_icon_variants.dart
-
 dart format .
 
 echo "🔍 Kiểm tra chất lượng và độ toàn vẹn của các icon..."
