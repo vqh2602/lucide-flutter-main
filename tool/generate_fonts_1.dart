@@ -130,7 +130,6 @@ void main(List<String> args) {
     weightOutputs[w]!.add("}\n");
   }
 
-
   listIconTest.add("\n];");
   listIconNamesTest.add("\n];\n");
 

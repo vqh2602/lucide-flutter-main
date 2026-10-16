@@ -1271,6 +1271,12 @@
     "className": "icon-beer",
     "unicode": "&#58063;"
   },
+  "belarusian-ruble": {
+    "encodedCode": "\\e7a6",
+    "prefix": "icon",
+    "className": "icon-belarusian-ruble",
+    "unicode": "&#59302;"
+  },
   "bell-check": {
     "encodedCode": "\\e6ef",
     "prefix": "icon",
@@ -1978,6 +1984,12 @@
     "prefix": "icon",
     "className": "icon-calendar-check",
     "unicode": "&#58039;"
+  },
+  "calendar-chevrons-left": {
+    "encodedCode": "\\e7a7",
+    "prefix": "icon",
+    "className": "icon-calendar-chevrons-left",
+    "unicode": "&#59303;"
   },
   "calendar-chevrons-right": {
     "encodedCode": "\\e76c",
@@ -2801,6 +2813,12 @@
     "className": "icon-circle-fading-arrow-up",
     "unicode": "&#58904;"
   },
+  "circle-fading-play": {
+    "encodedCode": "\\e7a8",
+    "prefix": "icon",
+    "className": "icon-circle-fading-play",
+    "unicode": "&#59304;"
+  },
   "circle-fading-plus": {
     "encodedCode": "\\e5bc",
     "prefix": "icon",
@@ -3604,6 +3622,12 @@
     "prefix": "icon",
     "className": "icon-corner-up-right",
     "unicode": "&#57512;"
+  },
+  "cpu-ai": {
+    "encodedCode": "\\e7a9",
+    "prefix": "icon",
+    "className": "icon-cpu-ai",
+    "unicode": "&#59305;"
   },
   "cpu": {
     "encodedCode": "\\e0a9",
@@ -5231,6 +5255,18 @@
     "className": "icon-folder-up",
     "unicode": "&#58173;"
   },
+  "folder-user": {
+    "encodedCode": "\\e7aa",
+    "prefix": "icon",
+    "className": "icon-folder-user",
+    "unicode": "&#59306;"
+  },
+  "folder-users": {
+    "encodedCode": "\\e7ab",
+    "prefix": "icon",
+    "className": "icon-folder-users",
+    "unicode": "&#59307;"
+  },
   "folder-x": {
     "encodedCode": "\\e33e",
     "prefix": "icon",
@@ -5663,6 +5699,12 @@
     "className": "icon-grape",
     "unicode": "&#58194;"
   },
+  "graph-star": {
+    "encodedCode": "\\e7ac",
+    "prefix": "icon",
+    "className": "icon-graph-star",
+    "unicode": "&#59308;"
+  },
   "grid-2-x-2-check": {
     "encodedCode": "\\e5e4",
     "prefix": "icon",
@@ -5764,6 +5806,12 @@
     "prefix": "icon",
     "className": "icon-group",
     "unicode": "&#58468;"
+  },
+  "guitar-electric": {
+    "encodedCode": "\\e7ad",
+    "prefix": "icon",
+    "className": "icon-guitar-electric",
+    "unicode": "&#59309;"
   },
   "guitar": {
     "encodedCode": "\\e55f",
@@ -7379,6 +7427,12 @@
     "className": "icon-message-circle-reply",
     "unicode": "&#58729;"
   },
+  "message-circle-text": {
+    "encodedCode": "\\e7a4",
+    "prefix": "icon",
+    "className": "icon-message-circle-text",
+    "unicode": "&#59300;"
+  },
   "message-circle-warning": {
     "encodedCode": "\\e56a",
     "prefix": "icon",
@@ -8590,6 +8644,12 @@
     "prefix": "icon",
     "className": "icon-percent",
     "unicode": "&#57650;"
+  },
+  "perfume-bottle": {
+    "encodedCode": "\\e7ae",
+    "prefix": "icon",
+    "className": "icon-perfume-bottle",
+    "unicode": "&#59310;"
   },
   "person-standing": {
     "encodedCode": "\\e21e",
@@ -9808,6 +9868,12 @@
     "prefix": "icon",
     "className": "icon-server-crash",
     "unicode": "&#57833;"
+  },
+  "server-nas": {
+    "encodedCode": "\\e7a5",
+    "prefix": "icon",
+    "className": "icon-server-nas",
+    "unicode": "&#59301;"
   },
   "server-off": {
     "encodedCode": "\\e1ea",
@@ -12244,6 +12310,18 @@
     "prefix": "icon",
     "className": "icon-users-2",
     "unicode": "&#58478;"
+  },
+  "users-collaboration": {
+    "encodedCode": "\\e7af",
+    "prefix": "icon",
+    "className": "icon-users-collaboration",
+    "unicode": "&#59311;"
+  },
+  "users-round-collaboration": {
+    "encodedCode": "\\e7b0",
+    "prefix": "icon",
+    "className": "icon-users-round-collaboration",
+    "unicode": "&#59312;"
   },
   "users-round": {
     "encodedCode": "\\e46e",

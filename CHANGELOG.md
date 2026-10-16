@@ -1,6 +1,18 @@
 ## [4.0.0] - 2026-10-16
 
-### Breaking Changes & Architecture Redesign
+### Lucide 1.58.0
+- Updated bundled icons to **Lucide 1.58.0** (including changes from 1.56.0, 1.57.0, and 1.58.0).
+- **New Icons Added**:
+  - `certificate` (v1.58.0)
+  - `folder-user`, `calendar-chevrons-left`, `users-collaboration`, `belarusian-ruble`, `circle-fading-play`, `cpu-ai`, `guitar-electric`, `graph-star`, `perfume` (v1.57.0)
+  - `server-nas`, `message-circle-text` (v1.56.0)
+- **Updated Icon Designs**:
+  - Refined `barrel` icon design and music icons.
+- **Fixed Variable Font Weight Glitches**:
+  - Fixed filled-in solid rendering on bold weights for `guitar-electric` (w500).
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.55.0...1.58.0
+
+### Breaking Changes & Modular Architecture Redesign
 - **Modular Library Architecture**: Split font weights into separate libraries to fix Flutter Web debug (DDC) `StackOverflowError` ([dart-lang/sdk#64590](https://github.com/dart-lang/sdk/issues/64590)) and drastically speed up IDE autocomplete and compilation:
   - `package:lucide_icons_flutter/lucide_icons.dart`: Contains standard regular icons (`LucideIcons.activity` and RTL `LucideIcons.activityDir`). File size reduced by ~85% (from 14 MB to ~1.8 MB). **100% backwards-compatible for regular icons!**
   - `package:lucide_icons_flutter/lucide_icons_100.dart` through `lucide_icons_600.dart`: Separate libraries for each font weight (`LucideIcons100`, `LucideIcons200`, ..., `LucideIcons600`).
@@ -22,13 +34,6 @@
 
 *Tip: If your app uses multiple weights, you can also import `package:lucide_icons_flutter/lucide_icons_weights.dart` to access `LucideIcons100` through `LucideIcons600` at once.*
 
-
-
-## [3.1.26-beta.1] - 2026-10-12
-
-### Beta Release
-- Development build from commit ed07fc0a
-- This is a pre-release version for testing
 
 ## 3.1.25
 

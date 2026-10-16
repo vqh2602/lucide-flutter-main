@@ -87,8 +87,8 @@ void main() {
       expect(LucideIcons600.activity.fontFamily, equals('Lucide600'));
 
       expect(LucideIcons300.activityDir.matchTextDirection, isTrue);
-      expect(LucideIcons300.activity.codePoint, equals(LucideIcons.activity.codePoint));
+      expect(LucideIcons300.activity.codePoint,
+          equals(LucideIcons.activity.codePoint));
     });
   });
 }
-
