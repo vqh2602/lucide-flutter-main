@@ -1,3 +1,9 @@
+## [4.0.1-beta.1] - 2026-10-16
+
+### Beta Release
+- Development build from commit a5bdc47d
+- This is a pre-release version for testing
+
 ## [4.0.0] - 2026-10-16
 
 ### Breaking Changes & Architecture Redesign
