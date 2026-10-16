@@ -73,24 +73,31 @@ jobs:
           CURRENT_VERSION="${{ steps.current_version.outputs.version }}"
           VERSION_TYPE="${{ steps.version_type.outputs.type }}"
           
-          IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT_VERSION"
+          # Strip any prerelease suffix (-beta.X, etc.) to ensure valid integers
+          CLEAN_VERSION=$(echo "$CURRENT_VERSION" | sed 's/[-+].*//')
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$CLEAN_VERSION"
           
-          case $VERSION_TYPE in
-            major)
-              MAJOR=$((MAJOR + 1))
-              MINOR=0
-              PATCH=0
-              ;;
-            minor)
-              MINOR=$((MINOR + 1))
-              PATCH=0
-              ;;
-            patch)
-              PATCH=$((PATCH + 1))
-              ;;
-          esac
+          if [[ "$CURRENT_VERSION" =~ -beta ]] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            # Graduating from beta to stable release (e.g. 4.0.0-beta.1 -> 4.0.0)
+            NEW_VERSION="$CLEAN_VERSION"
+          else
+            case $VERSION_TYPE in
+              major)
+                MAJOR=$((MAJOR + 1))
+                MINOR=0
+                PATCH=0
+                ;;
+              minor)
+                MINOR=$((MINOR + 1))
+                PATCH=0
+                ;;
+              patch)
+                PATCH=$((PATCH + 1))
+                ;;
+            esac
+            NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          fi
           
-          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
           echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
           echo "New version: $NEW_VERSION"
           
