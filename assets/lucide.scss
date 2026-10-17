@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1791612622682'); /* IE9*/
-  src: url('lucide.eot?t=1791612622682#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1791612622682') format('woff2'),
-  url('lucide.woff?t=1791612622682') format('woff'),
-  url('lucide.ttf?t=1791612622682') format('truetype'),
-  url('lucide.svg?t=1791612622682') format('svg');
+  src: url('lucide.eot?t=1791958157381'); /* IE9*/
+  src: url('lucide.eot?t=1791958157381#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('lucide.woff2?t=1791958157381') format('woff2'),
+  url('lucide.woff?t=1791958157381') format('woff'),
+  url('lucide.ttf?t=1791958157381') format('truetype'),
+  url('lucide.svg?t=1791958157381') format('svg');
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -230,6 +230,7 @@
 .icon-beef::before { content: "\e3a5"; }
 .icon-beer-off::before { content: "\e5d9"; }
 .icon-beer::before { content: "\e2cf"; }
+.icon-belarusian-ruble::before { content: "\e7a6"; }
 .icon-bell-check::before { content: "\e6ef"; }
 .icon-bell-dot::before { content: "\e42b"; }
 .icon-bell-electric::before { content: "\e57c"; }
@@ -348,6 +349,7 @@
 .icon-calendar-arrow-up::before { content: "\e5ff"; }
 .icon-calendar-check-2::before { content: "\e2b8"; }
 .icon-calendar-check::before { content: "\e2b7"; }
+.icon-calendar-chevrons-left::before { content: "\e7a7"; }
 .icon-calendar-chevrons-right::before { content: "\e76c"; }
 .icon-calendar-clock::before { content: "\e304"; }
 .icon-calendar-cog::before { content: "\e5ed"; }
@@ -485,6 +487,7 @@
 .icon-circle-equal::before { content: "\e400"; }
 .icon-circle-euro::before { content: "\e71f"; }
 .icon-circle-fading-arrow-up::before { content: "\e618"; }
+.icon-circle-fading-play::before { content: "\e7a8"; }
 .icon-circle-fading-plus::before { content: "\e5bc"; }
 .icon-circle-gauge::before { content: "\e4e1"; }
 .icon-circle-help::before { content: "\e082"; }
@@ -619,6 +622,7 @@
 .icon-corner-right-up::before { content: "\e0a6"; }
 .icon-corner-up-left::before { content: "\e0a7"; }
 .icon-corner-up-right::before { content: "\e0a8"; }
+.icon-cpu-ai::before { content: "\e7a9"; }
 .icon-cpu::before { content: "\e0a9"; }
 .icon-creative-commons::before { content: "\e3b2"; }
 .icon-credit-card-check::before { content: "\e743"; }
@@ -890,6 +894,8 @@
 .icon-folder-sync::before { content: "\e4c9"; }
 .icon-folder-tree::before { content: "\e33c"; }
 .icon-folder-up::before { content: "\e33d"; }
+.icon-folder-user::before { content: "\e7aa"; }
+.icon-folder-users::before { content: "\e7ab"; }
 .icon-folder-x::before { content: "\e33e"; }
 .icon-folder::before { content: "\e0d7"; }
 .icon-folders::before { content: "\e33f"; }
@@ -962,6 +968,7 @@
 .icon-grab::before { content: "\e1e6"; }
 .icon-graduation-cap::before { content: "\e234"; }
 .icon-grape::before { content: "\e352"; }
+.icon-graph-star::before { content: "\e7ac"; }
 .icon-grid-2-x-2-check::before { content: "\e5e4"; }
 .icon-grid-2-x-2-plus::before { content: "\e628"; }
 .icon-grid-2-x-2-x::before { content: "\e5e5"; }
@@ -979,6 +986,7 @@
 .icon-grip::before { content: "\e3b1"; }
 .icon-groceries::before { content: "\e799"; }
 .icon-group::before { content: "\e464"; }
+.icon-guitar-electric::before { content: "\e7ad"; }
 .icon-guitar::before { content: "\e55f"; }
 .icon-ham::before { content: "\e5d7"; }
 .icon-hamburger::before { content: "\e665"; }
@@ -1248,6 +1256,7 @@
 .icon-message-circle-question-mark::before { content: "\e568"; }
 .icon-message-circle-question::before { content: "\e568"; }
 .icon-message-circle-reply::before { content: "\e569"; }
+.icon-message-circle-text::before { content: "\e7a4"; }
 .icon-message-circle-warning::before { content: "\e56a"; }
 .icon-message-circle-x::before { content: "\e56b"; }
 .icon-message-circle::before { content: "\e116"; }
@@ -1450,6 +1459,7 @@
 .icon-percent-diamond::before { content: "\e51b"; }
 .icon-percent-square::before { content: "\e51c"; }
 .icon-percent::before { content: "\e132"; }
+.icon-perfume-bottle::before { content: "\e7ae"; }
 .icon-person-standing::before { content: "\e21e"; }
 .icon-phi::before { content: "\e71c"; }
 .icon-philippine-peso::before { content: "\e604"; }
@@ -1653,6 +1663,7 @@
 .icon-separator-vertical::before { content: "\e1c9"; }
 .icon-server-cog::before { content: "\e341"; }
 .icon-server-crash::before { content: "\e1e9"; }
+.icon-server-nas::before { content: "\e7a5"; }
 .icon-server-off::before { content: "\e1ea"; }
 .icon-server-plus::before { content: "\e721"; }
 .icon-server::before { content: "\e153"; }
@@ -2059,6 +2070,8 @@
 .icon-user-x::before { content: "\e1a3"; }
 .icon-user::before { content: "\e19f"; }
 .icon-users-2::before { content: "\e46e"; }
+.icon-users-collaboration::before { content: "\e7af"; }
+.icon-users-round-collaboration::before { content: "\e7b0"; }
 .icon-users-round::before { content: "\e46e"; }
 .icon-users::before { content: "\e1a4"; }
 .icon-utensils-crossed::before { content: "\e2f7"; }
@@ -2373,6 +2386,7 @@ $icon-beef-off: '\e6dc';
 $icon-beef: '\e3a5';
 $icon-beer-off: '\e5d9';
 $icon-beer: '\e2cf';
+$icon-belarusian-ruble: '\e7a6';
 $icon-bell-check: '\e6ef';
 $icon-bell-dot: '\e42b';
 $icon-bell-electric: '\e57c';
@@ -2491,6 +2505,7 @@ $icon-calendar-arrow-down: '\e5fe';
 $icon-calendar-arrow-up: '\e5ff';
 $icon-calendar-check-2: '\e2b8';
 $icon-calendar-check: '\e2b7';
+$icon-calendar-chevrons-left: '\e7a7';
 $icon-calendar-chevrons-right: '\e76c';
 $icon-calendar-clock: '\e304';
 $icon-calendar-cog: '\e5ed';
@@ -2628,6 +2643,7 @@ $icon-circle-ellipsis: '\e346';
 $icon-circle-equal: '\e400';
 $icon-circle-euro: '\e71f';
 $icon-circle-fading-arrow-up: '\e618';
+$icon-circle-fading-play: '\e7a8';
 $icon-circle-fading-plus: '\e5bc';
 $icon-circle-gauge: '\e4e1';
 $icon-circle-help: '\e082';
@@ -2762,6 +2778,7 @@ $icon-corner-right-down: '\e0a5';
 $icon-corner-right-up: '\e0a6';
 $icon-corner-up-left: '\e0a7';
 $icon-corner-up-right: '\e0a8';
+$icon-cpu-ai: '\e7a9';
 $icon-cpu: '\e0a9';
 $icon-creative-commons: '\e3b2';
 $icon-credit-card-check: '\e743';
@@ -3033,6 +3050,8 @@ $icon-folder-symlink: '\e33b';
 $icon-folder-sync: '\e4c9';
 $icon-folder-tree: '\e33c';
 $icon-folder-up: '\e33d';
+$icon-folder-user: '\e7aa';
+$icon-folder-users: '\e7ab';
 $icon-folder-x: '\e33e';
 $icon-folder: '\e0d7';
 $icon-folders: '\e33f';
@@ -3105,6 +3124,7 @@ $icon-gpu: '\e66a';
 $icon-grab: '\e1e6';
 $icon-graduation-cap: '\e234';
 $icon-grape: '\e352';
+$icon-graph-star: '\e7ac';
 $icon-grid-2-x-2-check: '\e5e4';
 $icon-grid-2-x-2-plus: '\e628';
 $icon-grid-2-x-2-x: '\e5e5';
@@ -3122,6 +3142,7 @@ $icon-grip-vertical: '\e0eb';
 $icon-grip: '\e3b1';
 $icon-groceries: '\e799';
 $icon-group: '\e464';
+$icon-guitar-electric: '\e7ad';
 $icon-guitar: '\e55f';
 $icon-ham: '\e5d7';
 $icon-hamburger: '\e665';
@@ -3391,6 +3412,7 @@ $icon-message-circle-plus: '\e567';
 $icon-message-circle-question-mark: '\e568';
 $icon-message-circle-question: '\e568';
 $icon-message-circle-reply: '\e569';
+$icon-message-circle-text: '\e7a4';
 $icon-message-circle-warning: '\e56a';
 $icon-message-circle-x: '\e56b';
 $icon-message-circle: '\e116';
@@ -3593,6 +3615,7 @@ $icon-percent-circle: '\e51a';
 $icon-percent-diamond: '\e51b';
 $icon-percent-square: '\e51c';
 $icon-percent: '\e132';
+$icon-perfume-bottle: '\e7ae';
 $icon-person-standing: '\e21e';
 $icon-phi: '\e71c';
 $icon-philippine-peso: '\e604';
@@ -3796,6 +3819,7 @@ $icon-separator-horizontal: '\e1c8';
 $icon-separator-vertical: '\e1c9';
 $icon-server-cog: '\e341';
 $icon-server-crash: '\e1e9';
+$icon-server-nas: '\e7a5';
 $icon-server-off: '\e1ea';
 $icon-server-plus: '\e721';
 $icon-server: '\e153';
@@ -4202,6 +4226,8 @@ $icon-user-x-2: '\e46d';
 $icon-user-x: '\e1a3';
 $icon-user: '\e19f';
 $icon-users-2: '\e46e';
+$icon-users-collaboration: '\e7af';
+$icon-users-round-collaboration: '\e7b0';
 $icon-users-round: '\e46e';
 $icon-users: '\e1a4';
 $icon-utensils-crossed: '\e2f7';

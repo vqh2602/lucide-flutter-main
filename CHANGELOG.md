@@ -1,3 +1,52 @@
+## [4.0.1-beta.2] - 2026-10-16
+
+### Beta Release
+- Development build from commit aab1699e
+- This is a pre-release version for testing
+
+## [4.0.1-beta.1] - 2026-10-16
+
+### Beta Release
+- Development build from commit a5bdc47d
+- This is a pre-release version for testing
+
+## [4.0.0] - 2026-10-16
+
+### Lucide 1.58.0
+- Updated bundled icons to **Lucide 1.58.0** (including changes from 1.56.0, 1.57.0, and 1.58.0).
+- **New Icons Added**:
+  - `certificate` (v1.58.0)
+  - `folder-user`, `calendar-chevrons-left`, `users-collaboration`, `belarusian-ruble`, `circle-fading-play`, `cpu-ai`, `guitar-electric`, `graph-star`, `perfume` (v1.57.0)
+  - `server-nas`, `message-circle-text` (v1.56.0)
+- **Updated Icon Designs**:
+  - Refined `barrel` icon design and music icons.
+- **Fixed Variable Font Weight Glitches**:
+  - Fixed filled-in solid rendering on bold weights for `guitar-electric` (w500).
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.55.0...1.58.0
+
+### Breaking Changes & Modular Architecture Redesign
+- **Modular Library Architecture**: Split font weights into separate libraries to fix Flutter Web debug (DDC) `StackOverflowError` ([dart-lang/sdk#64590](https://github.com/dart-lang/sdk/issues/64590)) and drastically speed up IDE autocomplete and compilation:
+  - `package:lucide_icons_flutter/lucide_icons.dart`: Contains standard regular icons (`LucideIcons.activity` and RTL `LucideIcons.activityDir`). File size reduced by ~85% (from 14 MB to ~1.8 MB). **100% backwards-compatible for regular icons!**
+  - `package:lucide_icons_flutter/lucide_icons_100.dart` through `lucide_icons_600.dart`: Separate libraries for each font weight (`LucideIcons100`, `LucideIcons200`, ..., `LucideIcons600`).
+  - `package:lucide_icons_flutter/lucide_icons_weights.dart`: Umbrella export library for all weights.
+
+### Migration Guide from v3.x to v4.0.0
+
+| Old (v3.x) | New (v4.0.0) | Required Import |
+| :--- | :--- | :--- |
+| `LucideIcons.activity` | `LucideIcons.activity` | `package:lucide_icons_flutter/lucide_icons.dart` *(No change!)* |
+| `LucideIcons.activityDir` | `LucideIcons.activityDir` | `package:lucide_icons_flutter/lucide_icons.dart` *(No change!)* |
+| `LucideIcons.activity100` | `LucideIcons100.activity` | `package:lucide_icons_flutter/lucide_icons_100.dart` |
+| `LucideIcons.activity200` | `LucideIcons200.activity` | `package:lucide_icons_flutter/lucide_icons_200.dart` |
+| `LucideIcons.activity300` | `LucideIcons300.activity` | `package:lucide_icons_flutter/lucide_icons_300.dart` |
+| `LucideIcons.activity400` | `LucideIcons400.activity` | `package:lucide_icons_flutter/lucide_icons_400.dart` |
+| `LucideIcons.activity500` | `LucideIcons500.activity` | `package:lucide_icons_flutter/lucide_icons_500.dart` |
+| `LucideIcons.activity600` | `LucideIcons600.activity` | `package:lucide_icons_flutter/lucide_icons_600.dart` |
+| `LucideIcons.activity300Dir` | `LucideIcons300.activityDir` | `package:lucide_icons_flutter/lucide_icons_300.dart` |
+
+*Tip: If your app uses multiple weights, you can also import `package:lucide_icons_flutter/lucide_icons_weights.dart` to access `LucideIcons100` through `LucideIcons600` at once.*
+
+
 ## 3.1.25
 
 Lucide 1.55.0

@@ -1,10 +1,13 @@
-name: Auto Beta Version Bump and Tag
+name: Beta Version Bump and Tag
 
 on:
-  push:
-    branches:
-      - develop
   workflow_dispatch:
+    inputs:
+      publish_to_pubdev:
+        description: 'Publish beta to pub.dev'
+        required: true
+        type: boolean
+        default: true
 
 jobs:
   beta-version-bump-and-publish:
@@ -38,13 +41,16 @@ jobs:
         id: base_version
         run: |
           CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
-          # Remove -beta.X suffix if exists to get the stable base version
-          BASE_VERSION=$(echo "$CURRENT_VERSION" | sed 's/-beta\..*//')
           
-          # Calculate next patch version for the upcoming release
-          IFS='.' read -r MAJOR MINOR PATCH <<< "$BASE_VERSION"
-          NEXT_PATCH=$((PATCH + 1))
-          NEXT_VERSION="$MAJOR.$MINOR.$NEXT_PATCH"
+          if [[ "$CURRENT_VERSION" =~ -beta ]]; then
+            # Already in a beta cycle (e.g. 4.0.0-beta.1), retain the base version
+            NEXT_VERSION=$(echo "$CURRENT_VERSION" | sed 's/-beta\..*//')
+          else
+            # Stable version: bump patch for the upcoming beta cycle
+            IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT_VERSION"
+            NEXT_PATCH=$((PATCH + 1))
+            NEXT_VERSION="$MAJOR.$MINOR.$NEXT_PATCH"
+          fi
           
           echo "base=$NEXT_VERSION" >> $GITHUB_OUTPUT
           echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
@@ -118,11 +124,11 @@ jobs:
           echo "✅ Created tag: v$BETA_VERSION"
       
       - name: Setup Dart for OIDC
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && inputs.publish_to_pubdev == true
         uses: dart-lang/setup-dart@v1
       
       - name: Publish beta to pub.dev
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && inputs.publish_to_pubdev == true
         run: |
           echo "🚀 Publishing to pub.dev..."
           dart pub publish --force

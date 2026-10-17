@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:lucide_icons_flutter/lucide_icons_weights.dart';
 
 void main() {
   group('Lucide Icons Tests', () {
@@ -70,6 +71,24 @@ void main() {
         expect(icon.codePoint, isNot(0));
         expect(icon.fontFamily, equals('Lucide'));
       }
+    });
+
+    test('Directional icons have matchTextDirection true', () {
+      expect(LucideIcons.activityDir.matchTextDirection, isTrue);
+      expect(LucideIcons.activity.matchTextDirection, isFalse);
+    });
+
+    test('Weight libraries are defined and accessible', () {
+      expect(LucideIcons100.activity.fontFamily, equals('Lucide100'));
+      expect(LucideIcons200.activity.fontFamily, equals('Lucide200'));
+      expect(LucideIcons300.activity.fontFamily, equals('Lucide300'));
+      expect(LucideIcons400.activity.fontFamily, equals('Lucide400'));
+      expect(LucideIcons500.activity.fontFamily, equals('Lucide500'));
+      expect(LucideIcons600.activity.fontFamily, equals('Lucide600'));
+
+      expect(LucideIcons300.activityDir.matchTextDirection, isTrue);
+      expect(LucideIcons300.activity.codePoint,
+          equals(LucideIcons.activity.codePoint));
     });
   });
 }

@@ -42,8 +42,7 @@ Hệ thống tự động publish package Flutter lên pub.dev với 2 workflows
 
 **Triggers**:
 
-- Push vào `develop`
-- Manual dispatch
+- Manual dispatch (chạy thủ công khi cần release bản beta)
 
 **Chức năng**:
 
