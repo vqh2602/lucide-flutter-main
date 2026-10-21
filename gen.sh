@@ -18,7 +18,7 @@ dart format .
 
 echo "🔍 Kiểm tra chất lượng và độ toàn vẹn của các icon..."
 PYTHON_BIN=""
-for candidate in "${PYTHON:-}" python3 python; do
+for candidate in "${PYTHON:-}" "$HOME/.venv/bin/python" python3 python; do
   if [ -n "$candidate" ] && command -v "$candidate" >/dev/null 2>&1 && "$candidate" -c "import fontTools.ttLib" >/dev/null 2>&1; then
     PYTHON_BIN="$candidate"
     break
