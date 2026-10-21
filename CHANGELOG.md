@@ -1,14 +1,17 @@
-## [4.0.1-beta.2] - 2026-10-16
+## [4.0.1] - 2026-10-21
 
-### Beta Release
-- Development build from commit aab1699e
-- This is a pre-release version for testing
-
-## [4.0.1-beta.1] - 2026-10-16
-
-### Beta Release
-- Development build from commit a5bdc47d
-- This is a pre-release version for testing
+### Lucide 1.60.0
+- Updated bundled icons to **Lucide 1.60.0** (including changes from 1.59.0 and 1.60.0).
+- **New Icons Added**:
+  - `tombstone`, `smartphone-user-round`, `bacon`, `letter-spacing`, `line-height`, `brain-off`, `graph-hub` (v1.60.0)
+  - `avocado`
+- **Updated Icon Designs**:
+  - Updated `chess-queen` icon design (v1.59.0).
+  - Added musical note icons (`eighth-note`, `eighth-notes`, `half-note`, `sixteenth-notes`).
+- **Bug Fixes & Font Improvements**:
+  - Fixed outline and filled-in solid rendering issue for `brain-cog` on bold stroke weights (weight 400).
+  - Enhanced font generation pipeline with automatic SVG outline normalization for complex icons.
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.58.0...1.60.0
 
 ## [4.0.0] - 2026-10-16
 
@@ -75,12 +78,6 @@ Lucide 1.53.0
 - Fixed outline and filled-in solid rendering issues on bold weights for `groceries` and `hiking-stick`.
 
 **Full Changelog**: https://github.com/lucide-icons/lucide/compare/1.52.0...1.53.0
-
-## [3.1.23-beta.1] - 2026-10-05
-
-### Beta Release
-- Development build from commit 881290cb
-- This is a pre-release version for testing
 
 ## 3.1.22
 
