@@ -1,3 +1,38 @@
+## [4.0.2] - 2026-11-04
+
+### Lucide 1.67.0
+- Updated bundled icons to **Lucide 1.67.0** (including changes from 1.61.0 through 1.67.0).
+- **New Icons Added (129 new icons)**:
+  - **Letters & Digits Category**:
+    - `numbers`
+    - Letters A–Z: `letter-a` through `letter-z` (26 icons)
+    - Circle Letters A–Z: `circle-letter-a` through `circle-letter-z`, `circle-letter-p-off` (27 icons)
+    - Square Letters A–Z: `square-letter-a` through `square-letter-z`, `square-letter-p-off` (27 icons)
+  - **Layout & Spacing Controls**:
+    - Margins: `margin`, `margin-bottom`, `margin-horizontal`, `margin-left`, `margin-right`, `margin-top`, `margin-vertical`
+    - Paddings: `square-padding`, `square-padding-bottom`, `square-padding-horizontal`, `square-padding-left`, `square-padding-right`, `square-padding-top`, `square-padding-vertical`
+  - **Navigation & Arrows**:
+    - Chevron collections: `circle-chevrons-down`, `circle-chevrons-left`, `circle-chevrons-right`, `circle-chevrons-up`, `square-chevrons-down`, `square-chevrons-left`, `square-chevrons-right`, `square-chevrons-up`
+    - Calendar navigation: `calendar-arrow-left`, `calendar-arrow-right`
+    - Archive navigation: `archive-arrow-down`, `archive-arrow-up`
+  - **Charts & Diagrams**:
+    - `chart-bell-curve`, `chart-quadrant`, `chart-radar`
+    - `diagram-flow-horizontal`, `diagram-flow-vertical`
+  - **Currencies & Finance**:
+    - `azerbaijani-manat`, `emirati-dirham`
+  - **Devices & Hardware**:
+    - `earbuds`, `earbuds-off`, `monitor-activity`
+  - **General & Utility Additions**:
+    - `ball-wave`, `boxes-linked`, `database-cog`, `file-database`, `globe-ban`, `globe-plus`, `hockey-stick`, `hot-air-balloon`, `laser`, `siren-off`, `square-kanban-plus`, `user-round-shield`
+- **Updated Icon Designs & Renames**:
+  - `archive-restore` renamed to `archive-arrow-up` (alias preserved).
+  - `parking-circle` / `circle-parking` aligned to `circle-letter-p`.
+  - `parking-square` / `square-parking` aligned to `square-letter-p`.
+- **Bug Fixes & Font Quality Improvements**:
+  - Fixed filled-in solid rendering and collapsed cutout holes on bold weights (w400, w500, w600) by registering icons in `AUTO_OUTLINE_ICONS` (`ball-wave`, `circle-letter-b`, `circle-letter-p`, `circle-letter-r`, `circle-parking`, `parking-circle`, `parking-square`, `siren-off`, `square-letter-b`, `square-letter-p`, `square-letter-r`, and `square-parking`).
+  - Validated all 2,296 icons across all 6 variable font weights (100–600) with 100% integrity pass.
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.60.0...1.67.0
+
 ## [4.0.1] - 2026-10-21
 
 ### Lucide 1.60.0
