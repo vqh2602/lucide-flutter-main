@@ -572,8 +572,26 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// archive-arrow-down
+  /// ![archive-arrow-down](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iNSIgeD0iMiIgeT0iMyIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTQgOHYxMWEyIDIgMCAwIDAgMiAyaC4zNDMiIC8+CiAgPHBhdGggZD0iTTIwIDh2MTFhMiAyIDAgMCAxLTIgMmgtLjM0MyIgLz4KICA8cGF0aCBkPSJtOSAxOCAzIDMgMy0zIiAvPgogIDxwYXRoIGQ9Ik0xMiAxMnY5IiAvPgo8L3N2Zz4K)
+  static const IconData archiveArrowDown = const IconData(59331,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData archiveArrowDownDir = const IconData(59331,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// archive-arrow-up
+  /// ![archive-arrow-up](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iNSIgeD0iMiIgeT0iMyIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTQgOHYxMWEyIDIgMCAwIDAgMiAyaDIiIC8+CiAgPHBhdGggZD0iTTIwIDh2MTFhMiAyIDAgMCAxLTIgMmgtMiIgLz4KICA8cGF0aCBkPSJtOSAxNSAzLTMgMyAzIiAvPgogIDxwYXRoIGQ9Ik0xMiAxMnY5IiAvPgo8L3N2Zz4K)
+  static const IconData archiveArrowUp = const IconData(58061,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData archiveArrowUpDir = const IconData(58061,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// archive-restore
-  /// ![archive-restore](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iNSIgeD0iMiIgeT0iMyIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTQgOHYxMWEyIDIgMCAwIDAgMiAyaDIiIC8+CiAgPHBhdGggZD0iTTIwIDh2MTFhMiAyIDAgMCAxLTIgMmgtMiIgLz4KICA8cGF0aCBkPSJtOSAxNSAzLTMgMyAzIiAvPgogIDxwYXRoIGQ9Ik0xMiAxMnY5IiAvPgo8L3N2Zz4K)
+  /// ![archive-restore](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData archiveRestore = const IconData(58061,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData archiveRestoreDir = const IconData(58061,
@@ -1355,6 +1373,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// azerbaijani-manat
+  /// ![azerbaijani-manat](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgNHYxNiIgLz4KICA8cGF0aCBkPSJNMTggMjB2LThhNiA2IDAgMDAtMTIgMHY4IiAvPgo8L3N2Zz4K)
+  static const IconData azerbaijaniManat = const IconData(59326,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData azerbaijaniManatDir = const IconData(59326,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// baby
   /// ![baby](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMTZjLjUuMyAxLjIuNSAyIC41czEuNS0uMiAyLS41IiAvPgogIDxwYXRoIGQ9Ik0xNSAxMmguMDEiIC8+CiAgPHBhdGggZD0iTTE5LjM4IDYuODEzQTkgOSAwIDAgMSAyMC44IDEwLjJhMiAyIDAgMCAxIDAgMy42IDkgOSAwIDAgMS0xNy42IDAgMiAyIDAgMCAxIDAtMy42QTkgOSAwIDAgMSAxMiAzYzIgMCAzLjUgMS4xIDMuNSAyLjVzLS45IDIuNS0yIDIuNWMtLjggMC0xLjUtLjQtMS41LTEiIC8+CiAgPHBhdGggZD0iTTkgMTJoLjAxIiAvPgo8L3N2Zz4K)
   static const IconData baby = const IconData(58062,
@@ -1558,6 +1585,15 @@ class LucideIcons {
   static const IconData baggageClaim = const IconData(58057,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData baggageClaimDir = const IconData(58057,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// ball-wave
+  /// ![ball-wave](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMiAyMGMuNi41IDEuMiAxIDIuNSAxIDIuNSAwIDIuNS0yIDUtMiAyLjYgMCAyLjQgMiA1IDIgMi41IDAgMi41LTIgNS0yIDEuMyAwIDEuOS41IDIuNSAxIiAvPgogIDxwYXRoIGQ9Ik03Ljc1NyAxMy4yNDNhMiA2IDQ1IDEgMCA4LjQ4Ni04LjQ4NiAyIDYgNDUgMSAwLTguNDg2IDguNDg2IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iNiIgLz4KPC9zdmc+Cg==)
+  static const IconData ballWave = const IconData(59327,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData ballWaveDir = const IconData(59327,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -2184,7 +2220,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// bold
-  /// ![bold](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMmg5YTQgNCAwIDAgMSAwIDhIN2ExIDEgMCAwIDEtMS0xVjVhMSAxIDAgMCAxIDEtMWg3YTQgNCAwIDAgMSAwIDgiIC8+Cjwvc3ZnPgo=)
+  /// ![bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData bold = const IconData(57437,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData boldDir = const IconData(57437,
@@ -2606,6 +2642,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// boxes-linked
+  /// ![boxes-linked](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQgNmgyYTIgMiAwIDAgMSAyIDJ2NSIgLz4KICA8cGF0aCBkPSJNMTQuMjEgMTUuMjAyIDE4IDE3LjRWMjIiIC8+CiAgPHBhdGggZD0iTTE0Ljc5NiAxNC42MTFBMS42IDEuNiAwIDAgMCAxNCAxNS45OTV2My4wMTNhMS42IDEuNiAwIDAgMCAuNzk3IDEuMzg0bDIuNCAxLjM5MmExLjYgMS42IDAgMCAwIDEuNjA2IDBsMi40LTEuMzkyQTEuNiAxLjYgMCAwIDAgMjIgMTkuMDA4di0zLjAxM2ExLjYgMS42IDAgMCAwLS43OTYtMS4zODRsLTIuNC0xLjM5NGExLjYgMS42IDAgMCAwLTEuNTE0LS4wNTF6IiAvPgogIDxwYXRoIGQ9Im0xOCAxNy40IDMuNzktMi4xOTgiIC8+CiAgPHBhdGggZD0iTTIuMjEgNC4yMDIgNiA2LjRWMTZhMiAyIDAgMCAwIDIgMmgyIiAvPgogIDxwYXRoIGQ9Ik0yLjc5NiAzLjYxMUExLjYgMS42IDAgMCAwIDIgNC45OTV2My4wMTNhMS42IDEuNiAwIDAgMCAuNzk3IDEuMzg0bDIuNCAxLjM5MmExLjYgMS42IDAgMCAwIDEuNjA2IDBsMi40LTEuMzkyQTEuNiAxLjYgMCAwIDAgMTAgOC4wMDhWNC45OTVhMS42IDEuNiAwIDAgMC0uNzk2LTEuMzg0bC0yLjQtMS4zOTRhMS42IDEuNiAwIDAgMC0xLjUxNC0uMDUyeiIgLz4KICA8cGF0aCBkPSJtNiA2LjQgMy43OS0yLjE5OCIgLz4KPC9zdmc+Cg==)
+  static const IconData boxesLinked = const IconData(59332,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData boxesLinkedDir = const IconData(59332,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// boxes
   /// ![boxes](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMi45NyAxMi45MkEyIDIgMCAwIDAgMiAxNC42M3YzLjI0YTIgMiAwIDAgMCAuOTcgMS43MWwzIDEuOGEyIDIgMCAwIDAgMi4wNiAwTDEyIDE5di01LjVsLTUtMy00LjAzIDIuNDJaIiAvPgogIDxwYXRoIGQ9Im03IDE2LjUtNC43NC0yLjg1IiAvPgogIDxwYXRoIGQ9Im03IDE2LjUgNS0zIiAvPgogIDxwYXRoIGQ9Ik03IDE2LjV2NS4xNyIgLz4KICA8cGF0aCBkPSJNMTIgMTMuNVYxOWwzLjk3IDIuMzhhMiAyIDAgMCAwIDIuMDYgMGwzLTEuOGEyIDIgMCAwIDAgLjk3LTEuNzF2LTMuMjRhMiAyIDAgMCAwLS45Ny0xLjcxTDE3IDEwLjVsLTUgM1oiIC8+CiAgPHBhdGggZD0ibTE3IDE2LjUtNS0zIiAvPgogIDxwYXRoIGQ9Im0xNyAxNi41IDQuNzQtMi44NSIgLz4KICA8cGF0aCBkPSJNMTcgMTYuNXY1LjE3IiAvPgogIDxwYXRoIGQ9Ik03Ljk3IDQuNDJBMiAyIDAgMCAwIDcgNi4xM3Y0LjM3bDUgMyA1LTNWNi4xM2EyIDIgMCAwIDAtLjk3LTEuNzFsLTMtMS44YTIgMiAwIDAgMC0yLjA2IDBsLTMgMS44WiIgLz4KICA8cGF0aCBkPSJNMTIgOCA3LjI2IDUuMTUiIC8+CiAgPHBhdGggZD0ibTEyIDggNC43NC0yLjg1IiAvPgogIDxwYXRoIGQ9Ik0xMiAxMy41VjgiIC8+Cjwvc3ZnPgo=)
   static const IconData boxes = const IconData(58064,
@@ -2953,6 +2998,24 @@ class LucideIcons {
   static const IconData calendarArrowDown = const IconData(58878,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData calendarArrowDownDir = const IconData(58878,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// calendar-arrow-left
+  /// ![calendar-arrow-left](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTYgMnYzIiAvPgogIDxwYXRoIGQ9Ik0yMSA5SDMiIC8+CiAgPHBhdGggZD0iTTMgMTIuMzRWNWEyIDIgMCAwMTItMmgxNGEyIDIgMCAwMTIgMnYxNGEyIDIgMCAwMS0yIDJoLTcuMzUiIC8+CiAgPHBhdGggZD0iTTMgMThoNiIgLz4KICA8cGF0aCBkPSJtNiAyMS0zLTMgMy0zIiAvPgogIDxwYXRoIGQ9Ik04IDJ2MyIgLz4KPC9zdmc+Cg==)
+  static const IconData calendarArrowLeft = const IconData(59333,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData calendarArrowLeftDir = const IconData(59333,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// calendar-arrow-right
+  /// ![calendar-arrow-right](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTYgMnYzIiAvPgogIDxwYXRoIGQ9Im0xOCAyMSAzLTNoLTYiIC8+CiAgPHBhdGggZD0iTTIxIDEyLjM0VjVhMiAyIDAgMDAtMi0ySDVhMiAyIDAgMDAtMiAydjE0YTIgMiAwIDAwMiAyaDcuMzUiIC8+CiAgPHBhdGggZD0ibTIxIDE4LTMtMyIgLz4KICA8cGF0aCBkPSJNMyA5aDE4IiAvPgogIDxwYXRoIGQ9Ik04IDJ2MyIgLz4KPC9zdmc+Cg==)
+  static const IconData calendarArrowRight = const IconData(59334,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData calendarArrowRightDir = const IconData(59334,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -3488,6 +3551,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// chart-bell-curve
+  /// ![chart-bell-curve](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMyAzdjE2YTIgMiAwIDAgMCAyIDJoMTYiIC8+CiAgPHBhdGggZD0iTTcgMTZjMy41IDAgMi41LTEwIDYtMTBzMi41IDEwIDYgMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData chartBellCurve = const IconData(59422,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData chartBellCurveDir = const IconData(59422,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// chart-candlestick
   /// ![chart-candlestick](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSA1djQiIC8+CiAgPHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iNiIgeD0iNyIgeT0iOSIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTkgMTV2MiIgLz4KICA8cGF0aCBkPSJNMTcgM3YyIiAvPgogIDxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjgiIHg9IjE1IiB5PSI1IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMTcgMTN2MyIgLz4KICA8cGF0aCBkPSJNMyAzdjE2YTIgMiAwIDAgMCAyIDJoMTYiIC8+Cjwvc3ZnPgo=)
   static const IconData chartCandlestick = const IconData(58536,
@@ -3623,6 +3695,24 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// chart-quadrant
+  /// ![chart-quadrant](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTMgM3YxOCIgLz4KICA8cGF0aCBkPSJNMyAxMmgxOCIgLz4KICA8cGF0aCBkPSJNMyAzdjE2YTIgMiAwIDAwMiAyaDE2IiAvPgogIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSI1LjUiIHI9IjAuNSIgZmlsbD0iY3VycmVudENvbG9yIiAvPgogIDxjaXJjbGUgY3g9IjE5LjUiIGN5PSIxNi41IiByPSIwLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICA8Y2lyY2xlIGN4PSI3LjUiIGN5PSIxNi41IiByPSIwLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICA8Y2lyY2xlIGN4PSI3LjUiIGN5PSI3LjUiIHI9IjAuNSIgZmlsbD0iY3VycmVudENvbG9yIiAvPgo8L3N2Zz4K)
+  static const IconData chartQuadrant = const IconData(59335,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData chartQuadrantDir = const IconData(59335,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// chart-radar
+  /// ![chart-radar](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMnYxMCIgLz4KICA8cGF0aCBkPSJtMTYgMTggMy4wODUtOC4xMjVMMTIgNC4xMDMgMy40NzMgOS40NDJsMy4xOTYgMTAuNTU0eiIgLz4KICA8cGF0aCBkPSJtMiA5IDEwIDMgNiA5IiAvPgogIDxwYXRoIGQ9Im02IDIxIDYtOSAxMC0zIiAvPgo8L3N2Zz4K)
+  static const IconData chartRadar = const IconData(59336,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData chartRadarDir = const IconData(59336,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// chart-scatter
   /// ![chart-scatter](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSI3LjUiIGN5PSI3LjUiIHI9Ii41IiBmaWxsPSJjdXJyZW50Q29sb3IiIC8+CiAgPGNpcmNsZSBjeD0iMTguNSIgY3k9IjUuNSIgcj0iLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICA8Y2lyY2xlIGN4PSIxMS41IiBjeT0iMTEuNSIgcj0iLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICA8Y2lyY2xlIGN4PSI3LjUiIGN5PSIxNi41IiByPSIuNSIgZmlsbD0iY3VycmVudENvbG9yIiAvPgogIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSIxNC41IiByPSIuNSIgZmlsbD0iY3VycmVudENvbG9yIiAvPgogIDxwYXRoIGQ9Ik0zIDN2MTZhMiAyIDAgMCAwIDIgMmgxNiIgLz4KPC9zdmc+Cg==)
   static const IconData chartScatter = const IconData(58506,
@@ -3705,7 +3795,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// chef-hat
-  /// ![chef-hat](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgMjFhMSAxIDAgMCAwIDEtMXYtNS4zNWMwLS40NTcuMzE2LS44NDQuNzI3LTEuMDQxYTQgNCAwIDAgMC0yLjEzNC03LjU4OSA1IDUgMCAwIDAtOS4xODYgMCA0IDQgMCAwIDAtMi4xMzQgNy41ODhjLjQxMS4xOTguNzI3LjU4NS43MjcgMS4wNDFWMjBhMSAxIDAgMCAwIDEgMVoiIC8+CiAgPHBhdGggZD0iTTYgMTdoMTIiIC8+Cjwvc3ZnPgo=)
+  /// ![chef-hat](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMTF2NSIgLz4KICA8cGF0aCBkPSJNMTQgMTF2NSIgLz4KICA8cGF0aCBkPSJNNiAxMi42NWMwLS40NTctLjMxNi0uODQ0LS43MjctMS4wNDFBNCA0IDAgMDE3LjUyIDQuMDM0YTEuNTMgMS41MyAwIDAwMS4zNjctLjU0NyA0IDQgMCAwMTYuMjI1IDAgMS41MyAxLjUzIDAgMDAxLjM2Ny41NDcgNCA0IDAgMDEyLjI0OCA3LjU3NWMtLjQxMS4xOTctLjcyNy41ODQtLjcyNyAxLjA0VjE5YTIgMiAwIDAxLTIgMkg4YTIgMiAwIDAxLTItMnoiIC8+CiAgPHBhdGggZD0iTTYgMTZoMTIiIC8+Cjwvc3ZnPgo=)
   static const IconData chefHat = const IconData(58028,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData chefHatDir = const IconData(58028,
@@ -4145,6 +4235,42 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// circle-chevrons-down
+  /// ![circle-chevrons-down](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNEwxMiAxN0wxNSAxNCIgLz4KICA8cGF0aCBkPSJNOSA4TDEyIDExTDE1IDgiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleChevronsDown = const IconData(59322,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleChevronsDownDir = const IconData(59322,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-chevrons-left
+  /// ![circle-chevrons-left](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgOUw3IDEyTDEwIDE1IiAvPgogIDxwYXRoIGQ9Ik0xNiA5TDEzIDEyTDE2IDE1IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleChevronsLeft = const IconData(59323,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleChevronsLeftDir = const IconData(59323,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-chevrons-right
+  /// ![circle-chevrons-right](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQgMTVMMTcgMTJMMTQgOSIgLz4KICA8cGF0aCBkPSJNOCAxNUwxMSAxMkw4IDkiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleChevronsRight = const IconData(59324,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleChevronsRightDir = const IconData(59324,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-chevrons-up
+  /// ![circle-chevrons-up](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgMTBMMTIgN0w5IDEwIiAvPgogIDxwYXRoIGQ9Ik0xNSAxNkwxMiAxM0w5IDE2IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleChevronsUp = const IconData(59325,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleChevronsUpDir = const IconData(59325,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// circle-dashed-check
   /// ![circle-dashed-check](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAuMSAyLjE4MmExMCAxMCAwIDAxMy44IDAiIC8+CiAgPHBhdGggZD0iTTEzLjkgMjEuODE4YTEwIDEwIDAgMDEtMy44IDAiIC8+CiAgPHBhdGggZD0ibTE2IDktNS41IDUuNUw4IDEyIiAvPgogIDxwYXRoIGQ9Ik0xNy42MDkgMy43MjFhMTAgMTAgMCAwMTIuNjkgMi43IiAvPgogIDxwYXRoIGQ9Ik0yLjE4MiAxMy45YTEwIDEwIDAgMDEwLTMuOCIgLz4KICA8cGF0aCBkPSJNMjAuMjc5IDE3LjYwOWExMCAxMCAwIDAxLTIuNyAyLjY5IiAvPgogIDxwYXRoIGQ9Ik0yMS44MTggMTAuMWExMCAxMCAwIDAxMCAzLjgiIC8+CiAgPHBhdGggZD0iTTMuNzIxIDYuMzkxYTEwIDEwIDAgMDEyLjctMi42OSIgLz4KICA8cGF0aCBkPSJNNi4zOTEgMjAuMjc5YTEwIDEwIDAgMDEtMi42OS0yLjciIC8+Cjwvc3ZnPgo=)
   static const IconData circleDashedCheck = const IconData(59230,
@@ -4271,6 +4397,249 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// circle-letter-a
+  /// ![circle-letter-a](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgMTRIOSIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KICA8cGF0aCBkPSJtOCAxNiAzLjQ1My03LjY0OGEuNi42IDAgMCAxIDEuMDk0IDBMMTYgMTYiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterA = const IconData(59347,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterADir = const IconData(59347,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-b
+  /// ![circle-letter-b](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxMmg0Ljg0NmEyLjI0IDIuMjQgMCAwMTEuNTIzLjU4NiAyIDIgMCAwMS4wMDEgMi44MjggMi4yNCAyLjI0IDAgMDEtMS41MjQuNTg2SDkuNWEuNS41IDAgMDEtLjUtLjV2LTdhLjUuNSAwIDAxLjUtLjVIMTNhMiAyIDAgMDEwIDQiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterB = const IconData(59348,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterBDir = const IconData(59348,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-c
+  /// ![circle-letter-c](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOS4zNTRhNCA0IDAgMSAwIDAgNS4yOTIiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterC = const IconData(59349,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterCDir = const IconData(59349,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-d
+  /// ![circle-letter-d](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgOGE0IDQgMCAwMTAgOEg5LjQxMkEuNDEuNDEgMCAwMTkgMTUuNTg4VjguNDEyQS40MS40MSAwIDAxOS40MTIgOHoiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterD = const IconData(59350,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterDDir = const IconData(59350,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-e
+  /// ![circle-letter-e](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOEg5LjVhLjUuNSAwIDAgMC0uNS41djdhLjUuNSAwIDAgMCAuNS41SDE1IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDQiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterE = const IconData(59351,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterEDir = const IconData(59351,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-f
+  /// ![circle-letter-f](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4LjVhLjUuNSAwIDAgMSAuNS0uNUgxNSIgLz4KICA8cGF0aCBkPSJNOSAxMmg0IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterF = const IconData(59352,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterFDir = const IconData(59352,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-g
+  /// ![circle-letter-g](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIuNSAxMkgxNXYyLjI2OGEuODguODggMCAwMS0uMjYzLjY1QTQgNCAwIDExMTIgOGgyLjUiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterG = const IconData(59353,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterGDir = const IconData(59353,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-h
+  /// ![circle-letter-h](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4IiAvPgogIDxwYXRoIGQ9Ik0xNSAxNlY4IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDYiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterH = const IconData(59354,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterHDir = const IconData(59354,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-i
+  /// ![circle-letter-i](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTZWOCIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KPC9zdmc+Cg==)
+  static const IconData circleLetterI = const IconData(59355,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterIDir = const IconData(59355,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-j
+  /// ![circle-letter-j](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQgOHY1LjVhMSAxIDAgMDEtNSAwVjEzIiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterJ = const IconData(59356,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterJDir = const IconData(59356,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-k
+  /// ![circle-letter-k](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4IiAvPgogIDxwYXRoIGQ9Im0xMSAxMiA0IDQiIC8+CiAgPHBhdGggZD0ibTE1IDgtNiA2IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterK = const IconData(59357,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterKDir = const IconData(59357,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-l
+  /// ![circle-letter-l](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSA4djcuNWEuNS41IDAgMCAwIC41LjVIMTUiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterL = const IconData(59358,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterLDir = const IconData(59358,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-m
+  /// ![circle-letter-m](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOCAxNi4wMDF2LTcuNWEuNS41IDAgMCAxIC45LS4zbDIuNyAzLjU5OWEuNS41IDAgMCAwIC44IDBsMi43LTMuNmEuNS41IDAgMCAxIC45LjN2Ny41MDEiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterM = const IconData(59359,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterMDir = const IconData(59359,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-n
+  /// ![circle-letter-n](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4LjU3NmEuNDk2LjQ5NiAwIDAxLjkzNy0uMjQzbDQuMTI2IDcuNDNBLjQ5Ni40OTYgMCAwMDE1IDE1LjUyVjgiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterN = const IconData(59360,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterNDir = const IconData(59360,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-o
+  /// ![circle-letter-o](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterO = const IconData(59361,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterODir = const IconData(59361,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-p-off
+  /// ![circle-letter-p-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJoMWEyIDIgMCAwMDAtNEg5LjVhLjUuNSAwIDAwLS41LjVWOSIgLz4KICA8cGF0aCBkPSJNMTUuNjUyIDIxLjMxQTEwIDEwIDAgMDEyLjY5MSA4LjM0OCIgLz4KICA8cGF0aCBkPSJNMjIgMjIgMiAyIiAvPgogIDxwYXRoIGQ9Ik00LjkyOSA0LjkyOWExMCAxMCAwIDAxMTYuNzI5IDQuNDgzIDEwIDEwIDAgMDEtMi41ODggOS42NTgiIC8+CiAgPHBhdGggZD0iTTkgMTQuNjU3VjE2IiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterPOff = const IconData(58314,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterPOffDir = const IconData(58314,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-p
+  /// ![circle-letter-p](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxMmg0YTIgMiAwIDAgMCAwLTRIOS41YS41LjUgMCAwIDAtLjUuNVYxNiIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KPC9zdmc+Cg==)
+  static const IconData circleLetterP = const IconData(58313,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterPDir = const IconData(58313,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-q
+  /// ![circle-letter-q](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiAvPgogIDxwYXRoIGQ9Im0xNiAxNi0yLjUtMi41IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterQ = const IconData(59362,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterQDir = const IconData(59362,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-r
+  /// ![circle-letter-r](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTEgMTIgNCA0IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDRhMiAyIDAgMCAwIDAtNEg5LjVhLjUuNSAwIDAgMC0uNS41VjE2IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterR = const IconData(59363,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterRDir = const IconData(59363,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-s
+  /// ![circle-letter-s](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQuNSA4SDExYTIgMiAwIDEwMCA0aDJhMiAyIDAgMTEwIDRIOSIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KPC9zdmc+Cg==)
+  static const IconData circleLetterS = const IconData(59364,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterSDir = const IconData(59364,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-t
+  /// ![circle-letter-t](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTZWOCIgLz4KICA8cGF0aCBkPSJNOSA4aDYiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterT = const IconData(59365,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterTDir = const IconData(59365,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-u
+  /// ![circle-letter-u](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOHY1YTMgMyAwIDEgMS02IDBWOCIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KPC9zdmc+Cg==)
+  static const IconData circleLetterU = const IconData(59366,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterUDir = const IconData(59366,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-v
+  /// ![circle-letter-v](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSA4IDIuNTI1IDcuNjZhLjUuNSAwIDAgMCAuOTUgMEwxNSA4IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterV = const IconData(59367,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterVDir = const IconData(59367,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-w
+  /// ![circle-letter-w](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTYgOC0xLjU5MSA3LjU5OGEuNDk3LjQ5NyAwIDAxLS45Ny4wMzhsLS45Ni0zLjI3NmEuNS41IDAgMDAtLjk1OSAwbC0uOTYgMy4yNzZhLjQ5Ni40OTYgMCAwMS0uOTY5LS4wMzhMOCA4IiAvPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPgo8L3N2Zz4K)
+  static const IconData circleLetterW = const IconData(59368,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterWDir = const IconData(59368,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-x
+  /// ![circle-letter-x](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSAxNiA2LTgiIC8+CiAgPHBhdGggZD0ibTkgOCA2IDgiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterX = const IconData(59369,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterXDir = const IconData(59369,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-y
+  /// ![circle-letter-y](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSA4IDMgNCAzLTQiIC8+CiAgPHBhdGggZD0iTTEyIDEydjQiIC8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIC8+Cjwvc3ZnPgo=)
+  static const IconData circleLetterY = const IconData(59370,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterYDir = const IconData(59370,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// circle-letter-z
+  /// ![circle-letter-z](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSA4aDUuNTAxYS41LjUgMCAwIDEgLjM3LjgzNkw5LjEzIDE1LjE2NEEuNS41IDAgMCAwIDkuNSAxNkgxNSIgLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KPC9zdmc+Cg==)
+  static const IconData circleLetterZ = const IconData(59371,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData circleLetterZDir = const IconData(59371,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// circle-minus
   /// ![circle-minus](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KICA8cGF0aCBkPSJNOCAxMmg4IiAvPgo8L3N2Zz4K)
   static const IconData circleMinus = const IconData(57470,
@@ -4290,7 +4659,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// circle-parking-off
-  /// ![circle-parking-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIuNjU2IDdIMTNhMyAzIDAgMCAxIDIuOTg0IDMuMzA3IiAvPgogIDxwYXRoIGQ9Ik0xMyAxM0g5IiAvPgogIDxwYXRoIGQ9Ik0xOS4wNzEgMTkuMDcxQTEgMSAwIDAgMSA0LjkzIDQuOTMiIC8+CiAgPHBhdGggZD0ibTIgMiAyMCAyMCIgLz4KICA8cGF0aCBkPSJNOC4zNTcgMi42ODdhMTAgMTAgMCAwIDEgMTIuOTU2IDEyLjk1NiIgLz4KICA8cGF0aCBkPSJNOSAxN1Y5IiAvPgo8L3N2Zz4K)
+  /// ![circle-parking-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData circleParkingOff = const IconData(58314,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData circleParkingOffDir = const IconData(58314,
@@ -4299,7 +4668,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// circle-parking
-  /// ![circle-parking](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KICA8cGF0aCBkPSJNOSAxN1Y3aDRhMyAzIDAgMCAxIDAgNkg5IiAvPgo8L3N2Zz4K)
+  /// ![circle-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData circleParking = const IconData(58313,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData circleParkingDir = const IconData(58313,
@@ -5370,7 +5739,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// copyright
-  /// ![copyright](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgLz4KICA8cGF0aCBkPSJNMTQuODMgMTQuODNhNCA0IDAgMSAxIDAtNS42NiIgLz4KPC9zdmc+Cg==)
+  /// ![copyright](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData copyright = const IconData(57504,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData copyrightDir = const IconData(57504,
@@ -5675,6 +6044,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// database-cog
+  /// ![database-cog](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTQuMzA1IDE5LjUzLjkyMy0uMzgyIiAvPgogIDxwYXRoIGQ9Im0xNS4yMjggMTYuODUyLS45MjMtLjM4MyIgLz4KICA8cGF0aCBkPSJtMTYuODUyIDE1LjIyOC0uMzgzLS45MjMiIC8+CiAgPHBhdGggZD0ibTE2Ljg1MiAyMC43NzItLjM4My45MjQiIC8+CiAgPHBhdGggZD0ibTE5LjE0OCAxNS4yMjguMzgzLS45MjMiIC8+CiAgPHBhdGggZD0ibTE5LjUzIDIxLjY5Ni0uMzgyLS45MjQiIC8+CiAgPHBhdGggZD0ibTIwLjc3MiAxNi44NTIuOTI0LS4zODMiIC8+CiAgPHBhdGggZD0ibTIwLjc3MiAxOS4xNDguOTI0LjM4MyIgLz4KICA8cGF0aCBkPSJNMjEgMTAuNVY1IiAvPgogIDxwYXRoIGQ9Ik0zIDEyYTkgMyAwIDAgMCA3LjU5OSAyLjk2MyIgLz4KICA8cGF0aCBkPSJNMyA1djE0YTkgMyAwIDAgMCA4LjE0OCAyLjk4NyIgLz4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSIzIiAvPgogIDxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI5IiByeT0iMyIgLz4KPC9zdmc+Cg==)
+  static const IconData databaseCog = const IconData(59337,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData databaseCogDir = const IconData(59337,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// database-minus
   /// ![database-minus](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMjEgMTVWNSIgLz4KICA8cGF0aCBkPSJNMjIgMTloLTYiIC8+CiAgPHBhdGggZD0iTTMgMTJBOSAzIDAgMCAwIDIxIDEyIiAvPgogIDxwYXRoIGQ9Ik0zIDVWMTlBOSAzIDAgMCAwIDEzLjMxOCAyMS45NjgiIC8+CiAgPGVsbGlwc2UgY3g9IjEyIiBjeT0iNSIgcng9IjkiIHJ5PSIzIiAvPgo8L3N2Zz4K)
   static const IconData databaseMinus = const IconData(59161,
@@ -5761,6 +6139,24 @@ class LucideIcons {
   static const IconData dessert = const IconData(58555,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData dessertDir = const IconData(58555,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// diagram-flow-horizontal
+  /// ![diagram-flow-horizontal](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOCAxMmguNWEzLjUgMy41IDAgMDEzLjUgMy41IDMuNSAzLjUgMCAwMDMuNSAzLjVoLjUiIC8+CiAgPHBhdGggZD0iTTguNSAxMkEzLjUgMy41IDAgMDAxMiA4LjUgMy41IDMuNSAwIDAxMTUuNSA1aC41IiAvPgogIDxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHJlY3QgeD0iMTYiIHk9IjIiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHJ4PSIxIiAvPgogIDxyZWN0IHg9IjIiIHk9IjkiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHJ4PSIxIiAvPgo8L3N2Zz4K)
+  static const IconData diagramFlowHorizontal = const IconData(59439,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData diagramFlowHorizontalDir = const IconData(59439,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// diagram-flow-vertical
+  /// ![diagram-flow-vertical](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgOC41YTMuNSAzLjUgMCAwMDMuNSAzLjUgMy41IDMuNSAwIDAxMy41IDMuNXYuNSIgLz4KICA8cGF0aCBkPSJNMTIgOHYuNUEzLjUgMy41IDAgMDE4LjUgMTIgMy41IDMuNSAwIDAwNSAxNS41di41IiAvPgogIDxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHJlY3QgeD0iMiIgeT0iMTYiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHJ4PSIxIiAvPgogIDxyZWN0IHg9IjkiIHk9IjIiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHJ4PSIxIiAvPgo8L3N2Zz4K)
+  static const IconData diagramFlowVertical = const IconData(59440,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData diagramFlowVerticalDir = const IconData(59440,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -5982,7 +6378,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// dollar-sign
-  /// ![dollar-sign](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjIiIHkyPSIyMiIgLz4KICA8cGF0aCBkPSJNMTcgNUg5LjVhMy41IDMuNSAwIDAgMCAwIDdoNWEzLjUgMy41IDAgMCAxIDAgN0g2IiAvPgo8L3N2Zz4K)
+  /// ![dollar-sign](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgM3YxOCIgLz4KICA8cGF0aCBkPSJNMTcgNUg5LjVhMSAxIDAgMDAwIDdoNWExIDEgMCAwMTAgN0g2IiAvPgo8L3N2Zz4K)
   static const IconData dollarSign = const IconData(57521,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData dollarSignDir = const IconData(57521,
@@ -6206,6 +6602,24 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// earbuds-off
+  /// ![earbuds-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMTB2OWEyIDIgMCAwMS00IDB2LThhNSA1IDAgMDEtMy43NS0xLjY5M0ExIDEgMCAwMTIgOC42NDZWNS4zNTRhMSAxIDAgMDEuMjUtLjY2MSA1IDUgMCAwMTEuMzU5LTEuMDg0IiAvPgogIDxwYXRoIGQ9Ik0xNCAxNHY1YTIgMiA5MCAwMDQgMHYtMSIgLz4KICA8cGF0aCBkPSJNMTggMTIuMzQzVjExYTUgNSA5MCAwMDMuNzUtMS42OTMgMSAxIDkwIDAwLjI1LS42NjFWNS4zNTRhMSAxIDkwIDAwLS4yNS0uNjYxQTUgNSA5MCAwMDE4IDNhNCA0IDkwIDAwLTQgNHYxLjM0MyIgLz4KICA8cGF0aCBkPSJtMiAyIDIwIDIwIiAvPgo8L3N2Zz4K)
+  static const IconData earbudsOff = const IconData(59338,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData earbudsOffDir = const IconData(59338,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// earbuds
+  /// ![earbuds](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggM2E0IDQgOTAgMDAtNCA0djEyYTIgMiA5MCAwMDQgMHYtOGE1IDUgOTAgMDAzLjc1LTEuNjkzIDEgMSA5MCAwMC4yNS0uNjYxVjUuMzU0YTEgMSA5MCAwMC0uMjUtLjY2MUE1IDUgOTAgMDAxOCAzIiAvPgogIDxwYXRoIGQ9Ik02IDNhNCA0IDAgMDE0IDR2MTJhMiAyIDAgMDEtNCAwdi04YTUgNSAwIDAxLTMuNzUtMS42OTNBMSAxIDAgMDEyIDguNjQ2VjUuMzU0YTEgMSAwIDAxLjI1LS42NjFBNSA1IDAgMDE2IDMiIC8+Cjwvc3ZnPgo=)
+  static const IconData earbuds = const IconData(59339,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData earbudsDir = const IconData(59339,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// earth-lock
   /// ![earth-lock](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNyAzLjM0VjVhMyAzIDAgMCAwIDMgMyIgLz4KICA8cGF0aCBkPSJNMTEgMjEuOTVWMThhMiAyIDAgMCAwLTItMiAyIDIgMCAwIDEtMi0ydi0xYTIgMiAwIDAgMC0yLTJIMi4wNSIgLz4KICA8cGF0aCBkPSJNMjEuNTQgMTVIMTdhMiAyIDAgMCAwLTIgMnY0LjU0IiAvPgogIDxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMSAwIDkuNTQgMTMiIC8+CiAgPHBhdGggZD0iTTIwIDZWNGEyIDIgMCAxIDAtNCAwdjIiIC8+CiAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iNSIgeD0iMTQiIHk9IjYiIHJ4PSIxIiAvPgo8L3N2Zz4K)
   static const IconData earthLock = const IconData(58828,
@@ -6337,6 +6751,15 @@ class LucideIcons {
   static const IconData ellipsis = const IconData(57526,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData ellipsisDir = const IconData(57526,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// emirati-dirham
+  /// ![emirati-dirham](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTEgNGE4IDggMCAwIDEgMCAxNkg2LjQwNkEuNC40IDAgMCAxIDYgMTkuNTk0VjQuNDA2QS40LjQgMCAwIDEgNi40MDYgNHoiIC8+CiAgPHBhdGggZD0iTTQgMTBoMTciIC8+CiAgPHBhdGggZD0iTTQgMTRoMTciIC8+Cjwvc3ZnPgo=)
+  static const IconData emiratiDirham = const IconData(59328,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData emiratiDirhamDir = const IconData(59328,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -6832,6 +7255,15 @@ class LucideIcons {
   static const IconData fileCog = const IconData(58134,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData fileCogDir = const IconData(58134,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// file-database
+  /// ![file-database](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJ2OGE1IDIgMCAwMS0xMCAwdi04IiAvPgogIDxwYXRoIGQ9Ik0xMiAxNmE1IDIgMCAwMS0xMCAwIiAvPgogIDxwYXRoIGQ9Ik0xNCAydjVhMSAxIDAgMDAxIDFoNSIgLz4KICA8cGF0aCBkPSJNNCA2LjNWNGEyIDIgMCAwMTItMmg4YTIuNCAyLjQgMCAwMTEuNzA2LjcwNmwzLjU4OCAzLjU4OEEyLjQgMi40IDAgMDEyMCA4djEyYTIgMiAwIDAxLTIgMmgtMi40MyIgLz4KICA8ZWxsaXBzZSBjeD0iNyIgY3k9IjEyIiByeD0iNSIgcnk9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData fileDatabase = const IconData(59423,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData fileDatabaseDir = const IconData(59423,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -8250,7 +8682,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// georgian-lari
-  /// ![georgian-lari](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTEuNSAyMWE3LjUgNy41IDAgMSAxIDcuMzUtOSIgLz4KICA8cGF0aCBkPSJNMTMgMTJWMyIgLz4KICA8cGF0aCBkPSJNNCAyMWgxNiIgLz4KICA8cGF0aCBkPSJNOSAxMlYzIiAvPgo8L3N2Zz4K)
+  /// ![georgian-lari](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMTBWMyIgLz4KICA8cGF0aCBkPSJNMTQgMTBWMyIgLz4KICA8cGF0aCBkPSJNMTkgMTNhNyA3IDAgMTAtNyA3IiAvPgogIDxwYXRoIGQ9Ik01IDIwaDE0IiAvPgo8L3N2Zz4K)
   static const IconData georgianLari = const IconData(59000,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData georgianLariDir = const IconData(59000,
@@ -8483,6 +8915,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// globe-ban
+  /// ![globe-ban](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMjJhMTQuNDggMTQuNDggMCAwMS00LjAwOC0xMEM3Ljk5MyA5LjEzNiA5IDUuMjU4IDExIDIuMDVBMTAgMTAgMCAwMDEyIDIyIiAvPgogIDxwYXRoIGQ9Im0xNS4xNzIgMy4xNzIgNS42NTYgNS42NTYiIC8+CiAgPHBhdGggZD0iTTE1Ljg2IDE0YTE0LjUgMTQuNSAwIDAxLTMuODU5IDggMTAgMTAgMCAwMDkuOTQ5LTkiIC8+CiAgPHBhdGggZD0iTTIgMTJoMTAuNSIgLz4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjYiIHI9IjQiIC8+Cjwvc3ZnPgo=)
+  static const IconData globeBan = const IconData(59441,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData globeBanDir = const IconData(59441,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// globe-check
   /// ![globe-check](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTUgNiAyIDIgNC00IiAvPgogIDxwYXRoIGQ9Ik0yIDEyaDIwQTEwIDEwIDAgMSAxIDEyIDJhMTQuNSAxNC41IDAgMCAwIDAgMjAgMTQuNSAxNC41IDAgMCAwIDQtMTAiIC8+Cjwvc3ZnPgo=)
   static const IconData globeCheck = const IconData(59132,
@@ -8515,6 +8956,15 @@ class LucideIcons {
   static const IconData globeOff = const IconData(59061,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData globeOffDir = const IconData(59061,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// globe-plus
+  /// ![globe-plus](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUuOTI5IDEwLjU2M0ExNC41IDE0LjUgMCAwMTEyIDIyYTEgMSAwIDAxMC0yMCAxNSAxNSAwIDAxLjY4Ljc2OCIgLz4KICA8cGF0aCBkPSJNMTkgMnY2IiAvPgogIDxwYXRoIGQ9Ik0yMS45MiAxMC43MzRBMTAgMTAgMCAwMTEyIDIyYTE0LjUgMTQuNSAwIDAxMC0yMCAxMCAxMCAwIDAxMS4yNjYuMDgiIC8+CiAgPHBhdGggZD0iTTIyIDEySDIiIC8+CiAgPHBhdGggZD0iTTIyIDVoLTYiIC8+Cjwvc3ZnPgo=)
+  static const IconData globePlus = const IconData(59442,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData globePlusDir = const IconData(59442,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -9042,7 +9492,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// heading
-  /// ![heading](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMmgxMiIgLz4KICA8cGF0aCBkPSJNNiAyMFY0IiAvPgogIDxwYXRoIGQ9Ik0xOCAyMFY0IiAvPgo8L3N2Zz4K)
+  /// ![heading](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData heading = const IconData(58244,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData headingDir = const IconData(58244,
@@ -9221,6 +9671,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// hockey-stick
+  /// ![hockey-stick](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTEgNHY0YzAgMS4xLTIuMDI1IDItNC41IDJTMiA5LjEgMiA4VjQiIC8+CiAgPHBhdGggZD0iTTE4LjIxIDMuMTA2YTIgMiAwIDAxMy41NzkgMS43ODlsLTYuODk1IDEzLjc4OUE2IDYgMCAwMTkuNTI5IDIySDQuNWExIDEgMCAwMTAtNWg1LjUyOGEyIDIgMCAwMDEuNzg4LTEuMTA1eiIgLz4KICA8cGF0aCBkPSJtMTguNTkgMTEuMjk1LTMuNTc4LTEuNzg5IiAvPgogIDxwYXRoIGQ9Im0yMC43OSA2Ljg5NS0zLjU3OC0xLjc4OSIgLz4KICA8cGF0aCBkPSJNNyAxN3Y1IiAvPgogIDxlbGxpcHNlIGN4PSI2LjUiIGN5PSI0IiByeD0iNC41IiByeT0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData hockeyStick = const IconData(59329,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData hockeyStickDir = const IconData(59329,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// home
   /// ![home](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData home = const IconData(57589,
@@ -9253,6 +9712,15 @@ class LucideIcons {
   static const IconData hospital = const IconData(58840,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData hospitalDir = const IconData(58840,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// hot-air-balloon
+  /// ![hot-air-balloon](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTEuNSAxOEMxMCAxNSA5IDEyIDkgOWEzIDcgMCAwIDEgNiAwYzAgMy0xIDYtMi41IDkiIC8+CiAgPHBhdGggZD0iTTE1IDE4YzMtMyA1LTUgNS05QTggNyAwIDAgMCA0IDljMCA0IDIgNiA1IDkiIC8+CiAgPHBhdGggZD0iTTE1IDE4SDl2M2ExIDEgMCAwIDAgMSAxaDRhMSAxIDAgMCAwIDEtMXoiIC8+Cjwvc3ZnPgo=)
+  static const IconData hotAirBalloon = const IconData(59330,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData hotAirBalloonDir = const IconData(59330,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -9528,7 +9996,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// indian-rupee
-  /// ![indian-rupee](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAzaDEyIiAvPgogIDxwYXRoIGQ9Ik02IDhoMTIiIC8+CiAgPHBhdGggZD0ibTYgMTMgOC41IDgiIC8+CiAgPHBhdGggZD0iTTYgMTNoMyIgLz4KICA8cGF0aCBkPSJNOSAxM2M2LjY2NyAwIDYuNjY3LTEwIDAtMTAiIC8+Cjwvc3ZnPgo=)
+  /// ![indian-rupee](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTQgMjAtOC04aDRjNS4zMzMgMCA1LjMzMy04IDAtOCIgLz4KICA8cGF0aCBkPSJNNiA0aDEyIiAvPgogIDxwYXRoIGQ9Ik02IDhoMTIiIC8+Cjwvc3ZnPgo=)
   static const IconData indianRupee = const IconData(57592,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData indianRupeeDir = const IconData(57592,
@@ -9609,7 +10077,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// japanese-yen
-  /// ![japanese-yen](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgOS41VjIxbTAtMTEuNUw2IDNtNiA2LjVMMTggMyIgLz4KICA8cGF0aCBkPSJNNiAxNWgxMiIgLz4KICA8cGF0aCBkPSJNNiAxMWgxMiIgLz4KPC9zdmc+Cg==)
+  /// ![japanese-yen](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJ2OCIgLz4KICA8cGF0aCBkPSJtNiA0IDYgOCA2LTgiIC8+CiAgPHBhdGggZD0iTTggMTNoOCIgLz4KICA8cGF0aCBkPSJNOCAxN2g4IiAvPgo8L3N2Zz4K)
   static const IconData japaneseYen = const IconData(57596,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData japaneseYenDir = const IconData(57596,
@@ -9847,6 +10315,15 @@ class LucideIcons {
   static const IconData laptop = const IconData(57805,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData laptopDir = const IconData(57805,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// laser
+  /// ![laser](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTMgOCAuOTUtLjk1IiAvPgogIDxwYXRoIGQ9Ik0xMy45NSAxNi45NSAxMyAxNiIgLz4KICA8cGF0aCBkPSJNMjIgMTJoLTkiIC8+CiAgPHBhdGggZD0iTTQgMTJIMiIgLz4KICA8cGF0aCBkPSJNNC4wNSAxNi45NSA1IDE2IiAvPgogIDxwYXRoIGQ9Im01IDgtLjk1LS45NSIgLz4KICA8cGF0aCBkPSJNOSAxMmguMDEiIC8+CiAgPHBhdGggZD0iTTkgMTl2LTIiIC8+CiAgPHBhdGggZD0iTTkgN1Y1IiAvPgo8L3N2Zz4K)
+  static const IconData laser = const IconData(59340,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData laserDir = const IconData(59340,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -10112,6 +10589,177 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// letter-a
+  /// ![letter-a](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcuMTE3IDE0SDYuODgzIiAvPgogIDxwYXRoIGQ9Im00IDIwIDcuNTUtMTUuNzEyYS41LjUgMCAwMS45IDBMMjAgMjAiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterA = const IconData(59372,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterADir = const IconData(59372,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-b
+  /// ![letter-b](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMmg5YTQgNCAwIDAxMCA4SDdhMSAxIDAgMDEtMS0xVjVhMSAxIDAgMDExLTFoN2E0IDQgMCAwMTAgOCIgLz4KPC9zdmc+Cg==)
+  static const IconData letterB = const IconData(57437,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterBDir = const IconData(57437,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-c
+  /// ![letter-c](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTkgNi43MDhhOCA4IDAgMTAwIDEwLjU4NCIgLz4KPC9zdmc+Cg==)
+  static const IconData letterC = const IconData(59373,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterCDir = const IconData(59373,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-d
+  /// ![letter-d](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTEgNGE4IDggMCAwMTAgMTZINi40MDZBLjQwNi40MDYgMCAwMTYgMTkuNTk0VjQuNDA2QS40MDYuNDA2IDAgMDE2LjQwNiA0eiIgLz4KPC9zdmc+Cg==)
+  static const IconData letterD = const IconData(59374,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterDDir = const IconData(59374,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-e
+  /// ![letter-e](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggNEg3YTEgMSAwIDAwLTEgMXYxNGExIDEgMCAwMDEgMWgxMSIgLz4KICA8cGF0aCBkPSJNNiAxMmg4IiAvPgo8L3N2Zz4K)
+  static const IconData letterE = const IconData(59375,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterEDir = const IconData(59375,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-f
+  /// ![letter-f](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMmg4IiAvPgogIDxwYXRoIGQ9Ik02IDIwVjVhMSAxIDAgMDExLTFoMTEiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterF = const IconData(59376,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterFDir = const IconData(59376,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-g
+  /// ![letter-g](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTkgNi43MDhhOCA4IDAgMTAtLjUyNiAxMS4xMjZjLjM1NS0uMzMzLjUyNi0uODExLjUyNi0xLjI5OVYxM2ExIDEgMCAwMC0xLTFoLTQiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterG = const IconData(59377,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterGDir = const IconData(59377,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-h
+  /// ![letter-h](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggMjBWNCIgLz4KICA8cGF0aCBkPSJNNiAxMkgxOCIgLz4KICA8cGF0aCBkPSJNNiAyMFY0IiAvPgo8L3N2Zz4K)
+  static const IconData letterH = const IconData(58244,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterHDir = const IconData(58244,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-i
+  /// ![letter-i](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMjBWNCIgLz4KPC9zdmc+Cg==)
+  static const IconData letterI = const IconData(59378,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterIDir = const IconData(59378,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-j
+  /// ![letter-j](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgNHYxMWE1IDUgMCAwMS0xMCAwIiAvPgo8L3N2Zz4K)
+  static const IconData letterJ = const IconData(59379,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterJDir = const IconData(59379,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-k
+  /// ![letter-k](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgNCA2IDE1IiAvPgogIDxwYXRoIGQ9Ik02IDIwVjQiIC8+CiAgPHBhdGggZD0ibTkgMTIgOCA4IiAvPgo8L3N2Zz4K)
+  static const IconData letterK = const IconData(59380,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterKDir = const IconData(59380,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-l
+  /// ![letter-l](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiA0djE1YTEgMSAwIDAwMSAxaDExIiAvPgo8L3N2Zz4K)
+  static const IconData letterL = const IconData(59381,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterLDir = const IconData(59381,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-m
+  /// ![letter-m](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNCAyMFY0LjI1M2EuMjUuMjUgMCAwMS40NTQtLjE0NGw2LjcyNyA5LjQ2N2ExIDEgMCAwMDEuNjMgMGw2LjczNS05LjQ2OGEuMjUuMjUgMCAwMS40NTQuMTQ1VjIwIiAvPgo8L3N2Zz4K)
+  static const IconData letterM = const IconData(59382,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterMDir = const IconData(59382,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-n
+  /// ![letter-n](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAyMFY0LjI1YS4yNS4yNSAwIDAxLjQ1NS0uMTQzbDExLjA5IDE1Ljc4NmEuMjUuMjUgMCAwMC40NTUtLjE0NFY0IiAvPgo8L3N2Zz4K)
+  static const IconData letterN = const IconData(59383,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterNDir = const IconData(59383,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-o
+  /// ![letter-o](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI4IiAvPgo8L3N2Zz4K)
+  static const IconData letterO = const IconData(59384,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterODir = const IconData(59384,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-p
+  /// ![letter-p](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMmg4YTQgNCAwIDAwMC04SDdhMSAxIDAgMDAtMSAxdjE1IiAvPgo8L3N2Zz4K)
+  static const IconData letterP = const IconData(59385,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterPDir = const IconData(59385,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-q
+  /// ![letter-q](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI4IiAvPgogIDxwYXRoIGQ9Ik0yMCAyMEwxNSAxNSIgLz4KPC9zdmc+Cg==)
+  static const IconData letterQ = const IconData(59386,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterQDir = const IconData(59386,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-r
+  /// ![letter-r](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTAgMTIgOCA4IiAvPgogIDxwYXRoIGQ9Ik02IDEyaDhhNCA0IDAgMDAwLThIN2ExIDEgMCAwMC0xIDF2MTUiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterR = const IconData(59387,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterRDir = const IconData(59387,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-s
+  /// ![letter-s](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgNGgtN2E0IDQgMCAwMDAgOGg0YTQgNCAwIDAxMCA4SDYiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterS = const IconData(59388,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterSDir = const IconData(59388,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// letter-spacing
   /// ![letter-spacing](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgMTRIOSIgLz4KICA8cGF0aCBkPSJNMjEgM3YxOCIgLz4KICA8cGF0aCBkPSJNMyAzdjE4IiAvPgogIDxwYXRoIGQ9Im04IDE2IDMuNDUzLTcuNjQ4YS42LjYgMCAwMTEuMDk0LjAwMUwxNiAxNiIgLz4KPC9zdmc+Cg==)
   static const IconData letterSpacing = const IconData(59318,
@@ -10121,11 +10769,74 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// letter-t
+  /// ![letter-t](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMjBWNCIgLz4KICA8cGF0aCBkPSJNNSA0aDE0IiAvPgo8L3N2Zz4K)
+  static const IconData letterT = const IconData(59389,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterTDir = const IconData(59389,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// letter-text
   /// ![letter-text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData letterText = const IconData(58885,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData letterTextDir = const IconData(58885,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-u
+  /// ![letter-u](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiA0djEwYTYgNiAwIDAwMTIgMFY0IiAvPgo8L3N2Zz4K)
+  static const IconData letterU = const IconData(59390,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterUDir = const IconData(59390,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-v
+  /// ![letter-v](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtNiA0IDUuNzY1IDE1LjgzNWEuMjUuMjUgMCAwMC40NyAwTDE4IDQiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterV = const IconData(59391,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterVDir = const IconData(59391,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-w
+  /// ![letter-w](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMjEgNC00Ljc5NCAxNS44MjFhLjI1LjI1IDAgMDEtLjQ3MS4wMjFsLTMuNTAzLTguNjg1YS4yNS4yNSAwIDAwLS40NjQgMGwtMy41MDMgOC42ODVhLjI1LjI1IDAgMDEtLjQ3LS4wMjFMMyA0IiAvPgo8L3N2Zz4K)
+  static const IconData letterW = const IconData(59392,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterWDir = const IconData(59392,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-x
+  /// ![letter-x](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggNCA2IDIwIiAvPgogIDxwYXRoIGQ9Im02IDQgMTIgMTYiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterX = const IconData(59393,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterXDir = const IconData(59393,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-y
+  /// ![letter-y](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJ2OCIgLz4KICA8cGF0aCBkPSJtNiA0IDYgOCA2LTgiIC8+Cjwvc3ZnPgo=)
+  static const IconData letterY = const IconData(59394,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterYDir = const IconData(59394,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// letter-z
+  /// ![letter-z](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiA0aDExLjVhLjUuNSAwIDAxLjM4Ny44MTdMNi4xMTQgMTkuMTgzYS41LjUgMCAwMC4zODcuODE3SDE4IiAvPgo8L3N2Zz4K)
+  static const IconData letterZ = const IconData(59395,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData letterZDir = const IconData(59395,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -10994,6 +11705,69 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// margin-bottom
+  /// ![margin-bottom](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMyAyMWgxOCIgLz4KPC9zdmc+Cg==)
+  static const IconData marginBottom = const IconData(59424,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginBottomDir = const IconData(59424,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin-horizontal
+  /// ![margin-horizontal](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMjEgM3YxOCIgLz4KICA8cGF0aCBkPSJNMyAzdjE4IiAvPgo8L3N2Zz4K)
+  static const IconData marginHorizontal = const IconData(59425,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginHorizontalDir = const IconData(59425,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin-left
+  /// ![margin-left](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMyAzdjE4IiAvPgo8L3N2Zz4K)
+  static const IconData marginLeft = const IconData(59426,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginLeftDir = const IconData(59426,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin-right
+  /// ![margin-right](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMjEgM3YxOCIgLz4KPC9zdmc+Cg==)
+  static const IconData marginRight = const IconData(59427,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginRightDir = const IconData(59427,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin-top
+  /// ![margin-top](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMyAzaDE4IiAvPgo8L3N2Zz4K)
+  static const IconData marginTop = const IconData(59428,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginTopDir = const IconData(59428,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin-vertical
+  /// ![margin-vertical](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMyAyMWgxOCIgLz4KICA8cGF0aCBkPSJNMyAzaDE4IiAvPgo8L3N2Zz4K)
+  static const IconData marginVertical = const IconData(59429,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginVerticalDir = const IconData(59429,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// margin
+  /// ![margin](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cGF0aCBkPSJNMjEgNnYxMiIgLz4KICA8cGF0aCBkPSJNMyA2djEyIiAvPgogIDxwYXRoIGQ9Ik02IDIxaDEyIiAvPgogIDxwYXRoIGQ9Ik02IDNoMTIiIC8+Cjwvc3ZnPgo=)
+  static const IconData margin = const IconData(59430,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData marginDir = const IconData(59430,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// mars-stroke
   /// ![mars-stroke](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTQgNiA0IDQiIC8+CiAgPHBhdGggZD0iTTE3IDNoNHY0IiAvPgogIDxwYXRoIGQ9Im0yMSAzLTcuNzUgNy43NSIgLz4KICA8Y2lyY2xlIGN4PSI5IiBjeT0iMTUiIHI9IjYiIC8+Cjwvc3ZnPgo=)
   static const IconData marsStroke = const IconData(58946,
@@ -11606,6 +12380,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// monitor-activity
+  /// ![monitor-activity](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTd2NCIgLz4KICA8cGF0aCBkPSJNMTggMTBoLTIuMzE1YTEgMSAwIDAwLS45MzIuNjRsLS43ODcgMi4wMzRhLjUuNSAwIDAxLS45MzIgMGwtMi4wNjgtNS4zNDhhLjUuNSAwIDAwLS45MzIgMGwtLjc4NyAyLjAzNWExIDEgMCAwMS0uOTMyLjYzOUg2IiAvPgogIDxwYXRoIGQ9Ik04IDIxaDgiIC8+CiAgPHJlY3QgeD0iMiIgeT0iMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData monitorActivity = const IconData(59431,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData monitorActivityDir = const IconData(59431,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// monitor-check
   /// ![monitor-check](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSAxMCAyIDIgNC00IiAvPgogIDxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iMyIgcng9IjIiIC8+CiAgPHBhdGggZD0iTTEyIDE3djQiIC8+CiAgPHBhdGggZD0iTTggMjFoOCIgLz4KPC9zdmc+Cg==)
   static const IconData monitorCheck = const IconData(58498,
@@ -12147,7 +12930,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// nepali-rupee
-  /// ![nepali-rupee](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggMTYuMTczIEE0Ljc0IDQuNzQgMCAwIDAgMTMuNDk2IDguMDA1IiAvPgogIDxwYXRoIGQ9Ik00IDMgTDIwIDMiIC8+CiAgPHBhdGggZD0iTTUgMTMgTDEzLjUgMjEiIC8+CiAgPHBhdGggZD0iTTUgMTMgTDkgMTMiIC8+CiAgPHBhdGggZD0iTTggMTMgQzE1LjUgMTMgMTQuNjY3IDMgOCAzIiAvPgo8L3N2Zz4K)
+  /// ![nepali-rupee](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTQgMjAtOC04aDRjNS4zMzMgMCA1LjMzMy04IDAtOCIgLz4KICA8cGF0aCBkPSJNMTQgOGM0LjA3OCAwIDUuMDM4IDQuNjc4IDIuODggNi44OCIgLz4KICA8cGF0aCBkPSJNNiA0aDEyIiAvPgo8L3N2Zz4K)
   static const IconData nepaliRupee = const IconData(59265,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData nepaliRupeeDir = const IconData(59265,
@@ -12250,6 +13033,15 @@ class LucideIcons {
   static const IconData notepadText = const IconData(58777,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData notepadTextDir = const IconData(58777,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// numbers
+  /// ![numbers](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTAgNCAyLjYtMS45NWEuMjUuMjUgMCAwMS40LjJWMTAiIC8+CiAgPHBhdGggZD0iTTE2IDE0LjUzNUE0IDQgMCAwMTE4IDE0YTIgMiAwIDAxMCA0IDIgMiAwIDAxMCA0IDQgNCAwIDAxLTItLjUzNSIgLz4KICA8cGF0aCBkPSJNOCAyMkg0LjVhLjUuNSAwIDAxLS41LS41YzAtMi42OCA0LTIuOTMyIDQtNS41YTIgMiAwIDAwLTItMiAyLjUgMi41IDAgMDAtMiAxIiAvPgo8L3N2Zz4K)
+  static const IconData numbers = const IconData(59396,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData numbersDir = const IconData(59396,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -13065,7 +13857,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// philippine-peso
-  /// ![philippine-peso](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMjAgMTFINCIgLz4KICA8cGF0aCBkPSJNMjAgN0g0IiAvPgogIDxwYXRoIGQ9Ik03IDIxVjRhMSAxIDAgMCAxIDEtMWg0YTEgMSAwIDAgMSAwIDEySDciIC8+Cjwvc3ZnPgo=)
+  /// ![philippine-peso](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNCAxMmgxNiIgLz4KICA8cGF0aCBkPSJNNCA4aDE2IiAvPgogIDxwYXRoIGQ9Ik02IDIwVjVhMSAxIDAgMDExLTFoNWE2IDYgMCAwMTAgMTJINiIgLz4KPC9zdmc+Cg==)
   static const IconData philippinePeso = const IconData(58884,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData philippinePesoDir = const IconData(58884,
@@ -13533,7 +14325,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// pound-sterling
-  /// ![pound-sterling](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTggN2MwLTUuMzMzLTgtNS4zMzMtOCAwIiAvPgogIDxwYXRoIGQ9Ik0xMCA3djE0IiAvPgogIDxwYXRoIGQ9Ik02IDIxaDEyIiAvPgogIDxwYXRoIGQ9Ik02IDEzaDEwIiAvPgo8L3N2Zz4K)
+  /// ![pound-sterling](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgMThhMiAyIDAgMDEtMiAySDVhMyAzIDAgMDAzLTNWOGE0IDQgMCAwMTggMCIgLz4KICA8cGF0aCBkPSJNNiAxMmg3IiAvPgo8L3N2Zz4K)
   static const IconData poundSterling = const IconData(57663,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData poundSterlingDir = const IconData(57663,
@@ -14361,7 +15153,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// russian-ruble
-  /// ![russian-ruble](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNiAxMWg4YTQgNCAwIDAgMCAwLThIOXYxOCIgLz4KICA8cGF0aCBkPSJNNiAxNWg4IiAvPgo8L3N2Zz4K)
+  /// ![russian-ruble](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNCAxNmg2IiAvPgogIDxwYXRoIGQ9Ik03IDIwVjVhMSAxIDAgMDExLTFoNmE0IDQgMCAwMTAgOEg0IiAvPgo8L3N2Zz4K)
   static const IconData russianRuble = const IconData(57676,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData russianRubleDir = const IconData(57676,
@@ -14415,7 +15207,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// saudi-riyal
-  /// ![saudi-riyal](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMjAgMTkuNS01LjUgMS4yIiAvPgogIDxwYXRoIGQ9Ik0xNC41IDR2MTEuMjJhMSAxIDAgMCAwIDEuMjQyLjk3TDIwIDE1LjIiIC8+CiAgPHBhdGggZD0ibTIuOTc4IDE5LjM1MSA1LjU0OS0xLjM2M0EyIDIgMCAwIDAgMTAgMTZWMiIgLz4KICA8cGF0aCBkPSJNMjAgMTAgNCAxMy41IiAvPgo8L3N2Zz4K)
+  /// ![saudi-riyal](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMi45Nzd2MTMuMTlhMiAyIDAgMDEtMS4yMyAxLjg0Nkw0IDE5Ljk5OSIgLz4KICA8cGF0aCBkPSJNMTQgNHY5LjUyM2ExIDEgMCAwMDEuMzcxLjkyOEwxOSAxMyIgLz4KICA8cGF0aCBkPSJtMTkgMTgtNSAyIiAvPgogIDxwYXRoIGQ9Ik0xOSA4IDQgMTQiIC8+Cjwvc3ZnPgo=)
   static const IconData saudiRiyal = const IconData(58955,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData saudiRiyalDir = const IconData(58955,
@@ -15422,6 +16214,15 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// siren-off
+  /// ![siren-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJ2NiIgLz4KICA8cGF0aCBkPSJNMTIgMnYxIiAvPgogIDxwYXRoIGQ9Ik0xMi43MDcgNy4wNWE1IDUgMCAwIDEgNC4yNDMgNC4yNDMiIC8+CiAgPHBhdGggZD0iTTE3IDE3djFIN2EyIDIgMCAwIDAtMiAydjFhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xdi0xYTIgMiAwIDAgMC0yLTIiIC8+CiAgPHBhdGggZD0iTTE4LjUgNC41IDE4IDUiIC8+CiAgPHBhdGggZD0iTTIgMTJoMSIgLz4KICA8cGF0aCBkPSJtMiAyIDIwIDIwIiAvPgogIDxwYXRoIGQ9Ik0yMSAxMmgxIiAvPgogIDxwYXRoIGQ9Ik03IDE4di02YTUgNSAwIDAgMSAxLjQ2NC0zLjUzNiIgLz4KPC9zdmc+Cg==)
+  static const IconData sirenOff = const IconData(59341,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData sirenOffDir = const IconData(59341,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// siren
   /// ![siren](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNyAxOHYtNmE1IDUgMCAxIDEgMTAgMHY2IiAvPgogIDxwYXRoIGQ9Ik01IDIxYTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEtMXYtMWEyIDIgMCAwIDAtMi0ySDdhMiAyIDAgMCAwLTIgMnoiIC8+CiAgPHBhdGggZD0iTTIxIDEyaDEiIC8+CiAgPHBhdGggZD0iTTE4LjUgNC41IDE4IDUiIC8+CiAgPHBhdGggZD0iTTIgMTJoMSIgLz4KICA8cGF0aCBkPSJNMTIgMnYxIiAvPgogIDxwYXRoIGQ9Im00LjkyOSA0LjkyOS43MDcuNzA3IiAvPgogIDxwYXRoIGQ9Ik0xMiAxMnY2IiAvPgo8L3N2Zz4K)
   static const IconData siren = const IconData(58095,
@@ -16054,6 +16855,42 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// square-chevrons-down
+  /// ![square-chevrons-down](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNEwxMiAxN0wxNSAxNCIgLz4KICA8cGF0aCBkPSJNOSA4TDEyIDExTDE1IDgiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareChevronsDown = const IconData(59342,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareChevronsDownDir = const IconData(59342,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-chevrons-left
+  /// ![square-chevrons-left](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgOUw3IDEyTDEwIDE1IiAvPgogIDxwYXRoIGQ9Ik0xNiA5TDEzIDEyTDE2IDE1IiAvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareChevronsLeft = const IconData(59343,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareChevronsLeftDir = const IconData(59343,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-chevrons-right
+  /// ![square-chevrons-right](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQgMTVMMTcgMTJMMTQgOSIgLz4KICA8cGF0aCBkPSJNOCAxNUwxMSAxMkw4IDkiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareChevronsRight = const IconData(59344,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareChevronsRightDir = const IconData(59344,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-chevrons-up
+  /// ![square-chevrons-up](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgMTBMMTIgN0w5IDEwIiAvPgogIDxwYXRoIGQ9Ik0xNSAxNkwxMiAxM0w5IDE2IiAvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareChevronsUp = const IconData(59345,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareChevronsUpDir = const IconData(59345,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// square-code
   /// ![square-code](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTAgOS0zIDMgMyAzIiAvPgogIDxwYXRoIGQ9Im0xNCAxNSAzLTMtMy0zIiAvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIC8+Cjwvc3ZnPgo=)
   static const IconData squareCode = const IconData(57707,
@@ -16216,11 +17053,263 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// square-kanban-plus
+  /// ![square-kanban-plus](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgN3Y0IiAvPgogIDxwYXRoIGQ9Ik0xMi4zNTQgMjFINWEyIDIgMCAwMS0yLTJWNWEyIDIgMCAwMTItMmgxNGEyIDIgMCAwMTIgMnY3LjM1NCIgLz4KICA8cGF0aCBkPSJNMTUgMThoNiIgLz4KICA8cGF0aCBkPSJNMTYgN3Y0LjUzNiIgLz4KICA8cGF0aCBkPSJNMTggMjF2LTYiIC8+CiAgPHBhdGggZD0iTTggN3Y3IiAvPgo8L3N2Zz4K)
+  static const IconData squareKanbanPlus = const IconData(59397,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareKanbanPlusDir = const IconData(59397,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// square-kanban
   /// ![square-kanban](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik04IDd2NyIgLz4KICA8cGF0aCBkPSJNMTIgN3Y0IiAvPgogIDxwYXRoIGQ9Ik0xNiA3djkiIC8+Cjwvc3ZnPgo=)
   static const IconData squareKanban = const IconData(57712,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData squareKanbanDir = const IconData(57712,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-a
+  /// ![square-letter-a](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOCAxNiAzLjQ1My03LjY0OGEuNi42IDAgMCAxIDEuMDk0IDBMMTYgMTYiIC8+CiAgPHBhdGggZD0iTTE1IDE0SDkiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterA = const IconData(59398,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterADir = const IconData(59398,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-b
+  /// ![square-letter-b](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxMmg0Ljg0NmEyLjI0IDIuMjQgMCAwMTEuNTIzLjU4NiAyIDIgMCAwMS4wMDEgMi44MjggMi4yNCAyLjI0IDAgMDEtMS41MjQuNTg2SDkuNWEuNS41IDAgMDEtLjUtLjV2LTdhLjUuNSAwIDAxLjUtLjVIMTNhMiAyIDAgMDEwIDQiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterB = const IconData(59399,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterBDir = const IconData(59399,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-c
+  /// ![square-letter-c](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOS4zNTRhNCA0IDAgMSAwIDAgNS4yOTIiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterC = const IconData(59400,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterCDir = const IconData(59400,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-d
+  /// ![square-letter-d](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgOGE0IDQgMCAwMTAgOEg5LjQxMkEuNDEuNDEgMCAwMTkgMTUuNTg4VjguNDEyQS40MS40MSAwIDAxOS40MTIgOHoiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterD = const IconData(59401,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterDDir = const IconData(59401,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-e
+  /// ![square-letter-e](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOEg5LjVhLjUuNSAwIDAgMC0uNS41djdhLjUuNSAwIDAgMCAuNS41SDE1IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDQiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterE = const IconData(59402,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterEDir = const IconData(59402,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-f
+  /// ![square-letter-f](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4LjVhLjUuNSAwIDAgMSAuNS0uNUgxNSIgLz4KICA8cGF0aCBkPSJNOSAxMmg0IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterF = const IconData(59403,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterFDir = const IconData(59403,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-g
+  /// ![square-letter-g](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIuNSAxMkgxNXYyLjI2OGEuODguODggMCAwMS0uMjYzLjY1QTQgNCAwIDExMTIgOGgyLjUiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterG = const IconData(59404,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterGDir = const IconData(59404,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-h
+  /// ![square-letter-h](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4IiAvPgogIDxwYXRoIGQ9Ik0xNSAxNlY4IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDYiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterH = const IconData(59405,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterHDir = const IconData(59405,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-i
+  /// ![square-letter-i](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTZWOCIgLz4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterI = const IconData(59406,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterIDir = const IconData(59406,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-j
+  /// ![square-letter-j](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQgOHY1LjVhMSAxIDAgMDEtNSAwVjEzIiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterJ = const IconData(59407,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterJDir = const IconData(59407,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-k
+  /// ![square-letter-k](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4IiAvPgogIDxwYXRoIGQ9Im0xMSAxMiA0IDQiIC8+CiAgPHBhdGggZD0ibTE1IDgtNiA2IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterK = const IconData(59408,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterKDir = const IconData(59408,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-l
+  /// ![square-letter-l](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSA4djcuNWEuNS41IDAgMCAwIC41LjVIMTUiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterL = const IconData(59409,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterLDir = const IconData(59409,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-m
+  /// ![square-letter-m](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOCAxNi4wMDF2LTcuNWEuNS41IDAgMCAxIC45LS4zbDIuNyAzLjU5OWEuNS41IDAgMCAwIC44IDBsMi43LTMuNmEuNS41IDAgMCAxIC45LjN2Ny41MDEiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterM = const IconData(58627,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterMDir = const IconData(58627,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-n
+  /// ![square-letter-n](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxNlY4LjU3NmEuNDk2LjQ5NiAwIDAxLjkzNy0uMjQzbDQuMTI2IDcuNDNBLjQ5Ni40OTYgMCAwMDE1IDE1LjUyVjgiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterN = const IconData(59410,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterNDir = const IconData(59410,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-o
+  /// ![square-letter-o](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterO = const IconData(59411,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterODir = const IconData(59411,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-p-off
+  /// ![square-letter-p-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTJoMWEyIDIgMCAwMDAtNEg5LjVhLjUuNSAwIDAwLS41LjVWOSIgLz4KICA8cGF0aCBkPSJNMTUuMzQzIDIxSDVhMiAyIDAgMDEtMi0yVjguNjU3IiAvPgogIDxwYXRoIGQ9Ik0yMiAyMiAyIDIiIC8+CiAgPHBhdGggZD0iTTMuNTg2IDMuNTg2QTIgMiAwIDAxNSAzaDE0YTIgMiAwIDAxMiAydjE0YTIgMiAwIDAxLS41ODYgMS40MTQiIC8+CiAgPHBhdGggZD0iTTkgMTQuNjU3VjE2IiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterPOff = const IconData(58316,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterPOffDir = const IconData(58316,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-p
+  /// ![square-letter-p](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSAxMmg0YTIgMiAwIDAgMCAwLTRIOS41YS41LjUgMCAwIDAtLjUuNVYxNiIgLz4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterP = const IconData(58315,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterPDir = const IconData(58315,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-q
+  /// ![square-letter-q](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiAvPgogIDxwYXRoIGQ9Im0xNiAxNi0yLjUtMi41IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterQ = const IconData(59412,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterQDir = const IconData(59412,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-r
+  /// ![square-letter-r](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTEgMTIgNCA0IiAvPgogIDxwYXRoIGQ9Ik05IDEyaDRhMiAyIDAgMCAwIDAtNEg5LjVhLjUuNSAwIDAgMC0uNS41VjE2IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterR = const IconData(59413,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterRDir = const IconData(59413,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-s
+  /// ![square-letter-s](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTQuNSA4SDExYTIgMiAwIDEwMCA0aDJhMiAyIDAgMTEwIDRIOSIgLz4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterS = const IconData(59414,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterSDir = const IconData(59414,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-t
+  /// ![square-letter-t](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTIgMTZWOCIgLz4KICA8cGF0aCBkPSJNOSA4aDYiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterT = const IconData(59415,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterTDir = const IconData(59415,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-u
+  /// ![square-letter-u](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgOHY1YTMgMyAwIDEgMS02IDBWOCIgLz4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterU = const IconData(59416,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterUDir = const IconData(59416,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-v
+  /// ![square-letter-v](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSA4IDIuNTI1IDcuNjZhLjUuNSAwIDAgMCAuOTUgMEwxNSA4IiAvPgogIDxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iMyIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterV = const IconData(59417,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterVDir = const IconData(59417,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-w
+  /// ![square-letter-w](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTYgOC0xLjU5MSA3LjU5OGEuNDk3LjQ5NyAwIDAxLS45Ny4wMzhsLS45Ni0zLjI3NmEuNS41IDAgMDAtLjk1OSAwbC0uOTYgMy4yNzZhLjQ5Ni40OTYgMCAwMS0uOTY5LS4wMzhMOCA4IiAvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  static const IconData squareLetterW = const IconData(59418,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterWDir = const IconData(59418,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-x
+  /// ![square-letter-x](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSAxNiA2LTgiIC8+CiAgPHBhdGggZD0ibTkgOCA2IDgiIC8+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterX = const IconData(59419,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterXDir = const IconData(59419,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-y
+  /// ![square-letter-y](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtOSA4IDMgNCAzLTQiIC8+CiAgPHBhdGggZD0iTTEyIDEydjQiIC8+CiAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiB4PSIzIiB5PSIzIiByeD0iMiIgLz4KPC9zdmc+Cg==)
+  static const IconData squareLetterY = const IconData(59420,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterYDir = const IconData(59420,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-letter-z
+  /// ![square-letter-z](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOSA4aDUuNTAxYS41LjUgMCAwIDEgLjM3LjgzNkw5LjEzIDE1LjE2NEEuNS41IDAgMCAwIDkuNSAxNkgxNSIgLz4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgo8L3N2Zz4K)
+  static const IconData squareLetterZ = const IconData(59421,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squareLetterZDir = const IconData(59421,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
@@ -16235,7 +17324,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// square-m
-  /// ![square-m](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNOCAxNlY4LjVhLjUuNSAwIDAgMSAuOS0uM2wyLjcgMy41OTlhLjUuNSAwIDAgMCAuOCAwbDIuNy0zLjZhLjUuNSAwIDAgMSAuOS4zVjE2IiAvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIC8+Cjwvc3ZnPgo=)
+  /// ![square-m](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData squareM = const IconData(58627,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData squareMDir = const IconData(58627,
@@ -16279,8 +17368,71 @@ class LucideIcons {
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
 
+  /// square-padding-bottom
+  /// ![square-padding-bottom](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik04IDE3aDgiIC8+Cjwvc3ZnPgo=)
+  static const IconData squarePaddingBottom = const IconData(59432,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingBottomDir = const IconData(59432,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding-horizontal
+  /// ![square-padding-horizontal](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik0xNyAxNlY4IiAvPgogIDxwYXRoIGQ9Ik03IDE2VjgiIC8+Cjwvc3ZnPgo=)
+  static const IconData squarePaddingHorizontal = const IconData(59433,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingHorizontalDir = const IconData(59433,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding-left
+  /// ![square-padding-left](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik03IDE2VjgiIC8+Cjwvc3ZnPgo=)
+  static const IconData squarePaddingLeft = const IconData(59434,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingLeftDir = const IconData(59434,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding-right
+  /// ![square-padding-right](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik0xNyAxNlY4IiAvPgo8L3N2Zz4K)
+  static const IconData squarePaddingRight = const IconData(59435,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingRightDir = const IconData(59435,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding-top
+  /// ![square-padding-top](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik04IDdoOCIgLz4KPC9zdmc+Cg==)
+  static const IconData squarePaddingTop = const IconData(59436,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingTopDir = const IconData(59436,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding-vertical
+  /// ![square-padding-vertical](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik04IDE3aDgiIC8+CiAgPHBhdGggZD0iTTggN2g4IiAvPgo8L3N2Zz4K)
+  static const IconData squarePaddingVertical = const IconData(59437,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingVerticalDir = const IconData(59437,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// square-padding
+  /// ![square-padding](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik0xNCAxN2gtNCIgLz4KICA8cGF0aCBkPSJNMTQgN2gtNCIgLz4KICA8cGF0aCBkPSJNMTcgMTR2LTQiIC8+CiAgPHBhdGggZD0iTTcgMTR2LTQiIC8+Cjwvc3ZnPgo=)
+  static const IconData squarePadding = const IconData(59438,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData squarePaddingDir = const IconData(59438,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
   /// square-parking-off
-  /// ![square-parking-off](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMy42IDMuNkEyIDIgMCAwIDEgNSAzaDE0YTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLS41OSAxLjQxIiAvPgogIDxwYXRoIGQ9Ik0zIDguN1YxOWEyIDIgMCAwIDAgMiAyaDEwLjMiIC8+CiAgPHBhdGggZD0ibTIgMiAyMCAyMCIgLz4KICA8cGF0aCBkPSJNMTMgMTNhMyAzIDAgMSAwIDAtNkg5djIiIC8+CiAgPHBhdGggZD0iTTkgMTd2LTIuMyIgLz4KPC9zdmc+Cg==)
+  /// ![square-parking-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData squareParkingOff = const IconData(58316,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData squareParkingOffDir = const IconData(58316,
@@ -16289,7 +17441,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// square-parking
-  /// ![square-parking](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiIHJ4PSIyIiAvPgogIDxwYXRoIGQ9Ik05IDE3VjdoNGEzIDMgMCAwIDEgMCA2SDkiIC8+Cjwvc3ZnPgo=)
+  /// ![square-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjE2Ii8+PGxpbmUgeDE9IjgiIHkxPSIxMiIgeDI9IjEyIiB5Mj0iMTIiLz48L3N2Zz4=)
   static const IconData squareParking = const IconData(58315,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData squareParkingDir = const IconData(58315,
@@ -16937,7 +18089,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// swiss-franc
-  /// ![swiss-franc](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMjFWM2g4IiAvPgogIDxwYXRoIGQ9Ik02IDE2aDkiIC8+CiAgPHBhdGggZD0iTTEwIDkuNWg3IiAvPgo8L3N2Zz4K)
+  /// ![swiss-franc](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTAgMTBoNyIgLz4KICA8cGF0aCBkPSJNMTAgMjBWNWExIDEgMCAwMTEtMWg3IiAvPgogIDxwYXRoIGQ9Ik02IDE2aDkiIC8+Cjwvc3ZnPgo=)
   static const IconData swissFranc = const IconData(57723,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData swissFrancDir = const IconData(57723,
@@ -17996,7 +19148,7 @@ class LucideIcons {
       matchTextDirection: true);
 
   /// turkish-lira
-  /// ![turkish-lira](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTUgNCA1IDkiIC8+CiAgPHBhdGggZD0ibTE1IDguNS0xMCA1IiAvPgogIDxwYXRoIGQ9Ik0xOCAxMmE5IDkgMCAwIDEtOSA5VjMiIC8+Cjwvc3ZnPgo=)
+  /// ![turkish-lira](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMTQgMTAtOCA0IiAvPgogIDxwYXRoIGQ9Ik0xNCA1IDYgOSIgLz4KICA8cGF0aCBkPSJNMTggMTJhOCA4IDAgMDEtNy4wMDMgNy45MzdjLS41NDcuMDctLjk5Ny0uMzg1LS45OTctLjkzN1Y0IiAvPgo8L3N2Zz4K)
   static const IconData turkishLira = const IconData(59008,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData turkishLiraDir = const IconData(59008,
@@ -18459,6 +19611,15 @@ class LucideIcons {
   static const IconData userRoundSearch = const IconData(58744,
       fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
   static const IconData userRoundSearchDir = const IconData(58744,
+      fontFamily: 'Lucide',
+      fontPackage: 'lucide_icons_flutter',
+      matchTextDirection: true);
+
+  /// user-round-shield
+  /// ![user-round-shield](data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSI0OCIKICBoZWlnaHQ9IjQ4IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwNjZjYyIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMiAyMWE4IDggMCAwIDEgOC04IDUgNSAwIDEgMSA0Ljg0NS0zLjc1OSIgLz4KICA8cGF0aCBkPSJNMjIgMTcuNWMwIDIuNS0xLjc1IDMuNzUtMy44MyA0LjQ3NGEuNS41IDAgMCAxLS4zMzUtLjAwNUMxNS43NSAyMS4yNSAxNCAyMCAxNCAxNy41VjE0YS41LjUgMCAwIDEgLjUtLjQ5OWMxIDAgMi4yNS0uNiAzLjEyLTEuMzZhLjYuNiAwIDAgMSAuNzYtLjAwMWMuODc1Ljc2NSAyLjEyIDEuMzYgMy4xMiAxLjM2YS41LjUgMCAwIDEgLjUuNXoiIC8+Cjwvc3ZnPgo=)
+  static const IconData userRoundShield = const IconData(59346,
+      fontFamily: 'Lucide', fontPackage: 'lucide_icons_flutter');
+  static const IconData userRoundShieldDir = const IconData(59346,
       fontFamily: 'Lucide',
       fontPackage: 'lucide_icons_flutter',
       matchTextDirection: true);
