@@ -1,3 +1,27 @@
+## [4.0.3] - 2026-11-10
+
+### Lucide 1.70.0
+- Updated bundled icons to **Lucide 1.70.0** (including changes from 1.68.0 through 1.70.0).
+- **New Icons Added (26 new icons)**:
+  - **Exclamation Point Standardization & New Variants**:
+    - Standardized `*-exclamation-point` icons: `badge-exclamation-point`, `battery-exclamation-point`, `book-exclamation-point`, `circle-exclamation-point`, `clock-exclamation-point`, `cloud-exclamation-point`, `mail-exclamation-point`, `message-circle-exclamation-point`, `message-square-exclamation-point`, `octagon-exclamation-point`, `search-exclamation-point`, `shield-exclamation-point`, `triangle-exclamation-point`.
+    - New exclamation point variants: `user-exclamation-point`, `user-round-exclamation-point`.
+  - **New UI & System Icons**:
+    - `circle-fading-check` (notifications / status)
+    - `grid-3x3-off` (layout / grid toggling)
+    - `opacity` (design / photo controls)
+    - `package-pen`, `package-question-mark` (packaging / delivery)
+    - `square-dashed-search` (search UI)
+  - **Transportation & Food**:
+    - `moped` (transportation / vehicles)
+    - `mango` (food & beverage)
+- **Updated Icon Designs & Aliases**:
+  - Maintained backward compatibility aliases for alert icons (`mail-alert`, `message-circle-alert`, `message-square-alert`, etc.) mapping to the new `*-exclamation-point` naming convention.
+- **Font & Library Maintenance**:
+  - Rebuilt and synced variable font assets across all stroke weights (100–600). Total icons increased to 2,322 icons.
+  - Validated 100% outline, contour, and fill integrity across all 6 weights via `check_icons.py`.
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.67.0...1.70.0
+
 ## [4.0.2] - 2026-11-04
 
 ### Lucide 1.67.0
