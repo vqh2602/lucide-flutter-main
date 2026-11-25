@@ -59,6 +59,19 @@ Icon(LucideIcons500.activity);
 Icon(LucideIcons600.activity);
 ```
 
+### Release Builds: Ship Only the Fonts You Use
+
+Each weight is its own font, and Flutter's icon tree shaker leaves the fonts your app doesn't reference at full size. Call `LucideIcons.forceCompileTimeTreeShaking()` at the start of `main()`, whichever weights you use, so that every font is subset:
+
+```dart
+import 'package:lucide_icons_flutter/lucide_icons.dart';
+
+void main() {
+  LucideIcons.forceCompileTimeTreeShaking();
+  runApp(const MyApp());
+}
+```
+
 ### Web Debug Mode (DDC) Optimization
 
 In older versions (v3.x), bundling ~30,000 icon variants into a single class could trigger a `StackOverflowError` in DDC during Web debug mode ([dart-lang/sdk#64590](https://github.com/dart-lang/sdk/issues/64590)).

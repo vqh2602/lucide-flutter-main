@@ -1,3 +1,7 @@
+## [Unreleased]
+
+- Added `LucideIcons.forceCompileTimeTreeShaking()`. Called at the start of `main()`, it makes Flutter's icon tree shaker subset the fonts of the weights an app never draws instead of bundling them whole: about 3.6 MB less for an app that uses a single weight. See "Release Builds: Ship Only the Fonts You Use" in the README.
+
 ## [4.0.3] - 2026-11-10
 
 ### Lucide 1.70.0
