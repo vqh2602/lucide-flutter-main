@@ -73,11 +73,10 @@ void main(List<String> args) {
 
   // 3. Test list: lib/test_icons.dart
   List<String> listIconTest = [
-    "import 'package:flutter/material.dart';\n",
     "import 'package:lucide_icons_flutter/lucide_icons.dart';\n",
     "import 'package:lucide_icons_flutter/lucide_icons_weights.dart';\n\n",
     "/// Lucide Icons\n",
-    "const List<IconData> icons = ["
+    "const List<dynamic> icons = ["
   ];
   List<String> listIconNamesTest = ["\n\nconst List<String> iconNames = ["];
 

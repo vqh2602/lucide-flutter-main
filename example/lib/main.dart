@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (query.isEmpty) {
         filteredIcons = List.from(icons);
       } else {
-        filteredIcons = icons.where((icon) {
+        filteredIcons = icons.cast<IconData>().where((icon) {
           final searchText = searchTextForIcon(icon);
           return searchText.contains(lowerCaseQuery) ||
               searchText.contains(normalizedQuery);

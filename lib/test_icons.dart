@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:lucide_icons_flutter/lucide_icons_weights.dart';
 
 /// Lucide Icons
-const List<IconData> icons = [
+const List<dynamic> icons = [
   LucideIcons.aArrowDown,
   LucideIcons100.aArrowDown,
   LucideIcons200.aArrowDown,
