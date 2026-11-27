@@ -1,4 +1,4 @@
-## [Unreleased]
+## [4.0.4] - 2026-11-27
 
 ### Tree-Shaking & Bundle Size Optimization
 - Added `LucideIcons.forceCompileTimeTreeShaking()` by [@xvrh](https://github.com/xvrh) in [PR #35](https://github.com/vqh2602/lucide-flutter-main/pull/35).
@@ -31,6 +31,8 @@
   - Added/updated standardized aliases for `circle-arrow-*-exit`, `square-arrow-*-exit`, axis dashed (`arrows-*`, `carets-*`, `square-axis-*`), `grid-3-x-2`, `grid-3-x-3-off`, and `printer-3-d` while preserving backward compatibility.
 - **Font & Library Maintenance**:
   - Updated bundled icon definitions to Lucide 1.81.0 (total icons increased from 2,322 to 2,436; 2,456 entries in `codepoints.json` including aliases).
+  - Rebuilt and synced variable font assets across all stroke weights (100–600) and added `cap`, `cheese`, `diagram-sankey`, and `hand-truck` to `AUTO_OUTLINE_ICONS` in `tool/lucide/build_font.sh`.
+  - Validated 100% outline, contour, and fill integrity across all 6 weights via `check_icons.py`.
 - **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.70.0...1.81.0
 
 ## [4.0.3] - 2026-11-10
