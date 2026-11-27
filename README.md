@@ -7,7 +7,7 @@
 ![Pub Publisher](https://img.shields.io/pub/publisher/lucide_icons_flutter)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-vqh2602-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vqh2602)
 
-Lucide version: 1.70.0
+Lucide version: 1.81.0
 
 Lucide Icons ([lucide.dev](https://lucide.dev)) for Flutter. Visit the website for the full list of icons.
 
@@ -58,6 +58,28 @@ Icon(LucideIcons400.activity);
 Icon(LucideIcons500.activity);
 Icon(LucideIcons600.activity);
 ```
+
+### Release Builds & Flutter Web Tree-Shaking: Ship Only the Fonts You Use
+
+> **Fixed by [@xvrh](https://github.com/xvrh) in [PR #35](https://github.com/vqh2602/lucide-flutter-main/pull/35)**
+
+Each stroke weight (`Lucide`, `Lucide100`–`Lucide600`) is registered as a separate font. Because Flutter's icon tree shaker only subsets fonts directly referenced by your app ([flutter/flutter#190902](https://github.com/flutter/flutter/issues/190902), [flutter/flutter#197143](https://github.com/flutter/flutter/issues/197143) on Flutter Web), an app using a single weight previously bundled the other six fonts in full (~3.6 MB downloaded before the first frame on Web).
+
+To ensure **every** Lucide font is tree-shaken in release builds (`flutter build web`, `flutter build web --wasm`, Android, iOS, and Desktop), call `LucideIcons.forceCompileTimeTreeShaking()` at the start of `main()`, regardless of which weights you use:
+
+```dart
+import 'package:lucide_icons_flutter/lucide_icons.dart';
+
+void main() {
+  LucideIcons.forceCompileTimeTreeShaking();
+  runApp(const MyApp());
+}
+```
+
+#### How it works
+- `forceCompileTimeTreeShaking()` keeps a compile-time-only reference (via `vm:entry-point`, `wasm:entry-point`, and `dart2js:noInline` pragmas) to a single glyph (`minus`) in each of the 7 fonts and is a no-op at runtime.
+- Any weight font your app never draws is subset down to under 1 KB instead of ~500+ KB, reducing total bundled font assets from **~3.6 MB to ~7 KB** for an app using one weight.
+- *(Note: On Flutter 3.41 web builds, importing `lucide_icons.dart` alone triggers tree-shaking, while calling `LucideIcons.forceCompileTimeTreeShaking()` guarantees it across newer Flutter versions, Wasm, and AOT release builds.)*
 
 ### Web Debug Mode (DDC) Optimization
 
