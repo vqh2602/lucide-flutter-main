@@ -353,11 +353,35 @@
     "className": "icon-aperture",
     "unicode": "&#57408;"
   },
+  "app-window-mac-minus": {
+    "encodedCode": "\\e886",
+    "prefix": "icon",
+    "className": "icon-app-window-mac-minus",
+    "unicode": "&#59526;"
+  },
+  "app-window-mac-plus": {
+    "encodedCode": "\\e887",
+    "prefix": "icon",
+    "className": "icon-app-window-mac-plus",
+    "unicode": "&#59527;"
+  },
   "app-window-mac": {
     "encodedCode": "\\e5d2",
     "prefix": "icon",
     "className": "icon-app-window-mac",
     "unicode": "&#58834;"
+  },
+  "app-window-minus": {
+    "encodedCode": "\\e888",
+    "prefix": "icon",
+    "className": "icon-app-window-minus",
+    "unicode": "&#59528;"
+  },
+  "app-window-plus": {
+    "encodedCode": "\\e889",
+    "prefix": "icon",
+    "className": "icon-app-window-plus",
+    "unicode": "&#59529;"
   },
   "app-window": {
     "encodedCode": "\\e426",
@@ -839,6 +863,54 @@
     "className": "icon-arrow-up",
     "unicode": "&#57418;"
   },
+  "arrows-from-axis-dashed-horizontal": {
+    "encodedCode": "\\e43e",
+    "prefix": "icon",
+    "className": "icon-arrows-from-axis-dashed-horizontal",
+    "unicode": "&#58430;"
+  },
+  "arrows-from-axis-dashed-vertical": {
+    "encodedCode": "\\e43d",
+    "prefix": "icon",
+    "className": "icon-arrows-from-axis-dashed-vertical",
+    "unicode": "&#58429;"
+  },
+  "arrows-from-axis-horizontal": {
+    "encodedCode": "\\e857",
+    "prefix": "icon",
+    "className": "icon-arrows-from-axis-horizontal",
+    "unicode": "&#59479;"
+  },
+  "arrows-from-axis-vertical": {
+    "encodedCode": "\\e858",
+    "prefix": "icon",
+    "className": "icon-arrows-from-axis-vertical",
+    "unicode": "&#59480;"
+  },
+  "arrows-to-axis-dashed-horizontal": {
+    "encodedCode": "\\e43c",
+    "prefix": "icon",
+    "className": "icon-arrows-to-axis-dashed-horizontal",
+    "unicode": "&#58428;"
+  },
+  "arrows-to-axis-dashed-vertical": {
+    "encodedCode": "\\e43b",
+    "prefix": "icon",
+    "className": "icon-arrows-to-axis-dashed-vertical",
+    "unicode": "&#58427;"
+  },
+  "arrows-to-axis-horizontal": {
+    "encodedCode": "\\e859",
+    "prefix": "icon",
+    "className": "icon-arrows-to-axis-horizontal",
+    "unicode": "&#59481;"
+  },
+  "arrows-to-axis-vertical": {
+    "encodedCode": "\\e85a",
+    "prefix": "icon",
+    "className": "icon-arrows-to-axis-vertical",
+    "unicode": "&#59482;"
+  },
   "arrows-up-from-line": {
     "encodedCode": "\\e4d4",
     "prefix": "icon",
@@ -856,6 +928,12 @@
     "prefix": "icon",
     "className": "icon-asterisk",
     "unicode": "&#57839;"
+  },
+  "asterism": {
+    "encodedCode": "\\e84e",
+    "prefix": "icon",
+    "className": "icon-asterism",
+    "unicode": "&#59470;"
   },
   "astroid": {
     "encodedCode": "\\e6f0",
@@ -1751,17 +1829,41 @@
     "className": "icon-boom-box",
     "unicode": "&#58606;"
   },
+  "bot-check": {
+    "encodedCode": "\\e85b",
+    "prefix": "icon",
+    "className": "icon-bot-check",
+    "unicode": "&#59483;"
+  },
   "bot-message-square": {
     "encodedCode": "\\e5ce",
     "prefix": "icon",
     "className": "icon-bot-message-square",
     "unicode": "&#58830;"
   },
+  "bot-minus": {
+    "encodedCode": "\\e85c",
+    "prefix": "icon",
+    "className": "icon-bot-minus",
+    "unicode": "&#59484;"
+  },
   "bot-off": {
     "encodedCode": "\\e5e0",
     "prefix": "icon",
     "className": "icon-bot-off",
     "unicode": "&#58848;"
+  },
+  "bot-plus": {
+    "encodedCode": "\\e85d",
+    "prefix": "icon",
+    "className": "icon-bot-plus",
+    "unicode": "&#59485;"
+  },
+  "bot-x": {
+    "encodedCode": "\\e85e",
+    "prefix": "icon",
+    "className": "icon-bot-x",
+    "unicode": "&#59486;"
   },
   "bot": {
     "encodedCode": "\\e1bb",
@@ -1780,6 +1882,18 @@
     "prefix": "icon",
     "className": "icon-bow-arrow",
     "unicode": "&#58974;"
+  },
+  "bowl-chopsticks": {
+    "encodedCode": "\\e897",
+    "prefix": "icon",
+    "className": "icon-bowl-chopsticks",
+    "unicode": "&#59543;"
+  },
+  "box-dashed": {
+    "encodedCode": "\\e87b",
+    "prefix": "icon",
+    "className": "icon-box-dashed",
+    "unicode": "&#59515;"
   },
   "box-select": {
     "encodedCode": "\\e1cb",
@@ -2237,6 +2351,12 @@
     "className": "icon-cannabis",
     "unicode": "&#58836;"
   },
+  "cap": {
+    "encodedCode": "\\e854",
+    "prefix": "icon",
+    "className": "icon-cap",
+    "unicode": "&#59476;"
+  },
   "captions-off": {
     "encodedCode": "\\e5c1",
     "prefix": "icon",
@@ -2284,6 +2404,54 @@
     "prefix": "icon",
     "className": "icon-card-sim",
     "unicode": "&#58993;"
+  },
+  "carets-from-axis-dashed-horizontal": {
+    "encodedCode": "\\e85f",
+    "prefix": "icon",
+    "className": "icon-carets-from-axis-dashed-horizontal",
+    "unicode": "&#59487;"
+  },
+  "carets-from-axis-dashed-vertical": {
+    "encodedCode": "\\e860",
+    "prefix": "icon",
+    "className": "icon-carets-from-axis-dashed-vertical",
+    "unicode": "&#59488;"
+  },
+  "carets-from-axis-horizontal": {
+    "encodedCode": "\\e861",
+    "prefix": "icon",
+    "className": "icon-carets-from-axis-horizontal",
+    "unicode": "&#59489;"
+  },
+  "carets-from-axis-vertical": {
+    "encodedCode": "\\e862",
+    "prefix": "icon",
+    "className": "icon-carets-from-axis-vertical",
+    "unicode": "&#59490;"
+  },
+  "carets-to-axis-dashed-horizontal": {
+    "encodedCode": "\\e35e",
+    "prefix": "icon",
+    "className": "icon-carets-to-axis-dashed-horizontal",
+    "unicode": "&#58206;"
+  },
+  "carets-to-axis-dashed-vertical": {
+    "encodedCode": "\\e360",
+    "prefix": "icon",
+    "className": "icon-carets-to-axis-dashed-vertical",
+    "unicode": "&#58208;"
+  },
+  "carets-to-axis-horizontal": {
+    "encodedCode": "\\e863",
+    "prefix": "icon",
+    "className": "icon-carets-to-axis-horizontal",
+    "unicode": "&#59491;"
+  },
+  "carets-to-axis-vertical": {
+    "encodedCode": "\\e864",
+    "prefix": "icon",
+    "className": "icon-carets-to-axis-vertical",
+    "unicode": "&#59492;"
   },
   "carrot": {
     "encodedCode": "\\e25a",
@@ -2561,6 +2729,12 @@
     "className": "icon-check",
     "unicode": "&#57452;"
   },
+  "cheese": {
+    "encodedCode": "\\e83d",
+    "prefix": "icon",
+    "className": "icon-cheese",
+    "unicode": "&#59453;"
+  },
   "chef-hat": {
     "encodedCode": "\\e2ac",
     "prefix": "icon",
@@ -2705,6 +2879,30 @@
     "className": "icon-chevrons-down",
     "unicode": "&#57457;"
   },
+  "chevrons-from-axis-dashed-horizontal": {
+    "encodedCode": "\\e865",
+    "prefix": "icon",
+    "className": "icon-chevrons-from-axis-dashed-horizontal",
+    "unicode": "&#59493;"
+  },
+  "chevrons-from-axis-dashed-vertical": {
+    "encodedCode": "\\e866",
+    "prefix": "icon",
+    "className": "icon-chevrons-from-axis-dashed-vertical",
+    "unicode": "&#59494;"
+  },
+  "chevrons-from-axis-horizontal": {
+    "encodedCode": "\\e867",
+    "prefix": "icon",
+    "className": "icon-chevrons-from-axis-horizontal",
+    "unicode": "&#59495;"
+  },
+  "chevrons-from-axis-vertical": {
+    "encodedCode": "\\e868",
+    "prefix": "icon",
+    "className": "icon-chevrons-from-axis-vertical",
+    "unicode": "&#59496;"
+  },
   "chevrons-left-right-ellipsis": {
     "encodedCode": "\\e61f",
     "prefix": "icon",
@@ -2735,6 +2933,30 @@
     "className": "icon-chevrons-right",
     "unicode": "&#57459;"
   },
+  "chevrons-to-axis-dashed-horizontal": {
+    "encodedCode": "\\e869",
+    "prefix": "icon",
+    "className": "icon-chevrons-to-axis-dashed-horizontal",
+    "unicode": "&#59497;"
+  },
+  "chevrons-to-axis-dashed-vertical": {
+    "encodedCode": "\\e86a",
+    "prefix": "icon",
+    "className": "icon-chevrons-to-axis-dashed-vertical",
+    "unicode": "&#59498;"
+  },
+  "chevrons-to-axis-horizontal": {
+    "encodedCode": "\\e86b",
+    "prefix": "icon",
+    "className": "icon-chevrons-to-axis-horizontal",
+    "unicode": "&#59499;"
+  },
+  "chevrons-to-axis-vertical": {
+    "encodedCode": "\\e86c",
+    "prefix": "icon",
+    "className": "icon-chevrons-to-axis-vertical",
+    "unicode": "&#59500;"
+  },
   "chevrons-up-down": {
     "encodedCode": "\\e211",
     "prefix": "icon",
@@ -2746,6 +2968,12 @@
     "prefix": "icon",
     "className": "icon-chevrons-up",
     "unicode": "&#57460;"
+  },
+  "chocolate-bar": {
+    "encodedCode": "\\e87c",
+    "prefix": "icon",
+    "className": "icon-chocolate-bar",
+    "unicode": "&#59516;"
   },
   "church": {
     "encodedCode": "\\e3e1",
@@ -2765,11 +2993,29 @@
     "className": "icon-cigarette",
     "unicode": "&#58054;"
   },
+  "cinema": {
+    "encodedCode": "\\e86d",
+    "prefix": "icon",
+    "className": "icon-cinema",
+    "unicode": "&#59501;"
+  },
   "circle-alert": {
     "encodedCode": "\\e077",
     "prefix": "icon",
     "className": "icon-circle-alert",
     "unicode": "&#57463;"
+  },
+  "circle-arrow-down-left-exit": {
+    "encodedCode": "\\e3f7",
+    "prefix": "icon",
+    "className": "icon-circle-arrow-down-left-exit",
+    "unicode": "&#58359;"
+  },
+  "circle-arrow-down-right-exit": {
+    "encodedCode": "\\e3f8",
+    "prefix": "icon",
+    "className": "icon-circle-arrow-down-right-exit",
+    "unicode": "&#58360;"
   },
   "circle-arrow-down": {
     "encodedCode": "\\e078",
@@ -2813,11 +3059,29 @@
     "className": "icon-circle-arrow-right",
     "unicode": "&#57466;"
   },
+  "circle-arrow-up-left-exit": {
+    "encodedCode": "\\e3f9",
+    "prefix": "icon",
+    "className": "icon-circle-arrow-up-left-exit",
+    "unicode": "&#58361;"
+  },
+  "circle-arrow-up-right-exit": {
+    "encodedCode": "\\e3fa",
+    "prefix": "icon",
+    "className": "icon-circle-arrow-up-right-exit",
+    "unicode": "&#58362;"
+  },
   "circle-arrow-up": {
     "encodedCode": "\\e07b",
     "prefix": "icon",
     "className": "icon-circle-arrow-up",
     "unicode": "&#57467;"
+  },
+  "circle-bounce": {
+    "encodedCode": "\\e86e",
+    "prefix": "icon",
+    "className": "icon-circle-bounce",
+    "unicode": "&#59502;"
   },
   "circle-check-big": {
     "encodedCode": "\\e07c",
@@ -3173,6 +3437,12 @@
     "className": "icon-circle-percent",
     "unicode": "&#58650;"
   },
+  "circle-person-arms-spread": {
+    "encodedCode": "\\e86f",
+    "prefix": "icon",
+    "className": "icon-circle-person-arms-spread",
+    "unicode": "&#59503;"
+  },
   "circle-pile": {
     "encodedCode": "\\e6e1",
     "prefix": "icon",
@@ -3232,6 +3502,12 @@
     "prefix": "icon",
     "className": "icon-circle-small",
     "unicode": "&#58944;"
+  },
+  "circle-speed-lines": {
+    "encodedCode": "\\e882",
+    "prefix": "icon",
+    "className": "icon-circle-speed-lines",
+    "unicode": "&#59522;"
   },
   "circle-star": {
     "encodedCode": "\\e68d",
@@ -3713,6 +3989,18 @@
     "className": "icon-coins",
     "unicode": "&#57495;"
   },
+  "columns-2-plus-left": {
+    "encodedCode": "\\e88a",
+    "prefix": "icon",
+    "className": "icon-columns-2-plus-left",
+    "unicode": "&#59530;"
+  },
+  "columns-2-plus-right": {
+    "encodedCode": "\\e88b",
+    "prefix": "icon",
+    "className": "icon-columns-2-plus-right",
+    "unicode": "&#59531;"
+  },
   "columns-2": {
     "encodedCode": "\\e098",
     "prefix": "icon",
@@ -4163,6 +4451,12 @@
     "className": "icon-diagram-flow-vertical",
     "unicode": "&#59440;"
   },
+  "diagram-sankey": {
+    "encodedCode": "\\e87d",
+    "prefix": "icon",
+    "className": "icon-diagram-sankey",
+    "unicode": "&#59517;"
+  },
   "diameter": {
     "encodedCode": "\\e526",
     "prefix": "icon",
@@ -4306,6 +4600,12 @@
     "prefix": "icon",
     "className": "icon-dog",
     "unicode": "&#58253;"
+  },
+  "doghouse": {
+    "encodedCode": "\\e870",
+    "prefix": "icon",
+    "className": "icon-doghouse",
+    "unicode": "&#59504;"
   },
   "dollar-sign": {
     "encodedCode": "\\e0b1",
@@ -4541,6 +4841,12 @@
     "className": "icon-eject",
     "unicode": "&#59187;"
   },
+  "elevator": {
+    "encodedCode": "\\e898",
+    "prefix": "icon",
+    "className": "icon-elevator",
+    "unicode": "&#59544;"
+  },
   "ellipse": {
     "encodedCode": "\\e6b2",
     "prefix": "icon",
@@ -4624,6 +4930,12 @@
     "prefix": "icon",
     "className": "icon-ev-charger",
     "unicode": "&#59031;"
+  },
+  "exclamation-mark": {
+    "encodedCode": "\\e84f",
+    "prefix": "icon",
+    "className": "icon-exclamation-mark",
+    "unicode": "&#59471;"
   },
   "expand": {
     "encodedCode": "\\e21a",
@@ -5147,6 +5459,12 @@
     "className": "icon-file-terminal",
     "unicode": "&#58152;"
   },
+  "file-text-sparkles": {
+    "encodedCode": "\\e88c",
+    "prefix": "icon",
+    "className": "icon-file-text-sparkles",
+    "unicode": "&#59532;"
+  },
   "file-text": {
     "encodedCode": "\\e0cc",
     "prefix": "icon",
@@ -5549,6 +5867,12 @@
     "className": "icon-folder-minus",
     "unicode": "&#57560;"
   },
+  "folder-network": {
+    "encodedCode": "\\e87e",
+    "prefix": "icon",
+    "className": "icon-folder-network",
+    "unicode": "&#59518;"
+  },
   "folder-open-dot": {
     "encodedCode": "\\e4c7",
     "prefix": "icon",
@@ -5572,6 +5896,12 @@
     "prefix": "icon",
     "className": "icon-folder-pen",
     "unicode": "&#58168;"
+  },
+  "folder-plus-corner": {
+    "encodedCode": "\\e87f",
+    "prefix": "icon",
+    "className": "icon-folder-plus-corner",
+    "unicode": "&#59519;"
   },
   "folder-plus": {
     "encodedCode": "\\e0d9",
@@ -6011,6 +6341,12 @@
     "className": "icon-globe-check",
     "unicode": "&#59132;"
   },
+  "globe-clock": {
+    "encodedCode": "\\e899",
+    "prefix": "icon",
+    "className": "icon-globe-clock",
+    "unicode": "&#59545;"
+  },
   "globe-code": {
     "encodedCode": "\\e76d",
     "prefix": "icon",
@@ -6083,6 +6419,18 @@
     "className": "icon-graph-hub",
     "unicode": "&#59317;"
   },
+  "graph-path": {
+    "encodedCode": "\\e883",
+    "prefix": "icon",
+    "className": "icon-graph-path",
+    "unicode": "&#59523;"
+  },
+  "graph-ring": {
+    "encodedCode": "\\e855",
+    "prefix": "icon",
+    "className": "icon-graph-ring",
+    "unicode": "&#59477;"
+  },
   "graph-star": {
     "encodedCode": "\\e7ac",
     "prefix": "icon",
@@ -6136,6 +6484,18 @@
     "prefix": "icon",
     "className": "icon-grid-2x2",
     "unicode": "&#58623;"
+  },
+  "grid-3-x-2": {
+    "encodedCode": "\\e66f",
+    "prefix": "icon",
+    "className": "icon-grid-3-x-2",
+    "unicode": "&#58991;"
+  },
+  "grid-3-x-3-off": {
+    "encodedCode": "\\e838",
+    "prefix": "icon",
+    "className": "icon-grid-3-x-3-off",
+    "unicode": "&#59448;"
   },
   "grid-3-x-3": {
     "encodedCode": "\\e0e9",
@@ -6274,6 +6634,12 @@
     "prefix": "icon",
     "className": "icon-hand-platter",
     "unicode": "&#58810;"
+  },
+  "hand-truck": {
+    "encodedCode": "\\e871",
+    "prefix": "icon",
+    "className": "icon-hand-truck",
+    "unicode": "&#59505;"
   },
   "hand": {
     "encodedCode": "\\e1d7",
@@ -6515,6 +6881,12 @@
     "className": "icon-hockey-stick",
     "unicode": "&#59329;"
   },
+  "hole": {
+    "encodedCode": "\\e884",
+    "prefix": "icon",
+    "className": "icon-hole",
+    "unicode": "&#59524;"
+  },
   "home": {
     "encodedCode": "\\e0f5",
     "prefix": "icon",
@@ -6562,6 +6934,18 @@
     "prefix": "icon",
     "className": "icon-hourglass",
     "unicode": "&#58006;"
+  },
+  "house-arrow-left": {
+    "encodedCode": "\\e872",
+    "prefix": "icon",
+    "className": "icon-house-arrow-left",
+    "unicode": "&#59506;"
+  },
+  "house-arrow-right": {
+    "encodedCode": "\\e873",
+    "prefix": "icon",
+    "className": "icon-house-arrow-right",
+    "unicode": "&#59507;"
   },
   "house-cog": {
     "encodedCode": "\\e788",
@@ -6671,6 +7055,12 @@
     "className": "icon-image-plus",
     "unicode": "&#57847;"
   },
+  "image-sparkles": {
+    "encodedCode": "\\e88d",
+    "prefix": "icon",
+    "className": "icon-image-sparkles",
+    "unicode": "&#59533;"
+  },
   "image-up": {
     "encodedCode": "\\e5cb",
     "prefix": "icon",
@@ -6778,6 +7168,12 @@
     "prefix": "icon",
     "className": "icon-iv-bag",
     "unicode": "&#59248;"
+  },
+  "jacket": {
+    "encodedCode": "\\e879",
+    "prefix": "icon",
+    "className": "icon-jacket",
+    "unicode": "&#59513;"
   },
   "japanese-yen": {
     "encodedCode": "\\e0fc",
@@ -7048,6 +7444,12 @@
     "prefix": "icon",
     "className": "icon-layout-grid-circles",
     "unicode": "&#59280;"
+  },
+  "layout-grid-plus": {
+    "encodedCode": "\\e856",
+    "prefix": "icon",
+    "className": "icon-layout-grid-plus",
+    "unicode": "&#59478;"
   },
   "layout-grid": {
     "encodedCode": "\\e0ff",
@@ -7540,6 +7942,12 @@
     "prefix": "icon",
     "className": "icon-list-video",
     "unicode": "&#58082;"
+  },
+  "list-x-corner": {
+    "encodedCode": "\\e88e",
+    "prefix": "icon",
+    "className": "icon-list-x-corner",
+    "unicode": "&#59534;"
   },
   "list-x": {
     "encodedCode": "\\e240",
@@ -8507,6 +8915,12 @@
     "className": "icon-motorbike",
     "unicode": "&#59032;"
   },
+  "mound-shovel": {
+    "encodedCode": "\\e850",
+    "prefix": "icon",
+    "className": "icon-mound-shovel",
+    "unicode": "&#59472;"
+  },
   "mountain-snow": {
     "encodedCode": "\\e232",
     "prefix": "icon",
@@ -8753,6 +9167,12 @@
     "className": "icon-nfc",
     "unicode": "&#58307;"
   },
+  "nigerian-naira": {
+    "encodedCode": "\\e874",
+    "prefix": "icon",
+    "className": "icon-nigerian-naira",
+    "unicode": "&#59508;"
+  },
   "non-binary": {
     "encodedCode": "\\e643",
     "prefix": "icon",
@@ -8897,6 +9317,12 @@
     "className": "icon-package-2",
     "unicode": "&#58176;"
   },
+  "package-arrow-bend-up-left": {
+    "encodedCode": "\\e885",
+    "prefix": "icon",
+    "className": "icon-package-arrow-bend-up-left",
+    "unicode": "&#59525;"
+  },
   "package-check": {
     "encodedCode": "\\e266",
     "prefix": "icon",
@@ -8956,6 +9382,12 @@
     "prefix": "icon",
     "className": "icon-paint-bucket",
     "unicode": "&#58086;"
+  },
+  "paint-gun": {
+    "encodedCode": "\\e87a",
+    "prefix": "icon",
+    "className": "icon-paint-gun",
+    "unicode": "&#59514;"
   },
   "paint-roller": {
     "encodedCode": "\\e59e",
@@ -9539,6 +9971,12 @@
     "className": "icon-plane-landing",
     "unicode": "&#58317;"
   },
+  "plane-off": {
+    "encodedCode": "\\e88f",
+    "prefix": "icon",
+    "className": "icon-plane-off",
+    "unicode": "&#59535;"
+  },
   "plane-takeoff": {
     "encodedCode": "\\e3ce",
     "prefix": "icon",
@@ -9719,6 +10157,12 @@
     "className": "icon-presentation",
     "unicode": "&#58542;"
   },
+  "printer-3-d": {
+    "encodedCode": "\\e78f",
+    "prefix": "icon",
+    "className": "icon-printer-3-d",
+    "unicode": "&#59279;"
+  },
   "printer-3d": {
     "encodedCode": "\\e78f",
     "prefix": "icon",
@@ -9772,6 +10216,12 @@
     "prefix": "icon",
     "className": "icon-qr-code",
     "unicode": "&#57823;"
+  },
+  "question-mark": {
+    "encodedCode": "\\e851",
+    "prefix": "icon",
+    "className": "icon-question-mark",
+    "unicode": "&#59473;"
   },
   "quote": {
     "encodedCode": "\\e239",
@@ -9929,11 +10379,29 @@
     "className": "icon-rectangle-goggles",
     "unicode": "&#58966;"
   },
+  "rectangle-horizontal-play": {
+    "encodedCode": "\\e880",
+    "prefix": "icon",
+    "className": "icon-rectangle-horizontal-play",
+    "unicode": "&#59520;"
+  },
+  "rectangle-horizontal-plus": {
+    "encodedCode": "\\e890",
+    "prefix": "icon",
+    "className": "icon-rectangle-horizontal-plus",
+    "unicode": "&#59536;"
+  },
   "rectangle-horizontal": {
     "encodedCode": "\\e376",
     "prefix": "icon",
     "className": "icon-rectangle-horizontal",
     "unicode": "&#58230;"
+  },
+  "rectangle-landscape-play": {
+    "encodedCode": "\\e880",
+    "prefix": "icon",
+    "className": "icon-rectangle-landscape-play",
+    "unicode": "&#59520;"
   },
   "rectangle-vertical": {
     "encodedCode": "\\e377",
@@ -10169,6 +10637,12 @@
     "className": "icon-rotate-cw",
     "unicode": "&#57673;"
   },
+  "route-arrow-right": {
+    "encodedCode": "\\e852",
+    "prefix": "icon",
+    "className": "icon-route-arrow-right",
+    "unicode": "&#59474;"
+  },
   "route-off": {
     "encodedCode": "\\e53f",
     "prefix": "icon",
@@ -10186,6 +10660,18 @@
     "prefix": "icon",
     "className": "icon-router",
     "unicode": "&#58303;"
+  },
+  "rows-2-plus-bottom": {
+    "encodedCode": "\\e891",
+    "prefix": "icon",
+    "className": "icon-rows-2-plus-bottom",
+    "unicode": "&#59537;"
+  },
+  "rows-2-plus-top": {
+    "encodedCode": "\\e892",
+    "prefix": "icon",
+    "className": "icon-rows-2-plus-top",
+    "unicode": "&#59538;"
   },
   "rows-2": {
     "encodedCode": "\\e439",
@@ -10474,6 +10960,12 @@
     "prefix": "icon",
     "className": "icon-screw",
     "unicode": "&#59296;"
+  },
+  "screwdriver": {
+    "encodedCode": "\\e893",
+    "prefix": "icon",
+    "className": "icon-screwdriver",
+    "unicode": "&#59539;"
   },
   "scroll-text": {
     "encodedCode": "\\e45f",
@@ -11225,11 +11717,47 @@
     "className": "icon-square-activity",
     "unicode": "&#58548;"
   },
+  "square-arrow-down-enter": {
+    "encodedCode": "\\e83e",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-enter",
+    "unicode": "&#59454;"
+  },
+  "square-arrow-down-exit": {
+    "encodedCode": "\\e83f",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-exit",
+    "unicode": "&#59455;"
+  },
+  "square-arrow-down-left-enter": {
+    "encodedCode": "\\e840",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-left-enter",
+    "unicode": "&#59456;"
+  },
+  "square-arrow-down-left-exit": {
+    "encodedCode": "\\e5a1",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-left-exit",
+    "unicode": "&#58785;"
+  },
   "square-arrow-down-left": {
     "encodedCode": "\\e4b5",
     "prefix": "icon",
     "className": "icon-square-arrow-down-left",
     "unicode": "&#58549;"
+  },
+  "square-arrow-down-right-enter": {
+    "encodedCode": "\\e841",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-right-enter",
+    "unicode": "&#59457;"
+  },
+  "square-arrow-down-right-exit": {
+    "encodedCode": "\\e5a2",
+    "prefix": "icon",
+    "className": "icon-square-arrow-down-right-exit",
+    "unicode": "&#58786;"
   },
   "square-arrow-down-right": {
     "encodedCode": "\\e4b6",
@@ -11242,6 +11770,18 @@
     "prefix": "icon",
     "className": "icon-square-arrow-down",
     "unicode": "&#58407;"
+  },
+  "square-arrow-left-enter": {
+    "encodedCode": "\\e842",
+    "prefix": "icon",
+    "className": "icon-square-arrow-left-enter",
+    "unicode": "&#59458;"
+  },
+  "square-arrow-left-exit": {
+    "encodedCode": "\\e843",
+    "prefix": "icon",
+    "className": "icon-square-arrow-left-exit",
+    "unicode": "&#59459;"
   },
   "square-arrow-left": {
     "encodedCode": "\\e428",
@@ -11291,11 +11831,47 @@
     "className": "icon-square-arrow-right",
     "unicode": "&#58409;"
   },
+  "square-arrow-up-enter": {
+    "encodedCode": "\\e844",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-enter",
+    "unicode": "&#59460;"
+  },
+  "square-arrow-up-exit": {
+    "encodedCode": "\\e845",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-exit",
+    "unicode": "&#59461;"
+  },
+  "square-arrow-up-left-enter": {
+    "encodedCode": "\\e846",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-left-enter",
+    "unicode": "&#59462;"
+  },
+  "square-arrow-up-left-exit": {
+    "encodedCode": "\\e5a3",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-left-exit",
+    "unicode": "&#58787;"
+  },
   "square-arrow-up-left": {
     "encodedCode": "\\e4b7",
     "prefix": "icon",
     "className": "icon-square-arrow-up-left",
     "unicode": "&#58551;"
+  },
+  "square-arrow-up-right-enter": {
+    "encodedCode": "\\e847",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-right-enter",
+    "unicode": "&#59463;"
+  },
+  "square-arrow-up-right-exit": {
+    "encodedCode": "\\e5a4",
+    "prefix": "icon",
+    "className": "icon-square-arrow-up-right-exit",
+    "unicode": "&#58788;"
   },
   "square-arrow-up-right": {
     "encodedCode": "\\e4b8",
@@ -11314,6 +11890,30 @@
     "prefix": "icon",
     "className": "icon-square-asterisk",
     "unicode": "&#57704;"
+  },
+  "square-axis-dashed-horizontal": {
+    "encodedCode": "\\e35f",
+    "prefix": "icon",
+    "className": "icon-square-axis-dashed-horizontal",
+    "unicode": "&#58207;"
+  },
+  "square-axis-dashed-vertical": {
+    "encodedCode": "\\e35d",
+    "prefix": "icon",
+    "className": "icon-square-axis-dashed-vertical",
+    "unicode": "&#58205;"
+  },
+  "square-axis-horizontal": {
+    "encodedCode": "\\e875",
+    "prefix": "icon",
+    "className": "icon-square-axis-horizontal",
+    "unicode": "&#59509;"
+  },
+  "square-axis-vertical": {
+    "encodedCode": "\\e876",
+    "prefix": "icon",
+    "className": "icon-square-axis-vertical",
+    "unicode": "&#59510;"
   },
   "square-bookmark": {
     "encodedCode": "\\e03b",
@@ -11819,6 +12419,12 @@
     "className": "icon-square-play",
     "unicode": "&#58497;"
   },
+  "square-plus-corner": {
+    "encodedCode": "\\e894",
+    "prefix": "icon",
+    "className": "icon-square-plus-corner",
+    "unicode": "&#59540;"
+  },
   "square-plus": {
     "encodedCode": "\\e173",
     "prefix": "icon",
@@ -12035,6 +12641,12 @@
     "className": "icon-stars",
     "unicode": "&#58386;"
   },
+  "steering-wheel": {
+    "encodedCode": "\\e89a",
+    "prefix": "icon",
+    "className": "icon-steering-wheel",
+    "unicode": "&#59546;"
+  },
   "step-back": {
     "encodedCode": "\\e3e9",
     "prefix": "icon",
@@ -12136,6 +12748,48 @@
     "prefix": "icon",
     "className": "icon-strikethrough",
     "unicode": "&#57719;"
+  },
+  "stroke-line-cap-butt": {
+    "encodedCode": "\\e848",
+    "prefix": "icon",
+    "className": "icon-stroke-line-cap-butt",
+    "unicode": "&#59464;"
+  },
+  "stroke-line-cap-round": {
+    "encodedCode": "\\e849",
+    "prefix": "icon",
+    "className": "icon-stroke-line-cap-round",
+    "unicode": "&#59465;"
+  },
+  "stroke-line-cap-square": {
+    "encodedCode": "\\e84a",
+    "prefix": "icon",
+    "className": "icon-stroke-line-cap-square",
+    "unicode": "&#59466;"
+  },
+  "stroke-line-join-bevel": {
+    "encodedCode": "\\e84b",
+    "prefix": "icon",
+    "className": "icon-stroke-line-join-bevel",
+    "unicode": "&#59467;"
+  },
+  "stroke-line-join-miter": {
+    "encodedCode": "\\e84c",
+    "prefix": "icon",
+    "className": "icon-stroke-line-join-miter",
+    "unicode": "&#59468;"
+  },
+  "stroke-line-join-round": {
+    "encodedCode": "\\e84d",
+    "prefix": "icon",
+    "className": "icon-stroke-line-join-round",
+    "unicode": "&#59469;"
+  },
+  "stroke-width": {
+    "encodedCode": "\\e877",
+    "prefix": "icon",
+    "className": "icon-stroke-width",
+    "unicode": "&#59511;"
   },
   "subscript": {
     "encodedCode": "\\e25c",
@@ -12491,6 +13145,12 @@
     "className": "icon-text-initial",
     "unicode": "&#58885;"
   },
+  "text-pen": {
+    "encodedCode": "\\e853",
+    "prefix": "icon",
+    "className": "icon-text-pen",
+    "unicode": "&#59475;"
+  },
   "text-quote": {
     "encodedCode": "\\e49e",
     "prefix": "icon",
@@ -12767,6 +13427,12 @@
     "className": "icon-train-front",
     "unicode": "&#58630;"
   },
+  "train-high-speed": {
+    "encodedCode": "\\e895",
+    "prefix": "icon",
+    "className": "icon-train-high-speed",
+    "unicode": "&#59541;"
+  },
   "train-track": {
     "encodedCode": "\\e508",
     "prefix": "icon",
@@ -12796,6 +13462,12 @@
     "prefix": "icon",
     "className": "icon-trash-2",
     "unicode": "&#57742;"
+  },
+  "trash-leaf": {
+    "encodedCode": "\\e896",
+    "prefix": "icon",
+    "className": "icon-trash-leaf",
+    "unicode": "&#59542;"
   },
   "trash-off": {
     "encodedCode": "\\e763",
@@ -13193,6 +13865,12 @@
     "className": "icon-user-round-check",
     "unicode": "&#58473;"
   },
+  "user-round-clock": {
+    "encodedCode": "\\e881",
+    "prefix": "icon",
+    "className": "icon-user-round-clock",
+    "unicode": "&#59521;"
+  },
   "user-round-cog": {
     "encodedCode": "\\e46a",
     "prefix": "icon",
@@ -13564,6 +14242,12 @@
     "prefix": "icon",
     "className": "icon-wand",
     "unicode": "&#57926;"
+  },
+  "warehouse-waves": {
+    "encodedCode": "\\e878",
+    "prefix": "icon",
+    "className": "icon-warehouse-waves",
+    "unicode": "&#59512;"
   },
   "warehouse": {
     "encodedCode": "\\e3e6",

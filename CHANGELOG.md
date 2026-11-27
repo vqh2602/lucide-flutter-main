@@ -1,6 +1,37 @@
 ## [Unreleased]
 
-- Added `LucideIcons.forceCompileTimeTreeShaking()`. Called at the start of `main()`, it makes Flutter's icon tree shaker subset the fonts of the weights an app never draws instead of bundling them whole: about 3.6 MB less for an app that uses a single weight. See "Release Builds: Ship Only the Fonts You Use" in the README.
+### Tree-Shaking & Bundle Size Optimization
+- Added `LucideIcons.forceCompileTimeTreeShaking()` by [@xvrh](https://github.com/xvrh) in [PR #35](https://github.com/vqh2602/lucide-flutter-main/pull/35).
+  - Calling `LucideIcons.forceCompileTimeTreeShaking()` at the start of `main()` causes Flutter's icon tree shaker to subset all 7 Lucide font files (including unused stroke weights) across Flutter Web (`dart2js` and `dart2wasm`) and AOT release builds, reducing bundled font size from ~3.6 MB to ~7 KB for apps using a single weight.
+  - See "Release Builds & Flutter Web Tree-Shaking: Ship Only the Fonts You Use" in [README.md](README.md).
+
+### Lucide 1.81.0
+- Updated bundled icons to **Lucide 1.81.0** (including changes from 1.71.0 through 1.81.0).
+- **New Icons Added (94 new icons, 114 new entries including aliases)**:
+  - **Axis, Arrows & Navigation**:
+    - Axis arrows, carets, chevrons & squares: `arrows-from-axis-horizontal`, `arrows-from-axis-vertical`, `arrows-to-axis-horizontal`, `arrows-to-axis-vertical`, `carets-from-axis-dashed-horizontal`, `carets-from-axis-dashed-vertical`, `carets-from-axis-horizontal`, `carets-from-axis-vertical`, `carets-to-axis-horizontal`, `carets-to-axis-vertical`, `chevrons-from-axis-dashed-horizontal`, `chevrons-from-axis-dashed-vertical`, `chevrons-from-axis-horizontal`, `chevrons-from-axis-vertical`, `chevrons-to-axis-dashed-horizontal`, `chevrons-to-axis-dashed-vertical`, `chevrons-to-axis-horizontal`, `chevrons-to-axis-vertical`, `square-axis-horizontal`, `square-axis-vertical`.
+    - Square enter/exit arrows: `square-arrow-down-enter`, `square-arrow-down-exit`, `square-arrow-down-left-enter`, `square-arrow-down-right-enter`, `square-arrow-left-enter`, `square-arrow-left-exit`, `square-arrow-up-enter`, `square-arrow-up-exit`, `square-arrow-up-left-enter`, `square-arrow-up-right-enter`.
+    - Contextual arrows & routing: `house-arrow-left`, `house-arrow-right`, `package-arrow-bend-up-left`, `route-arrow-right`.
+  - **Design, Stroke & Layout**:
+    - Stroke controls: `stroke-line-cap-butt`, `stroke-line-cap-round`, `stroke-line-cap-square`, `stroke-line-join-bevel`, `stroke-line-join-miter`, `stroke-line-join-round`, `stroke-width`.
+    - Layout, containers & editing: `box-dashed`, `columns-2-plus-left`, `columns-2-plus-right`, `hole`, `layout-grid-plus`, `rectangle-horizontal-plus`, `rows-2-plus-bottom`, `rows-2-plus-top`, `square-plus-corner`, `text-pen`.
+  - **App Windows, AI & UI**:
+    - App windows: `app-window-mac-minus`, `app-window-mac-plus`, `app-window-minus`, `app-window-plus`.
+    - Bots & AI: `bot-check`, `bot-minus`, `bot-plus`, `bot-x`, `file-text-sparkles`, `image-sparkles`.
+    - Folders, lists, media & users: `cinema`, `folder-network`, `folder-plus-corner`, `list-x-corner`, `rectangle-landscape-play` (`rectangle-horizontal-play`), `user-round-clock`.
+  - **Charts & Diagrams**:
+    - `diagram-sankey`, `graph-path`, `graph-ring`.
+  - **Food, Objects, Places, Travel & Symbols**:
+    - Food & drink: `bowl-chopsticks`, `cheese`, `chocolate-bar`.
+    - Clothing, tools & equipment: `cap`, `hand-truck`, `jacket`, `mound-shovel`, `paint-gun`, `screwdriver`, `steering-wheel`.
+    - Places, transport & travel: `doghouse`, `elevator`, `globe-clock`, `plane-off`, `train-high-speed`, `warehouse-waves`.
+    - Symbols, currency & status: `asterism`, `circle-bounce`, `circle-person-arms-spread`, `circle-speed-lines`, `exclamation-mark`, `nigerian-naira`, `question-mark`, `trash-leaf`.
+- **Updated Icon Designs & Aliases**:
+  - Updated icon designs for `route`, `loader-pinwheel`, `spray-can`, `clock` modifier variants, `*-reply` modifier variants, `square-sigma`, `smartphone`, and rectangle icons.
+  - Added/updated standardized aliases for `circle-arrow-*-exit`, `square-arrow-*-exit`, axis dashed (`arrows-*`, `carets-*`, `square-axis-*`), `grid-3-x-2`, `grid-3-x-3-off`, and `printer-3-d` while preserving backward compatibility.
+- **Font & Library Maintenance**:
+  - Updated bundled icon definitions to Lucide 1.81.0 (total icons increased from 2,322 to 2,436; 2,456 entries in `codepoints.json` including aliases).
+- **Full Lucide Changelog**: https://github.com/lucide-icons/lucide/compare/1.70.0...1.81.0
 
 ## [4.0.3] - 2026-11-10
 
