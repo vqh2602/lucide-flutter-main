@@ -1,3 +1,8 @@
+## [4.0.5] - 2026-11-27
+
+### Refactor & Maintenance
+- Updated `lib/test_icons.dart`: changed `icons` list type from `List<IconData>` to `List<dynamic>` and removed unused `package:flutter/material.dart` import.
+
 ## [4.0.4] - 2026-11-27
 
 ### Tree-Shaking & Bundle Size Optimization
